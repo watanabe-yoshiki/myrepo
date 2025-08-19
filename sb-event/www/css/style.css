@@ -83,6 +83,27 @@ span {
   }
 }
 
+.button01_close {
+  position: relative;
+  width: 410px;
+  padding: 0.5em 1.5em;
+  border-radius: 4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  background-color: #DADADA;
+  color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  .button01_close {
+    width: 80%;
+    max-width: 450px;
+    font-size: 1.6rem;
+	  margin-top: 1rem;
+    padding: 0.5em;
+  }
+}
+
 .button02 {
   width: 210px;
   padding: 0.5em 1.5em;
