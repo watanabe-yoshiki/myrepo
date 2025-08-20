@@ -1,0 +1,6 @@
+cd "/Users/watanabeyoshiki/its Dropbox/ワークスペース/■イッツメンバー共有（share）/yoshiki work/myrepo"
+nano diffzip.sh
+
+で移動してから
+
+./diffbundle.sh main SBE_B
