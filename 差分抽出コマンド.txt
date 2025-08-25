@@ -3,4 +3,4 @@ nano diffzip.sh
 
 で移動してから
 
-./diffbundle.sh main SBE_B
+./diffbundle.sh main SBE_B（mainブランチと、比較先のブランチ）
