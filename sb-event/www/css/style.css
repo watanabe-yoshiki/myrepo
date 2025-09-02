@@ -879,7 +879,7 @@ header .header-inner__nav ul li:last-child a {
   }
 }
 .event-list__item.close {
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
   border: 5px solid #DEDEDE;
 }
 .event-list__item-header {
@@ -920,6 +920,9 @@ header .header-inner__nav ul li:last-child a {
   padding: 0.7rem 1rem;
   background-color: #f4f4f4;
   font-size: 1.4rem;
+}
+.event-list__item.close .event-list__item-header .event-header__datetime {
+  background-color: #fff;
 }
 @media screen and (max-width: 768px) {
   .event-list__item-header .event-header__datetime {
