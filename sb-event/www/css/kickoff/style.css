@@ -869,6 +869,9 @@ header .header-inner__nav ul li span {
 	width: 60%;
 	margin-top: 1rem;
 }
+.archive_item p {
+	margin: 0;
+}
 
 @media screen and (max-width: 768px) {
 	.archive_item img {
