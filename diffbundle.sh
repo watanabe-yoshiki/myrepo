@@ -1,21 +1,24 @@
 #!/bin/zsh
-# 使い方: ./diffbundle.sh <ベースブランチ> <比較ブランチ>
 
-base_branch=$1
-target_branch=$2
+# 引数チェック
+if [ $# -lt 2 ]; then
+  echo "使い方: ./diffbundle.sh <ベースブランチ> <対象ブランチ>"
+  exit 1
+fi
 
-# 日付取得
-date_str=$(date +%Y%m%d)
+BASE_BRANCH="$1"
+TARGET_BRANCH="$2"
 
-# ZIP名と一覧名
-zip_name="diff_${target_branch}_${date_str}.zip"
-list_name="diff_${target_branch}_${date_str}.txt"
+# タイムスタンプ付きの出力ファイル名
+TIMESTAMP=$(date +"%Y%m%d%H%M%S")
+ZIP_NAME="diff_${TARGET_BRANCH}_${TIMESTAMP}.zip"
+FILELIST_NAME="diff_${TARGET_BRANCH}_filelist.txt"
 
-# 差分ファイル一覧作成
-git diff --name-only $base_branch $target_branch > "$list_name"
-echo "✅ 差分ファイル一覧を $list_name に出力しました！"
+# 差分ファイル一覧を作成
+git diff --name-only "$BASE_BRANCH".."$TARGET_BRANCH" > "$FILELIST_NAME"
 
-# ZIP作成
-zip -r "$zip_name" $(cat "$list_name")
-echo "✅ 差分ファイルを $zip_name にまとめました！"
+# ディレクトリ構造を保持して zip 作成
+zip -r "$ZIP_NAME" $(cat "$FILELIST_NAME" | sed 's/ /\\ /g')
 
+echo "差分ファイル一覧: $FILELIST_NAME"
+echo "差分をまとめたzip: $ZIP_NAME"
