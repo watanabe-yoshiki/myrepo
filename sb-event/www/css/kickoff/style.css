@@ -287,8 +287,6 @@ body {
   .wrap {
     width: 100%;
     margin: 0 auto;
-    padding-right: 2rem;
-    padding-left: 2rem;
   }
 }
 
@@ -830,27 +828,56 @@ header .header-inner__nav ul li span {
 .section-nav ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   list-style: none;
   margin-bottom: 7rem;
   padding: 0;
 }
 @media screen and (max-width: 768px) {
   .section-nav ul {
-    margin-bottom: 2rem;
+    margin: -4rem auto 2rem;
   }
 }
 .section-nav ul li {
   width: 320px;
 }
-@media screen and (max-width: 1280px) {
   .section-nav ul li {
     width: calc(33% - 0.6rem);
+	  margin: 0 2rem;
+  }
+@media screen and (max-width: 768px) {
+  .section-nav ul li {
+    width: calc(46%);
+	  margin: 0 0.5rem;
   }
 }
 .section-nav ul li a {
   width: 100%;
 }
+
+.archive {
+  padding-bottom: 2rem;
+  position: relative;
+}
+
+.archive_item {
+	text-align: center;
+	padding-bottom: 5rem;
+}
+
+.archive_item img {
+	width: 60%;
+	margin-top: 1rem;
+}
+.archive_item p {
+	margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+	.archive_item img {
+	width: 80%;
+}
+	}
 
 .speaker {
   padding-bottom: 2rem;
@@ -957,6 +984,7 @@ header .header-inner__nav ul li span {
 @media screen and (max-width: 768px) {
   .speaker__item-text h5 {
     font-size: 1.4rem;
+	  margin: 0 2rem;
   }
 }
 .speaker__item-text p {
@@ -967,6 +995,7 @@ header .header-inner__nav ul li span {
   .speaker__item-text p {
     font-size: 1.2rem;
     line-height: 1.7;
+	  margin: 0 2rem;
   }
 }
 .speaker__item-text p.speaker__item-text-point {
