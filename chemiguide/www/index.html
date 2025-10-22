@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- meta settings -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<meta name="keywords" content="リスクアセスメント,自律的な管理,化学物質,化学物質管理者,措置義務">
+<meta name="description" content="職場で使っている「化学製品」の化学物質管理をサポートする「ケミガイド」。職場で使っている「化学製品」、管理の準備すすめてますか？安心してください、ケミガイドがご案内します。">
+<link rel="icon" sizes="16x16" href="./favicon.ico" />
+<title>ケミガイド｜職場の化学物質管理の道しるべ</title>
+
+<!-- styles -->
+<link rel="stylesheet" href="./assets/css/jquery.jscrollpane.css">
+<link rel="stylesheet" href="./assets/css/reset.css">
+<link rel="stylesheet" href="./assets/css/base.css">
+<link rel="stylesheet" href="./assets/css/module.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<!-- 約物半角専用のWebフォント -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhanjp@4.0.0/dist/css/yakuhanjp.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js?ver=3.3.1"></script> 
+<!--scroll-->
+<script src="./assets/js/jquery.mousewheel.js"></script> 
+<script src="./assets/js/jquery.jscrollpane.min.js"></script> 
+<script type="text/javascript">
+$(function(){
+	$('.scroll').jScrollPane();
+});
+</script> 
+
+<meta property="og:title" content="ケミガイド｜職場の化学物質管理の道しるべ">
+<meta property="og:url" content="https://chemiguide.mhlw.go.jp/">
+<meta property="og:site_name" content="ケミガイド">
+<meta property="og:description" content="職場で使っている「化学製品」の化学物質管理をサポートする「ケミガイド」。職場で使っている「化学製品」、管理の準備すすめてますか？安心してください、ケミガイドがご案内します。">
+<script>
+	$(function(){
+	var contentsCount = $("section .contents_wrap").length;
+	windowsize = $(window).width();
+if(windowsize >= 750){
+var n = 6;
+}else{
+var n = 3;
+}
+
+	if(contentsCount <= n) {
+		$("section .contents_btn").hide();
+	} else {
+		$("section .contents_wrap").slice(n).hide();
+
+		$("section .contents_btn").click(function(){
+			if ($("section .contents_wrap").slice(n).is(':hidden')) {
+				$("section p.contents_btn").addClass('on');
+				$("section .contents_wrap").slice(n).slideDown();
+				$(this).text('閉じる');
+			} else {
+				$("section .contents_wrap").slice(n).slideUp();
+				$("section p.contents_btn").removeClass('on');
+				$(this).text('もっと見る');
+			}
+		});
+	}
+});	
+	
+</script>
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "l1xlld86wv");
+</script>
+</head>
+<body>
+<div class="l-wrapper">
+  <header class="l-header js-header">
+    <div class="sub">職場の化学物質管理の道しるべ</div>
+    <div class="l-header__container">
+      <h1 class="l-header__logo"> 
+      <picture>
+        <source srcset="assets/images/logo_sp.png" media="(max-width: 750px)" />
+        <!-- SP画像 --> 
+        <img src="assets/images/logo_pc.png" alt="ケミガイド｜職場の化学物質管理の道しるべ" decoding="async" width="260" height="73"> <!-- PC画像 --> 
+      </picture>
+      </h1>
+      <div class="l-header__contents">
+        <nav class="l-header-nav">
+          <ul class="l-header-nav__list">
+			  <li class="l-header-nav__item"> <a href="#info" class="l-header-nav__link">お知らせ</a> </li>
+            <li class="l-header-nav__item"> <a href="#haikei" class="l-header-nav__link">背景</a> </li>
+            <li class="l-header-nav__item"> <a href="#rosai" class="l-header-nav__link">主な労災事例</a> </li>
+            <li class="l-header-nav__item"> <a href="#chemisapo" class="l-header-nav__link">ケミサポのご紹介</a> </li>
+            <li class="l-header-nav__item"> <a href="#contact" class="l-header-nav__link">お問合せ</a> </li>
+			  <li class="l-header-nav__item"> <a href="#movie" class="l-header-nav__link">動画で知る</a> </li>
+			  <li class="l-header-nav__item"> <a href="#materialdata" class="l-header-nav__link">資料で知る</a> </li>
+			  
+          </ul>
+        </nav>
+        <!-- [/l-header-nav] -->
+        
+        <div class="l-header-btns"><a href="https://www.mhlw.go.jp/index.html" target="_blank"><img src="assets/images/logo_mhlw.png" alt=""></a></div>
+      </div>
+    </div>
+  </header>
+  <!-- [/l-header] -->
+  
+  <div class="l-contents">
+    
+    <div class="c-kv-1">
+	
+		<div class="bt_mov">
+      <a class="btn__link js-modal-open" href=""></a>
+			</div>
+		
+<div id="js-modal" class="modal">
+	<div id="modal__overlay" class="modal__overlay js-modal-close"></div>
+      <div class="modal__content">
+        <a id="js-modal-close" class="js-modal-close" href=""></a>
+		  <iframe id="player" src="https://www.youtube.com/embed/Wq3iodwS594?si=K8aFDMOI_p2UW805&rel=0&loop=1&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		  
+      </div>
+    </div>
+
+		
+      <div class="c-kv-1__ttl"> 
+        <!-- [/c-ttl-3] --> 
+        <!--<div class="c-ttl-3">
+          <h1><span class="c-ttl-3__main"></span></h1>
+        </div>--> 
+      </div>
+      <!--<div class="c-kv-1__txt"></div>--> 
+    </div>
+    <!-- [/c-kv-1] -->
+	  
+	  	<div id="info" class="info_wrap">
+	<div class="info_inner">
+		<div class="info_left">お知らせ</div>
+		<div class="info_right">
+		
+        <div class="scrollBlock">
+            <div class="scroll">
+				<dl class="info">
+                <dt>2025/6/27</dt>
+                <dd>《厚生労働省》<br>第２回化学物質管理強調月間スローガン募集を始めました。<a href="slogan/index.html" class="l-header-nav__link">ご応募はこちらから</a></dd>
+				</dl>
+				<dl class="info">
+                <dt>2025/3/26</dt>
+                <dd>《厚生労働省》<br><a href="#movie" class="l-header-nav__link">「動画で知る」</a><a href="#materialdata" class="l-header-nav__link">「資料で知る」</a>にコンテンツを追加しました</dd>
+				</dl>
+            	<dl class="info">
+                <dt>2025/2/13</dt>
+                <dd>《厚生労働省》<br>「化学物質の自律的管理～ビルメンテナンス・清掃業界、外食業界及びホテル・旅館業等第三次産業における洗剤等による事故の防止に向けて～」の開催について<br>
+                &gt; <a href="seminar-workshop/index.html" class="blank" target="_blank">開催レポートを公開しました</a></dd>
+				</dl>   
+				<dl class="info">
+                <dt>2024/2/14</dt>
+                <dd>《厚生労働省》<br><a href="https://www.mhlw.go.jp/stf/newpage_37913.html" class="blank" target="_blank">令和５年度「職場における化学物質規制の理解促進のための意見交換会」 （リスクコミュニケーション）の開催について</a><br>（各回リーフレットはこちら→<a href="https://www.mhlw.go.jp/content/11305000/001209718.pdf" target="_blank">大阪会場</a>：令和6年2月27日（火）、<a href="https://www.mhlw.go.jp/content/11305000/001209719.pdf" target="_blank">東京会場</a>：令和6年3月4日（月））。<br>お申込みは<a href="https://one.post-survey.com/open/index.php?key=btOpA6Nq" class="blank" target="_blank">こちら</a>の入力フォームをご利用ください。</dd>
+				</dl>
+				<dl class="info">
+                <dt>2024/2/1</dt>
+                <dd>化学物質管理をサポートする「ケミガイド」を公開いたしました。</dd>
+
+              </dl>
+            </div>
+			</div>
+
+		</div>
+		</div>
+	</div>
+    
+    <div id="haikei" class="l-container-1">
+      <div class="announce"><h1>労働安全衛生法の政省令改正<span class="ls-3">に</span><span class="ls-6">よ</span><span class="ls-2">り</span>令和6<span class="ls-5">年</span><span class="ls-7">４</span><span class="ls-2">月</span><span class="ls-3">か</span>ら化学物質管理が変<span class="ls-5">わ</span><span class="ls-7">り</span><span class="ls-3">ま</span><span class="ls-3">す</span>。</h1></div>
+    </div>
+    <div class="l-container-2">
+      <div class="block_1">
+        <div class="txt">
+          <div class="txt-first"><h2>今回の労働安全衛生法令の改正で、<br class="w750">
+            規制対象物が、<span>危険有害性が確認されている物質全て<sup>※</sup></span>に拡大されます。</h2></div>
+          <div class="txt-02"><span>※</span>現状の<span>約670物質</span>から順次拡大し、令和８年４月に<span>約2300物質</span>となり、
+            その後も危険有害性が確認された物質を追加していきます。</div>
+          <div class="txt-03">これまで危険性・有害性のある物質についてその情報が物質を使う人には伝達されていなかったこと、あるいは、伝達されても使う人が適切な取り扱いをしていなかったことが原因で、職場での労働災害がなかなか減りませんでした。</div>
+          <div class="txt-last">今回の規制では、化学物質による<em>労働災害で悩む労働者</em>の皆様を<em>少しでも減らしたい</em>という想いがあります。</div>
+        </div>
+        <div class="graph"><img src="assets/images/graph_pc.png" alt="" class="pc_only"><img src="assets/images/graph_sp.png" alt="" class="sp_only"></div>
+      </div>
+      <div class="block_2">
+        <div class="txt_2">
+          <div class="txt-first"><h2>まずは身近な製品のラベルを<span>チェック</span></h2></div>
+          <div class="img-02"><img src="assets/images/ghs_mark.png" alt=""></div>
+          <p>こんなふうに赤枠で囲まれたGHSのマークがラベルに表示されている製品は、危険性・有害性があるので取り扱いに注意しましょう。</p>
+          <p>そして、法律に従った管理が必要なリスクアセスメント対象物が含まれているかどうか、SDS（安全データシート）を確認してみましょう。</p>
+        </div>
+      </div>
+    </div>
+	  <div class="arrow_bottom"></div>
+    <div id="rosai" class="l-container-1">
+      <section class="c-section-1">
+        <div class="chemi_01"><img src="assets/images/img_chemi_1.png" alt=""></div>
+        <div class="midashi_l"><h2>こんな災害がおこっています</h2></div>
+        <div class="midashi_s"><h3>普段意識せずに職場で使っている商品や製品に含まれる化学物質によって、<br class="pc_only">
+          さまざまな労働災害が報告されています。</h3></div>
+        <section>
+			<!--1-->
+			<div class="contents_wrap">
+            <p class="contents_img"><img src="assets/images/img_03.jpg" alt=""></p>
+            <p class="contents_txt"><span>使用済み廃棄衣類から揮発した有機溶剤による中毒</span>トルエン等を含有するシンナーを染み込ませたガーゼで部品を払しょくしたが、そのガーゼを付近のごみ箱に密閉することなく廃棄。有機溶剤の匂いを感じたまま作業を継続していたところ、頭痛や吐き気等の症状を訴える。</p>
+          </div>
+			<!--2-->
+			<div class="contents_wrap">
+            <p class="contents_img"><img src="assets/images/img_07.jpg" alt=""></p>
+            <p class="contents_txt"><span>換気をせずにトイレの清掃作業中、洗浄剤を使用しフッ化水素中毒となり入院</span>換気の不十分なトイレ清掃作業中、洗浄剤（フッ化水素含有）を使用して作業をしていたところ、咳、発熱、関節痛、倦怠感等が現れ、ふらつき等の症状が激しくなったため病院へ。「フッ化水素中毒」と診断された。</p>
+          </div>
+			<!--3-->
+			<div class="contents_wrap">
+            <p class="contents_img"><img src="assets/images/img_04.jpg" alt=""></p>
+            <p class="contents_txt"><span>使用済みガスボンベの廃棄作業中に火災が発生</span>カセットコンロ用の使用済みガスボンベ（ブタンガス使用）を廃棄するために穴を開ける作業中に発生その火により火傷を負った。</p>
+          </div>
+			<!--4-->
+			 <div class="contents_wrap">
+            <p class="contents_img"><img src="assets/images/img_02.jpg" alt=""></p>
+            <p class="contents_txt"><span>薬品が付着した破損した容器に保護具なしで触れたことによるフェノールによる薬傷</span>商品を納品時に、ガラス瓶を駐車場に落下、割れたガラス瓶を素手で拾い、しばらくすると商品に触れた指が赤く腫れ、気分も悪くなり救急車で病院に搬送された。</p>
+          </div>
+			<!--5-->
+			<div class="contents_wrap">
+            <p class="contents_img"><img src="assets/images/img_06.jpg" alt=""></p>
+            <p class="contents_txt"><span>医療用器具等の滅菌処理中のガス中毒</span>滅菌器から滅菌ガスが漏れ、クリニック準備室内で診察開始前の準備をしていた作業者が目の痛み等を訴え、3名が嘔吐し、ガス中毒となった。</p>
+          </div>
+			<!--6-->
+			<div class="contents_wrap">
+            <p class="contents_img"><img src="assets/images/img_05.jpg" alt=""></p>
+            <p class="contents_txt"><span>ドライアイスの輸送作業中、酸素欠乏となる</span>扉が開かなくなってしまい外に出られなくなった際に、ドライアイスから発生した二酸化炭素ガスのため庫内が酸欠状態となり意識を失いかけた。</p>
+          </div>
+			<!--7-->
+          <div class="contents_wrap">
+            <p class="contents_img"><img src="assets/images/img_01.jpg" alt=""></p>
+            <p class="contents_txt"><span>飲食店のトイレを清掃中、洗浄剤を混合し塩素ガスが発生し中毒</span>トイレの清掃をするため備付けの塩素系漂白剤を床にまき、その上に酸性洗剤をまいて水をかけ、清掃を始めたところ、涙を流しながら咳き込み始め、苦しそうにしたため、病院へ連れて行ったところ「塩素ガス中毒」と診断され、1週間入院した。</p>
+          </div>
+          <!--8-->
+			<div class="contents_wrap">
+            <p class="contents_img"><img src="assets/images/img_08.jpg" alt=""></p>
+            <p class="contents_txt"><span>ドライクリーニングの洗浄用溶剤に静電気による火花が引火し火傷</span>クリーニング工場でドライクリーニング洗濯機を稼動中に石油系溶剤に洗濯機で発生した静電気による火花が引火し、火災が発生、労働者3名が火傷を負った</p>
+          </div>
+
+			<!--9-->
+			<div class="contents_wrap">
+            <p class="contents_img"><img src="assets/images/img_09.jpg" alt=""></p>
+            <p class="contents_txt"><span>塗装工場の清掃時における水酸化ナトリウムによる皮膚障害</span>塗装工場における上塗ブースの槽内において、槽内の沈殿物を取り除く作業をしていた作業者が槽内の水酸化ナトリウムが溶解している水溶液を浴び、化学熱傷を負った。</p>
+          </div>
+			
+			<!--10-->
+			<div class="contents_wrap">
+            <p class="contents_img"><img src="assets/images/img_10.jpg" alt=""></p>
+            <p class="contents_txt"><span>床カーペット接着剤用剥離剤に含まれていたジクロロメタンによる中毒及び薬傷</span>建物内の一室において、床のタイルカーペットの張替え工事を特定化学物質であるジクロロメタンを80%含有する剥離剤を使用していたところ、現場責任者が同作業員が倒れているのを発見し、病院に搬送された。</p>
+          </div>
+			
+			<!--11-->
+			<div class="contents_wrap">
+            <p class="contents_img"><img src="assets/images/img_11.jpg" alt=""></p>
+            <p class="contents_txt"><span>カビ取り用洗剤を使用した作業による次亜塩素酸ナトリウム中毒</span>次亜塩素酸ナトリウムを含有するカビ取り用洗剤を汚れの落ちが悪いため、通常500倍に希釈して作業するところ、洗剤を希釈せずに原液のまま使用し、息苦しい等の症状が発生したため病院を受診したところ、次亜塩素酸ナトリウム中毒と診断された。</p>
+          </div>
+			
+			<!--12-->
+			<div class="contents_wrap">
+            <p class="contents_img"><img src="assets/images/img_12.jpg" alt=""></p>
+            <p class="contents_txt"><span>レジカウンター上の粘着テープの跡を拭きとる際、有機溶剤を用い中毒</span>レジカウンター上の粘着テープの跡を洗浄液で拭き落とす作業中、洗浄液の瓶を転倒させ床にこぼしたが、雑巾で拭きとり、レジカウンターの下のごみ箱に捨てたまま作業を続けた所、頭痛、吐き気の症状を訴え、病院で有機溶剤中毒と診断された。</p>
+          </div>
+			
+			<!--13-->
+			<div class="contents_wrap">
+            <p class="contents_img"><img src="assets/images/img_13.jpg" alt=""></p>
+            <p class="contents_txt"><span>厨房内での灯油による急性中毒</span>厨房の排気設備清掃作業中、灯油を入れた缶を倒し、ダクト内に流入したが、そのまま作業を続け、嘔吐等の症状が現れ、緊急搬送されたところ急性薬物中毒と診断された。</p>
+          </div>
+			
+			<!--14-->
+			<div class="contents_wrap">
+            <p class="contents_img"><img src="assets/images/img_14.jpg" alt=""></p>
+            <p class="contents_txt"><span>学校の厨房の清掃中に塩素ガス中毒</span>厨房床面を洗浄するため、漂白剤と水酸化ナトリウムを主成分とする厨房機器・設備用洗剤を混入させ、厨房に撒き洗浄したところ、ふらつきがひどく、病院に診察を受けたところ塩素ガス中毒と診断。</p>
+          </div>
+			
+			<!--15-->
+			<div class="contents_wrap">
+            <p class="contents_img"><img src="assets/images/img_15.jpg" alt=""></p>
+            <p class="contents_txt"><span>小売店で食肉を焼いていたところ、プロパンガスが爆発し火傷を負う</span>ガスレンジ上方の換気扇を稼動し、ガスの元栓を開け、ガスレンジのバルブも開けて携帯用点火器により点火したところ、爆発が起こり、作業者は１か月の入院を要した。</p>
+          </div>
+			
+			<!--16-->
+			<div class="contents_wrap">
+            <p class="contents_img"><img src="assets/images/img_16.jpg" alt=""></p>
+            <p class="contents_txt"><span>家具の修理作業中における爆発災害</span>食堂テーブルのひび割れの修理の際、吹付けと塗装を始めたところ、突然作業場所近くの床面で爆発が発生し、付近にいた作業者2名が火傷を負った。</p>
+          </div>
+			
+			<!--17-->
+			<div class="contents_wrap">
+            <p class="contents_img"><img src="assets/images/img_17.jpg" alt=""></p>
+            <p class="contents_txt"><span>動力噴霧機のタンクに殺虫剤を入れて散布の準備をしていたところ、散布ノズルから殺虫剤が噴出</span>殺虫剤を噴霧器に入れて、散布ノズルのホースを解いている際、散布ノズルの流量調節レバーが開き、顔面に殺虫剤が噴射され、薬物中毒と診断された。</p>
+          </div>
+			
+			
+			
+          <p class="contents_btn">もっと見る</p>
+        </section>
+      </section>
+      <!-- [/c-section-1] --> 
+      
+    </div>
+    <!-- [/l-container-1] -->
+    
+    <div id="chemisapo" class="l-container-1 guidwrap">
+      <section class="c-section-2">
+        <div class="midashi_l">自分の職場にも関係するかも！？<br>
+          と思った方に詳しくご案内します </div>
+		  <div class="inner">
+          	<div class="midashi_title"><h2>職場のあんぜんサイトのご紹介</h2></div>
+          	<div class="lead"><h3>化学物質による労働災害防止のための<br class="pc_only">様々な情報を発信しています。</h3></div>
+          	<div class="chemi_wrap">
+            <div class="chemi_img"><a href="https://anzeninfo.mhlw.go.jp/user/anzen/kag/kagaku_index.html" target="_blank"><img src="assets/images/thumb_shokubanoanzen.jpg" alt=""></a></div>
+            	<div class="chemi_link">
+				<a href="https://anzeninfo.mhlw.go.jp/user/anzen/kag/kagaku_index.html" target="_blank"><img src="assets/images/bnr_shokubanoanzen.png"></a>
+            	</div>
+          	</div>
+		  </div>
+        <div class="inner">
+          <div class="midashi_title"><h2>ケミサポのご紹介</h2></div>
+          <div class="lead"><h3>化学物質の労働災害を防ぐために、<br class="pc_only">
+            法律に従って自分たちで自律的に化学物質の管理を進める手順を「ケミサポ」で、<br class="pc_only">
+            <span>「4つのステップ」</span>にわけて説明しています。</h3></div>
+          <div class="chemi_wrap">
+            <div class="chemi_img"><a href="https://cheminfo.johas.go.jp/" target="_blank"><img src="assets/images/thumb_kemisapo.jpg" alt=""></a></div>
+            <div class="chemi_link">
+              <ol>
+                <li><a href="https://cheminfo.johas.go.jp/" target="_blank">
+                  <p>ケミサポトップ</p>
+                  </a></li>
+                <li><a href="https://cheminfo.johas.go.jp/try.html" target="_blank">
+                  <p>自律的な管理を進めるための4つのステップ</p>
+                  </a></li>
+                <li class="or"><a href="https://cheminfo.johas.go.jp/step/1-1.html" target="_blank"><span>1-1</span>
+                  <p>こんな製品や化学物質を使っていませんか？</p>
+                  </a></li>
+                <li class="or"><a href="https://cheminfo.johas.go.jp/step/1-3.html" target="_blank"><span>1-3</span>
+                  <p>リスクアセスメント対象物に該当するか確認</p>
+                  </a></li>
+                <li class="or"><a href="https://cheminfo.johas.go.jp/step/2-1.html" target="_blank"><span>2-1</span>
+                  <p>化学物質管理者の選任</p>
+                  </a></li>
+                <li class="herf"><a href="https://cheminfo.johas.go.jp/why.html" target="_blank">
+                  <p>なぜ変わるの？</p>
+                  </a></li>
+                <li class="herf"><a href="https://cheminfo.johas.go.jp/how.html" target="_blank">
+                  <p>どう変わるの？</p>
+                  </a></li>
+              </ol>
+              <dl>
+                <dt><span></span></dt>
+                <dd>オレンジの項目は特に注目のページです。</dd>
+              </dl>
+            </div>
+          </div>
+          <div class="chemi_wrap_bottom">
+            <div class="chemi_logo"><a href="https://cheminfo.johas.go.jp/" target="_blank"><img src="assets/images/logo_kemisapo.jpg" alt=""></a></div>
+            <p>（運営：<a href="https://www.jniosh.johas.go.jp/" target="_blank">独立行政法人労働者健康安全機構　労働安全衛生総合研究所</a>）</p>
+          </div>
+        </div>
+        <div id="contact" class="inner">
+          <div class="midashi_title"><h2>無料相談窓口</h2></div>
+          <div class="lead"><h3>職場における化学物質管理については、<br class="pc_only">
+            <span>「無料相談窓口」</span>でもお気軽にご相談ください。</h3></div>
+          <div class="lead2">当窓口は、労働安全衛生法に基づく下記に関して、主に中小規模事業場からの相談に対応しています。</div>
+          <div id="support" class="contact_list">
+            <ul>
+              <li>ラベル表示</li>
+              <li>安全データシート（SDS）</li>
+              <li>化学物質のリスクアセスメント</li>
+            </ul>
+            <ul class="bottom">
+              <li>令和4年（2022年）に改正された労働安全衛生関係法令に基づく新たな化学物質規制の内容</li>
+            </ul>
+          </div>
+          <div class="contact_list sec">
+			<div class="contact_list_sub">令和６年度の相談窓口開設期間は令和７年３月18日までです。令和７年度の相談窓口については、事業者決定後にお知らせしますので、３月19日以降、令和７年度の相談窓口開設までの期間はお近くの労働基準監督署等へお問合せいただくようお願いいたします。</div>
+			</div>
+          <div class="other_link">※事業場における関係法令の適用についてはお近くの労働基準監督署へお問合せください。<br>
+            <br class="sp_only">
+            <a href="https://www.mhlw.go.jp/kouseiroudoushou/shozaiannai/roudoukyoku/index.html" target="_blank">都道府県労働局(労働基準監督署、公共職業安定所)所在地一覧</a>｜厚生労働省 (mhlw.go.jp)</div>
+        </div>
+      </section>
+    </div>
+    <!-- [/l-container-1] --> 
+    
+	  
+	  
+	  
+	  
+    <section id="movie" class="movie">
+		        <div class="midashi_l"><h2>動画で知る</h2></div>
+        <div class="midashi_s"><h3>youtubeのサイトに移動します。</h3></div>
+		<div class="movie-wrap">
+            <div class="movie-box">
+                <a href="https://www.youtube.com/watch?v=Wq3iodwS594" target="_blank">
+                    <img src="assets/images/mov_thumb_01.jpg" alt="">
+                </a>
+            </div>
+			<div class="movie-box">
+                <a href="https://youtu.be/gB8YdX0_Aw8" target="_blank">
+                    <img src="assets/images/mov_thumb_17.jpg" alt="">
+                </a>
+            </div>
+		</div>
+        <div class="movie-wrap" style="border: solid 1px #B0B0B0; padding: 20px;">
+			
+						<div class="movie-lead">以下の動画は「労働安全衛生規則第十二条の五第三項第二号イの規定に基づき厚生労働大臣が定める化学物質管理に関する講習 <a href="https://www.mhlw.go.jp/content/11300000/000987097.pdf" target="_blank"><span class="link">（令和４年厚生労働省告示第276号）［61KB］</span></a>のカリキュラムに基づき作成した講義動画です。<br>※受講者が単独で本動画の視聴では、上記告示に基づく講習を受講したことにはなりませんので、ご留意ください。</div>
+            <div class="movie-box">
+                <a href="https://www.youtube.com/watch?v=uXAXo91Bl_I" target="_blank">
+                    <img src="assets/images/mov_thumb_02.jpg" alt="">
+                </a>
+                <p>①化学物質の危険性及び有害性並びに表示等</p>
+            </div>
+<div class="movie-box">
+                <a href="https://www.youtube.com/watch?v=WBOe3Hkahdc" target="_blank">
+                    <img src="assets/images/mov_thumb_03.jpg" alt="">
+                </a>
+                <p>②化学物質の危険性又は有害性等の調査</p>
+            </div>
+<div class="movie-box">
+                <a href="https://www.youtube.com/watch?v=Hjr9e2Hev8s" target="_blank">
+                    <img src="assets/images/mov_thumb_04.jpg" alt="">
+                </a>
+                <p>③化学物質の危険性又は有害性等の調査の結果に基づく措置等その他の必要な記録等</p>
+            </div>
+<div class="movie-box">
+                <a href="https://www.youtube.com/watch?v=Bmeyv8uFVWc" target="_blank">
+                    <img src="assets/images/mov_thumb_05.jpg" alt="">
+                </a>
+                <p>④化学物質を原因とする災害の発生時の対応</p>
+            </div>
+<div class="movie-box">
+                <a href="https://www.youtube.com/watch?v=wo819oQGwHU" target="_blank">
+                    <img src="assets/images/mov_thumb_06.jpg" alt="">
+                </a>
+                <p>⑤関係法令</p>
+            </div>
+<div class="movie-box">
+                <a href="https://www.youtube.com/watch?v=39u7PqkIh-4" target="_blank">
+                    <img src="assets/images/mov_thumb_08.jpg" alt="">
+                </a>
+                <p>①ワンポイント動画①_労働安全衛生法における化学物質管理の全体像</p>
+            </div>
+<div class="movie-box">
+                <a href="https://www.youtube.com/watch?v=6TGAkyD9EKQ" target="_blank">
+                    <img src="assets/images/mov_thumb_09.jpg" alt="">
+                </a>
+                <p>②ワンポイント動画②_有害性リスクアセスメントのポイント</p>
+            </div>
+<div class="movie-box">
+                <a href="https://www.youtube.com/watch?v=mb73HcqeHBc" target="_blank">
+                    <img src="assets/images/mov_thumb_10.jpg" alt="">
+                </a>
+                <p>③ワンポイント動画③_リスク低減対策のポイント</p>
+            </div>
+<div class="movie-box">
+                <a href="https://www.youtube.com/watch?v=cIZHOCcGQ5g" target="_blank">
+                    <img src="assets/images/mov_thumb_11.jpg" alt="">
+                </a>
+                <p>④ワンポイント動画④_CREATE-SIMPLEの操作説明</p>
+            </div>
+<div class="movie-box">
+                <a href="https://www.youtube.com/watch?v=03xlgmgptCk" target="_blank">
+                    <img src="assets/images/mov_thumb_12.jpg" alt="">
+                </a>
+                <p>⑤ワンポイント動画⑤_検知管の使い方</p>
+            </div>
+<div class="movie-box">
+                <a href="https://www.youtube.com/watch?v=IEEIFk5PtFQ" target="_blank">
+                    <img src="assets/images/mov_thumb_13.jpg" alt="">
+                </a>
+                <p>⑥ワンポイント動画⑥_リアルタイムモニターの使い方</p>
+            </div>
+<div class="movie-box">
+                <a href="https://www.youtube.com/watch?v=99W0cubdxII" target="_blank">
+                    <img src="assets/images/mov_thumb_14.jpg" alt="">
+                </a>
+                <p>⑦ワンポイント動画⑦_局所排気装置の正しい使用方法</p>
+            </div>
+<div class="movie-box">
+                <a href="https://www.youtube.com/watch?v=KyUXvyQpllw" target="_blank">
+                    <img src="assets/images/mov_thumb_15.jpg" alt="">
+                </a>
+                <p>⑧ワンポイント動画⑧_呼吸用保護具のフィットテスト</p>
+            </div>
+<div class="movie-box">
+                <a href="https://www.youtube.com/watch?v=4KO7eiILAFo" target="_blank">
+                    <img src="assets/images/mov_thumb_16.jpg" alt="">
+                </a>
+                <p>⑨ワンポイント動画⑨_化学防護手袋の正しい使用方法</p>
+            </div>
+        </div>
+    </section>
+	  
+	  
+	  
+    <section id="materialdata" class="materialdata">
+		        <div class="midashi_l"><h2>資料で知る</h2></div>
+        <div class="materialdata-wrap">
+            <div class="materialdata-box">
+                <h4>化学物質管理リーフレット</h4>
+                <ul>
+<li><a href="assets/pdf/leaflet01.pdf" target="_blank">化学物質を安全に取り扱うために</a></li>
+<li><a href="assets/pdf/leaflet02.pdf" target="_blank">新たな化学物質規制が導入されます</a></li>
+                </ul>
+            </div>
+            <div class="materialdata-box">
+                <h4>共通教材</h4>
+                <ul>
+<li><a href="https://www.mhlw.go.jp/content//11300000/01_kyoutu_00JPN.pdf" target="_blank">日本語［PDF形式：19,308KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/01_kyoutu_01English.pdf" target="_blank">英語［PDF形式：20,975KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/01_kyoutu_02Kantaiji.pdf" target="_blank">中国語［PDF形式：20,945KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/01_kyoutu_03Vietnam.pdf" target="_blank">ベトナム語［PDF形式：20,848KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/01_kyoutu_04Tagalog.pdf" target="_blank">タガログ語［PDF形式：20,926KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/01_kyoutu_07Khmer.pdf" target="_blank">クメール語［PDF形式：20,912KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/01_kyoutu_05Indonesia.pdf" target="_blank">インドネシア語［PDF形式：21,068KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/01_kyoutu_06Thai.pdf" target="_blank">タイ語［PDF形式：20,901KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/01_kyoutu_08Myanmar.pdf" target="_blank">ミャンマー語［PDF形式：25,442KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/01_kyoutu_09Nepal.pdf" target="_blank">ネパール語［PDF形式：20,890KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/01_kyoutu_10Mongol.pdf" target="_blank">モンゴル語［PDF形式：20,871KB］</a></li>
+                </ul>
+				<a href="https://www.mhlw.go.jp/stf/newpage_13668.html" target="_blank" class="citation">出典：マンガでわかる働く人の安全と健康（教育用教材）｜厚生労働省</a>
+            </div>
+            <div class="materialdata-box">
+                <h4>化学物質取扱い（基礎）</h4>
+                <ul>
+<li><a href="https://www.mhlw.go.jp/content//11300000/kagakukiso_00_Japanese_210205.pdf" target="_blank">日本語［PDF形式：9,093KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/kagakukiso_01_English_210212.pdf" target="_blank">英語［PDF形式：8,813KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/kagakukiso_02_Kantaiji_210212.pdf" target="_blank">中国語［PDF形式：8,845KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/09_kagakukiso_03Vietnam_210910.pdf" target="_blank">ベトナム語［PDF形式：8,803KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/kagakukiso_04_Tagalog_210212.pdf" target="_blank">タガログ語［PDF形式：8,812KB</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/kagakukiso_07_Khmer_210212.pdf" target="_blank">クメール語［PDF形式：8,893KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/kagakukiso_05_Indonesia_210212.pdf" target="_blank">インドネシア語［PDF形式：8,806KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/kagakukiso_06_Thai_210212.pdf" target="_blank">タイ語［PDF形式：8,861KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/kagakukiso_08_Burma_210212.pdf" target="_blank">ミャンマー語［PDF形式：8,850KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/kagakukiso_09_Nepal_0212.pdf" target="_blank">ネパール語［PDF形式：8,837KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/kagakukiso_10_Mongol_210212.pdf" target="_blank">モンゴル語［PDF形式：8,810KB</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/kagakukiso_11_Spain_210212.pdf" target="_blank">スペイン語[PDF形式：8,812KB]</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/kagakukiso_12_Portugal_210212.pdf" target="_blank">ポルトガル語[PDF形式：8,819KB]</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/kagakukiso_13_Korean_210212.pdf" target="_blank">韓国語[PDF形式：8,769KB]</a></li>
+                </ul>
+				<a href="https://www.mhlw.go.jp/stf/newpage_13668.html" target="_blank" class="citation">出典：マンガでわかる働く人の安全と健康（教育用教材）｜厚生労働省</a>
+            </div>
+            <div class="materialdata-box">
+                <h4>化学物質取扱い（管理）</h4>
+                <ul>
+<li><a href="https://www.mhlw.go.jp/content//11300000/kagakukanri_00_Japanese_210210.pdf" target="_blank">日本語［PDF形式：22,170KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/kagakukanri_01_English_210212.pdf" target="_blank">英語［PDF形式：21,347KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/kagakukanri_02_Kantaiji_210212.pdf" target="_blank">中国語［PDF形式：21,404KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/kagakukanri_03_Vietnam_2102112.pdf" target="_blank">ベトナム語［PDF形式：21,344KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/kagakukanri_04_Tagalog_210216.pdf" target="_blank">タガログ語［PDF形式：21,346KB</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/kagakukanri_07_Khmer_210212.pdf" target="_blank">クメール語［PDF形式：21,393KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/kagakukanri_05_Indonesia_210216.pdf" target="_blank">インドネシア語［PDF形式：21,330KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/kagakukanri_06_Thai_210216.pdf" target="_blank">タイ語［PDF形式：21,369KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/kagakukanri_08_Burma_210212.pdf" target="_blank">ミャンマー語［PDF形式：21,391KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/kagakukanri_09_Nepal_210216.pdf" target="_blank">ネパール語［PDF形式：21,336KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/kagakukanri_10_Mongol_210212.pdf" target="_blank">モンゴル語［PDF形式：21,343KB</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/kagakukanri_11_Spain_210212.pdf" target="_blank">スペイン語[PDF形式：21,344KB]</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/kagakukanri_12_Portugal_210216.pdf" target="_blank">ポルトガル語[PDF形式：21,305KB]</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/kagakukanri_13_Korean_210216.pdf" target="_blank">韓国語[PDF形式：21,311KB]</a></li>
+                </ul>
+				<a href="https://www.mhlw.go.jp/stf/newpage_13668.html" target="_blank" class="citation">出典：マンガでわかる働く人の安全と健康（教育用教材）｜厚生労働省</a>
+            </div>
+            <div class="materialdata-box">
+                <h4>ビルクリーニング業</h4>
+                <ul>
+<li><a href="https://www.mhlw.go.jp/content//11300000/03_building_cleaning_00JPN.pdf" target="_blank">日本語［PDF形式：17,255KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/03_building_cleaning_01English.pdf" target="_blank">英語［PDF形式：16,742KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/03_building_cleaning_02Kantaiji.pdf" target="_blank">中国語［PDF形式：16,757KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/03_building_cleaning_03Vietnam.pdf" target="_blank">ベトナム語［PDF形式：16,676KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/03_building_cleaning_04Tagalog.pdf" target="_blank">タガログ語［PDF形式：16,704KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/03_building_cleaning_07Khmer.pdf" target="_blank">クメール語［PDF形式：16,719KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/03_building_cleaning_05Indnesia.pdf" target="_blank">インドネシア語［PDF形式：16,708KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/03_building_cleaning_06Thai.pdf" target="_blank">タイ語［PDF形式：16,693KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/03_building_cleaning_08Myanmar.pdf" target="_blank">ミャンマー語［PDF形式：20,254KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/03_building_cleaning_09Nepal.pdf" target="_blank">ネパール語［PDF形式：16,686KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/03building_cleaning_10Mongol.pdf" target="_blank">モンゴル語［PDF形式：16,665KB］</a></li>
+                </ul>
+				<a href="https://www.mhlw.go.jp/stf/newpage_13668.html" target="_blank" class="citation">出典：マンガでわかる働く人の安全と健康（教育用教材）｜厚生労働省</a>
+            </div>
+			            <div class="materialdata-box">
+                <h4>飲食料品製造業</h4>
+                <ul>
+<li><a href="https://www.mhlw.go.jp/content//11300000/09_foods_00JPN.pdf" target="_blank">日本語［PDF形式：13,418KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/09_foods_01English.pdf" target="_blank">英語［PDF形式：14,026KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/09_foods_02Kantaiji.pdf" target="_blank">中国語［PDF形式：14,048KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/09_foods_03Vietnam.pdf" target="_blank">ベトナム語［PDF形式：13,950KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/09_foods_04Tagalog.pdf" target="_blank">タガログ語［PDF形式：14,003KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/09_foods_07Khmer.pdf" target="_blank">クメール語［PDF形式：14,009KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/09_foods_05Indonesia.pdf" target="_blank">インドネシア語［PDF形式：14,001KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/09_foods_06Thai.pdf" target="_blank">タイ語［PDF形式：13,983KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/09_foods_08myanmer.pdf" target="_blank">ミャンマー語［PDF形式：16,633KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/09_foods_09Nepal.pdf" target="_blank">ネパール語［PDF形式：13,979KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/09_foods_10Mongol.pdf" target="_blank">モンゴル語［PDF形式：13,951KB］</a></li>
+                </ul>
+				<a href="https://www.mhlw.go.jp/stf/newpage_13668.html" target="_blank" class="citation">出典：マンガでわかる働く人の安全と健康（教育用教材）｜厚生労働省</a>
+            </div>
+			            <div class="materialdata-box">
+                <h4>外食業</h4>
+                <ul>
+<li><a href="https://www.mhlw.go.jp/content//11300000/10_restaurant_00JPN.pdf" target="_blank">日本語［PDF形式：14,670KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/10_restaurant_01English.pdf" target="_blank">英語［PDF形式：14,916KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/10_restaurant_02Kantaij.pdf" target="_blank">中国語［PDF形式：14,925KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/10_restaurant_03Vietnam.pdf" target="_blank">ベトナム語［PDF形式：14,859KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/10_restaurant_04Tagalog.pdf" target="_blank">タガログ語［PDF形式：14,896KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/10_restaurant_07Khmer.pdf" target="_blank">クメール語［PDF形式：14,911KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/10_restaurant_05Indonesia.pdf" target="_blank">インドネシア語［PDF形式：14,895KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/10_restaurant_06Thai.pdf" target="_blank">タイ語［PDF形式：14,877KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/10_restaurant_08Myanmar.pdf" target="_blank">ミャンマー語［PDF形式：21,845KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/10_restaurant_09Nepal.pdf" target="_blank">ネパール語［PDF形式：14,872KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/10_restaurant_10Mongol.pdf" target="_blank">モンゴル語［PDF形式：14,859KB］</a></li>
+                </ul>
+				<a href="https://www.mhlw.go.jp/stf/newpage_13668.html" target="_blank" class="citation">出典：マンガでわかる働く人の安全と健康（教育用教材）｜厚生労働省</a>
+            </div>
+			            <div class="materialdata-box">
+                <h4>塗装</h4>
+                <ul>
+<li><a href="https://www.mhlw.go.jp/content//11300000/000957714.pdf" target="_blank">日本語［PDF形式：26,313KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/000957715.pdf" target="_blank">英語［PDF形式：26,045KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/000957716.pdf" target="_blank">中国語［PDF形式：26,111KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/000957718.pdf" target="_blank">ベトナム語［PDF形式：26,041KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/000957724.pdf" target="_blank">タガログ語［PDF形式：26,032KB</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/000957725.pdf" target="_blank">クメール語［PDF形式：26,062KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/000957726.pdf" target="_blank">インドネシア語［PDF形式：26,038KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/000957727.pdf" target="_blank">タイ語［PDF形式：26,054KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/000957729.pdf" target="_blank">ミャンマー語［PDF形式：26,071KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/000957732.pdf" target="_blank">ネパール語［PDF形式：26,034KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/000957735.pdf" target="_blank">モンゴル語［PDF形式：26,035KB</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/000957738.pdf" target="_blank">スペイン語[PDF形式：26,046KB]</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/000957739.pdf" target="_blank">ポルトガル語[PDF形式：16,607KB]</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/000957740.pdf" target="_blank">韓国語[PDF形式：26,039KB]</a></li>
+                </ul>
+				<a href="https://www.mhlw.go.jp/stf/newpage_13668.html" target="_blank" class="citation">出典：マンガでわかる働く人の安全と健康（教育用教材）｜厚生労働省</a>
+            </div>
+			            
+<div class="materialdata-box">
+                <h4>めっき</h4>
+                <ul>
+<li><a href="https://www.mhlw.go.jp/content//11300000/000957746.pdf" target="_blank">日本語［PDF形式：24,978KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/000957747.pdf" target="_blank">英語［PDF形式：24,731KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/000957748.pdf" target="_blank">中国語［PDF形式：24,787KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/000957754.pdf" target="_blank">ベトナム語［PDF形式：24,731KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/000957755.pdf" target="_blank">タガログ語［PDF形式：24,716KB</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/000957756.pdf" target="_blank">クメール語［PDF形式：24,745KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/000957758.pdf" target="_blank">インドネシア語［PDF形式：24,715KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/000957759.pdf" target="_blank">タイ語［PDF形式：24,742KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/000957760.pdf" target="_blank">ミャンマー語［PDF形式：24,756KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/000957761.pdf" target="_blank">ネパール語［PDF形式：24,723KB］</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/000957762.pdf" target="_blank">モンゴル語［PDF形式：16,314KB</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/000957763.pdf" target="_blank">スペイン語[PDF形式：24,732KB]</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/000957765.pdf" target="_blank">ポルトガル語[PDF形式：24,720KB]</a></li>
+<li><a href="https://www.mhlw.go.jp/content//11300000/000957766.pdf" target="_blank">韓国語[PDF形式：24,728KB]</a></li>
+                </ul>
+				<a href="https://www.mhlw.go.jp/stf/newpage_13668.html" target="_blank" class="citation">出典：マンガでわかる働く人の安全と健康（教育用教材）｜厚生労働省</a>
+            </div>
+			     <div class="materialdata-box">
+                <h4>業種別マニュアル（建設業）</h4>
+                <ul>
+<li><a href="https://www.kensaibou.or.jp/safe_tech/chemical_management/about.html?id=Anker02" target="_blank">建設業における化学物質取扱い作業リスク管理マニュアル</a></li>
+                </ul>
+				<a href="https://www.kensaibou.or.jp/safe_tech/chemical_management/about.html?id=Anker02" target="_blank" class="citation">出典：建設業における化学物質取扱い作業リスク管理マニュアル｜建設業労働災害防止協会</a>
+            </div> 
+						     <div class="materialdata-box">
+                <h4>業種別マニュアル（ビルメンテナンス業、食料品製造業、飲食店、塗装作業、接着関係作業）</h4>
+                <ul>
+<li><a href="https://www.mhlw.go.jp/stf/newpage_55176.html" target="_blank">化学物質リスクアセスメントについて</a></li>
+                </ul>
+				<a href="https://www.mhlw.go.jp/stf/newpage_55176.html" target="_blank" class="citation">出典：化学物質リスクアセスメントについて｜厚生労働省</a>
+            </div>
+        </div>
+    </section>
+	  
+	  <div id="sns">
+	  <div class="l-container-1">
+        <section>
+          <div class="other_wrap">
+			  
+            <div class="sns_wrap">
+
+                <div class="head">
+                  <div class="sns_tit">公式SNS</div>
+                </div>
+				
+
+                <div class="sns_wrap">
+                  <div class="sns"><a href="https://twitter.com/chemiguide" target="_blank"><img src="assets/images/bn_x.png" alt=""></a></div>
+                  <div class="sns"><a href="https://www.facebook.com/chemiguide/" target="_blank"><img src="assets/images/bn_f.png" alt=""></a></div>
+                </div>
+
+            </div>
+			  
+            <div class="poster_wrap">
+                <div class="head">
+                  <div class="poster_tit">ポスター</div>
+                </div>
+				
+                <div class="sns_wrap">
+                  <a href="poster.pdf" target="_blank"><img src="assets/images/bn_poster.png" alt="" class="pc_only"></a>
+					<a href="poster.pdf" target="_blank"><img src="assets/images/bnsp_poster.png" alt="" class="sp_only"></a>
+                </div>
+
+            </div>
+			  
+          </div>
+        </section>
+	  </div>
+	  </div>
+  </div>
+  <!-- [/l-contents] -->
+	
+
+	
+  
+  <div class="l-footer-pagetop"> <a href="#"  class="l-footer-pagetop__link js-pagetop"></a> </div>
+  <!-- [/l-footer-pagetop] -->
+  
+  <footer class="l-footer">
+    <div class="l-footer__container">
+      
+      <div class="l-footer-bottom">
+        <div class="l-footer__disc">〒100−8916 東京都千代田区霞が関１丁目２番２号<br>
+中央合同庁舎 第５号館<br>
+厚生労働省労働基準局安全衛生部化学物質対策課</div>
+
+        <div class="l-footer__copyright"> <small class="l-footer__copyright-txt">Copyright © Ministry of Health, Labour and Welfare of Japan</small> </div>
+      </div>
+    </div>
+  </footer>
+  <!-- [/l-footer] --> 
+  
+</div>
+<!-- [/l-wrapper] --> 
+
+<!-- scripts --> 
+<script src="../assets/js/common.js"></script>
+<script>
+$(function () {
+  $(".js-modal-open").on("click", function () {
+    $("#js-modal").fadeIn();
+    return false;
+  });
+  $(".js-modal-close").on("click", function () {
+    $("#js-modal").fadeOut();
+    return false;
+  });
+});
+// モーダルウィンドウオープン時の背景固定
+$(function () {
+  let scrollPosition;
+  $(".js-modal-open").on("click", function () {
+    scrollPosition = $(window).scrollTop();
+    $("body").addClass("fixed").css({ top: -scrollPosition });
+  });
+  $(".js-modal-close").on("click", function () {
+    $("body").removeClass("fixed").css({ top: 0 });
+    window.scrollTo(0, scrollPosition);
+  });
+});
+	</script>
+	
+	<script>
+
+
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+var player;
+function onYouTubeIframeAPIReady() {
+player = new YT.Player("player",{
+});
+}
+var ovPause = document.getElementById('modal__overlay');
+ovPause.addEventListener('click', function() {
+  player.pauseVideo();
+});
+var btnPause = document.getElementById('js-modal-close');
+btnPause.addEventListener('click', function() {
+  player.pauseVideo();
+});
+	</script>
+</body>
+</html>
