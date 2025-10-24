@@ -1,0 +1,199 @@
+header {
+  background-color: #fff; }
+  header .header-inner__logo {
+    padding: 1rem 1rem 0;}
+    @media screen and (max-width: 1080px) {
+      header .header-inner__logo {
+        padding: 1.2rem 0; } 
+      header .header-inner__logo img {
+        margin-right: 20px; 
+        width: 120px;} }
+
+  header .header-inner__nav {
+    width: 100%; }
+    header .header-inner__nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: start;
+      list-style: none;
+      margin: 0;
+      padding: 0 1rem 1rem; }
+      @media screen and (max-width: 1080px) {
+        header .header-inner__nav ul {
+          padding: 0 0 1rem; } }
+      header .header-inner__nav ul li {
+        width: fit-content; }
+        header .header-inner__nav ul li:first-child::after {
+          content: "\f054";
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          display: inline-block;
+          font-style: normal;
+          font-variant: normal;
+          font-size: 1.3rem;
+          text-rendering: auto;
+          line-height: 1;
+          color: #f15272;
+          padding: 0 0.5rem; }
+        header .header-inner__nav ul li a,
+        header .header-inner__nav ul li span {
+          font-size: 1.6rem; }
+          @media screen and (max-width: 1080px) {
+            header .header-inner__nav ul li a,
+            header .header-inner__nav ul li span {
+              font-size: 1.3rem; } }
+
+/* 全体設定 */
+main {
+  background-color: #F2F2F2;
+  font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: 1.2px;
+  color: #333;
+}
+
+/* h1～h3 共通 */
+h1, h2, h3 {
+  margin: 0;
+}
+
+/* h1 */
+h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #04338C;
+}
+h1 span {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+/* MVセクション */
+.mv {
+  background-image: url('../images/mv_bg.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 1400px;
+  height: 220px;
+  padding: 0 40px;
+}
+.mv h2 {
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #04338C;
+  text-align: center;
+  padding: 5px 20px;
+}
+
+/* スローガンセクション */
+.slogan-inner {
+  background-color: #F4F8FF;
+  padding: 20px;
+  text-align: center;
+  margin: 40px 0;
+}
+.slogan-inner h2 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  border: 1px solid #04338C;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 4px 8px;
+}
+.slogan-inner p {
+  font-size: 2.8rem;
+  font-family: "ヒラギノ明朝 Pro","Hiragino Mincho Pro","ＭＳ 明朝",serif;
+}
+
+/* h2 */
+section.content h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #04338C;
+  text-align: center;
+  margin-bottom: 4px;
+  border-bottom: 2px solid #04338C;
+  padding-bottom: 4px;
+}
+
+/* h3 */
+h3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #04338C;
+}
+
+/* 基本ボタン */
+.button-basic {
+  display: inline-block;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #04338C;
+  border: 1px solid #04338C;
+  padding: 5px 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.button-basic:hover {
+  color: #04338C;
+  background-color: #fff;
+}
+
+/* content セクション */
+section.content {
+  background-color: #fff;
+  max-width: 1280px;
+  margin: 0 20px;
+  padding: 40px 100px;
+  text-align: left;
+}
+
+/* slogan-button, banner, item */
+.slogan-button,
+.banner,
+.item {
+  text-align: center;
+}
+.item {
+  margin-bottom: 40px;
+}
+
+/* スマホ対応（768px以下） */
+@media (max-width: 768px) {
+  h1 { font-size: 2.6rem; }
+  h1 span { font-size: 1.4rem; }
+  .mv h2 { font-size: 1rem; }
+  .slogan-inner h2 { font-size: 1.4rem; }
+  .slogan-inner p { font-size: 2.6rem; }
+  section.content h2 { font-size: 1.8rem; }
+  h3 { font-size: 1.4rem; }
+
+  .mv {
+    flex-direction: column;
+    height: 440px;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+  }
+
+  section.content {
+    padding: 40px 20px;
+  }
+}
+
+
+footer {
+  background-color: #fff; }
+  footer .wrap {
+    padding: 2rem 0;
+    text-align: center; }
+    footer .wrap span {
+      font-size: 1.6rem; }
+      @media screen and (max-width: 1080px) {
+        footer .wrap span {
+          font-size: 1.1rem; }}
