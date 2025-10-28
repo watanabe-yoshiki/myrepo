@@ -466,6 +466,13 @@ content: "";
 	width:535px;
 }
 
+.chemi_img2{
+	margin: 0 auto;
+	border:solid 1px #dcdcdb;
+	border-radius:3px;
+	width:535px;
+}
+
 .chemi_wrap .chemi_link {
 	width:calc(100% - 465px);
 }
@@ -5271,7 +5278,7 @@ ul.err_message li{
 @media screen and (max-width: 750px) {
     .c-list-2 {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2,1fr);
         gap: 5.0666666667vw 3.9436619718%;
     }
 }
@@ -9431,3 +9438,34 @@ width:100%
                 width: calc((100% - 20px) / 2);
             }
         }
+
+
+.line-banner{
+	display: block;
+	background-color: #F4E6B9;
+	text-align: center;
+	padding: 10px 0;
+	font-weight: bold;
+	font-size: 1rem;
+	 font-family: "Hiragino Mincho ProN", "游明朝", "MS P明朝", serif; /* 明朝体 */
+}
+
+.line-banner .middle{
+	font-size: 1.4rem;
+}
+
+.line-banner .large{
+	font-size: 1.8rem;
+  color: #fff;                /* 文字色：白 */
+  background-color: #FF99CB;  /* 背景色 */
+  display: inline-block;      /* 背景を円形にするためにブロック化 */
+  border-radius: 50%;         /* 円形に */
+  padding: 6px 12px;          /* 文字の周囲に余白 */
+  margin: 0 6px;              /* 左右マージン（微調整可能） */
+  font-weight: bold;          /* 強調表示（任意） */
+  line-height: 1;             /* 円形が崩れにくくなる */
+}
+
+#awareness2025 {
+  scroll-margin-top: 100px; /* スクロール位置を100px上に調整 */
+}
