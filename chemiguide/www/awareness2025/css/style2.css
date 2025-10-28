@@ -78,7 +78,7 @@ a {
 
 /* MVセクション */
 .mv {
-  background-image: url('../images/mv_bg.png');
+  background-image: url('../images/mv_bg2.png');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -359,28 +359,4 @@ footer {
     flex-direction: column;
     gap: 15px;
   }
-}
-
-h4 {
-  text-align: left;
-  font-size: 1rem;
-  font-weight: bold;
-  display: block;
-  border-bottom: 1px solid #04338C;
-  padding-bottom: 4px; /* 文字と線の間に少し余白 */
-  margin: 40px 0 0;
-}
-
-h5 {
-  text-align: right;
-  color: #04338C;
-  font-weight: bold;
-  margin: 2px 0 -8px;
-}
-
-.img-center {
-  display: block;      /* ブロック要素にする */
-  margin: 0 auto;      /* 左右中央寄せ */
-  height: auto;        /* 縦横比を維持 */
-  max-width: 100%;     /* はみ出し防止（任意） */
 }
