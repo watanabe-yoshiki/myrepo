@@ -1,65 +1,8 @@
-header {
-  background-color: #fff; }
-  header .header-inner__logo {
-    padding: 1rem 1rem 0;}
-    @media screen and (max-width: 1080px) {
-      header .header-inner__logo {
-        padding: 1.2rem 0; } 
-      header .header-inner__logo img {
-        margin-right: 20px; 
-        width: 120px;} }
-
-  header .header-inner__nav {
-    width: 100%; }
-    header .header-inner__nav ul {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: start;
-      list-style: none;
-      margin: 0;
-      padding: 0 1rem 1rem; }
-      @media screen and (max-width: 1080px) {
-        header .header-inner__nav ul {
-          padding: 0 0 1rem; } }
-      header .header-inner__nav ul li {
-        width: fit-content; }
-        header .header-inner__nav ul li:first-child::after {
-          content: "\f054";
-          font-family: "Font Awesome 5 Free";
-          font-weight: 900;
-          display: inline-block;
-          font-style: normal;
-          font-variant: normal;
-          font-size: 1.3rem;
-          text-rendering: auto;
-          line-height: 1;
-          color: #f15272;
-          padding: 0 0.5rem; }
-        header .header-inner__nav ul li a,
-        header .header-inner__nav ul li span {
-          font-size: 1rem; }
-          @media screen and (max-width: 1080px) {
-            header .header-inner__nav ul li a,
-            header .header-inner__nav ul li span {
-              font-size: 1.3rem; } }
-
-/* 全体設定 */
-main {
-  background-color: #F2F2F2;
-  font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,sans-serif;
-  font-size: 1rem;
-  line-height: 1.6;
-  letter-spacing: 1.2px;
-  color: #333;
-	padding-bottom: 100px;
-}
-
-/* h1～h3 共通 */
+/* タイポグラフィ */
 h1, h2, h3 {
   margin: 0;
 }
 
-/* h1 */
 h1 {
   font-size: 3rem;
   font-weight: bold;
@@ -71,12 +14,113 @@ h1 span {
   font-weight: bold;
 }
 
+h2 {
+  position: relative;
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #04338C;
+  text-align: center;
+  margin: 20px 0;
+}
+h2.underline::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 2px;
+  background-color: #04338C;
+  margin: 4px auto 0;
+}
+
+h3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #04338C;
+}
+
+h4 {
+  text-align: left;
+  font-size: 1rem;
+  font-weight: bold;
+  display: block;
+  border-bottom: 1px solid #04338C;
+  padding-bottom: 4px;
+  margin: 40px 0 0;
+}
+
+h5 {
+  text-align: right;
+  color: #04338C;
+  font-weight: bold;
+  margin: 2px 0 -8px;
+}
+
 a {
   font-weight: bold;
   color: #04338C;
 }
 
-/* MVセクション */
+/* レイアウト */
+main {
+  background-color: #F2F2F2;
+  font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: 1.2px;
+  color: #333;
+  padding-bottom: 100px;
+}
+
+header {
+  background-color: #fff;
+}
+header .header-inner__logo {
+  padding: 1rem 1rem 0;
+}
+header .header-inner__nav {
+  width: 100%;
+}
+header .header-inner__nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  list-style: none;
+  margin: 0;
+  padding: 0 1rem 1rem;
+}
+header .header-inner__nav ul li {
+  width: fit-content;
+}
+header .header-inner__nav ul li:first-child::after {
+  content: "\f054";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-size: 1.3rem;
+  text-rendering: auto;
+  line-height: 1;
+  color: #f15272;
+  padding: 0 0.5rem;
+}
+header .header-inner__nav ul li a,
+header .header-inner__nav ul li span {
+  font-size: 1rem;
+}
+
+footer {
+  background-color: #fff;
+}
+footer .wrap {
+  padding: 2rem 0;
+  text-align: center;
+}
+footer .wrap span {
+  font-size: 1rem;
+}
+
+/* セクション */
 .mv {
   background-image: url('../images/mv_bg.png');
   background-size: cover;
@@ -87,16 +131,15 @@ a {
   max-width: 1400px;
   height: 300px;
   padding: 0 40px;
-	  margin: 0 auto;
+  margin: 0 auto;
 }
-/* 左半分中央寄せ */	
-.mv-inner {	
-width: 60%;	
-display: flex;	
-flex-direction: column;	
-align-items: center;	
-justify-content: center;	
-text-align: center;	
+.mv-inner {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 .mv h2 {
   font-size: 1.2rem;
@@ -104,10 +147,9 @@ text-align: center;
   background-color: #04338C;
   text-align: center;
   padding: 5px 20px;
-	width: auto; 
+  width: auto;
 }
 
-/* スローガンセクション */
 .slogan-inner {
   background-color: #F4F8FF;
   padding: 20px;
@@ -120,48 +162,49 @@ text-align: center;
   border: 1px solid #04338C;
   display: inline-block;
   padding: 4px 8px;
-	width: auto; 
+  width: auto;
 }
 .slogan-inner p {
   font-size: 2.4rem;
   font-family: "ヒラギノ明朝 Pro","Hiragino Mincho Pro","ＭＳ 明朝",serif;
-	margin: 0;
-	line-height: 1.4;
+  margin: 0;
+  line-height: 1.4;
 }
 
-/* h2 */
-h2 {
-  position: relative;
-  display: block; /* 中央寄せ＋横幅に合わせる */
-  font-size: 2rem;
-  font-weight: bold;
-  color: #04338C;
+section.content {
+  background-color: #fff;
+  max-width: 880px;
+  margin: 40px auto;
+  padding: 10px 100px;
+  text-align: left;
+}
+
+.slogan-button {
   text-align: center;
+  padding: 20px 0;
+}
+
+.item {
+  margin: 40px 0 80px;
+}
+
+.banner {
   margin: 20px 0;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.banner img {
+  width: 340px;
+  height: 90px;
 }
 
-h2.underline::after {
-  content: "";
-  display: block;
-  width: 100px;
-  height: 2px;
-  background-color: #04338C;
-  margin: 4px auto 0;
-}
-
-
-/* h3 */
-h3 {
-  font-size: 1.6rem;
-  font-weight: bold;
-  color: #04338C;
-}
-
-/* 基本ボタン */
 .button-basic {
   display: inline-block;
   font-size: 1rem;
-font-weight: normal;
+  font-weight: normal;
   color: #fff;
   background-color: #04338C;
   border: 1px solid #04338C;
@@ -174,103 +217,36 @@ font-weight: normal;
   background-color: #fff;
 }
 
-/* content セクション */
-section.content {
-  background-color: #fff;
-  max-width: 880px;
-  margin: 40px auto;
-  padding: 10px 100px;
-  text-align: left;
-}
-
-/* slogan-button, banner, item */
-.slogan-button{
-  text-align: center;
-	padding: 20px 0;
-}
-.item {
-  margin: 40px 0 80px;
-}
-.banner {
-	margin: 20px 0;
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px; /* バナー間の余白 */
-}
-
-.banner img {
-  width: 340px;
-  height: 90px;
-}
-
-
-.banner img {
-  width: 340px;
-  height: 90px;
-}
-
-
-/* スマホ対応（768px以下） */
-@media (max-width: 768px) {
-  h1 { font-size: 2.6rem; }
-  h1 span { font-size: 1.4rem; }
-  .mv h2 { font-size: 1rem; }
-  .slogan-inner h2 { font-size: 1.4rem; }
-  .slogan-inner p { font-size: 2.6rem; }
-  section.content h2 { font-size: 1.8rem; }
-  h3 { font-size: 1.4rem; }
-
-  .mv {
-    flex-direction: column;
-    height: 440px;
-    justify-content: center;
-    padding: 20px;
-    text-align: center;
-  }
-
-  section.content {
-    padding: 40px 20px;
-  }
-}
-
-
-footer {
-	background-color: #fff; }
-  footer .wrap {
-    padding: 2rem 0;
-    text-align: center; }
-    footer .wrap span {
-      font-size: 1rem; }
-      @media screen and (max-width: 1080px) {
-        footer .wrap span {
-          font-size: 1.1rem; }}
-
-/* === checklist セクション === */
 .checklist {
   margin-bottom: 20px;
 }
+.checklist p {
+  display: none;
+  padding: 15px 20px;
+  background: #fff;
+  line-height: 1.6;
+  color: #333;
+}
+.checklist p.active {
+  display: block;
+}
 
-/* アコーディオン見出し */
 .accordion-title {
   background-color: #F4F8FF;
   color: #04338C;
   font-size: 1.4rem;
   font-weight: normal;
   text-align: left;
-  padding: 15px 40px 15px 60px; /* ← 四角と文字の間隔を広く */
+  padding: 15px 40px 15px 60px;
   cursor: pointer;
   position: relative;
   margin: 5px 0;
   transition: background-color 0.3s, color 0.3s;
 }
-
-/* チェックリスト風の四角 */
 .accordion-title::before {
   content: "";
   position: absolute;
-  left: 18px; /* ← 余白を少し広げてバランス調整 */
+  left: 18px;
   top: 50%;
   transform: translateY(-50%);
   width: 14px;
@@ -280,8 +256,6 @@ footer {
   border-radius: 2px;
   transition: border-color 0.3s ease;
 }
-
-/* 矢印（右端の > 記号） */
 .accordion-title::after {
   content: "›";
   position: absolute;
@@ -291,96 +265,61 @@ footer {
   font-size: 1.6rem;
   transition: transform 0.3s ease;
 }
-
-/* 展開時に上向き */
 .accordion-title.active::after {
   transform: translateY(-50%) rotate(-90deg);
 }
-
-/* マウスオーバー時 */
 .accordion-title:hover {
   background-color: #04338C;
   color: #FFF;
 }
-
-/* ホバー時の□も白線に */
 .accordion-title:hover::before {
   border-color: #FFF;
 }
 
-/* 本文部分 */
-.checklist p {
-  display: none;
-  padding: 15px 20px;
-  background: #fff;
-  line-height: 1.6;
-  color: #333;
-}
-
-.checklist p.active {
-  display: block;
-}
-
-/* スマホ対応 */
-@media screen and (max-width: 768px) {
-  .accordion-title {
-    font-size: 1.6rem;
-  }
-}
-
 .check-section {
   display: flex;
-  flex-direction: row; /* PCでは横並び */
-  align-items: center; /* 垂直中央揃え */
-  justify-content: center; /* 横方向中央寄せ */
-  gap: 20px; /* 画像と文字の間隔 */
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
   padding: 20px 0;
   text-align: center;
-
-  background-color: #fff; /* 背景白 */
-  border-top: 2px solid #04338C; /* 上線 */
-  border-bottom: 2px solid #04338C; /* 下線 */
+  background-color: #fff;
+  border-top: 2px solid #04338C;
+  border-bottom: 2px solid #04338C;
 }
-
 .check-section img {
   width: 100px;
   height: auto;
 }
-
 .check-section h1 {
   font-size: 2.4rem;
   font-weight: 700;
   margin: 0;
 }
 
-/* スマホ（768px以下）では縦並び */
-@media screen and (max-width: 768px) {
-  .check-section {
-    flex-direction: column;
-    gap: 15px;
-  }
-}
-
-h4 {
-  text-align: left;
-  font-size: 1rem;
-  font-weight: bold;
-  display: block;
-  border-bottom: 1px solid #04338C;
-  padding-bottom: 4px; /* 文字と線の間に少し余白 */
-  margin: 40px 0 0;
-}
-
-h5 {
-  text-align: right;
-  color: #04338C;
-  font-weight: bold;
-  margin: 2px 0 -8px;
-}
-
 .img-center {
-  display: block;      /* ブロック要素にする */
-  margin: 0 auto;      /* 左右中央寄せ */
-  height: auto;        /* 縦横比を維持 */
-  max-width: 100%;     /* はみ出し防止（任意） */
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  max-width: 100%;
 }
+
+/* スマホ対応（768px以下） */
+@media screen and (max-width: 768px) {
+  h1 { font-size: 2.6rem; }
+  h1 span { font-size: 1.4rem; }
+  h2 { font-size: 1.8rem; }
+  h3 { font-size: 1.4rem; }
+  .mv {
+    flex-direction: column;
+    height: 440px;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+  }
+  .mv h2 { font-size: 1rem; }
+  .slogan-inner h2 { font-size: 1.4rem; }
+  .slogan-inner p { font-size: 2.6rem; }
+  section.content {
+    padding: 
