@@ -9450,7 +9450,8 @@ width:100%
 	font-size: 1.4rem;
 	letter-spacing: 0.1em;
 	line-height: 2.2em;
-	 font-family: "Hiragino Mincho ProN", "游明朝", "MS P明朝", serif; /* 明朝体 */
+	 font-family: "Hiragino Mincho ProN", "游明朝", "MS P明朝", serif; 
+	margin-bottom: 20px;
 }
 
 .line-banner .middle{
