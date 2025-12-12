@@ -9442,22 +9442,26 @@ width:100%
 
 .line-banner{
 	display: block;
-	background-color: #F4E6B9;
+	background-color: #DD5267;
 	text-align: center;
 	padding: 10px 0;
+	color: #fff;
 	font-weight: bold;
-	font-size: 1rem;
-	 font-family: "Hiragino Mincho ProN", "游明朝", "MS P明朝", serif; /* 明朝体 */
+	font-size: 1.4rem;
+	letter-spacing: 0.1em;
+	line-height: 2.2em;
+	 font-family: "Hiragino Mincho ProN", "游明朝", "MS P明朝", serif; 
+	margin-bottom: 20px;
 }
 
 .line-banner .middle{
-	font-size: 1.4rem;
+	font-size: 2rem;
 }
 
 .line-banner .large{
-	font-size: 1.8rem;
-  color: #fff;                /* 文字色：白 */
-  background-color: #FF99CB;  /* 背景色 */
+	font-size: 2.2rem;
+  color: #DD5267;                /* 文字色：白 */
+  background-color: #fff;  /* 背景色 */
   display: inline-block;      /* 背景を円形にするためにブロック化 */
   border-radius: 50%;         /* 円形に */
   padding: 6px 12px;          /* 文字の周囲に余白 */
@@ -9466,6 +9470,53 @@ width:100%
   line-height: 1;             /* 円形が崩れにくくなる */
 }
 
-#awareness2025 {
+#kyochogekkan2025 {
   scroll-margin-top: 100px; /* スクロール位置を100px上に調整 */
+}
+
+/* 横並びレイアウト：768px以上で横並び、以下で縦並び */
+.other_link_b {
+	margin-top: 20px;
+  display: flex;
+	justify-content: center; /* ← これで中央寄せ */
+  gap: 12px;
+  flex-wrap: wrap; /* 2つ以上になっても崩れにくく */
+}
+
+@media (max-width: 768px) {
+ .other_link_b {
+    flex-direction: column;
+    align-items: center; /* 縦並び時も中央寄せに */
+  }
+}
+
+/* ボタンデザイン */
+.other_link_b a {
+  display: inline-block;
+	font-size: 1rem;
+  background: #ddd; /* グレー背景 */
+  color: #003F73;
+  padding: 8px 16px;
+  margin: 0;
+  text-decoration: none;
+  position: relative;
+  border: none;
+  border-radius: 0;
+	width: 340px;
+}
+
+/* 右端の「>」をCSSで描画 */
+.other_link_b a::after {
+  content: ">";
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: bold;
+}
+
+/* hover */
+.other_link_b a:hover {
+  background: #003F73;
+  color: #fff;
 }
