@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, 
+html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+}
+
+header {
+	padding: 32px;
+}
+
+.style-logo {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.style-nav ul {
+	list-style-type: none;
+}
+
+.style-nav ul li a {
+	text-decoration: none;
+	color: #2F322A;
+	text-align: center;
+	display: block;
+	text-transform: uppercase;
+	padding: 8px;
+}
+
+.row:before, .row:after {
+	content: "";
+	display: table;
+}
+.row:after {
+	clear: both;
+}
+
+/*Tablet View*/
+
+@media (min-width: 768px){
+	
+	.style-nav ul li {
+		display: inline-block;
+	}
+	
+}
+
+/*Desktop View*/
+
+@media (min-width: 1024px){
+	
+	.style-logo {
+		float: left;
+	}
+	
+	.style-nav {
+		float: right;
+	}
+	
+}
+
+
+.hero {
+	background-image: url("../../Prism Assets/hero.jpg") ;
+	background-size: cover;
+	padding: 20px 20px 50px 20px;
+	color: #fff;
+	text-align: center;
+}
+
+h1{
+	font-size: 40px;
+	font-weight: 200;
+	margin-bottom: 50px;
+}
+
+h3{
+	font-size: 17px;
+	font-weight: 200;
+	margin-bottom: 100px;
+}
+
+h4{
+	font-size: 14px;
+	font-weight: 200;
+	margin-bottom: 20px;
+}
+
+.button {
+	border: 2px #fff solid;
+	padding: 8px 20px;
+	border-radius: 30px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
