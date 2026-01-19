@@ -81,3 +81,11 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
 });
+
+document.getElementById('pagetop').addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
+

@@ -49,7 +49,6 @@ a {
   text-decoration: underline; /* 下線は残す */
 }
 
-
 .sp-br {
   display: inline;
 }
@@ -59,6 +58,17 @@ a {
     display: block; /* ← スマホだけ改行 */
   }
 }
+
+.pc-br {
+  display: none;
+}
+
+@media (min-width: 769px) {
+  .pc-br {
+    display: block; /* ← PCでだけ改行 */
+  }
+}
+
 
 
 /* =====================
@@ -332,7 +342,7 @@ a {
 
 /* --- 外側のボックス（白背景・角丸なし） --- */
 .ahaki-box, .jusei-box {
-  position: relative; /* yyy, xxx, www の基準点 */
+  position: relative; /* yyy, narrator, www の基準点 */
   flex: 1;
   background-color: #FFF;
   display: flex;
@@ -342,7 +352,7 @@ a {
 
 /* --- 内側のボックス（背景色あり） --- */
 .ahaki-inner, .jusei-inner {
-  /* 画像(zzz)との重なり具合を-80pxで固定。画像が大きくなっても重なり幅は維持されます */
+  /* 画像(ttl)との重なり具合を-80pxで固定。画像が大きくなっても重なり幅は維持されます */
   margin: -80px auto; 
   padding: 100px 30px 50px; /* 上paddingを厚くして動画との衝突を防ぐ */
 	width: 95%;
@@ -352,8 +362,8 @@ a {
 .jusei-inner { background-color: #cceaf7; }
 
 /* --- 装飾画像 --- */
-/* Zzz: 自然に配置（浮かさない） */
-.img-zzz {
+/* ttl: 自然に配置（浮かさない） */
+.img-ttl {
   position: static;
   display: block;
   width: 100%;
@@ -361,26 +371,38 @@ a {
   z-index: 10;
 }
 
-/* Yyy, Xxx, Www: 絶対配置（浮かせる） */
-.chara01, .img-xxx, .img-www {
+/* Yyy, narrator, Www: 絶対配置（浮かせる） */
+.img-chara01, .img-chara02, .img-narrator01, .img-narrator02, .img-chara-narrator {
   position: absolute;
   z-index: 15;
   pointer-events: none;
 }
 
-.chara01 {
+.img-chara01 {
   top: 82%;
   left: -20px;
   width: 130px;
 }
 
-.img-xxx {
+.img-chara02 {
+  top: 82%;
+  right: -20px;
+  width: 130px;
+}
+
+.img-narrator01 {
   bottom: -120px;
   right: 10px;
   width: 140px;
 }
 
-.img-www { display: none; }
+.img-narrator02 {
+  bottom: -120px;
+  left: -10px;
+  width: 140px;
+}
+
+.img-chara-narrator { display: none; }
 
 /* --- YouTube グリッド --- */
 .video-grid {
@@ -397,6 +419,7 @@ a {
 }
 
 .video-ttl {
+	font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 8px;
   text-align: center;
@@ -433,10 +456,10 @@ a {
 	 }
 
   /* 画像の切り替え */
-  .chara01, .img-xxx {
+  .img-chara01, .img-narrator01, .img-narrator02 {
     display: none;
   }
-  .img-www {
+  .img-chara-narrator {
     display: block;
     bottom: -110px;
     left: 50%;
@@ -602,7 +625,7 @@ a {
 }
 
 .character-image {
-  flex: 0 0 40%;
+  flex: 0 0 30%;
 }
 
 .character-text {
@@ -669,6 +692,7 @@ a {
   color: #000;
   font-size: 12px;
   line-height: 1.6;
+	margin-bottom: 50px;
 }
 
 /* ---------- RESPONSIVE ---------- */
@@ -683,4 +707,69 @@ a {
   }
 }
 
+/* ---------- PAGE TOP ---------- */
+
+#pagetop {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 80px;
+  height: 80px;
+  background: #FF9800;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  z-index: 1000;
+}
+
+/* アイコン（CSS描画・平たいシェブロン） */
+.pagetop-icon {
+  position: relative;
+  width: 18px;
+  height: 10px;
+}
+
+.pagetop-icon::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  border-top: 3px solid #fff;
+  border-left: 3px solid #fff;
+  transform: translateX(-50%) rotate(45deg);
+  box-sizing: border-box;
+}
+
+/* テキスト */
+.pagetop-text {
+  color: #fff;
+  font-size: 16px;
+  line-height: 1;
+}
+
+/* hover（任意だが推奨） */
+#pagetop:hover {
+  opacity: 0.85;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 768px) {
+  #pagetop {
+    width: 70px;
+    height: 70px;
+    right: 15px;
+    bottom: 15px;
+  }
+
+  .pagetop-text {
+    font-size: 10px;
+  }
+}
 
