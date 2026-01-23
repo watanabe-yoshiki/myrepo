@@ -30,7 +30,7 @@ main {
     flex-direction: column;
     align-items: center;
 	background-color: #fff;
-	padding: 0 5%;
+	padding: 0 5% 30px;;
 	
 }
 
@@ -168,7 +168,7 @@ h6 {
 }
 
 .button-b a::after {
-    content: '\e415';
+    content: '\e5c8';
     font-family: 'Material Icons';
     font-size: 1.6em;
     position: absolute;
@@ -209,6 +209,7 @@ footer {
     color: #fff;
     bottom: 0;
     width: 100%;
+	margin-top: 80px;
 }
 
 
@@ -559,10 +560,6 @@ footer {
     padding: 10px 0;
 }
 
-.multiple p {
-    text-align: left;
-}
-
 .multiplebox {
     display: flex;
     flex-wrap: wrap;
@@ -632,32 +629,62 @@ footer {
 }
 }
 
-/* グリッド全体のレイアウト */
+/* グリッド全体 */
 .video-grid {
   display: grid;
-  gap: 20px; /* ボックス同士の隙間 */
+  gap: 10px;
   width: 100%;
-  max-width: 1200px; /* 最大幅（任意） */
+  max-width: 1200px;
   margin: 0 auto;
 }
 
-/* 各ボックスのスタイル */
+/* セクション見出し */
+.video-ttl {
+  grid-column: 1 / -1;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 20px 0 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* 各動画カード */
 .video-item {
-  background: #fff; 
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* ← 動画を常に下へ */
 }
 
-.video-item h3 {
-  margin-top: 0;
+/* テキスト */
+.video-text {
   margin-bottom: 10px;
-  font-size: 1.1rem;
-	color: #000;
 }
 
-/* YouTubeの比率（16:9）を維持する設定 */
+/* タイトル */
+.video-item h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+.video-item h3 span {
+  display: block;
+}
+
+/* 再生時間（中央揃え） */
+.video-time {
+  font-size: 0.8rem;
+  color: #555;
+  text-align: center;
+	margin:0 ;
+}
+
+/* 16:9 プレイヤー（サイズ固定） */
 .video-container {
   position: relative;
   width: 100%;
-  padding-top: 56.25%; /* 16:9 の比率 */
+  padding-top: 56.25%;
+  flex-shrink: 0; /* ← 重要：潰れない */
 }
 
 .video-container iframe {
@@ -666,22 +693,20 @@ footer {
   left: 0;
   width: 100%;
   height: 100%;
+  border: 0;
 }
 
-/* レスポンシブ切り替え：スマホ（デフォルト）からPC（992px以上）へ */
+
+/* PC */
 @media (min-width: 992px) {
   .video-grid {
-    grid-template-columns: repeat(3, 1fr); /* 横に3つ並べる */
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
+/* スマホ */
 @media (max-width: 991px) {
   .video-grid {
-    grid-template-columns: 1fr; /* 横に1つ（6行） */
+    grid-template-columns: 1fr;
   }
 }
-
-
-
-
-
