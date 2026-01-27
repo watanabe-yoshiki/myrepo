@@ -653,6 +653,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: flex-end; /* ← 動画を常に下へ */
+  margin-bottom: 40px;
 }
 
 /* テキスト */
