@@ -1,0 +1,46 @@
+.thirdbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0 auto;
+    max-width: 1200px;
+    align-items: stretch;
+}
+
+.thirdbox .box {
+    background-color: #fff;
+    padding: 16px 0 0;
+    box-sizing: border-box;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    max-width: calc(33.333% - 20px); /* 横幅固定 */
+}
+
+/* PC表示時（769px以上）：横3列 */
+@media (min-width: 769px) {
+    .thirdbox .box {
+        width: calc(33.333% - 20px);
+    }
+}
+
+/* スマートフォン表示時（768px以下）：縦並び */
+@media (max-width: 768px) {
+    .thirdbox {
+        flex-direction: column;
+        align-items: center;
+        width: 90%; /* 親の幅を少し狭く */
+        max-width: 500px; /* 横幅の最大値を設定 */
+        margin: 0 auto; /* 中央揃え */
+    }
+
+    .thirdbox .box {
+        width: 100%; /* 親要素の幅いっぱいに */
+        margin: 10px 0;
+         max-width: 80%;
+    }
+}
+
+

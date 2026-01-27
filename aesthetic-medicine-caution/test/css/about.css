@@ -1,0 +1,72 @@
+/* aboutセクションのスタイル */
+.about {
+    padding: 20px 40px;
+    margin: 20px 0;
+    text-align: center;
+	
+}
+
+/* 本文のスタイル */
+.about p {
+    text-align: center;
+}
+
+/* content-wrapperのスタイル */
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.content-wrapper .column {
+    width: 49%; /* 2列で表示 */
+}
+
+/* dtとddのスタイル */
+.column dt,
+.column dd {
+    display: inline-block; /* 横並びにする */
+    vertical-align: top; /* 上部揃え */
+}
+
+.column dt {
+    color: #fff;
+    background-color: #003366;
+    padding: 5px;
+    margin-top: 10px;
+    width: 20%; /* 固定幅を設定 */
+    text-align: center; /* 背景に対して中央揃え */
+    font-weight: bold; /* 太字 */
+    font-size: 1.1rem; /* 少し大きく */
+}
+
+.column dd {
+    margin-left: 0;
+    padding: 10px 5px;
+    width: 75%; /* 固定幅を設定 */
+}
+
+.column dd .highlight {
+    font-size: 1.2rem; /* より大きく */
+    font-weight: bold; /* 太字 */
+}
+
+/* 特定のdtとddのスタイル */
+.column.target dt,
+.column.target dd {
+    width: 100%; /* 100%幅に設定して1行に表示 */
+    display: block; /* ブロック表示に変更 */
+}
+
+/* 768px以下では1列に */
+@media (max-width: 768px) {
+    .about {
+        padding: 20px;
+    }
+    .content-wrapper .column {
+        width: 100%;
+    }
+    .column dd {
+        width: 78%; /* 固定幅を設定 */
+    }
+}

@@ -1,0 +1,100 @@
+/* 画像ボタン01のスタイル */
+.image-button01 {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.image-button01 img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+
+.image-button01:hover img {
+    transform: scale(1.1); /* 画像を拡大 */
+}
+
+.image-button01::before {
+    content: "詳しくはこちら";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8); /* 透明度80%の白背景 */
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 10px; /* 角丸 */
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    font-size: 1rem;
+    z-index: 2;
+}
+
+.image-button01::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* 70%の#000 */
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    z-index: 1;
+}
+
+.image-button01:hover::before,
+.image-button01:hover::after {
+    opacity: 1;
+}
+
+/* 画像ボタン02のスタイル */
+.image-button02 {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.image-button02 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.image-button02::before {
+    content: "詳しくはこちら";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8); /* 透明度80%の白背景 */
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 10px; /* 角丸 */
+    font-size: 1rem;
+    z-index: 2;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.image-button02::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* 60%の#000 */
+    z-index: 1;
+}
+
+.image-button02:hover::before {
+    background-color: #000; /* 白ボックスを黒く */
+    color: #fff; /* 文字を白く */
+}
+
+.image-button02:hover::after {
+    background-color: rgba(0, 0, 0, 0.6); /* 背景のオーバーレイの透明度はそのまま */
+}
+
