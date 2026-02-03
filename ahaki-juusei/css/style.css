@@ -50,24 +50,26 @@ a {
 }
 
 .sp-br {
-  display: inline;
+  display: none;
 }
 
 @media (max-width: 768px) {
   .sp-br {
-    display: block; /* ← スマホだけ改行 */
+    display: inline;
   }
 }
+
 
 .pc-br {
   display: none;
 }
 
-@media (min-width: 769px) {
+@media (max-width: 768px) {
   .pc-br {
-    display: block; /* ← PCでだけ改行 */
+    display: inline;
   }
 }
+
 
 
 
@@ -626,7 +628,8 @@ a {
 }
 
 .character-image {
-  flex: 0 0 30%;
+  flex: 0 0 40%;
+  padding-left: 5%;
 }
 
 .character-text {
@@ -667,7 +670,8 @@ a {
 		font-size: 12px;
 	}
 	.character-image {
-  width: 40%;
+ width: 60%;
+        padding:0 15% 0 0;
 }
 }
 
