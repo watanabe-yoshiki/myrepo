@@ -1,4 +1,4 @@
-AuthUserfile //home/ahaki-juusei/www/telemedicine-safety/www/.htpasswd
+AuthUserfile //home/its3653-01/www/.htpasswd
 AuthGroupfile /dev/null
 AuthName "Please enter your ID and password"
 AuthType Basic
