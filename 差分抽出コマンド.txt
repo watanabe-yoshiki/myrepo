@@ -2,4 +2,5 @@ cd "/Users/watanabeyoshiki/its Dropbox/ワークスペース/■イッツメ�
 
 で移動してから
 
-./diffbundle.sh main START_test（mainブランチと、比較先のブランチ）
+./diffbundle.sh main xxxxx
+（mainブランチと、比較先のブランチ）
