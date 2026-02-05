@@ -1,6 +1,0 @@
-AuthUserfile //home/its3653-02/www/.htpasswd
-AuthGroupfile /dev/null
-AuthName "Please enter your ID and password"
-AuthType Basic
-require valid-user
-
