@@ -61,12 +61,12 @@ a {
 
 
 .pc-br {
-  display: none;
+  display: inline;
 }
 
 @media (max-width: 768px) {
   .pc-br {
-    display: inline;
+    display: none;
   }
 }
 
@@ -458,7 +458,7 @@ a {
 	 }
 
   /* 画像の切り替え */
-  .img-chara01, .img-narrator01, .img-narrator02 {
+  .img-chara01, .img-chara02, .img-narrator01, .img-narrator02 {
     display: none;
   }
   .img-chara-narrator {
@@ -628,8 +628,7 @@ a {
 }
 
 .character-image {
-  flex: 0 0 40%;
-  padding-left: 5%;
+  flex: 0 0 30%;
 }
 
 .character-text {
@@ -671,7 +670,7 @@ a {
 	}
 	.character-image {
  width: 60%;
-        padding:0 15% 0 0;
+        padding-right:15%;
 }
 }
 
