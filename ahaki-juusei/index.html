@@ -8,263 +8,281 @@
 </head>
 <body>
 
-<header class="header">
-  <div class="container header-inner">
-    <div class="logo">
-      <a href="https://www.mhlw.go.jp/index.html" target="_blank">
-        <img src="img/logo.png" alt="ロゴ">
-      </a>
+  <header class="header">
+    <div class="container header-inner">
+      <div class="logo">
+        <a href="https://www.mhlw.go.jp/index.html" target="_blank">
+          <img src="img/logo.png" alt="ロゴ">
+        </a>
+      </div>
+
+      <nav class="navi">
+        <div class="navi-items">
+          <a href="#ahaki" class="nav-link">
+            <img src="img/ahaki.png" alt="あはき">
+          </a>
+          <span class="nav-line"></span>
+          <a href="#jusei" class="nav-link">
+            <img src="img/jusei.png" alt="柔整">
+          </a>
+        </div>
+      </nav>
+
+      <button class="hamburger" aria-label="メニュー">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </div>
 
-    <div class="navi">
-      <div class="navi-items">
+    <div class="sp-menu">
+      <button class="sp-close" aria-label="閉じる"></button>
+      <div class="sp-menu-inner">
         <a href="#ahaki" class="nav-link">
           <img src="img/ahaki.png" alt="あはき">
         </a>
-        <span class="nav-line"></span>
         <a href="#jusei" class="nav-link">
           <img src="img/jusei.png" alt="柔整">
         </a>
       </div>
     </div>
+    <div class="sp-overlay"></div>
+  </header>
 
-    <button class="hamburger" aria-label="メニュー">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-  </div>
+  <main>
+    <section id="mv" class="mv">
+      <h1 class="mv-title">
+        <img src="img/mv.png" alt="メインビジュアル">
+      </h1>
+    </section>
 
-  <!-- SP MENU -->
-  <div class="sp-menu">
-    <button class="sp-close" aria-label="閉じる"></button>
-    <div class="sp-menu-inner">
-      <a href="#ahaki" class="nav-link">
-        <img src="img/ahaki.png" alt="あはき">
-      </a>
-      <a href="#jusei" class="nav-link">
-        <img src="img/jusei.png" alt="柔整">
-      </a>
-    </div>
-  </div>
-
-  <div class="sp-overlay"></div>
-</header>
-
-
-<main>
-  <!-- MV -->
-  <section id="mv" class="mv">
-    <h1 class="mv-title">
-      <img src="img/mv.png" alt="メインビジュアル">
-    </h1>
-  </section>
-
-  <!-- ABOUT -->
-  <section id="about">
-    <div class="container">
-      <div class="about-text">
-        <h2>
-          <img src="img/about-ttl.png" alt="ABOUT">
-        </h2>
-        <h3>
-          <img src="img/about-body.png" alt="ABOUT本文">
-        </h3>
-      </div>
-
-      <div class="about-movie">
-        <div class="movie-box">
-          <h2 class="movie-title">あはき師とは？</h2>
-          <div class="iframe-wrap">
-  <iframe
-    src="https://www.youtube.com/embed/70Oh2oaUDLw?autoplay=1&mute=1&playsinline=1&rel=0&loop=1&playlist=70Oh2oaUDLw"
-    allow="autoplay; encrypted-media"
-    allowfullscreen>
-  </iframe>
-</div>
-
+<section id="about">
+      <div class="container">
+        <div class="about-text">
+          <h2><img src="img/about-ttl.png" alt="ABOUT"></h2>
+          <h3><img src="img/about-body.png" alt="ABOUT本文"></h3>
         </div>
 
-        <div class="movie-box">
-          <h2 class="movie-title">柔道整復師とは？</h2>
-			<div class="iframe-wrap">
-            <iframe
-    src="https://www.youtube.com/embed/2rGz9poEEOA?autoplay=1&mute=1&playsinline=1&rel=0&loop=1&playlist=2rGz9poEEOA"
-    allow="autoplay; encrypted-media"
-    allowfullscreen>
-  </iframe>
-				</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-<section id="ahaki-jusei">
-  <div class="container">
-    <div class="flex-wrapper">
-      
-      <div class="ahaki-box" id="ahaki">
-        <img src="img/ahaki-ttl.png" alt="" class="img-ttl">
-        <img src="img/chara01.png" alt="" class="img-chara01">
-        <img src="img/ahaki-sub.png" alt="" class="img-narrator01">
-        <img src="img/ahaki-sub-sp.png" alt="" class="img-chara-narrator">
-
-        <div class="ahaki-inner">
-          <div class="video-grid">
-            <div class="video-item"><p class="video-ttl"><br>あはき師って<br class="pc-br">何？</p><div class="iframe-wrap"><iframe
-    src="https://www.youtube.com/embed/wCOqLXhJUB8?autoplay=1&mute=1&playsinline=1&rel=0&loop=1&playlist=wCOqLXhJUB8"
-    allow="autoplay; encrypted-media"
-    allowfullscreen>
-  </iframe></div></div>
-            <div class="video-item"><p class="video-ttl">あはき師の施術は<br class="pc-br">どこで<br class="pc-br">受けられるの？</p><div class="iframe-wrap"><iframe
-    src="https://www.youtube.com/embed/MuEOKX6AT8o?autoplay=1&mute=1&playsinline=1&rel=0&loop=1&playlist=MuEOKX6AT8o"
-    allow="autoplay; encrypted-media"
-    allowfullscreen>
-  </iframe></div></div>
-            <div class="video-item"><p class="video-ttl">あはきの施術は<br class="pc-br">誰でも<br class="pc-br">できるの？</p><div class="iframe-wrap"><iframe
-    src="https://www.youtube.com/embed/844tqKWNrq4?autoplay=1&mute=1&playsinline=1&rel=0&loop=1&playlist=844tqKWNrq4"
-    allow="autoplay; encrypted-media"
-    allowfullscreen>
-  </iframe></div></div>
-            <div class="video-item"><p class="video-ttl">あはき師の資格は<br class="pc-br">どうすれば<br class="pc-br">取得できるの？</p><div class="iframe-wrap"><iframe
-    src="https://www.youtube.com/embed/vA2tu-HK__c?autoplay=1&mute=1&playsinline=1&rel=0&loop=1&playlist=vA2tu-HK__c"
-    allow="autoplay; encrypted-media"
-    allowfullscreen>
-  </iframe></div></div>
-            <div class="video-item last-video">
-              <p class="video-ttl">マッサージって<br class="pc-br">書いてある<br>お店とは<br class="pc-br">何が違うの？</p>
-              <div class="iframe-wrap"><iframe
-    src="https://www.youtube.com/embed/lMjOLlVzA-Y?autoplay=1&mute=1&playsinline=1&rel=0&loop=1&playlist=lMjOLlVzA-Y"
-    allow="autoplay; encrypted-media"
-    allowfullscreen>
-  </iframe></div>
+        <div class="about-movie">
+          <div class="movie-box">
+            <h2 class="movie-title">あはき師とは？</h2>
+            <div class="iframe-wrap">
+              <iframe
+                src="https://www.youtube.com/embed/70Oh2oaUDLw?autoplay=1&mute=1&playsinline=1&rel=0&loop=1&playlist=70Oh2oaUDLw"
+                title="動画：あはき師とは？"
+                allow="autoplay; encrypted-media"
+                allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+          <div class="movie-box">
+            <h2 class="movie-title">柔道整復師とは？</h2>
+            <div class="iframe-wrap">
+              <iframe
+                src="https://www.youtube.com/embed/2rGz9poEEOA?autoplay=1&mute=1&playsinline=1&rel=0&loop=1&playlist=2rGz9poEEOA"
+                title="動画：柔道整復師とは？"
+                allow="autoplay; encrypted-media"
+                allowfullscreen>
+              </iframe>
             </div>
           </div>
         </div>
       </div>
+    </section>
 
-      <div class="jusei-box" id="jusei">
-        <img src="img/jusei-ttl.png" alt="" class="img-ttl">
-        <img src="img/chara02.png" alt="" class="img-chara02">
-        <img src="img/jusei-sub.png" alt="" class="img-narrator02">
-        <img src="img/jusei-sub-sp.png" alt="" class="img-chara-narrator">
+    <section id="ahaki-jusei">
+      <div class="container">
+        <div class="flex-wrapper">
+          
+          <div class="ahaki-box" id="ahaki">
+            <img src="img/ahaki-ttl.png" alt="" class="img-ttl">
+            <img src="img/chara01.png" alt="" class="img-chara01">
+            <img src="img/ahaki-sub.png" alt="" class="img-narrator01">
+            <img src="img/ahaki-sub-sp.png" alt="" class="img-chara-narrator">
 
-        <div class="jusei-inner">
-          <div class="video-grid">
-            <div class="video-item"><p class="video-ttl"><br>柔道整復師って<br class="pc-br">何？</p><div class="iframe-wrap"><iframe
-    src="https://www.youtube.com/embed/NCbJS9URNb8?autoplay=1&mute=1&playsinline=1&rel=0&loop=1&playlist=NCbJS9URNb8"
-    allow="autoplay; encrypted-media"
-    allowfullscreen>
-  </iframe></div></div>
-            <div class="video-item"><p class="video-ttl">柔道整復師の施術は<br class="pc-br">どこで<br class="pc-br">受けられるの？</p><div class="iframe-wrap"><iframe
-    src="https://www.youtube.com/embed/dOHMNkGcICo?autoplay=1&mute=1&playsinline=1&rel=0&loop=1&playlist=dOHMNkGcICo"
-    allow="autoplay; encrypted-media"
-    allowfullscreen>
-  </iframe></div></div>
-            <div class="video-item"><p class="video-ttl">柔道整復の施術は<br class="pc-br">誰でも<br class="pc-br">できるの？</p><div class="iframe-wrap"><iframe
-    src="https://www.youtube.com/embed/yYIai6JMyIs?autoplay=1&mute=1&playsinline=1&rel=0&loop=1&playlist=yYIai6JMyIs"
-    allow="autoplay; encrypted-media"
-    allowfullscreen>
-  </iframe></div></div>
-            <div class="video-item"><p class="video-ttl">柔道整復師の資格は<br class="pc-br">どうすれば<br class="pc-br">取得できるの？</p><div class="iframe-wrap"><iframe
-    src="https://www.youtube.com/embed/7RgSg_-dYqA?autoplay=1&mute=1&playsinline=1&rel=0&loop=1&playlist=7RgSg_-dYqA"
-    allow="autoplay; encrypted-media"
-    allowfullscreen>
-  </iframe></div></div>
-            <div class="video-item last-video"><p class="video-ttl">どうして<br class="pc-br">柔道整復師って<br class="pc-br">言うの？</p><div class="iframe-wrap"><iframe
-    src="https://www.youtube.com/embed/5moz8ZwNIvo?autoplay=1&mute=1&playsinline=1&rel=0&loop=1&playlist=5moz8ZwNIvo"
-    allow="autoplay; encrypted-media"
-    allowfullscreen>
-  </iframe></div></div>
+            <div class="ahaki-inner">
+              <div class="video-grid">
+                <div class="video-item">
+                  <p class="video-ttl"><br>あはき師って<br class="pc-br">何？</p>
+                  <div class="iframe-wrap is-image">
+                    <a href="https://www.youtube.com/watch?v=wCOqLXhJUB8" target="_blank">
+                      <img src="https://img.youtube.com/vi/wCOqLXhJUB8/maxresdefault.jpg" alt="動画：あはき師って何？">
+                      <div class="play-button"></div>
+                    </a>
+                  </div>
+                </div>
+                <div class="video-item">
+                  <p class="video-ttl"><br>あはき師の施術は<br>どこで受けられるの？</p>
+                  <div class="iframe-wrap is-image">
+                    <a href="https://www.youtube.com/watch?v=MuEOKX6AT8o" target="_blank">
+                      <img src="https://img.youtube.com/vi/MuEOKX6AT8o/maxresdefault.jpg" alt="動画：あはき師の施術場所">
+                      <div class="play-button"></div>
+                    </a>
+                  </div>
+                </div>
+                <div class="video-item">
+                  <p class="video-ttl"><br>あはきの施術は<br class="pc-br">誰でも<br class="pc-br">できるの？</p>
+                  <div class="iframe-wrap is-image">
+                    <a href="https://www.youtube.com/watch?v=844tqKWNrq4" target="_blank">
+                      <img src="https://img.youtube.com/vi/844tqKWNrq4/maxresdefault.jpg" alt="動画：あはきの施術資格">
+                      <div class="play-button"></div>
+                    </a>
+                  </div>
+                </div>
+                <div class="video-item">
+                  <p class="video-ttl"><br>あはき師の資格は<br>どうすれば<br class="pc-br">取得できるの？</p>
+                  <div class="iframe-wrap is-image">
+                    <a href="https://www.youtube.com/watch?v=vA2tu-HK__c" target="_blank">
+                      <img src="https://img.youtube.com/vi/vA2tu-HK__c/maxresdefault.jpg" alt="動画：資格取得方法">
+                      <div class="play-button"></div>
+                    </a>
+                  </div>
+                </div>
+                <div class="video-item last-video">
+                  <p class="video-ttl"><br>マッサージって<br class="pc-br">書いてある<br class="pc-br">お店とは何が違うの？</p>
+                  <div class="iframe-wrap is-image">
+                    <a href="https://www.youtube.com/watch?v=lMjOLlVzA-Y" target="_blank">
+                      <img src="https://img.youtube.com/vi/lMjOLlVzA-Y/maxresdefault.jpg" alt="動画：マッサージ店との違い">
+                      <div class="play-button"></div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="jusei-box" id="jusei">
+            <img src="img/jusei-ttl.png" alt="" class="img-ttl">
+            <img src="img/chara02.png" alt="" class="img-chara02">
+            <img src="img/jusei-sub.png" alt="" class="img-narrator02">
+            <img src="img/jusei-sub-sp.png" alt="" class="img-chara-narrator">
+
+            <div class="jusei-inner">
+              <div class="video-grid">
+                <div class="video-item">
+                  <p class="video-ttl"><br>柔道整復師って<br class="pc-br">何？</p>
+                  <div class="iframe-wrap is-image">
+                    <a href="https://www.youtube.com/watch?v=NCbJS9URNb8" target="_blank">
+                      <img src="https://img.youtube.com/vi/NCbJS9URNb8/maxresdefault.jpg" alt="動画：柔道整復師とは">
+                      <div class="play-button"></div>
+                    </a>
+                  </div>
+                </div>
+                <div class="video-item">
+                  <p class="video-ttl"><br>柔道整復師の施術は<br>どこで受けられるの？</p>
+                  <div class="iframe-wrap is-image">
+                    <a href="https://www.youtube.com/watch?v=dOHMNkGcICo" target="_blank">
+                      <img src="https://img.youtube.com/vi/dOHMNkGcICo/maxresdefault.jpg" alt="動画：柔道整復の施術場所">
+                      <div class="play-button"></div>
+                    </a>
+                  </div>
+                </div>
+                <div class="video-item">
+                  <p class="video-ttl"><br>柔道整復の施術は<br>誰でも<br class="pc-br">できるの？</p>
+                  <div class="iframe-wrap is-image">
+                    <a href="https://www.youtube.com/watch?v=yYIai6JMyIs" target="_blank">
+                      <img src="https://img.youtube.com/vi/yYIai6JMyIs/maxresdefault.jpg" alt="動画：柔道整復の資格">
+                      <div class="play-button"></div>
+                    </a>
+                  </div>
+                </div>
+                <div class="video-item">
+                  <p class="video-ttl"><br>柔道整復師の資格は<br>どうすれば<br class="pc-br">取得できるの？</p>
+                  <div class="iframe-wrap is-image">
+                    <a href="https://www.youtube.com/watch?v=7RgSg_-dYqA" target="_blank">
+                      <img src="https://img.youtube.com/vi/7RgSg_-dYqA/maxresdefault.jpg" alt="動画：資格取得方法">
+                      <div class="play-button"></div>
+                    </a>
+                  </div>
+                </div>
+                <div class="video-item last-video">
+                  <p class="video-ttl"><br>どうして<br class="pc-br">柔道整復師って<br class="pc-br">言うの？</p>
+                  <div class="iframe-wrap is-image">
+                    <a href="https://www.youtube.com/watch?v=5moz8ZwNIvo" target="_blank">
+                      <img src="https://img.youtube.com/vi/5moz8ZwNIvo/maxresdefault.jpg" alt="動画：名前の由来">
+                      <div class="play-button"></div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="guideline">
+      <div class="container">
+        <div class="guideline-inner">
+        <div class="guideline-ttl">
+            <a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/newpage_48702.html#h2_1" target="_blank" class="guideline-ttl-link">
+    <h2>あはき師、柔道整復師の<span class="sp-br"></span>広告規制について</h2>
+  </a>
+</div>
+          <div class="guideline-body">
+            動画でもご紹介しているとおり、施術所には広告規制があり、ガイドラインが策定されています。<br>ガイドラインには無資格者による広告の在り方についても記載しており、<br class="pc-br">国家資格を必要とする業を行っていると利用者に誤認を与えるような表示は、不適切と示しています。
+          </div>
+          <div class="guideline-link">
+            <a href="https://www.mhlw.go.jp/content/10800000/001412682.pdf" class="guideline-btn" target="_blank">
+              <span class="icon">＞</span>
+              <span class="text"><span>あはき・柔整広告</span><span>ガイドラインの概要</span></span>
+            </a>
+            <a href="https://www.mhlw.go.jp/content/10803000/001413244.pdf" class="guideline-btn" target="_blank">
+              <span class="icon">＞</span>
+              <span class="text"><span>あはき・柔整広告</span><span>ガイドライン</span></span>
+            </a>
+            <a href="https://www.mhlw.go.jp/content/10800000/001464830.pdf" class="guideline-btn" target="_blank">
+              <span class="icon">＞</span>
+              <span class="text"><span>あはき・柔整広告</span><span>ガイドラインリーフレット</span></span>
+            </a>
           </div>
         </div>
       </div>
+    </section>
 
-    </div>
-  </div>
-</section>
-<section id="guideline">
-  <div class="container">
-    <div class="guideline-inner">
-      
-      <div class="guideline-ttl">
-        <a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/newpage_48702.html" target="_blank"><h2>あはき師、柔道整復師の<span class="sp-br"></span>広告規制について</h2></a>
+    <section id="character">
+      <div class="container">
+        <div class="character-inner">
+          <div class="character-image">
+            <img src="img/chara03.png" alt="よくかんがいぬ">
+          </div>
+          <div class="character-text">
+            <h2 class="character-title">よくかんがいぬ</h2>
+            <p class="character-body">
+              「よく考える」と言う意味の「よくかんがいぬ」が<br>
+              加わりました。キャラ達がわかりやすく説明します。<br>
+              「よくかんがいぬ」はシュナウザー犬のキャラクターです。<br>
+              よく考える性格で、博識で街をまとめている、長老です。
+            </p>
+          </div>
+        </div>
       </div>
+    </section>
+  </main>
 
-      <div class="guideline-body">
-        動画でもご紹介しているとおり、施術所には広告規制があり、ガイドラインが策定されています。<br>ガイドラインには無資格者による広告の在り方についても記載しており、<br>国家資格を必要とする業を行っていると利用者に誤認を与えるような表示は、不適切と示しています。
-      </div>
-
-      <div class="guideline-link">
-        <a href="https://www.mhlw.go.jp/content/10800000/001412682.pdf" class="guideline-btn" target="_blank">
-          <span class="icon">＞</span>
-          <span class="text">
-            <span>あはき・柔整広告</span>
-            <span>ガイドラインの概要</span>
-          </span>
-        </a>
-
-        <a href="https://www.mhlw.go.jp/content/10803000/001413244.pdf" class="guideline-btn" target="_blank">
-          <span class="icon">＞</span>
-          <span class="text">
-            <span>あはき・柔整広告</span>
-            <span>ガイドライン</span>
-          </span>
-        </a>
-
-        <a href="https://www.mhlw.go.jp/content/10800000/001464830.pdf" class="guideline-btn" target="_blank">
-          <span class="icon">＞</span>
-          <span class="text">
-            <span>あはき・柔整広告</span>
-            <span>ガイドラインリーフレット</span>
-          </span>
-        </a>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<section id="character">
-  <div class="container">
-    <div class="character-inner">
-      <div class="character-image">
-        <img src="img/chara03.png" alt="">
-      </div>
-      <div class="character-text">
-        <h2 class="character-title">よくかんがいぬ</h2>
-        <p class="character-body">
-          「よく考える」と言う意味の「よくかんがいぬ」が<br>加わりました。キャラ達がわかりやすく説明します。<br>「よくかんがいぬ」はシュナウザー犬のキャラクターです。<br>よく考える性格で、博識で街をまとめている、長老です。　　　
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-</main>
-
-<footer id="footer">
-  <div class="container">
-    <div class="footer-inner">
-		 <p class="footer-text">
-		本ホームページに掲載された画像や動画は、厚生労働省の許可なく無断で複製、複写、転載、転用などの二次利用を固く禁じます。
-			 </p>
+  <footer id="footer">
+    <div class="container footer-inner">
+      <p class="footer-text">
+        本ホームページに掲載された画像や動画は、厚生労働省の許可なく無断で複製、複写、転載、転用などの二次利用を固く禁じます。
+      </p>
       <div class="footer-logo">
-        <img src="img/logo.png" alt="ロゴ">
+        <img src="img/logo.png" alt="厚生労働省ロゴ">
       </div>
       <p class="footer-text">
-        法人番号 6000012070001<br>〒100-8916　東京都千代田区霞が関1-2-2　<span class="sp-br"><br></span>電話番号　03-5253-1111（代表）<br>Copyright © Ministry of Health, Labour and Welfare, All Rights reserved.
+        法人番号 6000012070001<br>
+        〒100-8916 東京都千代田区霞が関1-2-2<br class="sp-br">
+        電話番号 03-5253-1111（代表）<br>
+        Copyright © Ministry of Health, Labour and Welfare, All Rights reserved.
       </p>
     </div>
-  </div>
-</footer>
+  </footer>
 
-	<button id="pagetop" aria-label="上に戻る">
-  <span class="pagetop-icon"></span>
-  <span class="pagetop-text">上に戻る</span>
-</button>
+  <button id="pagetop" aria-label="上に戻る">
+    <span class="pagetop-icon"></span>
+    <span class="pagetop-text">上に戻る</span>
+  </button>
 
-
-<script src="js/script.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
