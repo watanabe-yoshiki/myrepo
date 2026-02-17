@@ -148,12 +148,17 @@ section {
 .about-chara, .movie-chara {
     position: absolute;
     top: -60px; 
-    width: 160px;
     z-index: 10;
 }
 
-.about-chara { left: 40px; }
-.movie-chara { right: 40px; }
+.about-chara {
+    left: 40px;
+    width: 220px;
+}
+.movie-chara { 
+    right: 40px;
+    width: 180px;
+}
 
 .about-chara img, .movie-chara img {
     width: 100%;
@@ -415,7 +420,7 @@ h2::after {
    7. スマホ表示 (768px以下)
    ========================================================================== */
 @media (max-width: 768px) {
-    .single01 { margin-top: 60px; }
+    .single01 { margin-top: 80px; }
 
     .single01 .inner {
         width: 90%; 
@@ -430,12 +435,18 @@ h2::after {
 	padding: 0 20px;
 }
 
-    .about-chara, .movie-chara {
-        width: 120px; 
-        top: -40px;  
+    .about-chara, .movie-chara {  
     }
-    .about-chara { left: 5px; }
-    .movie-chara { right: 5px; }
+    .about-chara {
+        top: -50px;
+        width: 160px; 
+        left: 5px;
+        }
+    .movie-chara {
+        top: -60px;
+        width: 120px; 
+        right: 5px;
+        }
 
     h2 { font-size: 1.4rem; }
 
