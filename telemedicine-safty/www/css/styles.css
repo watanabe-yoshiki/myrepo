@@ -33,6 +33,14 @@ section {
     width: 100%;
 }
 
+@media (max-width: 768px) {
+    /* ...既存のコード... */
+
+    .pc-only {
+        display: none !important; /* スマホ版でPC専用改行を無効化 */
+    }
+}
+
 /* ==========================================================================
    2. メインビジュアル (MV) 
    ========================================================================== */
@@ -81,7 +89,28 @@ section {
 }
 
 /* ==========================================================================
-   3. 共通セクションスタイル (About & Movie)
+   3. キャラクター紹介リンク (独立セクション)
+   ========================================================================== */
+#chara {
+    width: 100%;
+    background-color: transparent;
+    margin-top: 20px;
+}
+
+.chara-link-container {
+    text-align: center;
+}
+
+.chara-link-container .open-modal {
+    color: #704630;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* ==========================================================================
+   4. 共通セクションスタイル (About & Movie)
    ========================================================================== */
 .single01 {
     width: 100%;
@@ -109,17 +138,22 @@ section {
     flex-direction: column;
 }
 
-/* --- キャラクター配置共通 --- */
+/* Movieセクションのみ1200pxに上書き */
+#movie .about-content {
+    max-width: 1200px;
+	padding: 0 60px;
+}
+
+/* キャラクター配置（はみ出し） */
 .about-chara, .movie-chara {
     position: absolute;
     top: -60px; 
-    width: 150px;
+    width: 160px;
     z-index: 10;
 }
 
-/* Aboutは左、Movieは右にはみ出し */
-.about-chara { left: -30px; }
-.movie-chara { right: -30px; }
+.about-chara { left: 40px; }
+.movie-chara { right: 40px; }
 
 .about-chara img, .movie-chara img {
     width: 100%;
@@ -147,21 +181,21 @@ h2::after {
 }
 
 .about-text {
+    text-align: center;
     margin-bottom: 40px;
 }
 
-/* --- ボタン類 --- */
+/* ボタン類 */
 .button-b {
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    margin-bottom: 30px;
+    gap: 15px;
+    margin-bottom: 10px;
 }
 
 .button-b a {
     display: block;
-    width: 100%;
     transition: opacity 0.3s ease;
 }
 
@@ -213,11 +247,11 @@ h2::after {
 .button-c a:hover { background-color: #f9f9f9; }
 
 /* ==========================================================================
-   4. 動画ギャラリー専用 (video-grid)
+   5. 動画ギャラリー
    ========================================================================== */
 .video-grid {
     display: grid;
-    gap: 20px; /* 余白を少し広げ視認性向上 */
+    gap: 20px;
     width: 100%;
     margin: 20px auto 0;
 }
@@ -244,7 +278,7 @@ h2::after {
 
 .video-item h3 {
     font-size: 1.1rem;
-    color: #704630; /* h2と統一感 */
+    color: #704630;
     text-align: center;
     line-height: 1.4;
     margin-bottom: 5px;
@@ -274,14 +308,114 @@ h2::after {
 }
 
 @media (min-width: 992px) {
-    .video-grid { grid-template-columns: repeat(3, 1fr); }
+    #movie .video-grid { grid-template-columns: repeat(3, 1fr); }
 }
 
 /* ==========================================================================
-   5. スマホ表示 (768px以下) 
+   6. モーダルウィンドウ (旧CSSから抽出・統合)
+   ========================================================================== */
+.modal {
+    display: none; /* JSで制御 */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* 背景オーバーレイ */
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    width: 90%;
+    max-width: 1000px;
+    max-height: 90vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-body {
+    flex-grow: 1;
+    overflow-y: auto; /* 長いコンテンツ時にスクロール */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+}
+
+.modal-body img {
+    max-width: 60%;
+    max-height: 100%;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.modal-body p {
+    width: 100%;
+    max-width: 90%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.modal-body h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: fit-content; /* 古いスタイルの継承 */
+}
+
+.pink2 {
+    background-color: #F67D73;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 100px;
+}
+
+.close {
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.charamodal-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.charamodal {
+    flex: 1;
+    padding: 20px;
+}
+
+.charamodal img {
+    max-width: 300px;
+    height: auto;
+}
+
+.charamodal-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    padding: 20px;
+}
+
+/* ==========================================================================
+   7. スマホ表示 (768px以下)
    ========================================================================== */
 @media (max-width: 768px) {
-    .single01 { margin-top: 80px; }
+    .single01 { margin-top: 60px; }
 
     .single01 .inner {
         width: 90%; 
@@ -292,8 +426,10 @@ h2::after {
         max-width: 100%;
         padding: 0 20px;
     }
+	#movie .about-content {
+	padding: 0 20px;
+}
 
-    /* キャラクター：スマホ時のはみ出し位置微調整 */
     .about-chara, .movie-chara {
         width: 120px; 
         top: -40px;  
@@ -313,60 +449,40 @@ h2::after {
         padding: 15px 40px 15px 20px;
     }
 
-    .pc-only { display: none; }
-
     .video-grid { grid-template-columns: 1fr; }
-}
 
-/* --- 動画ギャラリーのみ横幅を1200pxに拡張 --- */
-#movie .about-content {
-    max-width: 1200px;
-	padding: 0 40px;
-}
+    /* モーダルスマホ対応 */
+    .modal-content {
+        width: 95%;
+        max-height: 90vh;
+    }
 
-/* 動画グリッドの調整（任意：1200pxに合わせて余白を最適化する場合） */
-#movie .video-grid {
-    gap: 30px 20px;
-}
+    .modal-body img {
+        max-width: 100%;
+    }
 
-@media (max-width: 768px) {
-    #movie .about-content {
-        max-width: 100%; /* スマホ時は全幅を維持 */
+    .modal-body h3 {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    .close {
+        top: -50px;
+        right: 0px;
+    }
+
+    .charamodal-container {
+        flex-direction: column;
+    }
+
+    .charamodal-text {
+        padding: 0;
     }
 }
 
 /* ==========================================================================
-   6. モーダル・フッター
+   8. フッター
    ========================================================================== */
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1000;
-    left: 0; top: 0; width: 100%; height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.modal-content {
-    background: white;
-    padding: 20px;
-    width: 90%;
-    max-width: 1000px;
-    max-height: 90vh;
-    position: absolute;
-    top: 50%; left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    flex-direction: column;
-}
-
-.close {
-    position: absolute;
-    top: -40px; right: -40px;
-    font-size: 30px;
-    color: #fff;
-    cursor: pointer;
-}
-
 footer {
     text-align: center;
     background: #333;
