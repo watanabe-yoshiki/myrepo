@@ -1068,7 +1068,7 @@ nav a:hover {
   flex: 1; /* 残りの幅をすべて使う */
 }
 
-.news-item .news-text {
+.news-item span.news-link {
   text-decoration: underline; /* ホバー時に下線を表示 */
 }
 
