@@ -51,11 +51,28 @@ section {
     z-index: 1;
 }
 
+#mv-inner {
+    position: relative;
+}
+
 .mv-container {
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
     width: 100%;
+}
+
+.mv-credit {
+    position: absolute;
+    right: 40px;  /* mv-imgのpaddingに合わせる */
+    bottom: 10px; /* 画像の下端からの距離 */
+    font-size: 0.75rem;
+    color: #333;
+    letter-spacing: 0.05em;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.5); /* 視認性確保のための半透明背景 */
+    padding: 2px 8px;
+    border-radius: 4px;
 }
 
 #logo {
@@ -84,7 +101,12 @@ section {
         width: 110px;
     }
     .mv-img {
-        padding: 20px;
+        padding: 20px 0 20px 20px;
+    }
+	.mv-credit {
+        right: 20px;  /* スマホのpaddingに合わせる */
+        bottom: 5px;
+        font-size: 0.65rem;
     }
 }
 
