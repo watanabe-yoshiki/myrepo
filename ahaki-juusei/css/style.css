@@ -93,7 +93,36 @@ a { color: inherit; text-decoration: underline; }
 /* =====================
    MV
 ===================== */
-.mv { max-width: 1440px; margin: 0 auto; }
+.mv { 
+	max-width: 1440px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.mv-credit {
+  position: absolute;
+  left: 20px;          /* 画像の左端からの距離 */
+  bottom: 15px;        /* 画像の下端からの距離 */
+  background-color: rgba(255, 255, 255, 0.7); /* 白半透明の背景 */
+  color: #333;         /* 黒字（読みやすさを考慮した濃いグレー） */
+  font-size: 12px;
+  padding: 4px 12px;
+  border-radius: 2px;
+  z-index: 20;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  pointer-events: none; /* 下の画像への干渉を防ぐ */
+}
+
+@media (max-width: 768px) {
+  .mv-credit {
+    left: 5px;
+    bottom: 5px;
+    font-size: 10px;   /* スマホ時は一回り小さく */
+    padding: 3px 8px;
+    background-color: rgba(255, 255, 255, 0.85); /* スマホは視認性優先で不透明度を上げる */
+  }
+}
 
 /* =====================
    ABOUT
