@@ -53,6 +53,7 @@ section {
 
 #mv-inner {
     position: relative;
+    padding: 0 0 10px;
 }
 
 .mv-container {
@@ -99,6 +100,9 @@ section {
 @media (max-width: 768px) {
     #logo img {
         width: 110px;
+    }
+    #mv-inner {
+    padding: 0 0 10px;
     }
     .mv-img {
         padding: 20px 0 20px 20px;
