@@ -1,4 +1,4 @@
-AuthUserfile //home/its3653-01/www/.htpasswd
+AuthUserfile //home/its3653-01/www/test/.htpasswd
 AuthGroupfile /dev/null
 AuthName "Please enter your ID and password"
 AuthType Basic

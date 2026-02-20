@@ -33,11 +33,20 @@ section {
     width: 100%;
 }
 
+
 @media (max-width: 768px) {
     /* ...既存のコード... */
 
     .pc-only {
-        display: none !important; /* スマホ版でPC専用改行を無効化 */
+        display: none !important; 
+    }
+}
+
+@media (min-width: 768px) {
+    /* ...既存のコード... */
+
+    .sp-only {
+        display: none !important;
     }
 }
 
