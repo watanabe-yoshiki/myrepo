@@ -279,16 +279,11 @@ footer {
 /* headerのスタイル*/
 header {
     background: #EA8887;
-	padding: 10px 0 30px;
+	padding: 10px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    border-bottom-left-radius: 50%; /* 左下に曲線 */
-    border-bottom-right-radius: 50%; /* 右下に曲線 */
 }
 
 
@@ -311,7 +306,7 @@ nav ul {
 nav ul li {
     position: relative;
     padding: 0 15px;
-    border-right: 1px solid white;
+    /*border-right: 1px solid white;*/
 }
 
 nav ul li:last-child {
@@ -321,7 +316,7 @@ nav ul li:last-child {
 nav a {
     color: #fff;
     text-decoration: none;
-    padding: 10px 15px;
+    /*padding: 10px 15px;*/
     display: block;
     transition: background 0.3s, color 0.3s;
 }
@@ -348,7 +343,7 @@ nav a:hover {
     border-radius: 5px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1028px) {
 	header {
 	padding: 0;
 		height: 60px;
@@ -515,7 +510,6 @@ nav a:hover {
 /* mvのスタイル*/
 #mv {
     width: 100%;
-    padding: 0.6rem 2rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -524,10 +518,6 @@ nav a:hover {
     z-index: 1010; /* ヘッダーより高いレイヤー */
 }
 
-@media (max-width: 768px) {
-    #mv {
-    }
-}
 
 #mv .section-left {
     display: flex;
@@ -538,13 +528,12 @@ nav a:hover {
 #mv .section-left h1 {
     font-size: 2rem;
     color: #fff;
-    margin-bottom: 20px;
 }
 
 #mv .section-left img {
-    width: 90%;
+    width: 100%;
     height: auto;
-    margin-top: -30px;
+    margin-top: 20px;
 	max-width: 1200px;
 }
 
@@ -552,7 +541,7 @@ nav a:hover {
     #mv .section-left img {
         content: url('../img/mv-sp.png');
 		width: 100%;
-		margin-top: -20px
+		margin: 0;
     }
 }
 
@@ -903,7 +892,7 @@ nav a:hover {
 .quarter {
     padding: 0 20px;
     text-align: center;
-    margin-bottom: 200px;
+    margin: 100px 0;
 }
 
 .quarterbox {
@@ -1020,7 +1009,7 @@ nav a:hover {
 
 .quarter .singlebox {
     padding: 0 50px;
-	margin-top: -50px
+	margin-top: 20px
 }
 .quarter .singlebox .box {
 	width: 60%;
@@ -1050,5 +1039,50 @@ nav a:hover {
 	width: 100%;
 }
 	
+}
+
+/* リスト全体のスタイル */
+.news-list {
+  max-width: 800px; /* お好みの幅に調整してください */
+  margin: 0 auto;
+}
+
+/* 各行のスタイル（PC基準） */
+.news-item {
+  display: flex;
+  align-items: flex-start;
+  text-align: left; /* ← これを追加：親からの継承を打ち消して左寄せにする */
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd;
+	
+}
+
+/* 日付の幅を固定して揃える */
+.news-date {
+  flex: 0 0 120px; /* 120pxから伸び縮みさせない */
+  font-weight: bold;
+}
+
+/* 文章にリンク風の下線をつける（画像のようにしたい場合） */
+.news-item span.news-text {
+  flex: 1; /* 残りの幅をすべて使う */
+}
+
+.news-item span.news-link {
+  text-decoration: underline; /* ホバー時に下線を表示 */
+}
+
+/* --- スマホ用（768px以下） --- */
+@media screen and (max-width: 768px) {
+  .news-item {
+    flex-direction: column; /* 縦並びに変更 */
+    gap: 5px; /* 日付と文章の間の隙間 */
+  }
+
+  .news-date {
+    flex: 0 0 auto; /* 幅固定を解除 */
+    font-size: 0.85rem;
+    color: #666;
+  }
 }
 
