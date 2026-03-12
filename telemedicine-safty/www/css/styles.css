@@ -1,7 +1,6 @@
-
-
-
-/* リセット */
+/* ==========================================================================
+   1. リセット & ベース
+   ========================================================================== */
 * {
     margin: 0;
     padding: 0;
@@ -13,63 +12,193 @@ a {
     text-decoration: none;
 }
 
-
-/* ベース */
 body {
     font-family: 'Noto Sans JP', sans-serif;
     line-height: 1.6;
-    font-size: 1rem; /* 16pxを1remに置き換え */
+    font-size: 1rem;
     letter-spacing: 0.1em;
-	background-color: #F2FBFF;
-	padding: 0 5%;
+    background-color: #F2FBFF;
 }
-
 
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
-	background-color: #fff;
-	padding: 0 5%;
-	
+    background-color: transparent;
+    margin: 0 auto;
+    width: 100%;
 }
 
 section {
     width: 100%;
-    margin: 0 auto;
 }
 
-.inner {
+
+@media (max-width: 768px) {
+    /* ...既存のコード... */
+
+    .pc-only {
+        display: none !important; 
+    }
+}
+
+@media (min-width: 768px) {
+    /* ...既存のコード... */
+
+    .sp-only {
+        display: none !important;
+    }
+}
+
+/* ==========================================================================
+   2. メインビジュアル (MV) 
+   ========================================================================== */
+#mv {
+    width: 100%;
+    background: linear-gradient(to bottom, #79E8FB, #08D1D9);
+    position: relative;
+    z-index: 1;
+}
+
+#mv-inner {
+    position: relative;
+    padding: 0 0 10px;
+}
+
+.mv-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 0 30px;
+    position: relative;
+    width: 100%;
+}
+
+.mv-credit {
+    position: absolute;
+    right: 40px;  /* mv-imgのpaddingに合わせる */
+    bottom: 10px; /* 画像の下端からの距離 */
+    font-size: 0.75rem;
+    color: #333;
+    letter-spacing: 0.05em;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.5); /* 視認性確保のための半透明背景 */
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+#logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
+}
+
+#logo img {
+    width: 182px;
+    height: auto;
+    display: block;
+}
+
+.mv-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+    padding: 40px;
 }
 
 @media (max-width: 768px) {
-	body {
-	padding: 0;
-}
-	
-main {
-	padding: 0%;
-	
-}
-	}
-
-
-
-/* text */
-p {
-    margin-bottom: 20px;
-}
-
-h1 {
-    font-family: 'Noto Serif JP', serif;
+    #logo img {
+        width: 110px;
+    }
+    #mv-inner {
+    padding: 0 0 10px;
+    }
+    .mv-img {
+        padding: 20px 0 20px 20px;
+    }
+	.mv-credit {
+        right: 20px;  /* スマホのpaddingに合わせる */
+        bottom: 5px;
+        font-size: 0.65rem;
+    }
 }
 
-h2, h3, h4, h5, h6 {
-    font-family: 'Noto Sans JP', sans-serif;
-    margin-bottom: 20px;
+/* ==========================================================================
+   3. キャラクター紹介リンク (独立セクション)
+   ========================================================================== */
+#chara {
+    width: 100%;
+    background-color: transparent;
+    margin-top: 20px;
+}
+
+.chara-link-container {
+    text-align: center;
+}
+
+.chara-link-container .open-modal {
+    color: #704630;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* ==========================================================================
+   4. 共通セクションスタイル (About & Movie)
+   ========================================================================== */
+.single01 {
+    width: 100%;
+    background-color: transparent;
+    margin-top: 100px; 
+}
+
+.single01 .inner {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 60px 0;
+    position: relative; 
+    display: flex;
+    justify-content: center;
+}
+
+.about-content {
+    width: 100%;
+    max-width: 800px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Movieセクションのみ1200pxに上書き */
+#movie .about-content {
+    max-width: 1200px;
+	padding: 0 60px;
+}
+
+/* キャラクター配置（はみ出し） */
+.about-chara, .movie-chara {
+    position: absolute;
+    top: -60px; 
+    z-index: 10;
+}
+
+.about-chara {
+    left: 40px;
+    width: 220px;
+}
+.movie-chara { 
+    right: 40px;
+    width: 180px;
+}
+
+.about-chara img, .movie-chara img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 h2 {
@@ -77,209 +206,163 @@ h2 {
     color: #704630;
     text-align: center;
     position: relative;
-    z-index: 1;
-    display: inline-block;
+    display: block;
+    margin: 0 auto 30px;
+    width: fit-content;
 }
 
 h2::after {
     content: "";
     display: block;
-    width: 100px;
+    width: 100%;
     height: 4px;
     background-color: #704630;
-    margin: 0 auto;
+    margin: 8px auto 0;
 }
 
-h3 {
-    font-size: 1.4rem;
-    color: #704630;
+.about-text {
     text-align: center;
-    position: relative;
-    display: inline-block;
-    padding: 5px 15px;
-    background-color: #fff;
-    border-radius: 100px;
-    width: 100%;
-    margin: 0 auto;
-    line-height: 1.4;
+    margin-bottom: 40px;
 }
 
-h4 {
-    font-size: 1.25rem;
-}
-
-h5 {
-    font-size: 1rem;
-}
-
-h6 {
-    font-size: 0.75rem;
-}
-
-.highlight {
-    border-bottom: 4px solid #F7F780;
-}
-
-@media (max-width: 768px) {
-    h2 {
-        font-size: 1.4rem;
-    }
-    h3 {
-        font-size: 1.2rem;
-    }
-    h4 {
-        font-size: 1.125rem;
-    }
-    h5 {
-        font-size: 1rem;
-    }
-    h6 {
-        font-size: 0.75rem;
-    }
-    body {
-        font-size: 0.875rem;
-    }
-    p {
-        font-size: 1rem;
-    }
-}
-
-
-/* button */
+/* ボタン類 */
 .button-b {
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 10px;
 }
 
 .button-b a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 35%;
-    background-color: #fff;
-    color: #6DC9EE;
-    text-align: center;
-    text-decoration: none;
-    padding: 10px;
-    position: relative;
-    border: 2px solid #6DC9EE;
+    display: block;
+    transition: opacity 0.3s ease;
 }
 
-.button-b a::after {
-    content: '\e415';
-    font-family: 'Material Icons';
-    font-size: 1.6em;
-    position: absolute;
-    right: 10px;
-    color: #6DC9EE;
-}
+.button-b a:hover { opacity: 0.7; }
 
-.button-b a:hover {
-    background-color: #6DC9EE;
-    color: #fff;
-}
-
-.button-b a:hover::after {
-    color: #fff;
-}
-
-@media (max-width: 1080px) {
-    .button-b a {
-        width: 45%;
-    }
-}
-
-@media (max-width: 768px) {
-    .button-b {
-        flex-direction: column;
-        align-items: center;
-    }
-    .button-b a {
-        width: 100%;
-    }
-}
-
-/* footer */
-footer {
-    text-align: center;
-    background: #333;
-    padding: 1rem 0;
-    color: #fff;
-    bottom: 0;
+.button-b img {
     width: 100%;
+    height: auto;
+    display: block;
 }
 
+.button-c {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
 
-/* modal */
-.overlay {
+.button-c a {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 25px;
+    border: 1px solid #777777;
+    background-color: #fff;
+    color: #777777;
+    font-weight: bold;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+    text-align: center;
     position: relative;
-    display: inline-block;
+}
+
+.button-c a span { 
+	line-height: 1.6; 
+	font-size: 0.9rem;
+}
+
+.button-c a::after {
+    content: '\e5c8';
+    font-family: 'Material Icons';
+    font-size: 1.5rem;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.button-c a:hover { background-color: #f9f9f9; }
+
+/* ==========================================================================
+   5. 動画ギャラリー
+   ========================================================================== */
+.video-grid {
+    display: grid;
+    gap: 20px;
+    width: 100%;
+    margin: 20px auto 0;
+}
+
+.video-ttl {
+    grid-column: 1 / -1;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 20px 0 10px;
+    border-bottom: 1px solid #ccc;
+    color: #333;
+	text-align: center;
+}
+
+.video-item {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.video-text { margin-bottom: 15px; }
+
+.video-item h3 {
+    font-size: 1.1rem;
+    color: #704630;
+    text-align: center;
+    line-height: 1.4;
+    margin-bottom: 5px;
+}
+
+.video-item h3 span { display: block; }
+
+.video-time {
+    font-size: 0.85rem;
+    color: #666;
+    text-align: center;
+    margin: 0;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    border-radius: 8px;
     overflow: hidden;
 }
 
-.overlay img {
-    display: block;
-    width: 100%;
-    filter: brightness(0.4);
-}
-
-.overlay::before {
-    content: "このマンガを読む";
+.video-container iframe {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.8);
-    color: rgb(0, 0, 0);
-    font-size: 1rem;
-    z-index: 2;
-    padding: 5px 20px;
-    border-radius: 100px;
-    transition: background-color 0.5s, color 0.5s;
-    cursor: pointer;
+    top: 0; left: 0; width: 100%; height: 100%;
+    border: 0;
 }
 
-.overlay:hover::before {
-    background-color: rgba(128, 128, 128, 0.8);
-    color: rgb(255, 255, 255);
+@media (min-width: 992px) {
+    #movie .video-grid { grid-template-columns: repeat(3, 1fr); }
 }
 
-.material-icons {
-    font-size: 40px !important;
-}
-
-.overlay:hover .icon {
-    color: #555;
-}
-
-.modal-image {
-    width: 100% !important;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.open-modal {
-    border: none;
-    padding: 0;
-    margin-top: 10px;
-}
-
-.open-modal img {
-    display: block;
-}
-
+/* ==========================================================================
+   6. モーダルウィンドウ (旧CSSから抽出・統合)
+   ========================================================================== */
 .modal {
-    display: none;
+    display: none; /* JSで制御 */
     position: fixed;
     z-index: 1000;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5); /* 背景オーバーレイ */
 }
 
 .modal-content {
@@ -299,7 +382,7 @@ footer {
 
 .modal-body {
     flex-grow: 1;
-    overflow-y: auto;
+    overflow-y: auto; /* 長いコンテンツ時にスクロール */
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -324,11 +407,14 @@ footer {
 .modal-body h3 {
     margin-top: 20px;
     margin-bottom: 10px;
-    width: 60%;
+    width: fit-content; /* 古いスタイルの継承 */
 }
 
-.image-mobile {
-    display: none;
+.pink2 {
+    background-color: #F67D73;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 100px;
 }
 
 .close {
@@ -343,7 +429,8 @@ footer {
 .charamodal-container {
     display: flex;
     flex-wrap: wrap;
-	align-items: flex-start;
+    align-items: flex-start;
+    width: 100%;
 }
 
 .charamodal {
@@ -364,324 +451,89 @@ footer {
     padding: 20px;
 }
 
-
+/* ==========================================================================
+   7. スマホ表示 (768px以下)
+   ========================================================================== */
 @media (max-width: 768px) {
-    .charamodal-container {
-        flex-direction: column;
+    .single01 { margin-top: 80px; }
+
+    .single01 .inner {
+        width: 90%; 
+        padding: 60px 0 40px;
     }
+
+    .about-content {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+	#movie .about-content {
+	padding: 0 20px;
+}
+
+    .about-chara, .movie-chara {  
+    }
+    .about-chara {
+        top: -50px;
+        width: 160px; 
+        left: 5px;
+        }
+    .movie-chara {
+        top: -60px;
+        width: 120px; 
+        right: 5px;
+        }
+
+    h2 { font-size: 1.4rem; }
+
+    .button-c {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .button-c a {
+        width: 100%;
+        padding: 15px 40px 15px 20px;
+    }
+
+    .video-grid { grid-template-columns: 1fr; }
+
+    /* モーダルスマホ対応 */
+    .modal-content {
+        width: 95%;
+        max-height: 90vh;
+    }
+
     .modal-body img {
         max-width: 100%;
     }
-    .modal-content {
-        width: 95%;
-        max-width: none;
-        max-height: 90vh;
-    }
-    .image-desktop {
-        display: none;
-    }
-    .image-mobile {
-        display: block;
-    }
+
     .modal-body h3 {
         width: 100%;
         font-size: 1.2rem;
     }
+
     .close {
-        position: absolute;
         top: -50px;
         right: 0px;
-        font-size: 30px;
-        color: #fff;
-        cursor: pointer;
-    }
-.charamodal-text {
-    padding: 0;
-}
-}
-
-/* mv */
-#mv {
-    text-align: center;
-    position: relative;
-    padding: 40px 0 0;
-    z-index: 1;
-}
-
-#logo {
-    position: absolute;
-    top: 10px;
-    right: 0px;
-	z-index: 100;
-}
-
-#logo img {
-    height: 50px;
-}
-
-#mv-inner {
-    position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.mv-img {
-    width: 100%;
-    position: relative;
-    z-index: 1;
-}
-
-
-@media (max-width: 768px) {
-    #mv {
-    padding: 0;
-}
-
-    #logo {
-        top: 10px;
-        right: auto;
-        left: 50%;
-        transform: translateX(-50%);
     }
 
-    .mv-img {
-        content: url("../img/mv-sp.png");
-    }
-
-    #mv h1 {
-        margin-top: 60px;
-    }
-
-    #mv h2 {
-        font-size: 1rem;
-        margin-bottom: -120px;
-        width: 75vw;
-    }
-	
-}
-
-
-/* single */
-.single01 {
-    position: relative;
-    text-align: center;
-    margin: 0 0 20px;
-    z-index: 2;
-}
-
-.chara {
-    text-align: center;
-    margin: 10px 0 60px;
-    text-decoration: underline;
-    color: #704630;
-    cursor: pointer;
-}
-
-.single01 p {
-    text-align: left;
-}
-
-.single01 .singlebox {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    margin: 0 auto;
-    max-width: 1200px;
-}
-
-.single01 .singlebox .box {
-    background-color: #FDFFC5;
-    border: 3px solid #000;
-    border-radius: 10px;
-    padding: 20px;
-    box-sizing: border-box;
-    margin: 10px 10%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.single01 .singlebox .box .heading {
-    flex: 1 1 20%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding-right: 10px;
-}
-
-.single01 .singlebox .box .heading h4 {
-    margin-bottom: 10px;
-    font-size: 1.2rem;
-}
-
-.single01 .singlebox .box .article-text {
-    flex: 1 1 80%;
-    text-align: left;
-    padding-left: 20px;
-    border-left: 1px solid #000;
-}
-
-.single01 .singlebox .box .article-text p {
-    margin: 10px 0;
-    font-size: 1rem;
-}
-
-@media (max-width: 1080px) {
-    .chara {
-        margin: 10px 0 40px;
-    }
-}
-
-@media (max-width: 768px) {
-	.single01 {
-		padding: 0 5%;
-}
-    .single01 .singlebox .box {
+    .charamodal-container {
         flex-direction: column;
-        margin: 10px 0;
     }
 
-    .single01 .singlebox .box .heading {
-        padding-right: 0;
-        border-left: none;
-        border-bottom: 1px solid #000;
-    }
-
-    .single01 .singlebox .box .article-text {
-        border-left: none;
+    .charamodal-text {
+        padding: 0;
     }
 }
 
-/* multiple */
-.multiple {
+/* ==========================================================================
+   8. フッター
+   ========================================================================== */
+footer {
     text-align: center;
-    margin: 20px 0;
-    padding: 10px 0;
-}
-
-.multiple p {
-    text-align: left;
-}
-
-.multiplebox {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    margin: 0 auto;
-    max-width: 1200px;
-    align-items: stretch;
-}
-
-.multiplebox .box {
-    background-color: #F8F8F8;
-    padding: 20px;
-    box-sizing: border-box;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.multiplebox .box h3 {
-    align-self: flex-start;
-}
-
-.multiplebox .box p {
-    margin: 10px 0 auto;
-}
-
-.multiplebox .box button {
-    margin-top: 16px;
-}
-
-.pink1 {
-    background-color: #FFE7E5;
-}
-
-.pink2 {
-    background-color: #F67D73;
+    background: #333;
+    padding: 1.5rem 0;
     color: #fff;
+    width: 100%;
+    margin-top: 80px;
 }
-
-.blue {
-    background-color: #D7F5F1;
-}
-
-@media (min-width: 769px) {
-    .multiplebox .box {
-        width: calc(50% - 20px);
-    }
-
-}
-
-@media (max-width: 768px) {
-    .multiplebox {
-        flex-direction: column;
-        align-items: center;
-        max-width: 500px;
-        margin: 0 auto;
-    }
-
-    .multiplebox .box {
-        width: 100%;
-        margin: 10px 0;
-        padding: 20px 15px;
-    }
-		.multiple {
-    padding: 10px 5%;
-}
-}
-
-/* グリッド全体のレイアウト */
-.video-grid {
-  display: grid;
-  gap: 20px; /* ボックス同士の隙間 */
-  width: 100%;
-  max-width: 1200px; /* 最大幅（任意） */
-  margin: 0 auto;
-}
-
-/* 各ボックスのスタイル */
-.video-item {
-  background: #fff; 
-}
-
-.video-item h3 {
-  margin-top: 0;
-  margin-bottom: 10px;
-  font-size: 1.1rem;
-	color: #000;
-}
-
-/* YouTubeの比率（16:9）を維持する設定 */
-.video-container {
-  position: relative;
-  width: 100%;
-  padding-top: 56.25%; /* 16:9 の比率 */
-}
-
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-/* レスポンシブ切り替え：スマホ（デフォルト）からPC（992px以上）へ */
-@media (min-width: 992px) {
-  .video-grid {
-    grid-template-columns: repeat(3, 1fr); /* 横に3つ並べる */
-  }
-}
-
-@media (max-width: 991px) {
-  .video-grid {
-    grid-template-columns: 1fr; /* 横に1つ（6行） */
-  }
-}
-
-
-
-
-
