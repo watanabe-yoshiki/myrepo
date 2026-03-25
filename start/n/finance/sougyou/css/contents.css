@@ -206,7 +206,10 @@
 .common-table04 td * + p.ttl{margin-top:1em;}
 .common-table04 td ul{margin-left:1.7em;}
 .common-table04 td ul > li{position: relative;padding-left:1em;color:#588E58;font-size:114%;letter-spacing:0.1em;}
-.common-table04 td ul > li::before{content:"";position:absolute;left:0;top:0.6em;width:6px;height:6px;border-radius:50%;background-color:#588E58;}
+.common-table04 td ul > 
+
+
+li::before{content:"";position:absolute;left:0;top:0.6em;width:6px;height:6px;border-radius:50%;background-color:#588E58;}
 
 /* -------------------------------------------------- */
 /* common-dl */
@@ -487,4 +490,47 @@
 	/* common-figure */
 	.common-figure01 figcaption{display:none;}
 
+}
+.common-table05 {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.common-table05 th, 
+.common-table05 td {
+  border: 1px solid #333;
+  padding: 8px;
+  text-align: right;
+}
+
+.common-table05 thead th {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+/* 位置・装飾用の汎用クラス */
+.common-table05 .text-left {
+  text-align: left;
+}
+
+.common-table05 .font-normal {
+  font-weight: normal;
+}
+
+.common-table05 .text-red {
+  color: #ff0000;
+}
+
+.common-table05 .bg-gray {
+  background-color: #e6e6e6;
+}
+
+/* L字型結合を表現するための境界線制御 */
+.common-table05 .no-border-right {
+  border-right: none;
+}
+
+.common-table05 .no-border-left {
+  border-left: none;
 }
