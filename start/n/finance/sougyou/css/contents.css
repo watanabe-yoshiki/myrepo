@@ -509,7 +509,6 @@ li::before{content:"";position:absolute;left:0;top:0.6em;width:6px;height:6px;bo
   text-align: center;
 }
 
-/* 位置・装飾用の汎用クラス */
 .common-table05 .text-left {
   text-align: left;
 }
@@ -526,7 +525,6 @@ li::before{content:"";position:absolute;left:0;top:0.6em;width:6px;height:6px;bo
   background-color: #e6e6e6;
 }
 
-/* L字型結合を表現するための境界線制御 */
 .common-table05 .no-border-right {
   border-right: none;
 }
