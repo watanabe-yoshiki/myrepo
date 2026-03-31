@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>2021さくらんぼ特集 | リンベル　日本の極み</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="keywords" content="さくらんぼ,高級さくらんぼ,リンベル,日本の極み,山形の極み,山形産,佐藤錦" />
+<meta name="description" content="創業の地山形で、地元さくらんぼ生産者とともに歩んできてきたリンベルが、厳しい基準で選び抜いたさくらんぼ。全て、産地山形から直送でお届けします。"/>
+<link rel="canonical" href="https://www.ringbell.co.jp/kiwami/sakuranbo/index.html">
+<link rel="stylesheet" type="text/css" href="assets-sel/css/common.css">
+<link rel="stylesheet" type="text/css" href="assets-sel-sp/css/common.css">
+<link rel="stylesheet" type="text/css" href="assets-sp/css/common.css">
+<link rel="stylesheet" type="text/css" href="../css/nav.css">
+<link rel="stylesheet" type="text/css" href="css/common_kiwami.css">
+<link rel="stylesheet" type="text/css" href="css/top.css">
+
+<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>-->
+
+<?php include('../include/tag1.php'); ?>
+</head>
+
+<body>
+<?php include('../include/tag-gtm.php'); ?>
+
+<!-- header -->
+<?php include('../include/header.php'); ?>
+<!--/header -->
+
+<main>
+  <div id="sel-wrapper">
+    <div id="sel-containerA" class="clearfix">
+      <div id="sel-wrapMainR">
+        <div id="kiwami" class="toppage">
+          <div id="mv" class="mv">
+            <div class="wrapper">
+              <div class="inner">
+                <h2 class="main_ttl"><img src="images/top/main_ttl.png" alt="山形県産高級さくらんぼ"></h2>
+				<div class="is-pc btn"><a href="https://www.ringbell.co.jp/ringbell/index.php/module/ShohinSagasu/action/ShohinList/c/33646/" target="_blank"><img src="images/top/mv_btn1.png" alt="すべての商品を見る"></a></div>
+                <div class="is-sp btn"><a href="https://www.ringbell.co.jp/ringbell/index.php/module/ShohinSagasu/action/ShohinList/c/33646/" target="_blank"><img src="images/top/mv_btn1_s.png" alt="すべての商品を見る"></a></div>
+              </div>
+			  <!--<p class="point_img"><img src="images/top/hatsumono_point.png" alt="初物"></p>-->
+              <!--<p class="point_img"><img src="images/top/mother_point.png" alt="母の日"></p>-->
+            </div>
+          </div>
+          <div class="wrapper">
+            <section class="news">
+              <div class="wrapper">
+                <div class="inner">
+                  <div class="modal_trigger">
+                    <p class="modal_btn"><a href="#" class="noscroll" data-target="modal_news">&gt;&gt; 日経新聞でリンベルの品質管理が紹介されました</a></p>
+                  </div>
+                  <?php include('include/modal_news.php'); ?>
+                </div>
+              </div>
+            </section>
+            <!--<section id="mother" class="mother product_sec">
+              <div class="wrapper">
+                <div class="inner">
+                  <h3 class="feature_title">
+                    <p class="sub_ttl"><img src="images/top/mother_sub_ttl.png" alt="ご長寿の願いを込めて"></p>
+                    初物さくらんぼを、<br class="is-sp">母の日に</h3>
+                  <p class="txt serif">「初物七十五日」ということわざがあるように、初物は長寿の縁起物。果物の宝石といわれるさくらんぼの「初物」を、母の日のプレゼントにされてはいかがでしょうか？</p>
+                  <p class="bnr"><img src="images/top/mother_bnr.png" alt="母の日ギフト限定 メッセージカード付き！"></p>
+                  <ul class="product_list">
+                    <li> <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/57814/" target="_blank">
+                      <figure class="img"><img src="images/top/mother_product_01.png" alt="佐藤錦400g（100g × 4）"></figure>
+                      <div class="txt">
+                        <p><span class="name">佐藤錦400g<br>（100g × 4）</span></p>
+                        <p><span class="pack">ダイヤパック詰</span></p>
+                        <p><span class="price">¥5,940（税込）</span></p>
+                      </div>
+                      </a> </li>
+                    <li> <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/55899/" target="_blank">
+                      <figure class="img"><img src="images/top/mother_product_02.png" alt="佐藤錦300g（100g × 3）"></figure>
+                      <div class="txt">
+                        <p><span class="name">佐藤錦300g<br>（100g × 3）</span></p>
+                        <p><span class="pack">ダイヤパック詰</span></p>
+                        <p><span class="price">¥4,320（税込）</span></p>
+                      </div>
+                      </a> </li>
+                    <li> <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/55901/" target="_blank">
+                      <figure class="img"><img src="images/top/mother_product_03.png" alt="佐藤錦300g（100g × 3）"></figure>
+                      <div class="txt">
+                        <p><span class="name">佐藤錦300g<br>（100g × 3）</span></p>
+                        <p><span class="pack">ダイヤパック詰</span></p>
+                        <p><span class="price">¥4,860（税込）</span></p>
+                      </div>
+                      </a> </li>
+                    <li> <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/55895/" target="_blank">
+                      <figure class="img"><img src="images/top/mother_product_04.png" alt="佐藤錦300g"></figure>
+                      <div class="txt">
+                        <p><span class="name">佐藤錦300g</span></p>
+                        <p><span class="pack">化粧詰</span></p>
+                        <p><span class="price">¥8,640（税込）</span></p>
+                      </div>
+                      </a> </li>
+                    <li> <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/55903/" target="_blank">
+                      <figure class="img"><img src="images/top/mother_product_05.png" alt="佐藤錦300g"></figure>
+                      <div class="txt">
+                        <p><span class="name">佐藤錦300g</span></p>
+                        <p><span class="pack">化粧詰</span></p>
+                        <p><span class="price">¥10,800（税込）</span></p>
+                      </div>
+                      </a> </li>
+                    <li> <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/55905/" target="_blank">
+                      <figure class="img"><img src="images/top/mother_product_06.png" alt="佐藤錦500g"></figure>
+                      <div class="txt">
+                        <p><span class="name">佐藤錦500g</span></p>
+                        <p><span class="pack">桐箱詰</span></p>
+                        <p><span class="price">¥16,200（税込）</span></p>
+                      </div>
+                      </a> </li>
+                  </ul>
+                </div>
+              </div>
+            </section>-->
+            <section id="hatsumono" class="hatsumono product_sec">
+              <div class="wrapper">
+                <div class="inner">
+                  <h3 class="feature_title">
+                    <p class="sub_ttl"><img src="images/top/hatsumono_sub_ttl.png" alt="2021年一番乗り"></p>
+                    「初物」さくらんぼ特集</h3>
+                  <p class="txt serif">本格シーズンは5月から、といわれるさくらんぼですが、リンベルでは一足早くお届けします。「さくらんぼ王国」山形県の生産者と特別な関係を築いてきたリンベルだからこそできる、高品質なラインナップをお楽しみください。</p>
+                  <ul class="product_list kaon">
+                    <li> <a href="https://www.ringbell.co.jp/ringbell/index.php/module/ShohinSagasu/action/ShohinList/?search_keyword=%E7%B4%85%E3%81%95%E3%82%84%E3%81%8B" target="_blank">
+                      <figure class="img"><img src="images/top/kaon_1.jpg" alt="紅さやか（お届け4/15～）"></figure>
+                      <div class="txt">
+                        <p><span class="name">紅さやか</span></p>
+                        <p><span class="desc">早稲種としては大玉の、適度な甘みと酸味のさくらんぼ。</span></p>
+                        <p class="btn serif">詳しくはこちら</p>
+                      </div>
+                      </a> </li>
+                    <li> <a href="https://www.ringbell.co.jp/ringbell/index.php/module/ShohinSagasu/action/ShohinList/c/33647/result_count/100/" target="_blank">
+                      <figure class="img"><img src="images/top/kaon_2.jpg" alt="佐藤錦（お届け4/16～）"></figure>
+                      <div class="txt">
+                        <p><span class="name">佐藤錦</span></p>
+                        <p><span class="desc">さくらんぼの代名詞ともいえる人気の品種。</span></p>
+                        <p class="btn serif">詳しくはこちら</p>
+                      </div>
+                      </a> </li>
+					<li> <a href="https://www.ringbell.co.jp/ringbell/index.php/module/ShohinSagasu/action/ShohinList/?search_keyword=%E7%B4%85%E7%A7%80%E5%B3%B0" target="_blank">
+                      <figure class="img"><img src="images/top/kaon_3.jpg" alt="紅秀峰（お届け5/10～）"></figure>
+                      <div class="txt">
+                        <p><span class="name">紅秀峰</span></p>
+                        <p><span class="desc">しっかりとした食感で、酸味が少なく甘みが強い味わい。</span></p>
+                        <p class="btn serif">詳しくはこちら</p>
+                      </div>
+                      </a> </li>
+                  </ul>
+                </div>
+                <p class="point_img"><img src="images/top/hatsumono_point.png" alt="初物"></p>
+              </div>
+            </section>
+            <section id="voice" class="voice">
+              <div class="wrapper">
+                <div class="inner">
+                  <h3 class="border_title"><span>美食のスペシャリスト<br class="is-sp">が絶賛！</span></h3>
+                  <ul class="voice_list">
+                    <li>
+                      <div class="img">
+                        <figure><img src="images/top/voice_01_img.png" alt="さくらんぼを使ったレシピ"></figure>
+                        <p class="person"><img src="images/top/voice_01_person.png" alt="料理研究家・坂東万有子"></p>
+                      </div>
+                      <div class="txt">
+                        <p class="desc" data-mh="desc-group">皮をかむとぷちっとはじけ、甘酸っぱい香りと果汁が口に広がります！！<br>
+                          果実が肉厚で満足感！</p>
+                        <p class="name">料理研究家・坂東万有子</p>
+                        <a href="http://blog.ringbell.co.jp/entry/2020/07/08/000000" class="btn serif" target="_blank">ブログを見る</a> </div>
+                    </li>
+                    <li>
+                      <div class="img">
+                        <figure><img src="images/top/voice_02_img.png" alt="さくらんぼを使ったレシピ"></figure>
+                        <p class="person"><img src="images/top/voice_02_person.png" alt="料理家・若井めぐみ"></p>
+                      </div>
+                      <div class="txt">
+                        <p class="desc" data-mh="desc-group">これこれ、このみずみずしさが日本のさくらんぼ！そして強い甘味と香りの余韻。<br>
+                          たくさん食べて幸せな気分に。</p>
+                        <p class="name">料理家・若井めぐみ</p>
+                        <a href="http://blog.ringbell.co.jp/entry/2020/09/03/122457" class="btn serif" target="_blank">ブログを見る</a> </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <section id="pack" class="pack">
+              <div class="wrapper">
+                <div class="inner">
+                  <h3 class="border_title"><span>贈り物に最適なパッケージ</span></h3>
+                  <div class="main_img"><img src="images/top/package_main.png" alt="贈り物に最適なパッケージ"></div>
+                  <ul class="package_list">
+                    <li>
+                      <figure><img src="images/top/package_01.png" alt="贈り物に最適なパッケージ"></figure>
+                    </li>
+                    <li>
+                      <figure><img src="images/top/package_02.png" alt="贈り物に最適なパッケージ"></figure>
+                    </li>
+                    <li>
+                      <figure><img src="images/top/package_03.png" alt="贈り物に最適なパッケージ"></figure>
+                    </li>
+                    <li>
+                      <figure><img src="images/top/package_04.png" alt="贈り物に最適なパッケージ"></figure>
+                    </li>
+                    <li>
+                      <figure><img src="images/top/package_05.png" alt="贈り物に最適なパッケージ"></figure>
+                    </li>
+                    <li>
+                      <figure><img src="images/top/package_06.png" alt="贈り物に最適なパッケージ"></figure>
+                    </li>
+                    <li>
+                      <figure><img src="images/top/package_07.png" alt="贈り物に最適なパッケージ"></figure>
+                    </li>
+                  </ul>
+                  <p class="txt serif">パッケージのデザインを手がけたのは、東北芸術工科大学学長でアートディレクターの中山ダイスケ氏。手に取った瞬間に上質さが伝わる、贈り物に最適なパッケージです。</p>
+                </div>
+              </div>
+            </section>
+            <section id="setup" class="setup">
+              <div class="wrapper">
+                <div class="inner">
+                  <div class="quality">
+                    <h3 class="border_title"><span>品質と見た目に<br class="is-sp">
+                      こだわった詰め方</span></h3>
+                    <ul class="quality_list">
+                      <li>
+                        <figure><img src="images/top/setup_01.png" alt="バラ詰"></figure>
+                        <h4 class="serif">バラ詰</h4>
+                        <p class="txt">バラバラに見えて、配送中に傷つかないよう工夫しています</p>
+                      </li>
+                      <li>
+                        <figure><img src="images/top/setup_02.png" alt="置並べ"></figure>
+                        <h4 class="serif">置並べ</h4>
+                        <p class="txt">軸がなるべく見えないよう、後ろに回すことで、見た目にも美しく</p>
+                      </li>
+                      <li>
+                        <figure><img src="images/top/setup_03.png" alt="化粧詰"></figure>
+                        <h4 class="serif">化粧詰</h4>
+                        <p class="txt">一粒一粒違う色のバランスも確認しながら、ていねいに詰めています</p>
+                      </li>
+                      <li>
+                        <figure><img src="images/top/setup_04.png" alt="桐箱詰"></figure>
+                        <h4 class="serif">桐箱詰</h4>
+                        <p class="txt">化粧詰と同じ詰め方を、高級感あふれるオリジナルの桐箱に</p>
+                      </li>
+                      <li>
+                        <figure><img src="images/top/setup_05.png" alt="ダイヤパック"></figure>
+                        <h4 class="serif">ダイヤパック</h4>
+                        <p class="txt">ダイヤをイメージした六角形を、<br>
+                          透明なパックに詰めました</p>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="size">
+                    <h3 class="border_title"><span>等級とサイズ</span></h3>
+                    <p class="txt serif">等級、サイズともに、一定の基準を満たしたものだけを厳選しています。「等級」とは、着色面積の基準のこと。</p>
+                    <div class="box">
+                      <div class="size_table">
+                        <h4>等級とは – 佐藤錦の場合</h4>
+                        <ul class="size_list">
+                          <li>（秀）［マルしゅう］…50％以上</li>
+                          <li>秀…60％以上</li>
+                          <li>特秀…70％以上</li>
+                        </ul>
+                      </div>
+                      <div class="size_img"><img src="images/top/size_list.png" alt="サイズ"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="wrapper bg_beige">
+            <section class="kodawari">
+              <div class="wrapper">
+                <div class="inner">
+                  <h3 class="border_title"><span>リンベルのこだわり</span></h3>
+                  <div class="producer">
+                    <h4>生産者の「顔が見える」こと</h4>
+                    <p>さくらんぼの栽培は、驚くほどの手間がかかるもの。だからこそ、そこには生産者たちの熱い思いが込められています。その想いを伝えることこそが、年間900万件のギフトを承る私たちリンベルが、一番こだわったことでした。</p>
+                    <ul class="modal_trigger">
+                      <li class="modal_btn"><a href="#" class="noscroll" data-target="modal_anthree"><img src="images/owner/s_01.jpg" alt=""></a></li>
+                      <li class="modal_btn"><a href="#" class="noscroll" data-target="modal_ooba"><img src="images/owner/s_02.jpg" alt=""></a></li>
+                      <li class="modal_btn"><a href="#" class="noscroll" data-target="modal_tada"><img src="images/owner/s_03.jpg" alt=""></a></li>
+                      <li class="modal_btn"><a href="#" class="noscroll" data-target="modal_akiba"><img src="images/owner/s_04.jpg" alt=""></a></li>
+                      <li class="modal_btn"><a href="#" class="noscroll" data-target="modal_seki"><img src="images/owner/s_05.jpg" alt=""></a></li>
+                      <li class="modal_btn"><a href="#" class="noscroll" data-target="modal_kiyono"><img src="images/owner/s_06.jpg" alt=""></a></li>
+                      <li class="modal_btn"><a href="#" class="noscroll" data-target="modal_takahashi1"><img src="images/owner/s_07.jpg" alt=""></a></li>
+                      <li class="modal_btn"><a href="#" class="noscroll" data-target="modal_takahashi2"><img src="images/owner/s_08.jpg" alt=""></a></li>
+                      <li class="modal_btn"><a href="#" class="noscroll" data-target="modal_tendoh"><img src="images/owner/s_09.jpg" alt=""></a></li>
+                      <li class="modal_btn"><a href="#" class="noscroll" data-target="modal_suzunuma"><img src="images/owner/s_10.jpg" alt=""></a></li>
+                      <li class="modal_btn"><a href="#" class="noscroll" data-target="modal_ubafu"><img src="images/owner/s_11.jpg" alt=""></a></li>
+                      <li class="modal_btn"><a href="#" class="noscroll" data-target="modal_sato"><img src="images/owner/s_12.jpg" alt=""></a></li>
+                    </ul>
+                    <?php include('include/modal_owner.php'); ?>
+                  </div>
+                  <div class="pride">
+                    <h4>「さくらんぼ王国」山形の誇り</h4>
+                    <div class="pride_wrap">
+                      <div class="y_txt">
+                        <p>さくらんぼは、明治初期に欧米から導入され、風土に適合した山形県だけが実績をあげました。しかし、その頃の品種は実割れや実腐れが起こり、長期輸送も困難なもの。そこで、山形県東根市の佐藤栄助さんが、品種改良に挑み、16年もの苦労の末、日本を代表する人気品種「佐藤錦」が誕生します。</p>
+                        <p>内陸部が盆地で、冬と夏、そして昼夜の寒暖差が大きく、さくらんぼ栽培の好適地だったこと。明治期から官民一体となって努力を重ねたこと。それらのことから、山形県は、現在では国内のさくらんぼ収穫量の7割を占める「さくらんぼ王国」となりました。</p>
+                      </div>
+                      <div class="y_map"> <img src="images/top/y_map.png" alt=""> </div>
+                    </div>
+                    <p>さくらんぼの栽培は、とても繊細で、手間がかかるものです。余分な芽を摘む、受粉を助ける、果実を間引きする、などは人の手が欠かせません。もちろん、収穫も手づみで行われます。3月から4月にかけては霜害を防ぐ温度管理、収穫時期が近づいてからは雨を防ぎ、日光が十分に行き渡るよう様々な手立てをほどこします。 </p>
+                    <p>「さくらんぼ王国」山形が、誇りを持って送り出すさくらんぼ、この機会にぜひご賞味ください。 </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+        <!---------------------------- /記事エリア ----------------------------> 
+        
+      </div>
+      <!-- sel-wrapMainR/end --> 
+    </div>
+    <!-- sel-containerA/end --> 
+  </div>
+  <!-- sel-wrapper/end --> 
+</main>
+
+<!-- footer -->
+<?php include('../include/footer.php'); ?>
+<!-- /footer --> 
+
+<script type="text/javascript" src="../js/lib.js"></script> 
+<script type="text/javascript" src="../js/nav.js"></script> 
+<script type="text/javascript" src="../js/script.js"></script> 
+<script>
+	$(function () {
+	$('.item_button').prevAll().hide();
+	$('.item_button').click(function () {
+	if ($(this).prevAll().is(':hidden')) {
+	$(this).prevAll().slideDown();
+	$(this).children('img').attr("src", $('.item_button img').attr("src").replace("-more", "-close"));
+	} else {
+	$(this).prevAll().slideUp();
+	$(this).children('img').attr("src", $('.item_button img').attr("src").replace("-close", "-more"));
+	}
+	});
+	});
+</script> 
+<script>
+	$(function () {
+    $('.modal_trigger .modal_btn a').on('click', function() {
+      var target = $(this).data('target');
+      var modal = document.getElementById(target);
+			$(modal).fadeIn();
+      return false;
+    });
+
+    $('.modal_close, .modal_bg').click(function(){
+			$('.modal_box').fadeOut();
+    });
+	});
+</script>
+<script>	
+$(function() {
+    $('#voice .voice_list li .txt .desc').matchHeight();
+});
+</script>
+<?php include('../include/tag2.php'); ?>
+</body>
+</html>

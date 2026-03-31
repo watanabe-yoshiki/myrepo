@@ -1,0 +1,917 @@
+@charset "utf-8";
+
+/*/////////////////////////////////////////////////////////////
+ Container
+//////////////////////////////////////////////////////////////*/
+
+#debug {
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    z-index: 1000;
+    font-size: 14px;
+    color: #333333;
+}
+
+#flipper {
+}
+
+#nRight {
+	display: none;
+}
+
+
+#browserError {
+	width: 100%;
+	text-align:center;
+	padding: 10px 0px 0px 0px;
+	color: #ffffff;
+	font-size: 13px;
+}
+
+#browserErrorTitle {
+	padding: 10px 10px 0px 10px;
+	font-size: 15px;
+}
+
+#browserError img {
+	padding-top: 5px;
+	
+}
+
+#search, #searchAndroid, #textindex, #pdf{
+	display: block;
+	position: absolute;
+	visibility: hidden;
+    left: 0;
+    top: 0;
+    z-index: 52;
+}
+
+#iTextindex, #iSearch, #iSearchAndroid, #iPDF {
+	display: block;
+	position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 50;
+}
+
+.mainCover, .footerCover {
+	display: block;
+	position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 51;
+}
+
+.footerCover {
+	visibility: hidden;
+}
+
+
+/*/////////////////////////////////////////////////////////////
+ Navigation
+//////////////////////////////////////////////////////////////*/
+#navigation {
+	z-index: 20;
+}
+
+#nLeft {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	z-index: 21;
+}
+
+
+#nRight {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 0;
+	height: 0;
+	z-index: 22;
+}
+
+#nLeft div, #nRight div {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 30;
+}
+
+
+/*/////////////////////////////////////////////////////////////
+ Navigation Top
+//////////////////////////////////////////////////////////////*/
+
+#nTop {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 29px;
+    line-height: 29px;
+    z-index: 23;
+    background: url(../images/header-background.gif) repeat-x;
+    -webkit-background-size: 3px 29px;
+    visibility: hidden;
+    font-size: 16px;
+}
+
+.nTopButton {
+    display: table-cell;
+    max-width: 1px;
+    vertical-align: middle;
+    z-index: 30;
+}
+
+.nTopButton img {
+    display: block;
+    margin: auto;
+}
+
+#nTitle, #nPage {
+	color: #ffffff;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+#nTitle {
+    padding: 0 10px;
+    height: 29px;
+    line-height: 29px;
+}
+
+
+#nHomepage {
+}
+
+#nHomepage img {
+    display: block;
+    margin: auto;
+}
+
+#nHomepage, #nHomepage img {
+    width: 70px;
+    height: 29px;
+}
+
+#nPage {
+    width: 80px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+#nClose {
+    padding-right: 10px;
+}
+
+#nClose img {
+    display: block;
+    margin: auto;
+}
+
+#nClose, #nClose img {
+    width: 29px;
+    height: 29px;
+}
+
+/*/////////////////////////////////////////////////////////////
+ Navigation Bottom
+//////////////////////////////////////////////////////////////*/
+#nBottom {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    z-index: 25;
+    height: 42px;
+    visibility: hidden;
+}
+
+
+#footerNavi {
+    padding-left: 10px;
+    z-index: 31;
+    height: 100%;
+}
+
+.footerNavi {
+    height: 42px;
+    background: url(../images/footer-background.gif) repeat-x;
+    -webkit-background-size: 3px 42px;
+}
+
+.footerNaviButton {
+    display: none;
+    height: 100%;
+}
+
+.footerNaviButton, .footerNaviButton img {
+    width: 56px;
+    height: 42px;
+    margin: 0 5px 0 0;
+
+}
+
+#shareNavi, #mokujiNavi, #searchNavi, #audioNavi {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: visible;
+    display: none;
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    z-index: 32;
+}
+
+#nSharePanel {
+    margin-left: 36px;
+}
+
+#audioNavi {
+    z-index: 33;
+}
+
+#audioNavi {
+    height: auto;
+    bottom: 0;
+    top: auto;
+}
+
+.overNaviButton {
+    display: inline;
+}
+
+.naviRightButton {
+    display: block;
+    position: relative;
+    float: right;
+    margin-right: 10px;
+}
+
+#audioPlayer {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 280px;
+}
+
+#nShareLoading {
+    display: block;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 12px 0 0 50px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#nFooterR {
+    display: none;
+}
+
+
+
+/*/////////////////////////////////////////////////////////////
+ Navigation Bottom Search
+//////////////////////////////////////////////////////////////*/
+
+
+#nSearchTextBox {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 179px;
+    height: 26px;
+    margin-top: 7px;
+    background: url(../images/footer-search-form.png) no-repeat;
+    -webkit-background-size: 179px 26px;
+}
+
+#nSearchTextBox input {
+	padding: 1px 0 0 10px;
+	width: 130px;
+	height: 26px;
+	font-size: 16px;
+	border: none;
+	background: none;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+
+
+#nSearchValue {
+    display: none;
+    position: absolute;
+	width: 200px;
+	height: 26px;
+    margin-top: 10px;
+	color: #ffffff;
+	font-size: 12px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-text-overflow: ellipsis;
+    white-space: nowrap;
+ 
+}
+
+#nSearchClear {
+	display: none;
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	top: 0px;
+	right: 0px;
+	background: url(../images/footer-search-clear.png) no-repeat center center;
+	cursor: pointer;
+}
+
+
+#nSearch {
+    display: inline-block;
+    position: absolute;
+    height: 26px;
+    width: 66px;
+    margin-top: 7px;
+}
+
+#nSearchButton {
+	display: inline-block;
+	position: absolute;
+	margin: 0;
+	height: 26px;
+	width: 66px;
+}
+
+#nSearchIcon {
+    position: absolute;
+    height: 18px;
+    width: 19px;
+    left: 50%;
+    top: 50%;
+    margin-top: -9px;
+    margin-left: -10px;
+}
+
+#nSearchLoader {
+	display: none;
+	position: absolute;
+	margin: 0;
+	height: 15px;
+	width: 15px;
+	margin: 5px 0 0 24px;
+}
+
+#nSearchClose {
+    position: relative;
+    display: block;
+    float: right;
+}
+
+
+/*/////////////////////////////////////////////////////////////
+ Android Search
+//////////////////////////////////////////////////////////////*/
+
+body[type="android"] #searchForm {
+    position: absolute;
+    display: none;
+    left: 0px;
+}
+
+body[type="android"] #searchToolbar {
+    position: relative;
+    top: 0px;
+    height: 59px;
+    overflow: hidden;
+    margin: auto;
+    z-index: 3;
+    background-image: url("../images/search_header.png");
+    -webkit-background-size: 3px 59px;
+    background-repeat: repeat-x;
+}
+
+body[type="android"] #searchToolbarInnr {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 245px;
+    margin: auto;
+}
+
+body[type="android"] #searchInfo {
+    position: absolute;
+    width: 260px;
+    height: 25px;
+}
+
+body[type="android"] #nSearchTextBox {
+    margin-top: 16px;
+}
+
+body[type="android"] #nSearch {
+    margin-top: 16px;
+}
+
+body[type="android"] #nSearchInput {
+	padding: 0 0 0 10px;
+	width: 135px;
+	height: 26px;
+	font-size: 16px;
+	border: none;
+	background: none;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+body[type="android"] #nSearchClear {
+    display: none;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    top: 0px;
+    right: 0px;
+    background: url(../images/footer-search-clear.png) no-repeat center center;
+    cursor: pointer;
+    border: none;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+body[type="android"] #nSearchButton {
+	background: url(../images/footer-search-button_a.png) no-repeat center center;
+	border: none;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+body[type="android"] #nSearchCancelButtonWrap {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+body[type="android"] #nSearchCancelButton {
+    display: block;
+    height: 29px;
+    width: 29px;
+    margin: 16px 10px 10px 10px;
+    background: url(../images/header-close.png) no-repeat center center;
+    border: none;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+body[type="android"] #searchWord {
+	position: absolute;
+	width: 100%;
+	top: 59px;
+	left: 0;
+	height: 20px;
+	color: #bbb;
+	background-color: #464646;
+	z-index: 3;
+}
+
+body[type="android"] #searchWord span {
+	top: 1px;
+	padding: 1px 0 3px 15px;
+	font-size: 11px;
+}
+
+
+/*/////////////////////////////////////////////////////////////
+ Choice
+//////////////////////////////////////////////////////////////*/
+#choice {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	z-index: 24;
+	visibility: hidden;
+}
+
+
+#choiceMain {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 184px;
+    height: 87px;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 41;
+    -webkit-border-radius: 4px;
+    font-size: 14px;
+}
+
+#choiceBack {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	z-index: 40;
+	visibility: hidden;
+}
+
+#choiceCover {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 42px;
+    z-index: 42;
+    visibility: hidden;
+}
+
+.choiceNoButton {
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+    width: 77px;
+    height: 27px;
+    background-image: url("../images/button-no.png");
+    text-align: center;
+    line-height: 28px;
+    color: #ffffff;
+
+}
+
+
+#choiceButtonLeft {
+    left: 10px;
+}
+
+#choiceButtonRight {
+    right: 10px;
+}
+
+/*
+.choiceYesButton {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	background-image: url("../images/button-yes.png");
+	text-align: center;
+	font-size: 14px;
+	line-height: 28px;
+	color: #ffffff;
+}
+*/
+
+.choiceText {
+    display: block;
+    position: relative;
+    top: 10px;
+    color: #ffffff;
+    line-height: 1.2;
+    text-align: center;
+}
+
+
+/*/////////////////////////////////////////////////////////////
+ Slice
+//////////////////////////////////////////////////////////////*/
+#slice {
+	display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#sTray {
+	display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+	-webkit-transform: translate(0px, 0px);
+	-webkit-transition-duration: 0.3s;
+	-webkit-transition-property: -webkit-transform;
+	-webkit-transform-style: flat;
+}
+
+.sImageWrapper {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+body[type="android"] .sImageWrapper {
+    display: none;
+}
+
+.sImageWrapper span {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.x1Image {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.x1Image img, .x1Image canvas {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sImage {
+
+}
+
+.sImage img, .sImage canvas {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.scormScoreCheck
+{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 72px;
+    height: 75px;
+}
+.scormScoreCheckR
+{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 72px;
+    height: 75px;
+}
+
+#doubletapInfo {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #333333;
+    background-color: #000000;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    z-index: 100;
+    opacity: 0.3;
+}
+
+#doubletapInfoMessage {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    z-index: 100;
+}
+
+
+/*/////////////////////////////////////////////////////////////
+ Thumbnail
+//////////////////////////////////////////////////////////////*/
+
+#thumbnail {
+	display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#tTray {
+	display: block;
+	position: absolute;
+    left: 0;
+    top: 0;
+	-webkit-transform: translate(0px, 0px);
+	-webkit-transition-duration: 0.4s;
+	-webkit-transition-property: -webkit-transform;
+	-webkit-transform-style: flat;
+}
+
+.tImage {
+	display: block;
+	position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #ffffff;
+	-webkit-box-shadow: 1px 2px 4px #000000;
+}
+
+.tImage img {
+	display: block;
+	position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.tImageLabel {
+	display: block;
+	position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    color: #666666;
+    text-align: right;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.tImageWrapper img {
+	display: block;
+	position: absolute;
+}
+.tScormScoreCheck img {
+    display: none;
+    position: absolute;
+}
+
+/*/////////////////////////////////////////////////////////////
+ Other
+//////////////////////////////////////////////////////////////*/
+.linkPoint, .searchPoint {
+	display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /*
+	background-color: #ff0000;
+	opacity: 0.3;
+	*/
+}
+
+.linkPoint {
+    z-index: 6;
+}
+
+.searchPoint, .searchPointFade {
+    z-index: 5;
+}
+
+.linkPointArea, .searchPointArea {
+	display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.linkPointArea {
+    z-index: 6;
+}
+
+.searchPointArea {
+    z-index: 5;
+}
+
+.searchCanvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+.linkPoint canvas, .searchPoint canvas, .searchPointFade canvas {
+	display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.linkPoint canvas {
+    z-index: 6;
+}
+
+.searchPointFade canvas {
+	-webkit-animation-name: "fade";
+	-webkit-animation-duration: 0.6s;
+	-webkit-animation-iteration-count:infinite;	/* 何回実行するか。infiniteで無限 */
+	-webkit-animation-direction: alternate;	/* alternateにするとアニメーションが反復 */
+	-webkit-animation-delay: 0s;	/* 実行までの待ち時間 */
+}
+
+body[type="android"] .searchPointFade canvas {
+	-webkit-animation-name: "";
+}
+
+
+@-webkit-keyframes "fade" {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1.0;
+	}
+}
+
+
+
+#selectedPoint {
+	display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+	z-index: 10;
+}
+
+#dummy {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/*/////////////////////////////////////////////////////////////
+ Animatio
+//////////////////////////////////////////////////////////////*/
+.slideToRight {
+	-webkit-animation-name: "slideToRightAnimation";
+	-webkit-animation-duration: 0.4s;
+}
+@-webkit-keyframes "slideToRightAnimation" {
+	from {
+		left: -500px;
+	}
+	to {
+		left: 0px;
+	}
+}
+
+.slideToLeft {
+	-webkit-animation-name: "slideToLeftAnimation";
+	-webkit-animation-duration: 0.4s;
+}
+@-webkit-keyframes "slideToLeftAnimation" {
+	from {
+		left: 0px;
+	}
+	to {
+		left: -500px;
+	}
+}
+
+
+.coverFadeIn {
+	-webkit-animation-name: "coverFadeIn";
+	-webkit-animation-duration: 0.3s;
+	/* -webkit-animation-delay: 0.1s;	実行までの待ち時間これをつけるとバチバチする */
+}
+
+@-webkit-keyframes "coverFadeIn" {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 0.3;
+	}
+}
+
+.coverFadeOut {
+	-webkit-animation-name: "coverFadeOut";
+	-webkit-animation-duration: 0.3s;
+}
+
+@-webkit-keyframes "coverFadeOut" {
+	from {
+		opacity: 0.3;
+	}
+	to {
+		opacity: 0;
+	}
+}
+

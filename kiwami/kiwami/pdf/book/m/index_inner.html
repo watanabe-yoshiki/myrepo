@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<base href="../">
+<title>極みの逸品</title>
+<meta charset="UTF-8" />
+<meta id="viewport" name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="cache-control" content="no-cache, no-store" />
+<meta http-equiv="expires" content="0" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-capable" content="no" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+<link rel="stylesheet" href="m/css/iphone.css" />
+<link rel="stylesheet" href="m/css/flipper.css" />
+
+<script src="m/js/jquery-1.4.2.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="m/extension.js"></script>
+<script type="text/javascript" src="m/linkaction.js"></script>
+
+
+
+
+
+<script language="JavaScript" type="text/javascript">
+    var isLibra = false;
+    var scormScoreKind;
+    function checkScorm() {
+
+        if (location.href.match(/s=12/)) {
+            scormScoreKind = "1.2";
+        } else if (location.href.match(/s=2004/)) {
+            scormScoreKind = "2004";
+        } else if (location.href.match(/s=score/)){
+            scormScoreKind = "score";
+        }
+        document.write("<scr" + "ipt type='text/javascript' src='m/js/sscontrol.min.js'></scr" + "ipt>");
+    }
+
+    /***
+     *  SCORM初期化が完了されるとコールされるメソッド
+     */
+    function scormInitilaized(){
+        if (location.href.match(/s=12/)) {
+            scormSetValue("cmi.core.lesson_status", "completed");
+            SCOCommit();
+        } else if (location.href.match(/s=2004/)) {
+            scormSetValue("cmi.success_status", "passed");
+            scormSetValue("cmi.completion_status", "completed");
+            SCOCommit();
+        }
+    }
+
+    function scormSetValue(model, value) {
+        var result = scormCommand("LMSSetValue", model + "," + value);
+        return result;
+    }
+
+    checkScorm();
+
+    function checkAgent() {
+        if (navigator.userAgent.indexOf("Android") != -1 || navigator.userAgent.match(/Silk\/([0-9_.]+)/)) {
+            document.write("<scr" + "ipt type='text/javascript' src='m/js/android.js'></scr" + "ipt>");
+        } else {
+            document.write("<scr" + "ipt type='text/javascript' src='m/js/flipper.js'></scr" + "ipt>");
+        }
+    }
+    checkAgent();
+</script>
+
+</head>
+<body>
+
+<div id="flipper">
+    <div id="thumbnail">
+        <div id="tTray"></div>
+    </div>
+    <div id="dummy"></div>
+
+    <div id="slice">
+        <div id="sTray"></div>
+        <div id="sliceCover"></div>
+    </div>
+
+    <div id="choice">
+        <div id="choiceBack"></div>
+        <div id="choiceMain">
+            <div id="pdfSelect">
+                <div class="choiceText" id="mokujiText"></div>
+                <div class="choiceNoButton" id="choiceButtonLeft"></div>
+                <div class="choiceNoButton" id="choiceButtonRight"></div>
+            </div>
+        </div>
+    </div>
+    <div id="choiceCover"></div>
+</div>
+
+<div id="navigation">
+    <div id="nLeft"></div>
+    <div id="nTop">
+        <div id="nHomepage" class="nTopButton"><img src="m/images/homepage.png" id="nHomepageImg" alt="homepage" iconname="toHomepage"></div><!--
+        --><div id="nTitle" class="nTopButton"></div><!--
+        --><div id="nPage" class="nTopButton"></div><!--
+        --><div id="nClose" iconname="toClose" class="nTopButton"><img src="m/images/header-close.png" alt="toClose" iconname="toClose"></div>
+    </div>
+    <div id="nRight"></div>
+    <div id="nBottom">
+        <div id="footerNavi" class="footerNavi">
+            <div id="nFooter1" class="footerNaviButton"><img alt="FooterButton1" src="" /></div><!--
+            --><div id="nFooter2" class="footerNaviButton"><img alt="FooterButton2" src="" /></div><!--
+            --><div id="nFooter3" class="footerNaviButton"><img alt="FooterButton3" src="" /></div><!--
+            --><div id="nFooterR" class="footerNaviButton naviRightButton"><img alt="FooterButtonR" src="" /></div>
+        </div>
+        <div id="shareNavi" class="footerNavi overNavi">
+            <img id="nShareTwitter" iconName="toShareTwitter" class="footerNaviButton overNaviButton" alt="ShareTwitterButton" /><!--
+            --><img id="nShareFacebook" iconName="toShareFacebook" class="footerNaviButton overNaviButton" alt="ShareFacebookButton" /><!--
+            --><img id="nShareMail" iconName="toShareMail" class="footerNaviButton overNaviButton" alt="ShareMailButton" /><!--
+            --><img id="nSharePDF" iconName="toSharePDF" class="footerNaviButton overNaviButton" alt="SharePDFButton" /><!--
+            --><div class="naviRightButton"><img id="nShareClose" iconName="toShareClose" class="footerNaviButton naviRightButton" alt="ShareCloseButton" /></div>
+        </div>
+        <div id="mokujiNavi" class="footerNavi overNavi">
+            <img id="nMokujiThumbnail" iconName="toMokujiThumbnail" class="footerNaviButton overNaviButton" alt="MokujiThumbnailButton" /><!--
+            --><img id="nMokujiTextindex" iconName="toMokujiTextindex" class="footerNaviButton overNaviButton" alt="MokujiTextindexButton" /><!--
+            --><div class="naviRightButton"><img id="nMokujiClose" iconName="toMokujiClose" class="footerNaviButton naviRightButton" alt="MokujiCloseButton" /></div>
+        </div>
+        <div id="searchNavi" class="footerNavi overSearchNavi">
+            <span id="nSearchTextBox">
+                <input id="nSearchInput" iconName="toSearchInput" type="text" name="search" value="" />
+                <span id="nSearchClear" iconName="toSearchClear"></span>
+            </span><!--
+            --><div id="nSearch"><!--
+            --><img id="nSearchButton" iconName="toSearchButton" class="footerNaviButton overNaviButton" alt="SearchButton" src="m/images/footer-search-button.png" /><!--
+            --><img id="nSearchIcon" iconName="toSearchButton" class="footerNaviButton overNaviButton" alt="SearchIconButton" src="m/images/footer-search-icon.png" /><!--
+            --><img id="nSearchLoader" iconName="toSearchLoader" class="footerNaviButton overNaviButton" alt="SearchLoaderButton" src="m/images/footer-search-loader.gif" /><!--
+            --></div><!--
+            --><div id="nSearchValue"></div><!--
+            --><div class="naviRightButton"><img id="nSearchClose" iconName="toSearchClose" class="footerNaviButton naviRightButton" alt="SearchCloseButton" /></div>
+        </div>
+    </div>
+</div>
+
+<div id="audioNavi" class="footerNavi overNavi">
+    <span id="audioPlayerWrap"></span>
+    <div class="naviRightButton"><img id="nAudioClose" iconName="toAudioClose" class="footerNaviButton naviRightButton" alt="AudioCloseButton" /></div>
+</div>
+
+<div class="mainMenu" id="iTextindex">
+    <iframe id="textindex"></iframe>
+    <div class="mainCover" id="textindexCover"></div>
+</div>
+<div class="mainMenu" id="iSearch">
+    <iframe id="search"></iframe>
+    <div class="mainCover" id="searchCover"></div>
+</div>
+<div class="mainMenu" id="iSearchAndroid">
+    <iframe id="searchAndroid"></iframe>
+    <div class="mainCover" id="searchAndroidCover"></div>
+</div>
+
+<div id="doubletapInfo" class="doubletapInfo"></div>
+<div id="doubletapInfoMessage" class="doubletapInfo"></div>
+
+<div id="debug"></div>
+
+</body>
+</html>

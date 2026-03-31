@@ -1,0 +1,167 @@
+$(document).ready(function () {
+
+  var replaceWidth = 600;
+  var $elem = $('.switch');
+  var sp = '_sp.';
+  var pc = '_pc.';
+
+  $(window).on("load resize", ReLayout);
+
+  function ReLayout() {
+    var windowWidth = window.innerWidth ? window.innerWidth : $(window).width();
+
+    $elem.each(function () {
+      var $this = $(this);
+      // ウィンドウサイズが600px以上であれば_spを_pcに置換する。
+      if (windowWidth >= replaceWidth) {
+        $this.attr('src', $this.attr('src').replace(sp, pc));
+        $("#ring_logo a").attr("href", "https://www.rakuten.ne.jp/gold/ringbellshop/");
+
+        // ウィンドウサイズが601px未満であれば_pcを_spに置換する。
+      } else {
+        $this.attr('src', $this.attr('src').replace(pc, sp));
+        $("#ring_logo a").attr("href", "https://www.rakuten.co.jp/ringbellshop/");
+      }
+    });
+
+  }
+
+  // ページスクロール
+  function setTopScroll() {
+    var showFlag = false;
+    var topBtn = $('#pagetop');
+    topBtn.hide();
+    //スクロールが100に達したらボタン表示
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 100) {
+        if (showFlag == false) {
+          showFlag = true;
+          topBtn.show();
+        }
+      } else {
+        if (showFlag) {
+          showFlag = false;
+          topBtn.hide();
+        }
+      }
+    });
+    //スクロールしてトップ
+    topBtn.click(function () {
+      $('body,html').animate({
+        scrollTop: 0
+      }, 500);
+      return false;
+    });
+  }
+
+  // アンカークロール
+  function setPageScroll() {
+    $('a[href^="#"]').not('.noscroll').click(function () {
+      var speed = 500;
+      var href = $(this).attr("href");
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      var position = target.offset().top;
+      $("html, body").animate({
+        scrollTop: position
+      }, speed, "swing");
+      return false;
+    });
+  }
+
+
+  // OS、ブラウザ判定
+  function setBrowserTypes() {
+    var ua = navigator.userAgent.toLowerCase();
+    var ver = navigator.appVersion.toLowerCase();
+
+    if (ua.indexOf('iphone') > -1) {
+      $("body").addClass("iphone");
+    }
+    if (ua.indexOf('ipad') > -1) {
+      $("body").addClass("ipad");
+    }
+    if ((ua.indexOf('android') > -1) && (ua.indexOf('mobile') > -1)) {
+      $("body").addClass("android mobile");
+    }
+    if ((ua.indexOf('android') > -1) && (ua.indexOf('mobile') === -1)) {
+      $("body").addClass("android tablet");
+    }
+
+    if ((ua.indexOf('msie') > -1) && (ua.indexOf('opera') === -1) || (ua.indexOf('trident/7') > -1)) {
+      $("body").addClass("ie");
+    }
+
+    var isMSIE = (ua.indexOf('msie') > -1) && (ua.indexOf('opera') === -1);
+    if (isMSIE && (ver.indexOf('msie 9.') > -1)) {
+      $("body").addClass("ie9");
+    } else if (isMSIE && (ver.indexOf('msie 10.') > -1)) {
+      $("body").addClass("ie10");
+    } else if ((ua.indexOf('trident/7') > -1)) {
+      $("body").addClass("ie11");
+    } else if ((ua.indexOf('edge') > -1)) {
+      $("body").addClass("edge");
+    }
+    if ((ua.indexOf('chrome') > -1) && (ua.indexOf('edge') === -1)) {
+      $("body").addClass("chrome");
+    }
+    if ((ua.indexOf('firefox') > -1)) {
+      $("body").addClass("firefox");
+    }
+    if ((ua.indexOf('safari') > -1) && (ua.indexOf('chrome') === -1)) {
+      $("body").addClass("safari");
+    }
+
+    if (((ua.indexOf('mac') > -1) && (ua.indexOf('os') > -1)) && !((ua.indexOf('iphone') > -1) || (ua.indexOf('ipad') > -1) || (ua.indexOf('windows') > -1))) {
+      $("body").addClass("mac");
+    }
+    if ((ua.indexOf('windows') > -1)) {
+      $("body").addClass("win");
+    }
+  }
+
+  // タブレット用Viewport設定
+  function setViewport() {
+    var tabletView = 'width=1024px';
+
+    if ($("body").hasClass("ipad") || $("body").hasClass("android tablet")) {
+      $("head").prepend('<meta name="viewport" content="' + tabletView + '">');
+    }
+  }
+
+  /**
+   * INIT
+   **/
+  function init() {
+    setTopScroll();
+    setPageScroll();
+    setBrowserTypes();
+    setViewport();
+  }
+  init();
+
+});
+
+/* ------------------------------------------------------ */
+/* スライダー */
+/* ------------------------------------------------------ */
+$(function(){
+  $('.mv_slider').slick({
+    autoplay: true,
+    autoplaySpeed: 0,
+    speed: 8000,
+    cssEase: "linear",
+    slidesToShow: 5,
+    swipe: false,
+    arrows: false,
+    pauseOnFocus: false,
+    pauseOnHover: false,
+    responsive: [
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 2,
+        }
+      }
+    ]
+  });
+});

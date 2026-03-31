@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+.clearfix{clear:both}
+.notice{position:relative;padding:15px;color:#fff;text-align:center;background-color:#d08e29;z-index:99;cursor:pointer}
+#sel-wrapMainR{background:none;padding:0;overflow:hidden;width:100%}
+#sel-containerA{width:100%}
+#sel-wrapper{padding:0}
+.underline{color:#b2933d;border-bottom:solid 2px #b2933d;padding-bottom:2px}
+.marker{background:linear-gradient(transparent 0%,#ffffbe 0%);padding:1px 0}
+
+.mv .lead{color:#666;text-align:center;padding:30px 0;font-size:18px}
+
+.feature .sec + .sec{margin-top:65px}
+.feature .sec .txt{color:#666;font-size:18px;line-height:1.8}
+.feature .sec .txt h3{font-size:26px;line-height:1.48;color:#000;margin-bottom:15px;font-family:"ヒラギノ明朝 ProN W6","HiraMinProN-W6","HG明朝E","ＭＳ Ｐ明朝","MS PMincho","MS 明朝",serif;font-weight:400;letter-spacing:0}
+
+.item{margin:90px 0}
+.item .box{display:flex;align-items: center;border:solid 1px #666;padding:20px 60px;max-width:640px;margin:auto;justify-content:space-between;box-sizing:border-box}
+.item .box .img{width:42%;text-align:center}
+.item .box .txt{width:45%;transition:.3s}
+.item .box .img img{max-width: 195px;}
+.item .box .txt h4{font-family:"ヒラギノ明朝 ProN W6","HiraMinProN-W6","HG明朝E","ＭＳ Ｐ明朝","MS PMincho","MS 明朝",serif;line-height:1.4;font-size:26px;text-align:center;font-weight:400}
+.item .box .txt .price{color:#666;font-size:24px;text-align:center;margin:10px 0}
+.item .box .txt .btn{background:#000;color:#fff;max-width:232px;margin:auto;text-align:center;padding:4px;font-size:22px}
+
+@media screen and (min-width: 1000px) {
+	.wrapper .inner{max-width:1215px;margin:0 auto;padding-left:260px}
+}
+
+@media screen and (min-width:768px) {
+#sel-wrapMainR{background:none;padding-top:0}
+.is-pc{display:block}
+.is-sp{display:none}
+
+.feature .sec{display:flex;justify-content:space-between}
+.feature .sec .txt{width:45%}
+.feature .sec .img{width: 55%;padding-left: 5%;box-sizing: border-box;}
+}
+
+@media screen and (max-width:767px) {
+.is-pc{display:none}
+.is-sp{display:block}
+.wrapper .inner{padding:6%}
+
+.feature{padding-top:25px}
+.feature .sec + .sec{margin-top:45px}
+.feature .sec .txt{font-size:14px;margin-bottom: 25px;}
+.feature .sec .txt h3{font-size:19px;}
+	
+.item {margin: 20px 0 40px;}
+.item .box{padding:10px 30px;}
+.item .box .txt h4{font-size:13px;}
+.item .box .txt .price{font-size:12px;}
+.item .box .txt .btn{font-size:11px;}
+.item .box .img img{max-width: 98px;}
+	
+}
+
+
+@media screen and (max-width: 999px) and (orientation: portrait) {
+.wrapper .inner{width:100%;margin:0;padding:0 20px}
+.wrapper .mv{padding-top:65px;}
+.wrapper .mv .inner{padding:0}
+}

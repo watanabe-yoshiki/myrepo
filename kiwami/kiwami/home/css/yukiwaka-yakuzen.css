@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+body {
+  width: 100%;
+  min-width: 320px;
+  margin: 0;
+  font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+  font-weight: 400;
+  -webkit-text-size-adjust: 100%;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  color: #333;
+}
+
+#home .wrap {
+  margin: 0 !important;
+}
+
+/* home
+------------------------------------------------------------*/
+
+@media screen and (min-width: 1001px) {
+
+  .con {
+    width: 56.8%;
+    margin: auto;
+  }
+
+  .offset-l {
+    margin-left: 240px;
+  }
+
+  .hover_elem a:hover {
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+  }
+
+  .hover_img a:hover img {
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+  }
+
+  .hover {
+    -webkit-transition: .2s linear;
+    -moz-transition: .2s linear;
+    -o-transition: .2s linear;
+    transition: .2s linear;
+  }
+
+  .hover:hover {
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+  }
+}
+
+#home {padding: 0 0 50px; background-color: #fff; letter-spacing: 0.05em;}
+#home .home-title {background: url(../images/yukiwaka-yakuzen/home-title-bg.jpg) left top / cover no-repeat;}
+#home .home-title .wrap {padding: 35px 0 60px 115px;}
+#home .home-title h2 {width: 36%;}
+#home .home-blockWrap {width: 960px; margin: 0 auto;}
+#home .home-block {padding: 50px 0 0;}
+#home .home-block + .home-block {margin-top: 90px;}
+#home .home-main h3 {margin-bottom: 20px; font-family: "ヒラギノ明朝 ProN W6", "Hiragino Mincho ProN", "游明朝", "Yu Mincho", YuMincho, 'Noto Serif JP', "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif; font-size: 30px; font-weight: bold; line-height: 1.4; text-align: center;}
+#home .home-product {display: flex; justify-content: space-between;}
+#home .home-product .name {color: #999; font-weight: bold; text-align: center;}
+#home .home-product .btn-list {margin-top: 15px;}
+#home .home-product .btn-list li + li {margin-top: 15px;}
+#home .home-product .btn-list li a {display: flex; align-items: center; padding: 15px 10px; border: 1px solid #666; background-color: #fff;}
+#home .home-product .btn-list li a:hover {color: #fff; background-color: #666;}
+#home .home-product .btn-list .reduction {padding: 5px 10px; margin-right: 25px; color: #ff0000; font-size: 11px; font-weight: bold; background-color: #e5e5e5;}
+#home .home-product .btn-list .reduction span {font-size: 15px;}
+#home .home-product .btn-list .price {font-size: 14px; font-weight: bold; line-height: 1.2;}
+#home .home-product .btn-list .price .type {font-size: 18px;}
+#home .home-product .btn-list .price .num {font-size: 26px;}
+#home .home-product .note {margin-top: 20px;}
+#home .home-product .more {margin-top: 20px; text-align: right;}
+#home .home-product .more a:hover {opacity: 0.8;}
+#home .home-main .home-product {margin-top: 30px;}
+#home .home-main .home-product .img {width: 49%;}
+#home .home-main .home-product .order {width: 49%; padding: 10px 20px 0 15px;}
+#home .home-main .home-product .name {font-size: 26px;}
+#home .home-sub {margin-top: 40px; padding: 20px 0 30px 35px; background-color: #ffffcc;}
+#home .home-sub h4 {margin-bottom: 30px; font-size: 26px; font-weight: bold; text-align: center;}
+#home .home-sub .home-product .img {width: 46%;}
+#home .home-sub .home-product .order {width: 49%; padding: 0 20px 0 0;}
+#home .home-sub .home-product .name {font-size: 22px;}
+#home .home-sub .home-product .txt {margin-bottom: 1em;}
+#home .home-blog {display: flex; justify-content: space-between; margin-top: 40px; padding: 15px 20px 20px; color: #666633; background-color: #f2f0e4;}
+#home .home-blog .comment {width: 49%;}
+#home .home-blog h5 {margin-bottom: 20px; font-family: "ヒラギノ明朝 ProN W6", "Hiragino Mincho ProN", "游明朝", "Yu Mincho", YuMincho, 'Noto Serif JP', "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif; font-size: 24px; font-weight: bold; text-align: center;}
+#home .home-blog h5:before, #home .home-blog h5:after {display: inline-block;}
+#home .home-blog h5:before {content: "＼";}
+#home .home-blog h5:after {content: "／";}
+#home .home-blog .col {display: flex; justify-content: space-between;}
+#home .home-blog .col .txt {width: 60%;}
+#home .home-blog .col .txt p {font-size: 18px; line-height: 1.75;}
+#home .home-blog .col .author {width: 34%; text-align: center;}
+#home .home-blog .col .author .img {margin-bottom: 10px;}
+#home .home-blog .col .author .name {font-size: 16px; font-weight: bold;}
+#home .home-blog .col .author .name-sp {display: none;}
+#home .home-blog .btn {margin-top: 25px; text-align: center;}
+#home .home-blog .btn a {display: inline-block; padding: 5px 30px; color: #333; font-size: 14px; font-weight: bold; border: 1px solid #333;}
+#home .home-blog .btn a:hover {color: #fff; background-color: #333;}
+#home .home-blog .btn-sp {display: none;}
+#home .home-blog .photo {width: 49%;}
+
+@media screen and (max-width:1200px) {
+  #home .inner {margin: 0 20px;}
+  #home .home-blockWrap {width: 100%;}
+}
+
+@media screen and (max-width:1000px) {
+  #home {margin-top: 65px;}
+}
+
+@media screen and (max-width:599px) {
+  body {font-size: 14px; line-height: 1.6;}
+
+  #home .inner {margin: 0 10px;}
+  #home .home-title {background-image: url(../images/yukiwaka-yakuzen/home-title-bg-sp.jpg);}
+  #home .home-title .wrap {padding: 10px 0 30px;}
+  #home .home-title h2 {width: 75%; margin: 0 auto;}
+  #home .home-block {padding: 35px 0 0;}
+  #home .home-block + .home-block {margin-top: 35px;}
+  #home .home-product {display: block; margin-top: 20px;}
+  #home .home-product .btn-list {margin-top: 10px;}
+  #home .home-product .btn-list li + li {margin-top: 10px;}
+  #home .home-product .btn-list li a {padding: 10px 5px;}
+  #home .home-product .btn-list .reduction {margin-right: 10px; padding: 5px; font-size: 8px;}
+  #home .home-product .btn-list .reduction span {font-size: 11px;}
+  #home .home-product .btn-list .price {font-size: 10px;}
+  #home .home-product .btn-list .price .num {font-size: 16px;}
+  #home .home-product .note {margin-top: 15px;}
+  #home .home-main h3 {margin-bottom: 15px; font-size: 20px;}
+  #home .home-main .home-product .img {width: 100%; padding: 0 5px;}
+  #home .home-main .home-product .order {width: 100%; margin-top: 30px; padding: 0 20px;}
+  #home .home-main .home-product .name {font-size: 16px;}
+  #home .home-sub {padding: 20px 25px 35px;}
+  #home .home-sub h4 {margin-bottom: 20px; font-size: 15px;}
+  #home .home-sub .home-product .img {width: 100%;}
+  #home .home-sub .home-product .order {padding: 0; margin-top: 20px; width: 100%;}
+  #home .home-sub .home-product .txt {margin-bottom: 20px;}
+  #home .home-sub .home-product .name {font-size: 13px;}
+  #home .home-product .btn-list .price .type {font-size: 13px;}
+  #home .home-blog {display: block;}
+  #home .home-blog .comment {width: 100%;}
+  #home .home-blog {width: 100%; padding: 20px 0 50px;}
+  #home .home-blog h5 {margin-bottom: 10px; font-size: 18px;}
+  #home .home-blog .col {align-items: flex-end; padding: 0 10px;}
+  #home .home-blog .col .txt {width: 76%;}
+  #home .home-blog .col .txt p {font-size: 13px;}
+  #home .home-blog .col .txt .name {margin-top: 20px; font-size: 12px; font-weight: bold; text-align: right;}
+  #home .home-blog .col .txt .btn-pc {display: none;}
+  #home .home-blog .col .author {width: 24%;}
+  #home .home-blog .col .author .name-pc {display: none;}
+  #home .home-blog .col .author .name-sp {display: block;}
+  #home .home-blog .btn {margin-top: 20px;}
+  #home .home-blog .btn-sp {display: block;}
+  #home .home-blog .btn a {font-size: 12px;}
+  #home .home-blog .photo {width: 100%; margin-top: 20px; padding: 0 15px;}
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<link rel="apple-touch-icon-precomposed" href="../images/apple-touch-icon.png" />
+
+<link rel="stylesheet" href="../css/iphone.css" type="text/css" />
+<link rel="stylesheet" href="../css/flipper.css" type="text/css" />
+<link rel="stylesheet" href="../css/nestedlist.css" type="text/css" />
+
+<script type="application/x-javascript" src="../js/jquery-1.4.2.min.js"></script>
+<script type="application/x-javascript" src="../js/search.js"></script>
+
+<style type="text/css">
+    <!--
+    body {
+        overflow: hidden;
+        background-color: #f7f7f7;
+    }
+
+    #contents {
+        min-height: 1024px;
+    }
+    -->
+</style>
+
+
+</head>
+<body type="android">
+
+<div id="searchToolbar">
+    <div id="searchToolbarInnr">
+        <span id="nSearchTextBox">
+            <input id="nSearchInput" iconName="toSearchInput" type="text" name="search" value="" />
+            <input type="button" id="nSearchClear" onclick="clickClear();" />
+        </span>
+        <div id="nSearch">
+            <input type="button" id="nSearchButton" class="overNaviButton" onclick="clickSearch();" />
+        </div>
+    </div>
+    <div id="nSearchCancelButtonWrap">
+        <input type="button" id="nSearchCancelButton" onclick="clickClose();" />
+    </div>
+
+</div>
+
+
+<div id="contents" style="display: block">
+    <div id="searchWord"><span id="pageTitle"></span></div>
+    <div class="nestedList"></div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,151 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@400;700&display=swap');
+
+
+#wrapper{width:100%;font-family: 'Noto Sans JP','Yu Gothic', 'YuGothic', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;font-size:14px;color:#333;background:#EDE8DB;}
+#wrapper *{box-sizing:border-box;}
+#wrapper .serif{font-family: 'Noto Serif JP',"游明朝体","Yu Mincho",YuMincho,"ヒラギノ明朝 Pro","Hiragino Mincho Pro","MS P明朝","MS PMincho",serif;}
+#wrapper a:hover{opacity:0.7;}
+#wrapper a img:hover{opacity:0.7;}
+
+.container{margin:auto;max-width:1040px;padding:0 20px;}
+.v-pc{display:block!important;}
+.v-sp{display:none!important;}
+
+/* --------------------------------------------------------------- */
+/* MV */
+/* --------------------------------------------------------------- */
+#block-mv {position: relative;}
+#block-mv .mv_slider .item_inner {width: 100%; height: 0; padding-top: 129.6774193548387%; background-size: cover; background-position: center center; background-repeat: no-repeat;}
+#block-mv .mv_slider .item-1 .item_inner {background-image: url(../images/mv_slide08.jpg);}
+#block-mv .mv_slider .item-2 .item_inner {background-image: url(../images/mv_slide09.jpg);}
+#block-mv .mv_slider .item-3 .item_inner {background-image: url(../images/mv_slide10.jpg);}
+#block-mv .mv_slider .item-4 .item_inner {background-image: url(../images/mv_slide11.jpg);}
+#block-mv .mv_slider .item-5 .item_inner {background-image: url(../images/mv_slide12.jpg);}
+#block-mv .mv_slider .item-6 .item_inner {background-image: url(../images/mv_slide13.jpg);}
+#block-mv .mv_slider .item-7 .item_inner {background-image: url(../images/mv_slide14.jpg);}
+#block-mv .mv_inner {position: absolute; left: 50%; top: 0; width: 1300px; height: 100%; transform: translateX(-50%);}
+#block-mv .mv_logo {position: absolute; left: 0; top: 0; width: 15%; z-index: 1;}
+#block-mv .mv_logo a:hover {opacity: 1;}
+#block-mv .mv_ttl {position: absolute; left: 50%; top: 0; height: 100%; transform: translateX(-50%);}
+#block-mv .mv_ttl img {display: block; max-width: none; height: 100%; margin: auto;}
+
+.banner{width: 592px;margin: auto;padding-top: 30px;}
+
+.banner .sp{display: none;}
+
+/* --------------------------------------------------------------- */
+/* ITEM */
+/* --------------------------------------------------------------- */
+#block-item {padding: 45px 0 90px;}
+#block-item .item_lead {font-size: 18px; line-height: 1.6; text-align: center;}
+#block-item .item_list {display: flex; flex-wrap: wrap; margin-top: 45px;}
+#block-item .item_list > li {position: relative; width: calc(33% - 10px); margin-right: 15px; padding-bottom: 145px; box-shadow: 0px 3px 6px #00000029; background-color: #fff;}
+#block-item .item_list > li:nth-of-type(3n) {margin-right: 0;}
+#block-item .item_list > li:nth-of-type(n+4) {margin-top: 25px;}
+#block-item .item_list > li .img {position: relative; width: 100%; height: 0; padding-top: 60%;}
+#block-item .item_list > li .img img {position: absolute; left: 0; top: 0; width: 100%; height: 100%; object-fit: cover;}
+#block-item .item_list > li .txt {padding: 15px 20px 0; text-align: center; line-height: 1.6;}
+#block-item .item_list > li .txt .caption {padding-bottom: 10px; margin-bottom: 10px; font-size: 20px; font-weight: 700;  line-height: 1.5; border-bottom: 1px solid #707070;}
+#block-item .item_list > li .txt .explanation {color: #777; font-size: 14px; text-align: left;}
+#block-item .item_list > li .txt .name {margin-top: 20px; font-size: 16px; font-weight: 700;}
+#block-item .item_list > li .txt .limited {display: inline-block; margin-top: 10px; padding: 5px 20px; font-size: 12px; line-height: 1; background-color: #EDE8DB;color:#B72609;}
+#block-item .item_list > li .txt .price {color: #B72609; font-size: 22px;}
+#block-item .item_list > li .txt .price .tax {font-size: 16px;}
+#block-item .item_list > li .txt .bottom {position: absolute; width: 100%; left: 0; bottom: 25px;}
+#block-item .item_list > li .txt .bottom .btn {display: inline-block; padding: 8px 50px; color: #fff; font-size: 18px; line-height: 1; border: 3px solid #333; border-radius: 20px; background-color: #333;}
+#block-item .item_list > li .txt .bottom .btn:hover {color: #333; background-color: #fff; opacity: 1;}
+#block-item .item_list > li .txt .bottom .present {margin-top: 20px; color: #777; font-size: 14px;}
+#block-item .item_list > li .txt .bottom .present a {display: block; text-decoration: underline;}
+
+/* --------------------------------------------------------------- */
+@media screen and (min-width: 768px){
+	.is-pc {display: block;} .is-tab { display: block;} .is-sp {display: none;} .img_sp {display: none;}
+}
+
+/* ========================================================================================= */
+/* SP */
+/* ========================================================================================= */
+
+@media screen and (max-width: 1320px) {
+	.is-tab {display: none;}
+
+	/* --------------------------------------------------------------- */
+	/* MV */
+	/* --------------------------------------------------------------- */
+	#block-mv .mv_inner {width: 90%;}
+}
+
+/* --------------------------------------------------------------- */
+@media screen and (max-width:1000px) {
+	.container{max-width:1000px;padding:0 5%;}
+
+}
+
+/* --------------------------------------------------------------- */
+@media screen and (max-width: 999px) {
+}
+
+/* --------------------------------------------------------------- */
+@media screen and (max-width: 767px){
+	#wrapper{font-size:11px;letter-spacing:0.04em; padding-bottom: 60px; overflow: hidden;}
+	.container{padding:0 12px;}
+	.v-pc{display:none!important;}
+	.v-sp{display:block!important;}
+	#wrapper a:hover{opacity:1;}
+	#wrapper a img:hover{opacity:1;}
+
+	.img_pc {display: none;} .is-tab {display: none;} .is-pc {display: none;} .is-sp {display: block;}
+
+
+	/* --------------------------------------------------------------- */
+	/* MV */
+	/* --------------------------------------------------------------- */
+	#block-mv .mv_slider .item_inner {padding-top: 180.4878048780488%;}
+	#block-mv .mv_slider .item-1 .item_inner {background-image: url(../images/sp/mv_slide01.jpg);}
+	#block-mv .mv_slider .item-2 .item_inner {background-image: url(../images/sp/mv_slide02.jpg);}
+	#block-mv .mv_slider .item-3 .item_inner {background-image: url(../images/sp/mv_slide03.jpg);}
+	#block-mv .mv_slider .item-4 .item_inner {background-image: url(../images/sp/mv_slide04.jpg);}
+	#block-mv .mv_slider .item-5 .item_inner {background-image: url(../images/sp/mv_slide05.jpg);}
+	#block-mv .mv_slider .item-6 .item_inner {background-image: url(../images/sp/mv_slide06.jpg);}
+	#block-mv .mv_slider .item-7 .item_inner {background-image: url(../images/sp/mv_slide07.jpg);}
+	#block-mv .mv_logo {width: 30%;}
+	#block-mv .mv_ttl {width: 64%; height: auto; top: 60%; transform: translate(-50%, -50%);}
+	#block-mv .mv_ttl img {max-width: 100%; height: auto;}
+
+	/* --------------------------------------------------------------- */
+	/* ITEM */
+	/* --------------------------------------------------------------- */
+	#block-item {padding: 25px 0 45px;}
+	#block-item .item_lead {font-size: 16px;}
+	#block-item .item_list {margin-top: 25px;}
+	#block-item .item_list > li {width: calc(50% - 5px); padding-bottom: 120px;}
+	#block-item .item_list > li:nth-of-type(odd) {margin-right: 10px;}
+	#block-item .item_list > li:nth-of-type(even) {margin-right: 0;}
+	#block-item .item_list > li:nth-of-type(n+3) {margin-top: 15px;}
+	#block-item .item_list > li .txt {padding: 10px 10px 0;}
+	#block-item .item_list > li .txt .caption {font-size: 16px;}
+	#block-item .item_list > li .txt .explanation {display: none;}
+	#block-item .item_list > li .txt .name {margin-top: 10px; font-size: 14px;}
+	#block-item .item_list > li .txt .limited {padding: 5px 10px; font-size: 11px;}
+	#block-item .item_list > li .txt .price {font-size: 16px;}
+	#block-item .item_list > li .txt .price .tax {font-size: 12px;}
+	#block-item .item_list > li .txt .bottom {bottom: 20px;}
+	#block-item .item_list > li .txt .bottom .btn {padding: 10px 25px; font-size: 13px;}
+	#block-item .item_list > li .txt .bottom .present {margin-top: 10px; font-size: 11px;}
+ 
+ .banner .pc{display: none;}
+ 
+ .banner .sp{display: block;}
+ 
+ .banner{width: 70%;}
+	
+}
+
+/* ======================================================================================================================= */
+/* for IE */
+/* ======================================================================================================================= */
+@media screen\0 {
+	#wrapper .serif{font-family:"游明朝体","Yu Mincho",YuMincho,"ヒラギノ明朝 Pro","Hiragino Mincho Pro","MS P明朝","MS PMincho",serif;}
+	#block-mv .btn a{padding-top:14px;padding-bottom:10px;}
+	#block-ranking .tab-ranking > li{padding-top:14px;padding-bottom:7px;}}

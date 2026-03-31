@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>2020さくらんぼ特集 | リンベル　日本の極み</title>
+
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="keywords" content="さくらんぼ,サクランボ,こだわり,厳選,リンベル" />
+<meta name="description" content="創業の地山形で、地元さくらんぼ生産者とともに歩んできてきたリンベルが、厳しい基準で選び抜いたさくらんぼ。全て、産地山形から直送でお届けします。"/>
+
+<link rel="canonical" href="https://www.ringbell.co.jp/kiwami/sakuranbo/index.html">
+
+<link rel="stylesheet" type="text/css" href="assets-sel/css/common.css">
+<link rel="stylesheet" type="text/css" href="assets-sel-sp/css/common.css">
+<link rel="stylesheet" type="text/css" href="assets-sp/css/common.css">
+
+<link rel="stylesheet" type="text/css" href="../css/nav.css">
+
+<link rel="stylesheet" type="text/css" href="css/common_kiwami.css">
+<link rel="stylesheet" type="text/css" href="css/blog.css">
+<link rel="stylesheet" type="text/css" href="css/top.css">
+<link rel="stylesheet" type="text/css" href="css/animate.css">
+<link href=”https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap&subset=japanese” rel=”stylesheet”>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+<?php include('../include/tag1.php'); ?>
+</head>
+
+<body>
+
+<!-- header -->
+<?php include('../include/header_sakuranbo.php'); ?>
+<!--/header --> 
+
+<main>
+<div id="sel-wrapper">
+<div id="sel-containerA" class="clearfix">
+<div id="sel-wrapMainR">
+
+<!---------------------------- 記事エリア ---------------------------->
+<div id="kiwami">
+
+<div class="wrapper bg_white mv">
+	<h2 id="main_tl">
+		<img class="img_pc" src="images/top/main_ttl.png" alt="山形県産さくらんぼ" />
+		<img class="img_sp" src="images/top/main_ttl_sp.png" alt="山形県産さくらんぼ" />
+	</h2>
+</div>
+
+<div class="wrapper bg_white">
+	<div class="banner_area">
+		<ul>
+			<li>
+				<a href="hatsumono.html">
+					<img class="img_pc" src="images/top/hatsumono_bnr.png" alt="">
+					<img class="img_sp" src="images/top/hatsumono_bnr_sp.png" alt="">
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<div class="wrapper bg_white">
+	<div class="point_link_btn">
+		<ul>
+			<li><a href="#erabikata">選び方のポイント</a></li>
+			<li><a href="#kodawari">リンベルのこだわり</a></li>
+		</ul>
+	</div>
+</div>
+
+<div class="wrapper bg_white">
+	<section id="erabikata">
+		<h3>選び方のポイント</h3>
+			<div class="delivery">
+				<h4>お届けの時期</h4>
+				<img src="images/top/delevery.png" alt="">
+			</div>
+			<div class="package">
+				<h4>パッケージと詰め</h4>
+				<p>アートディレクター中山ダイスケ氏が手掛けた斬新なデザインのパッケージから、<br>質感の高い桐箱詰まで、幅広くご用意。ひとつひとつていねいに詰めています。</p>
+				<ul>
+					<li>
+						<p>桐箱詰め</p>
+						<dl>
+							<dt><img src="images/top/package_kiri.png" alt=""></dt>
+							<dd>化粧詰を、高級感あふれるリンベルオリジナルの桐箱に</dd>
+						</dl>
+					</li>
+					<li>
+						<p>化粧詰め</p>
+						<dl>
+							<dt><img src="images/top/package_kesyou.png" alt=""></dt>
+							<dd>美しさにこだわり、色のバランスまで整えた詰め方</dd>
+						</dl>
+					</li>
+					<li>
+						<p>ダイヤパック</p>
+						<dl>
+							<dt><img src="images/top/package_dia.jpg" alt=""></dt>
+							<dd>透明なパックに「軸」が透けないよう、放射状に</dd>
+						</dl>
+					</li>
+					<li>
+						<p>置並べ</p>
+						<dl>
+							<dt><img src="images/top/package_oki.png" alt=""></dt>
+							<dd>箱を開けた時に「軸」がなるべく見えない詰め方</dd>
+						</dl>
+					</li>
+					<li>
+						<p>バラ詰</p>
+						<dl>
+							<dt><img src="images/top/package_bara.png" alt=""></dt>
+							<dd>隙間を少なく、配送中に傷つかないよう工夫しています</dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+			<div class="size">
+				<h4>サイズ・等級</h4>
+				<div class="size_wrap">
+					<div class="size_left">
+						<p>等級、サイズも一定の基準を満たしたものだけを厳選しています。「等級」とは、着色面積の基準のこと。高ければ高いほど、より見た目が鮮やかに。</p>
+						<dl>
+							<img src="images/top/example.png" alt="">
+							<dt>等級とは – 佐藤錦の場合</dt>
+							<dd><span>（秀）［マルしゅう］（50％以上）、</span><br>
+								秀（60％以上）、特秀（70％以上）</dd>
+						</dl>
+					</div>
+					<img src="images/top/size.png" alt="">
+				</div>
+			</div>
+			<div class="variety">
+				<h4>品種</h4>
+				<ul>
+					<li>
+						<img src="images/top/sato.png" alt="">
+						<dl>
+							<dt>佐藤錦</dt>
+							<dd>さくらんぼの代名詞ともいえる人気の品種。果肉は乳白色で甘みと酸味のバランスが優れています。</dd>
+						</dl>
+					</li>
+					<li>
+						<img src="images/top/diana.png" alt="">
+						<dl>
+							<dt>ダイアナブライト</dt>
+							<dd>味・形ともに国産種の中では最大の大きさ。綺麗なサフランピンクの色づきでさくらんぼの女王とも称される。</dd>
+						</dl>
+					</li>
+					<li>
+						<img src="images/top/benisyu.png" alt="">
+						<dl>
+							<dt>紅秀峰</dt>
+							<dd>果肉はクリーム色で食べごたえのあるしっかりとした食感。酸味が少なく甘みが強い濃厚な味わいです。</dd>
+						</dl>
+					</li>
+					<li>
+						<img src="images/top/benihime.png" alt="">
+						<dl>
+							<dt>紅姫</dt>
+							<dd>８月に入ってからでも食べられるように、摘みたてをそのまま専用の施設にて低温貯蔵された、さくらんぼ。</dd>
+						</dl>
+					</li>
+					<li>
+						<img src="images/top/tukiyama.png" alt="">
+						<dl>
+							<dt>月山錦</dt>
+							<dd>果皮が黄色く、甘みの強い大粒のさくらんぼ。国内では希少価値が高く、特に女性に人気。</dd>
+						</dl>
+					</li>
+					<li>
+						<img src="images/top/taisyo.png" alt="">
+						<dl>
+							<dt>大将錦</dt>
+							<dd>さくらんぼの王様の意味
+								『大将錦』、粒が大きく糖度と酸味のバランスが絶妙で味は濃厚。<dd>
+						</dl>
+					</li>
+					<li>
+						<img src="images/top/benitemari.png" alt="">
+						<dl>
+							<dt>紅てまり</dt>
+							<dd>果肉は緻密でしっかりとしていて果汁が豊富。酸味がありバランスの良い味わいです。</dd>
+						</dl>
+					</li>
+					<li>
+						<img src="images/top/benisayaka.png" alt="">
+						<dl>
+							<dt>紅さやか</dt>
+							<dd>果皮は朱色〜紫黒色。果肉は鮮やかな淡赤色。早稲種としては大玉の、適度な甘みと酸味のさくらんぼ。</dd>
+						</dl>
+					</li>
+					<li>
+						<img src="images/top/yamagatabijin.png" alt="">
+						<dl>
+							<dt>山形美人</dt>
+							<dd>佐藤錦よりも果皮の赤味が強く、うっすらと白い線が入った、ツヤがある美しいさくらんぼです。果実は程よく引き締まっており、ほのかな酸味と濃厚な味わいが特徴。</dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+	</section>
+</div>
+
+<div class="white_wave">
+	<img src="images/top/white_wave.png" alt="">
+</div>
+
+<div class="wrapper bg_beige">
+	<section id="kodawari">
+		<h3>リンベルのこだわり</h3>
+		<div class="producer inner">
+			<h4>「生産者の顔」が見えること</h4>
+			<p>さくらんぼの栽培は、驚くほどの手間がかかるもの。だからこそ、そこには生産者たちの熱い思いが込められています。その想いを伝えることこそが、年間900万件のギフトを承る私たちリンベルが、一番こだわったことでした。</p>
+			<ul class="modal_trigger">
+				<li class="modal_btn"><img src="images/top/s_01.jpg" alt=""></li>
+				<li class="modal_btn"><img src="images/top/s_02.jpg" alt=""></li>
+				<li class="modal_btn"><img src="images/top/s_03.jpg" alt=""></li>
+				<li class="modal_btn"><img src="images/top/s_04.jpg" alt=""></li>
+				<li class="modal_btn"><img src="images/top/s_05.jpg" alt=""></li>
+				<li class="modal_btn"><img src="images/top/s_06.jpg" alt=""></li>
+				<li class="modal_btn"><img src="images/top/s_07.jpg" alt=""></li>
+				<li class="modal_btn"><img src="images/top/s_08.jpg" alt=""></li>
+				<li class="modal_btn"><img src="images/top/s_09.jpg" alt=""></li>
+				<li class="modal_btn"><img src="images/top/s_10.jpg" alt=""></li>
+				<li class="modal_btn"><img src="images/top/s_11.jpg" alt=""></li>
+				<li class="modal_btn"><img src="images/top/s_12.jpg" alt=""></li>
+			</ul>
+			<div class="modal_area">
+				<div class="modal_box">
+					<div class="modal_bg"></div>
+					<div class="modal_inner">
+						<div class="modal_block">
+							<p class="modal_ttl">「生産者の顔が見える」</p>
+							<div class="modal_contents">
+								<img src="images/top/owner_01.jpg" alt="">
+								<dl>
+									<dt>アンスリーファーム</dt>
+									<dd>山形県寒河江市は寒暖差が大きく、また水質も良いため、質の高いさくらんぼが生産されています。アンスリーファームはその土地柄を十分に活かし、実が最高の状態になるまで木に実らせておき、限界ぎりぎりまで養分を吸わせてから収穫することを徹底しています。平成29年度の佐藤錦品評会において最高賞である農林水産大臣賞を受賞した生産者が育てたさくらんぼをお届けします。
+									</dd>
+									<p>品評会受賞農園</p>
+								</dl>
+							</div>
+						</div>
+						<div class="modal_close">×</div>
+					</div>
+				</div>
+				<div class="modal_box">
+					<div class="modal_bg"></div>
+					<div class="modal_inner">
+						<div class="modal_block">
+							<p class="modal_ttl">「生産者の顔が見える」</p>
+							<div class="modal_contents">
+								<img src="images/top/owner_02.jpg" alt="">
+								<dl>
+									<dt>大場農園</dt>
+									<dd>東根市神町地区にて先祖代々の土地を大事に扱いさくらんぼを育てる大場さん。さくらんぼ発祥と言われる土地だけに、生産に適した土壌で育った味には定評があります。果樹１本ずつの特徴に合わせた管理栽培を心がけ、地域のグループの方々と共によりおいしいものを提供できるよう研究を重ねています。
+									</dd>
+								</dl>
+							</div>
+						</div>
+						<div class="modal_close">×</div>
+					</div>
+				</div>
+				<div class="modal_box">
+					<div class="modal_bg"></div>
+					<div class="modal_inner">
+						<div class="modal_block">
+							<p class="modal_ttl">「生産者の顔が見える」</p>
+							<div class="modal_contents">
+								<img src="images/top/owner_03.jpg" alt="">
+								<dl>
+									<dt>多田農園</dt>
+									<dd>〈多田農園〉のある山辺地区一帯は、丘陵の斜面を活かしたさくらんぼ栽培が盛ん。日当りの良さが、色づきを良くし、また、栽培に適した土壌が大粒の実を育てます。より美しく甘くおいしい味を求め、絶えず努力を続けています。
+									</dd>
+								</dl>
+							</div>
+						</div>
+						<div class="modal_close">×</div>
+					</div>
+				</div>
+				<div class="modal_box">
+					<div class="modal_bg"></div>
+					<div class="modal_inner">
+						<div class="modal_block">
+							<p class="modal_ttl">「生産者の顔が見える」</p>
+							<div class="modal_contents">
+								<img src="images/top/owner_04.jpg" alt="">
+								<dl>
+									<dt>秋葉光弘さん</dt>
+									<dd>山形県中山町にて農場を営む秋葉さんは、稲作や様々なフルーツの栽培を手掛けています。 そのノウハウから生まれた粒選りの佐藤錦をお届けします。
+									</dd>
+								</dl>
+							</div>
+						</div>
+						<div class="modal_close">×</div>
+					</div>
+				</div>
+				<div class="modal_box">
+					<div class="modal_bg"></div>
+					<div class="modal_inner">
+						<div class="modal_block">
+							<p class="modal_ttl">「生産者の顔が見える」</p>
+							<div class="modal_contents">
+								<img src="images/top/owner_05.jpg" alt="">
+								<dl>
+									<dt>関農園</dt>
+									<dd>先代から受け継いだ剪定技術を継承しつつ、受賞歴のある数々のさくらんぼ農家の技術を取り入れ、唯一無二の剪定技術を開発しました。あえて高さの低い樹形に整えることで、収穫量は減りますが、果実一つ一つに日が当たるようになり、高糖度で味の濃いさくらんぼを生み出しています。品評会で多数の受賞歴を誇る関農園のプレミアムなさくらんぼをお楽しみください。
+									</dd>
+									<p>品評会受賞農園</p>
+								</dl>
+							</div>
+						</div>
+						<div class="modal_close">×</div>
+					</div>
+				</div>
+				<div class="modal_box">
+					<div class="modal_bg"></div>
+					<div class="modal_inner">
+						<div class="modal_block">
+							<p class="modal_ttl">「生産者の顔が見える」</p>
+							<div class="modal_contents">
+								<img src="images/top/owner_06.jpg" alt="">
+								<dl>
+									<dt>清野親太郎さん</dt>
+									<dd>山形県大江町は周りを山々に囲まれた盆地で、昼夜の寒暖の差が大きいことから、良質なさくらんぼ作りに適した土地といわれています。清野さんが毎日手をかけ丹精込めて作ったさくらんぼです。
+									</dd>
+								</dl>
+							</div>
+						</div>
+						<div class="modal_close">×</div>
+					</div>
+				</div>
+				<div class="modal_box">
+					<div class="modal_bg"></div>
+					<div class="modal_inner">
+						<div class="modal_block">
+							<p class="modal_ttl">「生産者の顔が見える」</p>
+							<div class="modal_contents">
+								<img src="images/top/owner_07.jpg" alt="">
+								<dl>
+									<dt>高橋一樹果樹園</dt>
+									<dd>天童市の〈高橋一樹果樹園〉は奥羽山脈からのミネラル豊富な雪解け水をはじめとする豊かな自然、試行錯誤してたどり着いたオーガニック肥料を与える独自の栽培方法や剪定技術にて品質の高い果樹を生産しています。ていねいに育てたさくらんぼをお届けします。
+									</dd>
+								</dl>
+							</div>
+						</div>
+						<div class="modal_close">×</div>
+					</div>
+				</div>
+				<div class="modal_box">
+					<div class="modal_bg"></div>
+					<div class="modal_inner">
+						<div class="modal_block">
+							<p class="modal_ttl">「生産者の顔が見える」</p>
+							<div class="modal_contents">
+								<img src="images/top/owner_08.jpg" alt="">
+								<dl>
+									<dt>高橋フルーツランド</dt>
+									<dd>代表生産者の高橋真也さんは、独特の土づくりで、土壌の微生物を活性化して増加させ、果物の質を高める生産者。品種の特徴を最大限に表現した、香り・光沢・甘み・酸味があり、食感のいい果物をお届けします。
+									</dd>
+								</dl>
+							</div>
+						</div>
+						<div class="modal_close">×</div>
+					</div>
+				</div>
+				<div class="modal_box">
+					<div class="modal_bg"></div>
+					<div class="modal_inner">
+						<div class="modal_block">
+							<p class="modal_ttl">「生産者の顔が見える」</p>
+							<div class="modal_contents">
+								<img src="images/top/owner_09.jpg" alt="">
+								<dl>
+									<dt>天童みのりの会</dt>
+									<dd>山形県天童市の〈天童みのりの会〉の皆さんのさくらんぼ。温度管理や虫や鳥の害、天候に気を遣い、大切に育てました。果汁が多く、上品な甘みとさわやかな酸味のバランスの良い佐藤錦と、果肉が黄色く、甘みの強い大粒の月山錦をぜひご賞味ください。</dd>
+								</dl>
+							</div>
+						</div>
+						<div class="modal_close">×</div>
+					</div>
+				</div>
+				<div class="modal_box">
+					<div class="modal_bg"></div>
+					<div class="modal_inner">
+						<div class="modal_block">
+							<p class="modal_ttl">「生産者の顔が見える」</p>
+							<div class="modal_contents">
+								<img src="images/top/owner_10.jpg" alt="">
+								<dl>
+									<dt>桜桃 鈴沼会</dt>
+									<dd>山形の置賜地区で、さくらんぼを育てる〈鈴沼会〉の皆さん。
+										質の良さを競う『山形県さくらんぼ「佐藤錦」品評会』にて受賞歴のある生産者たちが愛情込めて育てました。自慢の味わいをぜひお楽しみください。
+									</dd>
+								</dl>
+							</div>
+						</div>
+						<div class="modal_close">×</div>
+					</div>
+				</div>
+				<div class="modal_box">
+					<div class="modal_bg"></div>
+					<div class="modal_inner">
+						<div class="modal_block">
+							<p class="modal_ttl">「生産者の顔が見える」</p>
+							<div class="modal_contents">
+								<img src="images/top/owner_11.jpg" alt="">
+								<dl>
+									<dt>うばふところ</dt>
+									<dd>蔵王の麓、山形県上山市で「自然に逆らわず自分の土地に合った栽培をする」ことを心がけ、人工的な手をかけすぎず、作物自らの力を伸ばし良質のさくらんぼを作り出しています。平成30年度の佐藤錦品評会において優秀賞を受賞したこだわりのさくらんぼです。
+									</dd>
+									<p>品評会受賞農園</p>
+								</dl>
+							</div>
+						</div>
+						<div class="modal_close">×</div>
+					</div>
+				</div>
+				<div class="modal_box">
+					<div class="modal_bg"></div>
+					<div class="modal_inner">
+						<div class="modal_block">
+							<p class="modal_ttl">「生産者の顔が見える」</p>
+							<div class="modal_contents">
+								<img src="images/top/owner_12.jpg" alt="">
+								<dl>
+									<dt>佐藤源悦農園</dt>
+									<dd>山形県天童市でさくらんぼ栽培を行う佐藤源悦さん。有機肥料を使用して土づくりからこだわって育て、粒が大きくて食感の良い、甘みのあるさくらんぼ作りを目指し手間と愛情をかけて育てています。
+									</dd>
+								</dl>
+							</div>
+						</div>
+						<div class="modal_close">×</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="pride">
+			<h4>「さくらんぼ王国」山形の誇り</h4>
+			<div class="pride_wrap">
+				<div class="y_txt">
+				<p>さくらんぼは、明治初期に欧米から導入され、風土に適合した山形県だけが実績をあげました。しかし、その頃の品種は実割れや実腐れが起こり、長期輸送も困難なもの。そこで、山形県東根市の佐藤栄助さんが、品種改良に挑み、16年もの苦労の末、<span>日本を代表する人気品種「佐藤錦」が誕生</span>します。</p>
+
+				<p>内陸部が盆地で、冬と夏、そして昼夜の寒暖差が大きく、さくらんぼ栽培の好適地だったこと。明治期から官民一体となって努力を重ねたこと。それらのことから、山鹿県は、<span>現在では国内のさくらんぼ収穫量の7割を占める「さくらんぼ王国」</span>となりました。</p>
+				</div>
+				<div class="y_map">
+					<img src="images/top/y_map.png" alt="">
+					<ul>
+						<li><img src="images/top/y_map_01.jpg" alt=""></li>
+						<li><img src="images/top/y_map_02.jpg" alt=""></li>
+						<li><img src="images/top/y_map_03.jpg" alt=""></li>
+					</ul>
+				</div>
+			</div>
+			<p>さくらんぼの<span>栽培は、とても繊細で、手間がかかるもの</span>です。余分な芽を摘む、受粉を助ける、果実を間引きする、などは人の手が欠かせません。もちろん、収穫も手づみで行われます。3月から4月にかけては霜害を防ぐ温度管理、収穫時期が近づいてからは雨を防ぎ、日光が十分に行き渡るよう様々な手立てをほどこします。
+			</p>
+			<p>「さくらんぼ王国」山形が、誇りを持って送り出すさくらんぼ、この機会にぜひご賞味ください。
+			</p>
+		</div>
+	</section>
+</div>
+
+
+<!--<section id="blog" class="wrap">
+<h2 class="blog_tl"><img src="images/blog/blog_tl.png" alt="リンベルのスタッフNews＆Blog"></h2>
+<div id="include">
+
+</div>
+</section><!--/blog-->
+
+</div>
+<!---------------------------- /記事エリア ---------------------------->
+
+</div><!-- sel-wrapMainR/end -->
+</div><!-- sel-containerA/end -->
+</div><!-- sel-wrapper/end -->
+</main>
+
+<!-- footer --> 
+<?php include('../include/footer.php'); ?>
+<!-- /footer -->
+
+<script type="text/javascript" src="../js/lib.js"></script> 
+<script type="text/javascript" src="../js/nav.js"></script>
+<script type="text/javascript" src="../js/script.js"></script>
+
+<!--blog用-->
+<!--<script type="text/javascript">
+	$(document).ready(function() {
+	   $('#include').load('blog.html #gyoza');
+	});
+</script>-->
+<!--/blog用-->
+
+<script>
+	$(function () {
+	$('.item_button').prevAll().hide();
+	$('.item_button').click(function () {
+	if ($(this).prevAll().is(':hidden')) {
+	$(this).prevAll().slideDown();
+	$(this).children('img').attr("src", $('.item_button img').attr("src").replace("-more", "-close"));
+	} else {
+	$(this).prevAll().slideUp();
+	$(this).children('img').attr("src", $('.item_button img').attr("src").replace("-close", "-more"));
+	}
+	});
+	});
+</script>
+
+<script>
+    $(function(){
+      $('#voices dl').matchHeight();
+    });
+</script>
+
+<script>
+	// モーダルが複数ある場合
+	$(function () {
+	// モーダルのボタンをクリックした時
+	$('.modal_trigger .modal_btn').on('click', function() {
+	var btnIndex = $(this).index(); // 何番目のモーダルボタンかを取得
+	$('.modal_area .modal_box').eq(btnIndex).fadeIn(); // クリックしたモーダルボタンと同じ番目のモーダルを表示する
+	});
+
+	// ×やモーダルの背景をクリックした時
+	$('.modal_close , .modal_bg').click(function(){
+	$('.modal_box').fadeOut(); // モーダルを非表示にする
+	});
+	});
+</script>
+
+<?php include('../include/tag2.php'); ?>
+
+</body>
+</html>

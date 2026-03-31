@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+
+
+#lead {
+	margin-top:20px;
+	padding: 40px;
+	background-image:url(../images/tsuyahime/main_bg.jpg);
+	background-position: top right;
+	background-repeat:no-repeat;
+	background-color:#0d0809;
+}
+#lead .txt {
+	margin:0 0 15px;
+	padding:0;
+	width: 440px;
+	color:#FFF;
+	box-sizing:border-box;
+}
+#lead .btn {
+}
+#lead .btn a {
+	background-color:#917f0a;
+}
+#lead .btn a:hover {
+	background-color:#a8961f;
+}
+
+#features .feature_box .feature_box_thumb {
+	width:auto;
+	float:none;
+	box-sizing:border-box;
+	margin-left:0px;
+}
+#features .feature_box .feature_box_thumb img {
+	margin-top:10px;
+}
+#features .feature_box .feature_box_thumb img:first-child {
+	margin-top:10px;
+}
+#features .feature_box .feature_box_txt {
+	margin-bottom:20px;
+}
+
+#order .order_list li .order_list_thumb {
+	width:260px;
+}
+#order .order_list li .order_list_info {
+	width:calc(100% - 260px);
+}
+
+
+
+
+
+@media screen and (max-width: 599px) {
+
+
+#lead {
+	margin-top:10px;
+	padding:0;
+}
+#lead div {
+	padding: 20px 10px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+#lead .txt {
+	margin:0 0 10px;
+	width: 100%;
+}
+#lead .btn {
+}
+#lead .btn a {
+}
+#lead .btn a:hover {
+}
+
+#features .feature_box .feature_box_thumb {
+}
+#features .feature_box .feature_box_thumb img {
+}
+#features .feature_box .feature_box_thumb img:first-child {
+}
+#features .feature_box .feature_box_txt {
+	margin-bottom:10px;
+}
+
+#order .order_list li .order_list_thumb {
+	width:100px;
+}
+#order .order_list li .order_list_info {
+	width:calc(100% - 100px);
+}
+
+}

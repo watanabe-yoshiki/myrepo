@@ -1,0 +1,524 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500;700&display=swap');
+
+
+#wrapper{width:100%;font-family: 'M PLUS 1p', sans-serif;font-size:16px;font-weight:400;line-height: 1.625;color:#333;background:#F2F2F2; padding-bottom: 60px; letter-spacing: 0.05em;}
+#wrapper *{box-sizing:border-box;}
+#wrapper .serif{font-family: "游明朝体","Yu Mincho",YuMincho,"ヒラギノ明朝 Pro","Hiragino Mincho Pro","MS P明朝","MS PMincho",serif;}
+#wrapper a:hover{opacity:0.7;}
+#wrapper a img:hover{opacity:0.7;}
+
+.container{margin:auto;max-width:1120px;padding: 0 20px;}
+.v-pc{display:block!important;}
+.v-sp{display:none!important;}
+
+.txt-gold {color: #B3963D;}
+
+.bg-white {background-color: #fff;}
+
+/* --------------------------------------------------------------- */
+/* contents */
+/* --------------------------------------------------------------- */
+.contents {
+	position: relative;
+	letter-spacing: 0.1em;
+}
+.contents + .contents {
+	margin-top: 50px;
+}
+.contents:last-of-type {
+	padding-bottom: 80px;
+}
+.contents h2 {
+	margin-bottom: 20px;
+	text-align: center;
+}
+.contents h2 span {
+	position: relative;
+	display: inline-block;
+	font-size: 36px;
+	background-color: #F2F2F2;
+}
+.contents h2 span::before,
+.contents h2 span::after {
+	content: "";
+	display: inline-block;
+	width: 70px;
+	height: 1px;
+	vertical-align: middle;
+	background-color: #707070;
+	transform: translateY(-50%);
+}
+.contents h2 span::before {
+	margin-right: 25px;
+}
+.contents h2 span::after {
+	margin-left: 25px;
+}
+.contents_list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 38px 14px;
+}
+.contents_list > li {
+	display: flex;
+	flex-direction: column;
+	width: calc((100% - 28px) / 3);
+	padding-bottom: 20px;
+	box-shadow: 0px 3px 6px #00000029;
+	background-color: #fff;
+}
+.contents_list > li .img {
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-top: 60.57142857142857%;
+}
+.contents_list > li .img img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.contents_list > li .txt {
+	padding: 15px 20px 0;
+	margin-bottom: 20px;
+	line-height: 1.5;
+	text-align: center;
+}
+.contents_list > li .txt .catch {
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+	font-size: 20px;
+	font-weight: 700;
+	border-bottom: 1px solid #707070;
+}
+.contents_list > li .txt .name {
+	font-size: 20px;
+	font-weight: 700;
+}
+.contents_list > li .txt .off {
+	padding: 3px;
+	margin-top: 15px;
+	color: #B72609;
+	font-size: 14px;
+	line-height: 1;
+	text-align: center;
+	background-color: #EDE8DB;
+}
+.contents_list > li .txt .price {
+	font-size: 16px;
+	font-weight: 500;
+}
+.contents_list > li .txt .price .before {
+	text-decoration: line-through;
+}
+.contents_list > li .txt .price .after .num {
+	font-size: 22px;
+}
+.contents_list > li .btn {
+	margin-top: auto;
+}
+.contents_list > li .btn a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 220px;
+	max-width: calc(100% - 40px);
+	height: 42px;
+	margin: auto;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	background-color: #333;
+}
+.contents_list > li .btn-end a {
+	pointer-events: none;
+    color: #fff;
+    background-color: #777;
+}
+
+/* --------------------------------------------------------------- */
+/* period */
+/* --------------------------------------------------------------- */
+.period {
+	padding: 5px 0;
+	color: #fff;
+	background-color: #333;
+}
+.period_date {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.period_date span {
+	padding: 0 20px;
+	font-size: 16px;
+	border: 1px solid #fff;
+}
+.period_date p {
+	margin-left: 1em;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* --------------------------------------------------------------- */
+/* block-head */
+/* --------------------------------------------------------------- */
+#block-head {
+	position: relative;
+	background: url(../images/bg_head.jpg) center top / cover no-repeat;
+}
+#block-head .head-inner {
+	position: relative;
+	padding: 40px 0 20px;
+}
+#block-head .head-logo {
+	position: absolute;
+	left: 80px;
+	top: 0;
+	width: 194px;
+}
+#block-head .head-ttl {
+	width: 61%;
+	margin: 0 auto 20px;
+}
+#block-head .head-ttl img {
+	margin: auto;
+}
+#block-head .head-txt {
+	color: #333;
+	font-size: 16px;
+	font-weight: 500;
+	text-align: center;
+}
+#block-head .head-off {
+	position: absolute;
+	right: -100px;
+	top: 15px;
+	width: 151px;
+}
+
+/* --------------------------------------------------------------- */
+/* block-top */
+/* --------------------------------------------------------------- */
+#block-top {
+	padding: 30px 0 35px;
+}
+#block-top > .container {
+}
+#block-top .top-bnr {
+ max-width: 973px;
+ margin: auto;
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ gap: 10px 0;
+}
+#block-top .top-bnr a {
+ display: block;
+ width: calc((100% - 25px) / 2);
+}
+
+#block-top .top-pagelink {
+	display: flex;
+	justify-content: center;
+	margin-top: 35px;
+}
+#block-top .top-pagelink > li {
+	width: 120px;
+	height: 120px;
+}
+#block-top .top-pagelink > li + li {
+	margin-left: 20px;
+}
+#block-top .top-pagelink > li a {
+	position: relative;
+	display: block;
+	height: 100%;
+	border-radius: 50%;
+	background-size: cover;
+	background-position: center center;
+	overflow: hidden;
+}
+#block-top .top-pagelink > li a::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);
+}
+#block-top .top-pagelink > li.navi-01 a {
+	background-image: url(../images/117G-010.jpg);/*和牛*/
+}
+#block-top .top-pagelink > li.navi-02 a {
+	background-image: url(../images/4858-952.jpg);/*ミート*/
+}
+#block-top .top-pagelink > li.navi-03 a {
+	background-image: url(../images/4858-498.jpg);/*スイーツ*/
+}
+#block-top .top-pagelink > li.navi-04 a {
+	background-image: url(../images/051G-201.jpg);/*フルーツ*/
+}
+#block-top .top-pagelink > li.navi-05 a {
+	background-image: url(../images/9071-014.jpg);/*グルメ・麺*/
+}
+#block-top .top-pagelink > li.navi-06 a {
+	background-image: url(../images/4858-955.jpg);/*海鮮*/
+}
+#block-top .top-pagelink > li.navi-07 a {
+	background-image: url(../images/171G-004.jpg);/*ドリンク・酒*/
+}
+#block-top .top-pagelink > li a .txt {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	color: #fff;
+	font-size: 19px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 1.3;
+	letter-spacing: 0.1em;
+	white-space: nowrap;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+}
+
+#block-top .banner{
+ width: 700px;
+ margin: auto;
+ padding-top: 40px;
+ padding-bottom: 30px;
+ text-align: center;
+}
+
+#block-top .banner .banner-sp{
+ display: none;
+}
+
+#block-top .top-lead {
+	margin-top: 40px;
+	text-align: center;
+	line-height: 1.6;
+}
+#block-top .top-lead span {
+	font-weight: bold;
+}
+/* --------------------------------------------------------------- */
+@media screen and (min-width: 768px){
+	.is-pc {display: block;} .is-tab { display: block;} .is-sp {display: none;} .img_sp {display: none;}
+ 
+}
+
+/* ========================================================================================= */
+/* SP */
+/* ========================================================================================= */
+
+@media screen and (max-width: 1120px) {
+	.is-tab {display: none;}
+
+	/* --------------------------------------------------------------- */
+	/* contents */
+	/* --------------------------------------------------------------- */
+	.contents_list > li .txt {
+		padding: 10px 10px 0;
+		margin-bottom: 10px;
+	}
+	.contents_list > li .txt .catch {
+		margin-bottom: 15px;
+		font-size: 15px;
+	}
+	.contents_list > li .txt .name {
+		font-size: 12px;
+	}
+	.contents_list > li .txt .off {
+		margin-top: 10px;
+		font-size: 10px;
+	}
+	.contents_list > li .txt .price {
+		margin-top: 5px;
+		font-size: 12px;
+	}
+	.contents_list > li .txt .price .before {
+		display: block;
+	}
+	.contents_list > li .txt .price .after .num {
+		font-size: 17px;
+	}
+	.contents_list > li .btn a {
+		max-width: calc(100% - 20px);
+		height: 34px;
+		font-size: 13px;
+	}
+
+	/* --------------------------------------------------------------- */
+	/* block-head*/
+	/* --------------------------------------------------------------- */
+	#block-head .head-logo {
+		left: 0;
+		width: 12%;
+	}
+	#block-head .head-off {
+		right: 15px;
+		width: 12%;
+	}
+
+	/* --------------------------------------------------------------- */
+	/* block-top*/
+	/* --------------------------------------------------------------- */
+	#block-top .top-bnr a {
+		align-items: center;
+	}
+	
+
+}
+
+/* --------------------------------------------------------------- */
+@media screen and (max-width: 767px){
+	#wrapper{font-size:11px;letter-spacing:0.04em; padding-bottom: 60px; overflow: hidden;}
+	.container{padding:0 15px;}
+	.v-pc{display:none!important;}
+	.v-sp{display:block!important;}
+	#wrapper a:hover{opacity:1;}
+	#wrapper a img:hover{opacity:1;}
+
+	.img_pc {display: none;} .is-tab {display: none;} .is-pc {display: none;} .is-sp {display: block;}
+
+
+	/* --------------------------------------------------------------- */
+	/* contents */
+	/* --------------------------------------------------------------- */
+	.contents + .contents {
+		margin-top: 40px;
+	}
+	.contents:last-of-type {
+		padding-bottom: 30px;
+	}
+	.contents h2 span {
+		font-size: 21px;
+	}
+	.contents h2 span::before,
+	.contents h2 span::after {
+		width: 35px;
+	}
+	.contents h2 span::before {
+		margin-right: 20px;
+	}
+	.contents h2 span::after {
+		margin-left: 20px;
+	}
+	.contents_list {
+		gap: 19px 14px;
+	}
+	.contents_list > li {
+		width: calc(50% - 7px);
+	}
+
+	/* --------------------------------------------------------------- */
+	/* period */
+	/* --------------------------------------------------------------- */
+	.period_date span {
+		font-size: 11px;
+	}
+	.period_date p {
+		font-size: 16px;
+	}
+
+	/* --------------------------------------------------------------- */
+	/* block-head */
+	/* --------------------------------------------------------------- */
+	#block-head .head-logo {
+		top: 0;
+		left: 15px;
+		width: 26%;
+	}
+	#block-head .head-inner {
+		padding: 88px 0 25px;
+	}
+	#block-head .head-ttl {
+		width: 75%;
+		margin: 8px auto 0;
+	}
+	#block-head .head-txt {
+		margin-top: 10px;
+		font-size: 14px;
+	}
+	#block-head .head-off {
+		right: 7px;
+		top: 8px;
+		width: 22%;
+	}
+
+	/* --------------------------------------------------------------- */
+	/* block-top */
+	/* --------------------------------------------------------------- */
+	#block-top {
+		padding: 20px 0 40px;
+	}
+ 
+ #block-top .top-bnr a{
+  width: 100%;
+  display: block;
+  margin: auto;
+ }
+
+	#block-top .top-bnr a::after {
+		right: 4px;
+		bottom: 4px;
+		width: 23px;
+		height: 23px;
+	}
+	#block-top .top-bnr .balloon {
+		padding: 5px;
+		font-size: 12px;
+		line-height: 1.25;
+	}
+	#block-top .top-bnr .balloon::after {
+		width: 15px;
+		height: 15px;
+	}
+	#block-top .top-bnr .txt {
+		font-size: 16px;
+	}
+	#block-top .top-pagelink {
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 7px;
+	}
+	#block-top .top-pagelink > li{
+		width: calc((100% - 21px) / 4);
+		height: auto;
+	}
+	#block-top .top-pagelink > li + li {
+		margin-left: 0;
+	}
+	#block-top .top-pagelink > li a {
+		height: 0;
+		padding-top: 100%;
+	}
+	#block-top .top-pagelink > li a .txt {
+		font-size: 13px;
+	}
+	#block-top .top-lead {
+		margin-top: 1em;
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 600px){
+}
+
+@media screen and (max-width: 425px){
+}
+
+/* ======================================================================================================================= */
+/* for IE */
+/* ======================================================================================================================= */
+@media screen\0 {
+	#wrapper .serif{font-family:"游明朝体","Yu Mincho",YuMincho,"ヒラギノ明朝 Pro","Hiragino Mincho Pro","MS P明朝","MS PMincho",serif;}
+	#block-mv .btn a{padding-top:14px;padding-bottom:10px;}
+	#block-ranking .tab-ranking > li{padding-top:14px;padding-bottom:7px;}}

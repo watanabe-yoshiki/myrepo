@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<hintStrings>
+	
+	<!-- 下部操作ボタン -->
+	<flipL>左のページへ</flipL>
+	<flipLL>左端のページまでめくる</flipLL>
+	<flipR>右のページへ</flipR>
+	<flipRR>右端のページまでめくる</flipRR>
+	<zoomIn>拡大します</zoomIn>
+	<zoomOut>縮小します</zoomOut>
+	<autoFlip>自動めくり</autoFlip>
+	<pdf>PDFファイルを開きます</pdf>
+	<help>ヘルプを表示します</help>
+	
+	<!-- 右側ツールボタン -->
+	<pen>ペンで線を書きます</pen>
+	<fusen>付箋を貼ります</fusen>
+	<print>印刷します</print>
+	<share>このページのURLやテキストを紹介</share>
+	<navi>拡大時のナビゲーションを表示</navi>
+	<fullScreen>フルスクリーンON/OFF</fullScreen>
+	
+	<!-- ペンツールウィンドウ -->
+	<pen_free>自由曲線</pen_free>
+	<pen_straight>直線</pen_straight>
+	<pen_large>太い線</pen_large>
+	<pen_small>細い線</pen_small>
+	<pen_color>線の色</pen_color>
+	<pen_alpha>半透明ON/OFF</pen_alpha>
+	<pen_areaEraser>範囲消去</pen_areaEraser>
+	<pen_clear>表示中の線を消去</pen_clear>
+	
+	<!-- 付箋ウィンドウ -->
+	<fusen_textColor>付箋の文字色</fusen_textColor>
+	<fusen_bgColor>付箋の背景色</fusen_bgColor>
+	<fusen_clear>表示中の付箋を消去</fusen_clear>
+	
+	<!-- 印刷ウィンドウ -->
+	<print_lPage>左側のページを選択</print_lPage>
+	<print_rPage>右側のページを選択</print_rPage>
+	<print_twoPage>見開きページを選択</print_twoPage>
+	<print_memo>手書きメモ・付箋を印刷するON/OFF</print_memo>
+	<print_doPrint>印刷を実行します</print_doPrint>
+	
+	<!-- ナビゲートウィンドウ -->
+	<navi_drag>ドラッグして表示エリアを移動できます</navi_drag>
+	
+	<!-- 自動めくりウィンドウ -->
+	<autoFlip_l>左方向へめくります</autoFlip_l>
+	<autoFlip_r>右方向へめくります</autoFlip_r>
+	<autoFlip_stop>自動めくりを停止します</autoFlip_stop>
+	<autoFlip_fast>速度（速）</autoFlip_fast>
+	<autoFlip_slow>速度（遅）</autoFlip_slow>
+	
+	<!-- pdfウィンドウ -->
+	<pdf_open>PDFファイルを開きます</pdf_open>
+	<pdf_l>左側のページのPDFファイルを開きます</pdf_l>
+	<pdf_r>右側のページのPDFファイルを開きます</pdf_r>
+	
+	<!-- 目次 -->
+	<index_visualTab>ビジュアル</index_visualTab>
+	<index_textTab>テキスト</index_textTab>
+	<index_fusenTab>付箋</index_fusenTab>
+	<index_textSearchTab>検索</index_textSearchTab>
+	<index_bookListTab>他のブック</index_bookListTab>
+	
+	<!-- shareウィンドウ -->
+	<share_open>シェアウィンドウを開きます</share_open>
+	<share_clear>枠をクリア</share_clear>
+	<share_copy>コピーします</share_copy>
+	<share_clip>選択範囲を切り抜きます</share_clip>
+	<share_facebook>Facebookで共有</share_facebook>
+	<share_twitter>Twitterで共有</share_twitter>
+	<share_email>Emailを送る</share_email>
+	<share_hatena>はてなブックマーク</share_hatena>
+	<share_googleplus>Google Plusで共有</share_googleplus>
+	<share_linkedin>Linked Inで共有</share_linkedin>
+	<share_areaSelectMessage>範囲選択してください</share_areaSelectMessage>
+	<share_copiedMessage>コピーしました</share_copiedMessage>
+	
+	<SSConfirmStartPage>前回最後に表示していた&1ページを表示しますか？</SSConfirmStartPage>
+	<SSCompleteContents>データ送信に成功しました。</SSCompleteContents>
+	<SSCompleteContentsFail>データ送信に失敗しました。</SSCompleteContentsFail>        
+	<SSRetryButtonLabel>再送信</SSRetryButtonLabel>
+	
+</hintStrings>

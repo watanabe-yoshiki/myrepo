@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+
+.bnr_sakuranbo a {
+	display: block;
+}
+
+
+
+/* TAB */
+@media screen and (min-width:768px) {
+	
+	.sp-img {
+		display: none;
+	}
+
+	.bnr_sakuranbo {
+		position: relative;
+		width: 100%;
+		height: 353px;
+		background: url(../img/bnr_sakuranbo.png) repeat center center;
+		background-size: cover;
+	}
+
+	.bnr_sakuranbo a {
+		position: absolute;
+		width: 280px;
+		bottom: 32px;
+		left: 50%;
+		margin-left: -140px;
+		/*right: 0;
+		left: 0;
+		margin: auto;*/
+	}
+
+}
+
+/* SP */
+@media screen and (max-width:767px) {
+
+	.pc-img {
+		display: none;
+	}
+
+	.bnr_sakuranbo {
+		position: relative;
+		width: 100%;
+		height: 222px;
+		background: url(../img/bnr_sakuranbo_sp.png) no-repeat center center;
+		background-size: cover;
+	}
+
+	.bnr_sakuranbo a {
+		position: absolute;
+		width: 240px;
+		right: 0;
+		bottom: 26px;
+		left: 0;
+		margin: auto;
+	}
+
+}

@@ -1,0 +1,1149 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@400;700&display=swap');
+
+#wrapper{width:100%;font-family: 'Noto Sans JP','Yu Gothic', 'YuGothic', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;font-size:18px;color:#333;}
+#wrapper *{box-sizing:border-box;}
+#wrapper .serif{font-family: 'Noto Serif JP',"游明朝体","Yu Mincho",YuMincho,"ヒラギノ明朝 Pro","Hiragino Mincho Pro","MS P明朝","MS PMincho",serif;}
+#wrapper a:hover{opacity:0.7;}
+#wrapper a img:hover{opacity:0.7;}
+
+/* ========================================================================================= */
+/* SP */
+/* ========================================================================================= */
+
+/* --------------------------------------------------------------- */
+@media screen and (max-width: 767px){
+	#wrapper{font-size:11px;letter-spacing:0.04em;}
+	.container{padding:0 12px;}
+	.v-pc{display:none!important;}
+	.v-sp{display:block!important;}
+	#wrapper a:hover{opacity:1;}
+	#wrapper a img:hover{opacity:1;}
+}
+/* ======================================================================================================================= */
+/* for IE */
+/* ======================================================================================================================= */
+@media screen\0 {
+	#wrapper .serif{font-family:"游明朝体","Yu Mincho",YuMincho,"ヒラギノ明朝 Pro","Hiragino Mincho Pro","MS P明朝","MS PMincho",serif;}
+	#block-mv .btn a{padding-top:14px;padding-bottom:10px;}
+	#block-ranking .tab-ranking > li{padding-top:14px;padding-bottom:7px;}
+
+}
+
+/* LP クローズ用 */
+
+#recommend {
+ width: 1224px;
+ margin: 40px auto;
+ padding: 30px;
+ border: 1px solid #BF9C46;
+ background:#fff;
+}
+
+#recommend .wrap{
+ margin: auto;
+}
+#recommend .wrap > li figure {
+  position: relative;
+}
+#recommend .wrap > li figure::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 40px;
+  height: 40px;
+  background: url(../images/icon_arw.png) left top / 100% auto no-repeat;
+}
+ 
+#recommend .sp{
+ display: none; 
+ } 
+
+#recommend .left{
+ display: inline-block;
+  vertical-align: top;
+}
+
+#recommend .left img{
+ padding-right: 30px;
+ vertical-align: middle;
+}
+
+#recommend .left .text{
+ display: inline-block;
+ vertical-align: middle;
+}
+
+#recommend .left .text h1{
+ color: #BF9C46;
+ font-size: 30px;
+ font-weight: 600;
+ padding-top: 10px;
+}
+
+#recommend .left .text p{
+ color: #333333;
+ font-size: 20px;
+ font-weight: 400;
+ line-height: 1.8em;
+ padding-top: 10px;
+}
+
+#recommend .right{
+ float: right;
+ width: 130px;
+ height: 130px;
+ border-radius: 50%;
+ background: #B3963D;
+}
+
+#recommend .right p{
+ color: #fff;
+ font-size: 13.5px;
+ margin: auto;
+ font-weight: bold;
+ padding-top: 30px;
+ text-align: center;
+}
+
+#recommend .right h5{
+ color: #fff;
+ font-size: 20px;
+ text-align: center;
+}
+
+#recommend .wrap{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ justify-content: flex-start;
+ margin-top: 70px;
+}
+
+#recommend .pickup {
+ width: 51.2%;
+ display: inline-block;
+ margin-left: 20px;
+}
+
+#recommend .pickup figure{
+ width: 281px;
+ display: inline-block;
+ vertical-align: middle;
+}
+
+#recommend .pickup figure img{
+ width: 100%;
+}
+
+#recommend .pickup .text{
+ width: 50%;
+ display: inline-block;
+ vertical-align: top;
+ padding-top: 10px;
+ padding-left: 20px;
+ padding-right: 30px;
+}
+
+#recommend .pickup span{
+ color: #fff;
+ font-size: 14px;
+ padding: 3px 8px;
+ background: #FF0000;
+}
+
+#recommend .pickup small{
+ color: #333333;
+ display: block;
+ font-size: 18px;
+ font-weight: 500;
+ line-height: 1.2em;
+ margin-top: 15px;
+ font-family: "Source Han Serif JP", serif;
+}
+
+#recommend .pickup h2{
+ color: #333333;
+ font-size: 33px;
+ font-weight: 400;
+ line-height: 1.2em;
+ padding-top: px;
+ padding-bottom: 20px;
+ font-family: "Source Han Serif JP", serif;
+}
+
+#recommend .pickup h2 small{
+ display: inline-block;
+ font-size: 24px;
+ font-weight: 400;
+ padding-right: 10px;
+}
+
+#recommend .other{
+ width: 45%;
+ display: inline-block;
+ vertical-align: top;
+}
+
+#recommend .package{
+ margin-top: 19px;
+}
+
+#recommend .other figure{
+ width: 275px;
+ display: inline-block;
+ vertical-align: middle;
+}
+
+#recommend .other .text{
+ display: inline-block;
+ font-size: 17px;
+ vertical-align: top;
+ padding-top: 25px;
+ padding-left: 20px;
+}
+
+
+#recommend .ranking h1{
+ color: #BF9C46;
+ font-size: 30px;
+ font-weight: 500;
+ text-align: center;
+ padding-top: 60px;
+ padding-bottom: 20px;
+}
+
+#recommend .ranking ul{
+ display: -webkit-flex;
+ display: flex;
+ -webkit-flex-wrap: wrap;
+ flex-wrap: wrap;
+ -webkit-justify-content: flex-start;
+ justify-content: flex-start;
+ counter-reset: ranking 0;
+}
+
+#recommend .ranking li{
+ width: calc(24.7% - 20px);
+ margin-left: 15px;
+ margin-right: 15px;
+ box-sizing: border-box;
+}
+
+#recommend .ranking li figure {
+  position: relative;
+}
+#recommend .ranking li figure::before {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 50%;
+  background-color: #B5983F;
+  z-index: 1;
+}
+#recommend .ranking li.rank1 figure::before {
+  content: "1";
+}
+#recommend .ranking li.rank2 figure::before {
+  content: "2";
+}
+#recommend .ranking li.rank3 figure::before {
+  content: "3";
+}
+#recommend .ranking li.rank4 figure::before {
+  content: "4";
+}
+#recommend .ranking li figure::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 40px;
+  height: 40px;
+  background: url(../images/icon_arw.png) left top / 100% auto no-repeat;
+}
+
+#recommend .ranking li img{
+ width: 100%;
+}
+
+#recommend .ranking li:first-child{
+ margin-left: 0px;
+}
+
+#recommend .ranking li:last-child{
+ margin-right: 0px;
+}
+
+#recommend .ranking li h2{
+ color: #777777;
+ font-size: 18px;
+ font-weight: 400;
+ padding-bottom: 10px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ border-bottom: 1px solid #ddd;
+}
+
+#recommend .ranking li p{
+ color: #777777;
+ font-size: 15px;
+ font-weight: 500;
+}
+
+#recommend .ranking li span{
+ color: #BF9C46;
+ font-size: 15px;
+ font-weight: 500;
+}
+
+
+#recommend .category h1{
+ color: #BF9C46;
+ font-size: 30px;
+ font-weight: 500;
+ text-align: center;
+ padding-top: 60px;
+ padding-bottom: 20px;
+}
+
+#recommend .category ul{
+ display: -webkit-flex;
+ display: flex;
+ -webkit-flex-wrap: wrap;
+ flex-wrap: wrap;
+ -webkit-justify-content: flex-start;
+ justify-content: flex-start;
+}
+
+#recommend .category li{
+ width: calc(16% - 20px);
+ margin-left: 15px;
+ margin-right: 15px;
+ box-sizing: border-box;
+ text-align: center;
+}
+
+
+#recommend .category li:first-child{
+ margin-left: 0px;
+}
+
+#recommend .category li:last-child{
+ margin-right: 0px;
+}
+
+#recommend .category li p{
+ color: #333333;
+ font-size: 15px;
+ font-weight: 500;
+ text-align: center;
+ padding: 10px 15px;
+ background: #EDE8DB;
+ position: relative;
+ margin-top: 22px;
+}
+
+#recommend .category li p:before {
+  content: "";
+  position: absolute;
+  top: -28px;
+  left: 52%;
+  margin-left: -15px;
+  border: 8px solid transparent;
+  border-bottom: 20px solid #EDE8DB;
+}
+
+#recommend .common-link{
+ text-align: center;
+ margin-top: 80px;
+ margin-bottom: 30px;
+}
+
+#recommend .common-link a{
+ color: #fff;
+ font-size: 18px;
+ background: #000;
+ padding: 15px 33px;
+ border: 2px solid #000;
+}
+
+#recommend .common-link a:hover{
+ color: #000;
+ background: #fff;
+ padding: 15px 33px;
+ border: 2px solid #000;
+}
+
+@media screen and (max-width: 1240px){
+
+#recommend{
+ width: 100%;
+ max-width: 89%;
+ }
+ 
+#recommend .left img{
+ padding-right: 20px; 
+ }
+ 
+#recommend .left .text p{
+ font-size: 18px; 
+ } 
+ 
+#recommend .wrap {
+ margin-top: 40px;
+ }
+ 
+#recommend .pickup{
+ width: 55%;
+ margin-left: 0px;
+ }
+ 
+#recommend .pickup figure{
+ width: 43.3%;
+ }
+ 
+#recommend .pickup figure img{
+ width: 100%;
+ }
+ 
+#recommend .pickup h2{
+ font-size: 30px; 
+ }
+ 
+#recommend .pickup .text{
+ padding-left: 15px;
+ padding-right: 10px;
+ }
+
+#recommend .other figure{
+ width: 50%;
+ }
+ 
+#recommend .other .text{
+ width: 45%;
+ font-size: 16px;
+ padding-top: 10px;
+ padding-left: 10px;
+ }
+ 
+ #recommend .other .text br{
+  display: none;
+ }
+ 
+#recommend .package{
+ margin-top: 22.8px; 
+ }
+ 
+ 
+#recommend .category li{
+ width: calc(32% - 20px);
+ margin-top: 20px;
+ }
+ 
+#recommend .category li:first-child{
+ margin-left: 15px;
+ }
+ 
+#recommend .category li:last-child{
+ margin-right: 20px;
+ }
+ 
+}
+
+
+@media screen and (max-width: 1100px){
+ 
+#recommend{
+ position: relative;
+ }
+ 
+#recommend .left .text h1{
+ font-size: 26px; 
+ }
+ 
+#recommend .left .text p{
+ font-size: 16px; 
+ }
+ 
+#recommend .right{
+ position: absolute;
+ width: 130px;
+ height: 130px;
+ border-radius: 50%;
+ background: #B3963D;
+ top: 20px;
+ right: 30px;
+ }
+ 
+#recommend .pickup figure{
+ width: 44.5%; 
+ }
+ 
+#recommend .pickup h2{
+ font-size: 28px;
+ padding-bottom: 10px;
+ }
+ 
+#recommend .pickup h2 small{
+ font-size: 22px;
+ } 
+ 
+#recommend .pickup p{
+ font-size: 15px; 
+ }
+ 
+#recommend .other figure{
+ width: 52%; 
+ }
+ 
+#recommend .other .text{
+ font-size: 14px; 
+ }
+ 
+ #recommend .package{
+  margin-top: 5.4%;
+ }
+ 
+#recommend .ranking li h2{
+ font-size: 15px; 
+ }
+ 
+#recommend .ranking li{
+ width: calc(24.6% - 20px);
+ }
+ 
+#recommend .category li{
+ width: calc(31.9% - 20px);
+ }
+ 
+ #recommend .pickup figure{
+  width: 44.9%;
+ }
+ 
+}
+
+
+@media screen and (max-width: 1000px){
+ 
+#recommend .left{
+ display: block;
+ text-align: center;
+ }
+ 
+#recommend .left img{
+ padding-right: 0px;
+ }
+ 
+#recommend .left .text{
+ display: block;
+ }
+ 
+#recommend .left .text h1{
+ font-size: 25px;
+ padding-top: 10px;
+ }
+ 
+#recommend .left .text p{
+ font-size: 16px; 
+ }
+ 
+#recommend .pickup{
+ width: 53%; 
+ }
+ 
+#recommend .pickup figure{
+ width: 44%; 
+ }
+ 
+#recommend .pickup .text{
+ padding-left: 5px;
+ padding-top: 0px;
+ }
+ 
+#recommend .pickup .text br{
+ display: none;
+ }
+ 
+#recommend .pickup h2{
+ font-size: 25px;
+ padding-bottom: 15px;
+ }
+ 
+#recommend .pickup p{
+ font-size: 15px; 
+ }
+ 
+#recommend .other figure{
+ width: 48%; 
+ }
+ 
+#recommend .other .text{
+ font-size: 15px;
+ padding-top: 5px;
+ padding-left: 5px;
+ width: 50%;
+ }
+#recommend .other .text p br {
+  display: none;
+}
+ 
+#recommend .category li{
+ width: calc(31.6% - 20px);
+ }
+ 
+ #recommend .pickup figure{
+  width: 43.3%;
+ }
+ 
+}
+
+@media screen and (max-width:920px){
+ 
+ #recommend .other .text{
+  font-size: 14px;
+ } 
+ 
+}
+
+@media screen and (max-width: 900px){
+ 
+#recommend .left .text h1{
+ font-size: 24px; 
+ }
+ 
+#recommend .left .text p{
+ font-size: 20px; 
+ }
+ 
+#recommend .wrap{
+ display: block;
+ width: 95%;
+ }
+ 
+#recommend .pickup{
+ width: 100%; 
+ } 
+ 
+#recommend .pickup figure{
+ width: 47%;
+ }
+ 
+#recommend .pickup figure img{
+ width: 100%;
+ }
+ 
+#recommend .pickup .text{
+ padding-left: 20px; 
+ }
+ 
+#recommend .pickup h2{
+ font-size: 32px;
+ padding-top: 5px;
+ padding-bottom: 10px; 
+ }
+ 
+#recommend .pickup small{
+ font-size: 20px;
+ padding-top: 5px;
+ margin-top: 10px;
+ }
+ 
+#recommend .pickup p{
+ font-size: 17px;
+ margin-top: 10px;
+ }
+ 
+#recommend .other{
+ width: 100%;
+ display: block;
+ margin-top: 20px;
+}
+ 
+#recommend .other figure{
+ width: 47%;
+ }
+ 
+#recommend .package{
+ margin-top: 20px;
+ }
+ 
+#recommend .other .text{
+ font-size: 17px;
+ padding-top: 3%;
+ padding-bottom: 9px;
+ padding-left: 20px;
+ }
+ 
+#recommend .ranking li{
+ width: calc(48% - 20px);
+ margin-bottom: 40px;
+ }
+ 
+#recommend .ranking li:first-child{
+ margin-left: 15px;
+ }
+ 
+#recommend .ranking li:last-child{
+ margin-right: 15px;
+ }
+ 
+#recommend .ranking li h2 {
+ font-size: 16px;
+}
+ 
+#recommend .category h1{
+ padding-top: 20px; 
+ }
+ 
+#recommend .category li{
+ width: calc(31% - 20px);
+ }
+ 
+}
+
+
+@media screen and (max-width: 725px){
+ 
+#recommend .wrap{
+ width: 100%; 
+ }
+ 
+#recommend .right{
+ width: 120px;
+ height: 120px;
+ top: 10px;
+ right: 10px
+ }
+ 
+#recommend .right p{
+ padding-top: 25px; 
+ } 
+ 
+#recommend .pickup figure{
+ width: 43%; 
+ }
+ 
+#recommend .other figure{
+ width: 43%; 
+ }
+ 
+#recommend .ranking li{
+ width: calc(49.5% - 20px);
+ margin-right: 0px; 
+ }
+ 
+#recommend .ranking li:first-child {
+ margin-left: 0px;
+ margin-right: 20px;
+ }
+ 
+#recommend .ranking li:nth-child(3) {
+ margin-left: 0px;
+ margin-right: 20px; 
+ }
+ 
+#recommend .ranking li:last-child {
+ margin-left: 20px;
+ margin-right: 0px; 
+ }
+ 
+#recommend .ranking li h2{
+ font-size: 15px; 
+ }
+ 
+#recommend .category li{
+ width: calc(35% - 20px);
+ margin: auto;
+ margin-bottom: 30px;
+ }
+ 
+#recommend .category li p{
+ font-size: 13px;
+ padding: 10px 5px;
+ }
+ 
+#recommend .category li:first-child{
+ margin-left: 0px; 
+ }
+ 
+#recommend .category li:last-child{
+ margin-right: 0px;; 
+ }
+ 
+#recommend .common-link{
+ margin-top: 30px;
+}
+ 
+}
+
+@media screen and (max-width: 620px){
+ 
+ 
+#recommend .left .text p{
+ width: 90%;
+ margin: auto;
+ font-size: 16px;
+ letter-spacing: 0px;
+ }
+ 
+ #recommend .left .text p br{
+  display: none;
+ }
+ 
+#recommend .pickup h2{
+ font-size: 30px;
+ padding-bottom: 10px;
+ }
+ 
+}
+
+
+@media screen and (max-width: 600px){
+ 
+#recommend .pc{
+ display: none; 
+ }
+ 
+#recommend .sp{
+ display: inline-block; 
+ }
+ 
+#recommend .left img{
+ width: 166px;
+ height: 79px;
+ }
+ 
+#recommend{
+ max-width: 90%;
+ padding: 0; 
+ }
+ 
+#recommend .left{
+ margin-top: 30px; 
+ }
+ 
+#recommend .wrap{
+ width: 90%;
+ margin: auto;
+ }
+ 
+#recommend .pickup{
+ margin-top: 25px; 
+ }
+ 
+
+ 
+#recommend .pickup p{
+ font-size: 15px; 
+ }
+ 
+#recommend .ranking h1{
+ font-size: 25px;
+ padding-top: 30px;
+ }
+ 
+#recommend .ranking li{
+ margin-left: 10px;
+ margin-right: 10px;
+ }
+ 
+#recommend .ranking li:first-child {
+ margin-left: 0px;
+ margin-right: 0px;
+ }
+ 
+#recommend .ranking li:nth-child(3) {
+ margin-left: 10px;
+ margin-right: 10px; 
+ }
+ 
+#recommend .ranking li:last-child {
+ margin-left: 10px;
+ margin-right: 10px; 
+ }
+ 
+#recommend .category h1{
+ font-size: 25px;
+ padding-top: 0px; 
+ }
+ 
+#recommend .category ul{
+ display: block;
+ }
+ 
+#recommend .category li{
+ margin-left: 10px;
+ margin-right: 10px;
+ }
+ 
+#recommend .category li img{
+ display: inline-block!important;
+ }
+ 
+#recommend .category li p{
+ font-size: 15px; 
+ }
+ 
+#recommend .common-link{
+ padding-bottom: 20px; 
+ }
+
+#recommend .pickup .text{
+ width: 56%;
+ }
+ 
+#recommend .pickup small{
+ font-size: 18px; 
+ } 
+ 
+ #recommend .pickup h2{
+  font-size: 28px;
+  padding-bottom: 0px;
+ }
+ 
+ #recommend .other .text{
+  font-size: 15px;
+ }
+ 
+}
+
+@media screen and (max-width: 480px){
+#recommend .wrap > li figure::after {
+  width: 30px;
+  height: 30px;
+}
+
+#recommend .left img{
+ margin-top: 0px; 
+ }
+ 
+#recommend .right{
+ width: 105px;
+ height: 105px;
+ top:5px;
+ right: 5px;
+ }
+ 
+#recommend .right p{
+ font-size: 12px; 
+ padding-top: 24px;
+ }
+ 
+#recommend .left .text h1{
+ font-size: 23px;
+ padding-top: 8px;
+ }
+ 
+#recommend .left .text p{
+ font-size: 15px; 
+ }
+ 
+#recommend .right h5{
+ font-size: 18px;
+ }
+ 
+#recommend .pickup figure{
+ width: 48%; 
+ }
+ 
+#recommend .pickup .text{
+ width: 50%;
+ padding-top: 5px;
+ padding-left: 12px;
+ padding-right: 0px;
+ margin-top: 0px;
+ }
+ 
+#recommend .pickup small{
+ font-size: 16px;
+ margin-top: 10px;
+ }
+ 
+#recommend .pickup h2{
+ font-size: 25px;
+ }
+ 
+#recommend .pickup p{
+ font-size: 14px;
+ padding-top: 0px;
+ }
+ 
+#recommend .other figure{
+ width: 48%; 
+ }
+ 
+#recommend .other .text{
+ font-size: 14px;
+ padding-left: 10px;
+ }
+ 
+#recommend .ranking li{
+ margin-bottom: 30px; 
+ }
+#recommend .ranking li figure::before {
+  left: 5px;
+  top: 5px;
+  width: 25px;
+  height: 25px;
+  font-size: 14px;
+}
+#recommend .ranking li figure::after {
+  width: 30px;
+  height: 30px;
+}
+#recommend .common-link {
+ padding-bottom: 20px; 
+ }
+ 
+#recommend .common-link a{
+ font-size: 15px; 
+ }
+ 
+}
+
+@media screen and (max-width: 435px){
+ 
+#recommend .left .text p{
+ font-size: 13px; 
+ }
+ 
+#recommend .right{
+ width: 95px;
+ height: 95px;
+ top:10px;
+ right: 10px;
+ }
+ 
+#recommend .right h5{
+ font-size: 16px;
+ }
+ 
+#recommend .pickup span{
+ font-size: 13px; 
+ }
+ 
+#recommend .pickup small{
+ margin-top: 5px;
+ font-size: 14px;
+ }
+ 
+#recommend .pickup h2{
+ font-size: 25px;
+ }
+ 
+#recommend .right p{
+ font-size: 11px; 
+ padding-top: 20px;
+ }
+ 
+#recommend .pickup figure{
+ width: 47%; 
+ }
+ 
+#recommend .pickup p{
+ font-size: 13px;
+ margin-top: 0px;
+ }
+ 
+#recommend .other figure{
+ width: 47%; 
+ }
+ 
+#recommend .pickup h2{
+ font-size: 21px; 
+ padding-bottom: 10px;
+ }
+ 
+#recommend .pickup .text{
+ padding-left: 10px; 
+ }
+ 
+#recommend .other .text{
+ font-size: 13px;
+ padding-top: 5px;
+ padding-left: 10px;
+ }
+ 
+#recommend .category li p{
+ font-size: 13px; 
+ }
+ 
+}
+
+@media screen and (max-width: 395px){
+ 
+#recommend .left img {
+ margin-top: 10px;
+}
+ 
+#recommend .right{
+ width: 93px;
+ height: 93px;
+ }
+ 
+#recommend .right h5{
+ font-size: 16px;
+ }
+ 
+#recommend .left .text p{
+ font-size: 13px; 
+ }
+
+#recommend .pickup a {
+  display: flex;
+  align-items: flex-start;
+}
+#recommend .pickup span{
+ font-size: 11px; 
+ }
+ 
+#recommend .pickup h2{
+ font-size: 21px;
+ padding-top: 0px;
+ }
+ 
+#recommend .pickup h2 small{
+ font-size: 16px;
+ padding-top: 5px;
+ padding-right: 3px;
+ }
+ 
+#recommend .pickup figure{
+ width: 45%;
+ }
+ 
+#recommend .pickup .text{
+ padding-left: 8px;
+ width: 54%;
+ }
+ 
+#recommend .other figure{
+ width: 45%; 
+ }
+ 
+#recommend .other .text{
+ padding-top: 0px;
+ padding-left: 5px;
+ }
+ 
+#recommend .category li{
+ margin-left: 10px;
+ margin-right: 10px;
+ }
+ 
+#recommend .common-link a{
+ font-size: 14px;
+ padding: 15px 20px;
+ }
+ 
+}

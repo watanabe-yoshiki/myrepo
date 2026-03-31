@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+#point .point_tl {
+	font-size: 1.3em;
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+#point .point_list ul li {
+	font-size:1.2em;
+}
+
+.feature_box .thumb_left {
+	float:left;
+	margin-left:0;
+	margin-right:15px;
+}
+
+#blog h2 {
+	background:none !important;
+}
+
+
+
+
+@media screen and (max-width: 599px) {
+
+
+
+}

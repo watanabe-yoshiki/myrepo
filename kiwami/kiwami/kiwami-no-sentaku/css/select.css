@@ -1,0 +1,196 @@
+@charset "utf-8";
+
+body{width:100%;min-width:320px;margin:0;font-family:'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W6','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;font-weight:400;-webkit-text-size-adjust:100%;font-size:14px;line-height:1.5;letter-spacing:.1em;color:#333}
+
+.serif { font-family: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "游明朝", "Yu Mincho", YuMincho, 'Noto Serif JP', "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif; }
+.bold { font-weight:bold; }
+.yellow { color:#d4aa29; }
+
+#select { padding: 0 0 50px; background: #f6f5e3; }
+#select .wrap { margin: 0 !important; }
+
+.select-title { padding:25px 0 20px; background: url("../images/title-bg.jpg") center right no-repeat #fff; background-size:auto 100%; }
+.select-title h2{padding-left:70px}
+
+.select-contents { padding:60px 0 90px; }
+
+.lead { margin-bottom:55px; text-align:center; color:#040509; }
+.lead h3 { margin-bottom:30px; font-size: 34px; color: #d3a929; }
+.lead p { font-size:18px; line-height:1.8; }
+.lead p span { font-weight:bold; }
+.lead .bnr {display: block; margin-top: 45px;}
+
+.box-sec {
+  display: flex;
+  justify-content: space-between;
+}
+.box-sec .box {padding:40px 40px 50px; background:#fff;width: 48.9%; }
+/*.box-sec .box + .box {margin-top: 40px;}*/
+.box-sec .box .name {margin-bottom: 20px; color: #fff; font-size: 22px; font-weight: bold; text-align: center; background-color: #000;}
+.box-sec .box h3 { margin-bottom:20px; text-align:center; font-size:30px; line-height:1.63; letter-spacing: 0.1em; }
+.box-sec .box h3 span {display: block;}
+.box-sec .box h3 small {font-size: 25px;}
+.box-sec .box .pic { text-align:center; }
+.box-sec .box .pic img {
+  max-height: 181px;
+}
+.box-sec .box .check{margin:40px 0 45px;color:#663;font-size:20px;letter-spacing:.1em}
+.box-sec .box .check li {min-height: 1em; padding-left: 50px; background: url(../images/check.png) top left no-repeat; background-size: 33px 28px;}
+.box-sec .box .check li + li { margin-top:30px; }
+.box-sec .box > .txt {color: #000; font-size: 17px; line-height: 1.76;}
+.box-sec .box .btn-arw {position: relative; display: block; width: 100%;box-sizing: border-box; padding: 10px 15px; margin: 30px auto 0; color: #000; font-size: 24px; text-align: center; border: 1px solid #000; transition:.3s;}
+.box-sec .box .btn-arw:after {content: ""; position: absolute; right: 15px; top: 50%; width: 7px; height: 7px; border-right: 1px solid #000; border-bottom: 1px solid #000; transform: translateY(-50%) rotate(-45deg);}
+.box-sec .box .btn-arw:hover {opacity: 0.7;}
+.box-sec .box .detail { font-size:17px; line-height:1.76; }
+.box-sec .box .voice { margin-top:40px; padding:20px 30px 25px 40px; background:#f9f9cf; color:#666666; }
+.box-sec .box .voice h4 { margin-bottom:10px; text-align:center; font-size:19px; font-weight:bold; color:#999900; }
+.box-sec .box .voice .col {display: flex; justify-content: space-between; }
+.box-sec .box .voice .writer {display:flex; justify-content:flex-start; align-items:center; width: 50%;}
+.box-sec .box .voice .writer .img { margin-right:25px; }
+.box-sec .box .voice .writer .txt { font-size:14px; letter-spacing:0; }
+.box-sec .box .voice .writer .txt h5 { margin-bottom:10px; font-size:24px; line-height:1.2; text-align: left;}
+.box-sec .box .voice .detail {display: flex; align-items: center; width: 50%; padding-left: 35px; font-size:16px; line-height:1.625; }
+.box-sec .box .voice .btn-arw {width: 300px; font-size: 18px; color: #666633; border-color: #666633;}
+
+.btn-vote { margin-top:50px; text-align:center; }
+.btn-vote a { display:inline-block; padding:25px 80px; font-size:42px; line-height:1; color:#fff; background:#000; transition:.3s; }
+.btn-vote a:hover { background:#333; }
+.btn-vote span.deadline, .btn-vote span.disabled { display:inline-block; padding:30px 25px; font-size:24px; line-height:1; color:#fff; background:#333; }
+
+.select-info { margin-top:84px; }
+.select-info .result { padding:21px 50px 40px; color:#000; border:1px solid #d4aa29;}
+.select-info .result h3 { margin-bottom:30px; font-size:34px; text-align:center; }
+.select-info .result h3 span { font-size:46px; }
+.select-info .result li { font-size:22px; }
+.select-info .result li + li { margin-top:10px; }
+.select-info .agreement { margin-top:50px; padding:30px 20px 60px; background:#fff; border: 1px solid #999;}
+.select-info .agreement h3 { margin-bottom:40px; text-align:center; font-size:34px; }
+.select-info .agreement .scroll { height:360px; padding:0 40px; overflow-x:auto; font-size:16px; color:#666; }
+.select-info .agreement .scroll p + p { margin-top:2em; }
+.select-info .agreement a{color: #535CA7;}
+
+.backnumber {margin-top: 80px;}
+.backnumber h3 {position: relative; text-align: center;}
+.backnumber h3:before {content: ""; position: absolute; left: 0; top: 50%; margin-top: -0.5px; width: 100%; height: 1px; background-color: #fff;}
+.backnumber h3 span {position: relative; display: inline-block; padding: 0 35px; color: #fff; font-size: 35px; background-color: #666633;}
+.backnumber_list {display: flex; justify-content: space-between; flex-wrap: wrap; margin-top: 30px;}
+.backnumber_list:after {content: ""; width: 470px;}
+.backnumber_list li {width: 470px;}
+.backnumber_list li:nth-of-type(n+3) {margin-top: 40px;}
+.backnumber_list li a {display: block; transition:.3s;}
+.backnumber_list li a:hover {opacity: 0.7;}
+.backnumber_list li img {display: block; max-width: 100%;}
+
+.result-graph{margin: 50px 0 30px; padding: 0 65px;}
+.result-graph dl > div{margin: 0 auto 50px; display: -webkit-box; display: -ms-flexbox; display: flex; height: 40px; position:relative;}
+.result-graph dl > div:last-child{margin: 0}
+.result-graph dl > div dt{background:#000;}
+.result-graph dl > div .result-graph__em{background:#d4aa29;}
+.result-graph dl > div dd{-webkit-box-flex: 1; -ms-flex: 1; flex:1; margin:0; font-size:18px; background:#fff;}
+.result-graph dl > div dt > span,.result-graph dl > div dd > span{position:absolute; z-index: 1; font-size: 18px; line-height: 1.5;}
+.result-graph dl > div dt > .result-graph__content{left:0px; top:-30px; color: #040509;;}
+.result-graph dl > div dd >  .result-graph__value{right:10px; top:8px; color: #000;}
+
+.mother {padding: 20px 20px 40px; margin-top: 95px; background-color: #fcebeb; text-align: center;}
+.mother .txt {margin-bottom: 10px; font-size: 20px; font-weight: bold; line-height: 1.75;}
+.mother h3 {margin-bottom: 10px; color: #ff6666; font-size: 35px; line-height: 1.4;}
+.mother .bnr a {display: block; transition:.3s;}
+.mother .bnr a:hover {opacity: 0.7;}
+
+@media screen and (min-width: 1001px) {
+	.no-pc{display: none;}
+	#select .inner { max-width:1220px; margin:0 auto; padding-left:260px; }
+	
+	.box-sec .box:nth-of-type(2) .check { line-height:1.36;margin-bottom: 87px; }
+}
+
+@media screen and (max-width:1220px) {
+	.backnumber_list li {width: 49%;}
+}
+
+@media screen and (max-width:1000px) {
+	.no-sp{display: none;}
+	main { padding-top:65px; }
+	#select .inner { padding:0 6%; }
+	.select-contents { padding-bottom:40px; }
+	
+	.select-title { padding:30px 0; /*background-position:center; background-size:cover;*/ }
+	.select-title h2 { padding-left:5%; }
+	.select-title h2 img { width:100%; }
+	
+	.lead h3 { margin: 0 auto 30px; max-width: 350px;}
+	
+	.box-sec { display:block; }
+	.box-sec .box { width:100%; }
+	.box-sec .box + .box { margin-top:20px; }
+	.box-sec .box .check li { min-height:26px; background-size:30px auto; background-position:top left; }
+	.box-sec .box .check li + li { margin-top:15px; }
+	.box-sec .box .voice .writer { justify-content:center; }
+	
+	.btn-vote a { font-size:32px; }
+	
+	.select-info { margin-top:80px; }
+	.select-info .result h3 { font-size:30px; }
+	.select-info .result h3 span { font-size:36px; }
+	.select-info .result li { font-size:18px; }
+}
+
+@media screen and (max-width:599px) {
+	.select-title {padding: 15px 0 10px; background-image: url("../images/sp_title-bg.jpg"); background-position:center right -20%; }
+	.select-title h2 { padding-left:0; }
+
+	.select-contents {padding: 30px 0;}
+	
+	.lead { margin-bottom:30px; }
+	.lead h3 {margin-bottom: 15px; font-size: 28px;}
+	.lead p { font-size:16px; }
+	.lead .bnr {margin-top: 25px;}
+	
+	.box-sec .box { padding:20px; }
+	.box-sec .box .name {margin-bottom: 10px; font-size: 16px;}
+	.box-sec .box h3 { font-size:22px; }
+	.box-sec .box .check {margin-top: 25px; margin-bottom:15px; font-size:15px; }
+	.box-sec .box .check li { padding-left:40px; }
+	.box-sec .box > .txt {font-size: 14px;}
+	.box-sec .box .btn-arw {width: 100%; padding: 10px 0; font-size: 15px;}
+	.box-sec .box .detail { font-size:15px; }
+	.box-sec .box .voice {padding: 15px;}
+	.box-sec .box .voice h4 { font-size:14px; }
+	.box-sec .box .voice .col {display: block;}
+	.box-sec .box .voice .writer {width: 100%; justify-content: space-between; padding-bottom: 10px; margin-bottom: 10px; border-bottom: 1px solid #666633;}
+	.box-sec .box .voice .writer .img { width: 32%; margin-right: 0;}
+	.box-sec .box .voice .writer .txt {width: 60%; text-align:center; font-size:13px; }
+	.box-sec .box .voice .writer .txt h5 { margin-bottom:5px; font-size: 17px;}
+	.box-sec .box .voice .detail {padding-left: 0; font-size:14px; width: 100%;}
+	.box-sec .box .voice .btn-arw {width: 100%; margin-top: 20px; font-size: 14px;}
+	
+	.btn-vote a { width:100%; box-sizing:border-box; font-size:22px; }
+	.btn-vote span.deadline, .btn-vote span.disabled {padding: 15px; font-size: 14px;}
+	
+	.select-info { margin-top:50px; }
+	.select-info .result { padding:20px 30px 30px; }
+	.select-info .result h3 { margin-bottom:15px; font-size:20px; }
+	.select-info .result h3 span { font-size:22px; }
+	.select-info .result li { font-size:16px; }
+	.select-info .agreement { margin-top:30px; padding-bottom:30px; }
+	.select-info .agreement h3 { margin-bottom:20px; font-size:24px; }
+	.select-info .agreement .scroll { padding:0 20px 0 10px; font-size:14px; }
+
+	.backnumber {margin-top: 50px;}
+	.backnumber h3 span {padding: 0 20px; font-size: 20px;}
+	.backnumber_list {display: block; margin-top: 20px;}
+	.backnumber_list li {width: 100%;}
+	.backnumber_list li + li {margin-top: 20px;}
+	.backnumber_list li:nth-of-type(n+3) {margin-top: 20px;}
+	.backnumber_list li img {width: 100%;}
+
+	.result-graph{padding:0;}
+	.result-graph dl > div {margin: 0 auto 40px;}
+	.result-graph dl > div dt > span, .result-graph dl > div dd > span {font-size: 16px;}
+	.result-graph dl > div dd > .result-graph__value {font-size: 16px;}
+
+	.mother {margin-top: 50px; padding: 10px 10px 40px;}
+	.mother .txt {font-size: 13px;}
+	.mother h3 {font-size: 20px;}
+	.mother .bnr {padding: 0 10px;}
+}

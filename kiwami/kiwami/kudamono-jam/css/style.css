@@ -1,0 +1,278 @@
+@charset "utf-8";
+
+main {
+    background-image: none;
+}
+.wrapper {
+    padding-left: 260px;
+}
+.inner {
+    max-width: 960px;
+    margin: auto;
+    padding-bottom: 60px;
+}
+.gothic {
+    font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'YuGothic','Meiryo', sans-serif;
+}
+.marker {
+    background-color: #FFFFBF;
+}
+.v-sp {
+    display: none;
+}
+
+/* MV */
+.mv {
+    position: relative;
+    height: 0;
+    padding-top: 40.97510373443983%;
+    background: url(../img/mv_02.jpg) center top / cover no-repeat;
+}
+.mv_title {
+    position: absolute;
+    top: 40px;
+    left: 70px;
+    width: 485px;
+}
+.mv_subtitle {
+    position: absolute;
+    top: 125px;
+    left: 85px;
+    width: 381px;
+}
+.mv_balloon {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* lead */
+.lead {
+    margin-top: 1em;
+}
+.lead p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* kind */
+.kind {
+    margin-top: 40px;
+}
+.kind_list > li {
+    display: flex;
+    justify-content: space-between;
+}
+.kind_list > li + li {
+    margin-top: 60px;
+}
+.kind_text {
+    width: 430px;
+}
+.kind_name {
+    color: #B1923D;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.6;
+}
+.kind_comment {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.8;
+}
+.kind_img {
+    width: 470px;
+}
+
+/* item */
+.item {
+    margin-top: 50px;
+}
+.item_list {
+    max-width: 640px;
+    margin: auto;
+}
+.item_list > li {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #666;
+    padding: 25px;
+}
+.item_list > li + li {
+    margin-top: 30px;
+}
+.item_img {
+    width: 185px;
+    margin: auto;
+}
+.item_text {
+    width: 300px;
+    text-align: center;
+}
+.item_name {
+    color: #000;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.6;
+}
+.item_price {
+    color: #666;
+    font-size: 24px;
+    font-weight: bold;
+}
+.item_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #000;
+}
+
+@media screen and (max-width: 1000px) {
+    .wrapper {
+        margin-top: 65px;
+        padding-left: 0;
+    }
+    .inner {
+        padding-bottom: 40px;
+    }
+
+    /* MV */
+    .mv_title {
+        top: 10%;
+        left: 8%;
+        width: 51%;
+    }
+    .mv_subtitle {
+        top: 35%;
+        left: 9%;
+        width: 71%;
+    }
+    .mv_balloon {
+        width: 31%;
+    }
+
+    /* kind */
+    .kind_text {
+        width: 45%;
+    }
+    .kind_img {
+        width: 49%;
+    }
+
+    /* lead */
+    .lead {
+        padding: 0 5%;
+    }
+
+    /* kind */
+    .kind {
+        padding: 0 5%;
+    }
+}
+
+/* ----------------------------------------
+* for SP
+* ------------------------------------- */
+@media screen and (max-width: 767px) {
+    .v-pc {
+        display: none;
+    }
+    .v-sp {
+        display: block;
+    }
+
+    /* MV */
+    .mv {
+        padding-top: 65.01950585175553%;
+        background-image: url(../img/mv_sp_02.jpg);
+    }
+    .mv_title {
+        top: 2%;
+        left: 5%;
+        width: 84%;
+    }
+    .mv_subtitle {
+        top: 24%;
+        left: 7%;
+        width: 61%;
+    }
+    .mv_balloon {
+        right: auto;
+        top: auto;
+        left: 0;
+        bottom: 0;
+        width: 43%;
+    }
+
+    /* lead */
+    .lead p {
+        font-size: 14px;
+    }
+
+    /* kind */
+    .kind {
+        margin-top: 30px;
+    }
+    .kind_list > li {
+        display: block;
+    }
+    .kind_list > li + li {
+        margin-top: 30px;
+    }
+    .kind_text {
+        width: 100%;
+    }
+    .kind_name {
+        font-size: 24px;
+    }
+    .kind_comment {
+        margin-top: 0.5em;
+        font-size: 14px;
+    }
+    .kind_img {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    /* item */
+    .item {
+        margin-top: 60px;
+    }
+    .item_list {
+        margin: 0 8%;
+    }
+    .item_list > li {
+        padding: 15px 8% 15px 0;
+    }
+    .item_list > li + li {
+        margin-top: 15px;
+    }
+    .item_img {
+        width: 50%;
+        text-align: center;
+    }
+    .item_img img {
+        width: 65%;
+    }
+    .item_text {
+        width: 50%;
+    }
+    .item_name {
+        font-size: 16px;
+        letter-spacing: -0.05em;
+    }
+    .item_price {
+        font-size: 14px;
+    }
+    .item_btn {
+        height: 25px;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,379 @@
+@charset "utf-8";
+
+
+
+.sb {
+  padding-left: 233px;
+  color: #666;
+}
+.sb_inner {
+  max-width: 960px;
+  min-width: 734px;
+  margin: 0 auto;
+}
+.sb_h3 {
+  margin-bottom: 20px;
+  color: #BD0156;
+  font-size: 20px;
+  line-height: 1.6;
+}
+.sb_h4 {
+  margin-bottom: 25px;
+  color: #695086;
+  font-size: 26px;
+}
+.sb_h4 span {
+  display: block;
+  font-size: 20px;
+}
+
+.mv {
+  background: url(../images/mv_bg.jpg) right top / cover no-repeat;
+}
+.mv_inner {
+  position: relative;
+  padding: 30px 15px 10px;
+}
+.mv_tl {
+  position: relative;
+  margin-bottom: 20px;
+    width: 56%;
+}
+.mv_tl:before {
+  content: "";
+  position: absolute;
+  bottom: -50%;
+    left: -15%;
+    width: 118%;
+    padding: 25% 0;
+  background: url(../images/mv_ttl_glow.png) left bottom / 100% auto no-repeat;
+}
+.mv_tl img {
+  position: relative;
+  z-index: 1;
+}
+.mv_name {
+  position: relative;
+  margin-bottom: 20px;
+    width: 36%;
+}
+.mv_name img {
+  position: relative;
+  z-index: 1;
+}
+.mv_price {
+  position: absolute;
+  right: 0;
+    bottom: 20px;
+    width: 40%;
+}
+
+.lead_inner {
+  padding: 20px 15px 40px;
+}
+.lead_strong {
+  color: #695086;
+  border-bottom: 1px solid #695086;
+}
+
+.product {
+  background-color: #FFFFC6;
+}
+.product_inner {
+  padding: 35px 0 145px;
+}
+.product_col {
+  display: flex;
+  justify-content: space-between;
+}
+.product_image {
+    width: 43%;
+}
+.product_text {
+  width: 50%;
+}
+.product_combination {
+  margin: 56px 0 45px;
+  padding: 20px 10px 30px;
+  background-color: #fff;
+  text-align: center;
+}
+.product_type {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  max-width: 100%;
+}
+.product_type li {
+  width: 15%;
+}
+.product_type li + li {
+  margin-left: 2%;
+}
+.product_image_inner {
+  position: relative;
+}
+.product_image_inner:before {
+  content: "";
+  position: absolute;
+}
+.product_type li p {
+  margin-top: 10px;
+  color: #333;
+  font-size: 16px;
+}
+.product_rose .product_image_inner:before {
+  right: -14%;
+  bottom: -15%;
+  width: 31%;
+  padding: 27% 0;
+  background: url(../images/rose_decoration.png) left top / 100% auto no-repeat;
+}
+.product_cherry .product_image_inner:before {
+  left: -15%;
+  bottom: -33%;
+  width: 50%;
+  padding: 20% 0;
+  background: url(../images/cherry_decoration.png) left top / 100% auto no-repeat;
+}
+.product_rose .product_col {
+  flex-direction : row-reverse
+}
+
+.order {
+  padding-top: 40px;
+  background: #fff;
+}
+.order_inner {
+  padding: 40px 0;
+}
+.order_h3 {
+  text-align: center;
+}
+.order_list {
+  width: 712px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+.order_list li:first-child {
+  margin-bottom: 10px;
+}
+.hide_contents {
+  cursor: pointer;
+}
+span.cashback {
+  margin-bottom:10px;
+  padding:5px 8px;
+  display: inline-block;
+  padding:8px 10px;
+  color: #DF2A2D;
+  font-size: 14px;
+  border:1px solid #DF2A2D;
+  vertical-align: 3px;
+  line-height: 1;
+}
+
+@media screen and (min-width:768px) {
+  .item_button {
+    padding-top: 24px;
+    text-align: center;
+    width: 104px;
+    margin: 0 auto;
+  }
+
+  .item_button:hover {
+    transition: all .3s;
+    transform: translate(0, 5px);
+  }
+
+  span.cashback {
+    padding: 7px 8px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width:1220px) {
+    .sb_inner {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .mv_price {
+        right: 20px;
+    }
+}
+@media screen and (max-width:1000px) {
+  .sb {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width:985px) {
+  .sb_inner {
+    max-width: none;
+    min-width: auto;
+    width: 100%;
+  }
+}
+@media screen and (max-width:767px) {
+  .sb_h3 {
+    font-size: 16px;
+  }
+  .sb_h4 {
+    font-size: 16px;
+  }
+  .sb_h4 span {
+    font-size: 14px;
+  }
+
+  .mv_inner {
+    padding: 10px 3% 10px;
+  }
+  .mv_detail, .mv_price {
+    display: none;
+  }
+  .mv_tl {
+    width: 70%;
+    margin-bottom: 50px;
+  }
+  .mv_name {
+    margin-bottom: 0;
+    width: 45%;
+  }
+
+  .lead_inner {
+    padding: 25px 3% 40px;
+  }
+
+  .product_col {
+    display: block;
+  }
+  .product_text {
+    width: 100%;
+  }
+  .product_image {
+    width: 80%;
+    margin-top: 20px;
+  }
+
+  .product_inner {
+    padding: 20px 3% 100px;
+  }
+  .product_cherry .product_image {
+    margin-left: 20%;
+  }
+  .product_combination {
+    margin: 40px 0 35px;
+    padding: 20px 10px;
+  }
+  .product_type {
+    flex-wrap: wrap;
+  }
+  .product_type li {
+    width: 32%;
+    margin-bottom: 10px;
+  }
+  .product_type li + li {
+    margin-left: 1%;
+  }
+  .product_type li:nth-of-type(3n+1) {
+    margin-left: 0;
+  }
+  .product_type li p {
+    font-size: 10px;
+  }
+
+  .item_button {
+    padding-top: 36px;
+    text-align: center;
+    width: 104px;
+    margin: 0 auto;
+  }
+  
+  .order_inner {
+    padding: 40px 0 0;
+  }
+  #sel-order .yellow_ttl {
+    margin: 0 0 15px;
+    text-align: center;
+    padding-bottom: 12px;
+    font-weight: bold;
+    font-family: "ヒラギノ角ゴ ProN W6", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+  }
+
+  #sel-order .yellow_ttl span {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    padding: 0 .4em .1em;
+    z-index: 1;
+  }
+
+  #sel-order .yellow_ttl span::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 10px;
+    background: rgba(255, 255, 48, 0.3);
+  }
+  .order_list {
+    width: 100%;
+  }
+  .order_list li .order_list_info p:nth-child(-n+3) {
+      font-size: 12px;
+  }
+  #sel-order .grad-btn {
+      z-index: 2;
+      position: absolute;
+      right: 0;
+      bottom: -64px;
+      left: 0;
+      width: 148px;
+      margin: auto;
+      padding: .5em 0;
+      color: #343434;
+      font-size: 14px;
+      text-align: center;
+      cursor: pointer;
+      transition: .2s ease;
+      padding-bottom: 12px;
+      font-weight: bold;
+      font-family: "ヒラギノ角ゴ ProN W6", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+  }
+
+  .grad-btn::after {
+      content: "";
+      display: inline-block;
+      width: 4.4em;
+      height: 1px;
+      background: url(../images/common_home/underline.png) no-repeat;
+      background-size: contain;
+      margin-left: 0.3em;
+      position: absolute;
+      top: 32px;
+      right: 47px;
+  }
+
+  .order_list li .order_list_thumb {
+      width: 150px;
+  }
+
+  .order_list li {
+      width: 100%;
+      margin-top: 10px;
+      padding: 20px;
+      border-top: #CCC 1px solid;
+      border-bottom: #CCC 1px solid;
+      border-left: none;
+      border-right: none;
+      position: relative;
+  }
+
+  .order_list_info .name,.price,.capacity {
+      font-size: 12px !important;
+  }
+}
+

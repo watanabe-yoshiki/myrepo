@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+body {
+    width: 100%;
+    min-width: 320px;
+    margin: 0;
+    font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W6','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+    font-weight: 400;
+    -webkit-text-size-adjust: 100%;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    color: #333;
+}
+
+.serif { font-family: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "游明朝", "Yu Mincho", YuMincho, 'Noto Serif JP', "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif; }
+.bold { font-weight:bold; }
+.yellow { color:#ffff66; }
+.blue { color:#33ffff; }
+
+#select { padding: 0 0 50px; background: #666633; }
+#select .wrap { margin: 0 !important; }
+
+.select-title { padding:45px 0 30px; background: url("../images/title-bg.jpg") center right no-repeat #040509; background-size:auto 100%; }
+.select-title h2 { padding-left:65px; }
+
+.select-contents { padding:40px 0 90px; }
+
+.lead { margin-bottom:50px; text-align:center; color:#fff; }
+.lead h3 { margin-bottom:30px; }
+.lead p { font-size:18px; line-height:1.8; }
+.lead p span { font-weight:bold; }
+
+.rice { display:flex; justify-content:space-between; }
+.rice .box { width:48.9%; padding:30px 22px 40px; background:#fff; }
+.rice .box h3 { margin-bottom:15px; text-align:center; font-size:30px; line-height:1.63; }
+.rice .box .pic { text-align:center; }
+.rice .box .check { margin:15px 0 30px; color:#666633; font-size:20px; }
+.rice .box .check li { min-height:41px; padding-left:50px; background:url("../images/check.png") top 8px left no-repeat; background-size:38px 33px; }
+.rice .box .check li + li { margin-top:30px; }
+.rice .box .detail { font-size:17px; line-height:1.76; }
+.rice .box .voice { margin-top:20px; padding:20px; background:#f9f9cf; color:#666666; }
+.rice .box .voice h4 { margin-bottom:10px; text-align:center; font-size:19px; font-weight:bold; color:#999900; }
+.rice .box .voice .writer { display:flex; justify-content:flex-start; align-items:center; }
+.rice .box .voice .writer .img { margin-right:15px; }
+.rice .box .voice .writer .txt { font-size:14px; letter-spacing:0; }
+.rice .box .voice .writer .txt h5 { margin-bottom:10px; font-size:23px; line-height:1.2; }
+.rice .box .voice .detail { margin-top:15px; padding-top:10px; font-size:16px; line-height:1.625; border-top:1px solid #666633; }
+
+.btn-vote { margin-top:30px; text-align:center; }
+.btn-vote a { display:inline-block; padding:25px 80px; font-size:42px; line-height:1; color:#fff; background:#000; transition:.3s; }
+.btn-vote a:hover { background:#333; }
+
+.select-info { margin-top:120px; }
+.select-info .result { padding:30px 50px 40px; color:#fff; border:1px solid #fff; background:rgba(255,255,255,0.2); }
+.select-info .result h3 { margin-bottom:30px; font-size:34px; text-align:center; }
+.select-info .result h3 span { font-size:46px; }
+.select-info .result li { font-size:22px; }
+.select-info .result li + li { margin-top:10px; }
+.select-info .agreement { margin-top:40px; padding:30px 20px 60px; background:#fff; }
+.select-info .agreement h3 { margin-bottom:40px; text-align:center; font-size:34px; }
+.select-info .agreement .scroll { height:360px; padding:0 40px; overflow-x:auto; font-size:16px; color:#666; }
+.select-info .agreement .scroll p + p { margin-top:2em; }
+
+
+@media screen and (min-width: 1001px) {
+	#select .inner { max-width:1220px; margin:0 auto; padding-left:260px; }
+}
+
+@media screen and (max-width:1000px) {
+	main { padding-top:65px; }
+	#select .inner { padding:0 6%; }
+	.select-contents { padding-bottom:40px; }
+	
+	.select-title { padding:30px 0; background-position:center; background-size:cover; }
+	.select-title h2 { padding-left:5%; }
+	.select-title h2 img { width:350px; }
+	
+	.rice { display:block; }
+	.rice .box { width:100%; }
+	.rice .box + .box { margin-top:20px; }
+	.rice .box .check li { min-height:26px; background-size:30px auto; background-position:top left; }
+	.rice .box .check li + li { margin-top:15px; }
+	.rice .box .voice .writer { justify-content:center; }
+	
+	.btn-vote a { font-size:32px; }
+	
+	.select-info { margin-top:80px; }
+	.select-info .result h3 { font-size:30px; }
+	.select-info .result h3 span { font-size:36px; }
+	.select-info .result li { font-size:18px; }
+}
+
+@media screen and (max-width:599px) {
+	.select-title { background-position:center right 33%; }
+	.select-title h2 { padding-left:0; }
+	
+	.lead { margin-bottom:30px; }
+	.lead p { font-size:16px; text-align:left; }
+	.lead p br { display:none; }
+	
+	.rice .box { padding:20px; }
+	.rice .box h3 { font-size:22px; }
+	.rice .box .check { margin-bottom:15px; font-size:17px; }
+	.rice .box .check li { padding-left:40px; }
+	.rice .box .detail { font-size:15px; }
+	.rice .box .voice h4 { font-size:16px; }
+	.rice .box .voice .writer { display:block; }
+	.rice .box .voice .writer .img { margin:0 0 5px; text-align:center; }
+	.rice .box .voice .writer .txt { text-align:center; font-size:13px; }
+	.rice .box .voice .writer .txt h5 { margin-bottom:5px; }
+	.rice .box .voice .detail { font-size:14px; }
+	
+	.btn-vote a { width:100%; box-sizing:border-box; font-size:22px; }
+	
+	.select-info { margin-top:50px; }
+	.select-info .result { padding:20px 30px 30px; }
+	.select-info .result h3 { margin-bottom:15px; font-size:20px; }
+	.select-info .result h3 span { font-size:22px; }
+	.select-info .result li { font-size:16px; }
+	.select-info .agreement { margin-top:30px; padding-bottom:30px; }
+	.select-info .agreement h3 { margin-bottom:20px; font-size:24px; }
+	.select-info .agreement .scroll { padding:0 20px 0 10px; font-size:14px; }
+}

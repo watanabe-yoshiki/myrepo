@@ -1,0 +1,62 @@
+@charset "utf-8";
+* {
+	margin:0;
+	padding:0;
+}
+
+.list li {
+	position:relative;
+}
+.list li a {
+	padding-left:40px;
+}
+.list li a:before {
+	content: '';
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	position:absolute;
+	top:50%;
+	left:10px;
+	-webkit-transform : translateY(-50%);
+	transform: translateY(-50%)；
+}
+.list li:first-child a:before {
+	content: url(../images/apple_lafrance/ic_lafrance.png);
+}
+.list li:nth-child(2) a:before {
+	content: url(../images/apple_lafrance/ic_apple.png);
+}
+.list li:nth-child(3) a:before {
+	content: url(../images/apple_lafrance/ic_set.png);
+}
+
+
+
+#hinshu {
+	margin: 20px 0px 0px;
+	background-color:#f2dada;
+}
+#hinshu h3 {
+	color: #bf1313;
+}
+#hinshu li .name {
+	background-color:#C30;
+}
+
+
+#shohin ul li {
+	background-color: #f2eded;
+}
+#shohin ul li p.sales {
+	background-color: #ff3333;
+}
+#shohin ul li p.delivery {
+	background-color:#ff8c1a;
+}
+
+@media screen and (max-width: 599px) {
+	#lead {
+    margin-top: 20px;
+	}
+}

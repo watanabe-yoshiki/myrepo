@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<setting>
+	<!-- ロゴを表示するか否か true:ロゴを使用する false:ロゴを使用しない-->
+	<useLogo>true</useLogo>
+	
+	
+	<!-- ロゴクリック時にジャンプするURL リンクを使用しない場合は<logoLink /> -->
+	<logoLinkUrl>http://suite.logosware.com/flipper-maker/</logoLinkUrl>
+	
+	
+	<!-- ヘルプファイル 基本的にskinimagesのhelp.htmlにリンクしますがhttp://xxxに変更する場合に書き換えてください-->
+	<helpPath>skinimages/help/help.html</helpPath>
+
+</setting>

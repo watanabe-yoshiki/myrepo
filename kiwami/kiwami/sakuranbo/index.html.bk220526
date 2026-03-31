@@ -1,0 +1,879 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>2022さくらんぼ特集 | リンベル　日本の極み</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="keywords" content="さくらんぼ,高級さくらんぼ,リンベル,日本の極み,山形の極み,山形産,佐藤錦,ギフト,お取り寄せ,お中元" />
+<meta name="description" content="創業の地山形で、地元生産者とともに歩んできてきたリンベルが、厳しい基準で選び抜いたさくらんぼ。贈り物に、ご自宅用に、最高品質のさくらんぼを。"/>
+<link rel="canonical" href="https://www.ringbell.co.jp/kiwami/sakuranbo/index.html">
+
+<!-- <link rel="stylesheet" type="text/css" href="assets-sel/css/common.css">
+<link rel="stylesheet" type="text/css" href="assets-sel-sp/css/common.css">
+<link rel="stylesheet" type="text/css" href="assets-sp/css/common.css"> -->
+
+<link rel="stylesheet" type="text/css" href="../css/nav.css">
+<link rel="stylesheet" type="text/css" href="css/common_kiwami.css">
+<link rel="stylesheet" type="text/css" href="css/top.css">
+
+<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>-->
+
+<script>
+  (function(d) {
+    var config = {
+      kitId: 'zyi7qfd',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+
+<?php include('../include/tag1.php'); ?>
+</head>
+
+<body>
+<?php include('../include/tag-gtm.php'); ?>
+
+<main>
+  <div id="wrapper">
+    <!-- ================================================ -->
+    <section id="block-mv">
+      <div class="container">
+        <div class="mv-logo"><a href="https://www.ringbell.co.jp/kiwami/"><img src="images/mv_logo.png" alt="日本の極み　あの方に真心　私にご褒美" width="127" height="142"></a></div>
+        <div class="box">
+          <h1 class="main-ttl"><img src="images/mv_ttl2.png" alt="高級 さくらんぼ 人気商品やランキングを特集でご紹介" width="558" height="156"></h1>
+          <div class="btn serif"><a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/c/33646/">すべての商品を見る</a>
+        </div>
+      </div>
+    </section>
+    <!-- ================================================ -->
+    <div id="block-news">
+      <div class="container">
+        <dl class="list-news">
+          <dt><img src="images/logo_insta.png" alt="Instagram" width="126" height="26"></dt>
+          <dd><a href="https://www.instagram.com/kiwami_ringbell/" target="_blank">日本の極み公式インスタで最新情報を発信中！</a></dd>
+        </dl>
+      </div>
+    </div>
+    <!-- ================================================ -->
+    <div id="block-menu">
+      <div class="container">
+        <ul class="list-menu serif">
+          <li><a href="#block-ranking">ランキング</a></li>
+          <!--<li><a href="#block-first">初物ギフト</a></li>-->
+          <li><a href="#block-recommend">おすすめ</a></li>
+          <li><a href="#block-package">パッケージ・詰め方</a></li>
+          <li><a href="#select-variety">品種で選ぶ</a></li>
+          <li><a href="#select-price">価格で選ぶ</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- ================================================ -->
+    <section id="block-lead">
+      <div class="container">
+        <p>リンベル創業の地、山形県は、<br>国内の生産量の7 割を占める<span>「さくらんぼ王国」</span>。<br><span>生産者とともに歩んできたリンベル</span>だからこそ<br>実現できた珠玉のさくらんぼラインナップは、<br>毎年多くの方々からご好評をいただいています。</p>
+      </div>
+    </section>
+    <!-- ================================================ -->
+    <section id="block-banner">
+      <div class="container">
+        <div class="banner">
+          <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/?&search_cat%5B%5D=33646&search_keyword=%E3%82%84%E3%81%BE%E3%81%8C%E3%81%9F%E7%B4%85%E7%8E%8B"><img src="images/banner_yamagata_pc.jpg" alt="大きくて、甘い、期待の新品種 やまがた紅王" class="v-pc"><img src="images/banner_yamagata_sp.jpg" alt="大きくて、甘い、期待の新品種 やまがた紅王" class="v-sp"></a>
+        </div>
+      </div>
+    </section>
+    <!-- ================================================ -->
+    <section id="block-ranking">
+      <div class="container">
+        <h2 class="ttl"><img src="images/ranking_ttl.png" alt="＼選ばれているさくらんぼはコレ！／人気ランキング" width="391" height="104"></h2>
+        <ul class="tab-ranking serif">
+          <li class="active" data-tab="tab01">総合</li>
+          <li data-tab="tab02">ギフト用</li>
+          <li data-tab="tab03">ご自宅用</li>
+        </ul>
+
+        <div class="tab-contents-wrapper">
+
+          <div class="tab-contents active" id="tab01">
+            <ul class="list-ranking">
+              <li>
+                <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/150036/">
+                  <figure class="img"><img src="images/ranking_img01.jpg" alt="佐藤錦 500g 化粧詰"></figure>
+                  <p class="name">佐藤錦 500g</p>
+                  <div class="bottom">
+                    <div><span class="label">化粧詰</span></div>
+                    <div class="price">8,640<small>円（税込）</small></div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/150034/">
+                  <figure class="img"><img src="images/ranking_img02.jpg" alt="佐藤錦 1kg（500g×2） バラ詰"></figure>
+                  <p class="name">佐藤錦 1kg（500g×2）</p>
+                  <div class="bottom">
+                    <div><span class="label">バラ詰</span></div>
+                    <div class="price">5,400<small>円（税込）</small></div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/150037/">
+                  <figure class="img"><img src="images/ranking_img03.jpg" alt="佐藤錦 700g 置並べ"></figure>
+                  <p class="name">佐藤錦 700g</p>
+                  <div class="bottom">
+                    <div><span class="label">置並べ</span></div>
+                    <div class="price">5,400<small>円（税込）</small></div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/150046/">
+                  <figure class="img"><img src="images/ranking_img04.jpg" alt="佐藤錦 600g（150g×4） スタンドパック詰"></figure>
+                  <p class="name">佐藤錦 600g（150g×4）</p>
+                  <div class="bottom">
+                    <div><span class="label">スタンドパック詰</span></div>
+                    <div class="price">5,184<small>円（税込）</small></div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div><!-- /#tab01 -->
+
+          <div class="tab-contents" id="tab02">
+            <ul class="list-ranking">
+              <li>
+                <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/150036/">
+                  <figure class="img"><img src="images/ranking_img02_01.jpg" alt="佐藤錦 500g 化粧詰"></figure>
+                  <p class="name">佐藤錦 500g</p>
+                  <div class="bottom">
+                    <div><span class="label">化粧詰</span></div>
+                    <div class="price">8,640<small>円（税込）</small></div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/150046/">
+                  <figure class="img"><img src="images/ranking_img02_02.jpg" alt="佐藤錦 600g（150g×4） スタンドパック詰"></figure>
+                  <p class="name">佐藤錦 600g（150g×4）</p>
+                  <div class="bottom">
+                    <div><span class="label">スタンドパック詰</span></div>
+                    <div class="price">5,184<small>円（税込）</small></div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/150054/">
+                  <figure class="img"><img src="images/ranking_img02_03.jpg" alt="紅秀峰 28 粒 桐箱詰"></figure>
+                  <p class="name">紅秀峰 28 粒</p>
+                  <div class="bottom">
+                    <div><span class="label">桐箱詰</span></div>
+                    <div class="price">4,320<small>円（税込）</small></div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/150058/">
+                  <figure class="img"><img src="images/ranking_img02_04.jpg" alt="紅秀峰 500g 化粧詰"></figure>
+                  <p class="name">紅秀峰 500g</p>
+                  <div class="bottom">
+                    <div><span class="label">化粧詰</span></div>
+                    <div class="price">7,560<small>円（税込）</small></div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div><!-- /#tab02 -->
+
+          <div class="tab-contents" id="tab03">
+            <ul class="list-ranking">
+              <li>
+                <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/150034/">
+                  <figure class="img"><img src="images/ranking_img03_01.jpg" alt="佐藤錦 1kg（500g×2） バラ詰"></figure>
+                  <p class="name">佐藤錦 1kg（500g×2）</p>
+                  <div class="bottom">
+                    <div><span class="label">バラ詰</span></div>
+                    <div class="price">5,400<small>円（税込）</small></div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/150037/">
+                  <figure class="img"><img src="images/ranking_img03_02.jpg" alt="佐藤錦 700g 置並べ"></figure>
+                  <p class="name">佐藤錦 700g</p>
+                  <div class="bottom">
+                    <div><span class="label">置並べ</span></div>
+                    <div class="price">5,400<small>円（税込）</small></div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/150051/">
+                  <figure class="img"><img src="images/ranking_img03_03.jpg" alt="紅秀峰 1kg（500g×2） バラ詰"></figure>
+                  <p class="name">紅秀峰 1kg（500g×2）</p>
+                  <div class="bottom">
+                    <div><span class="label">バラ詰</span></div>
+                    <div class="price">7,020<small>円（税込）</small></div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/150070/">
+                  <figure class="img"><img src="images/ranking_img03_04.jpg" alt="紅てまり 500g バラ詰"></figure>
+                  <p class="name">紅てまり 500g</p>
+                  <div class="bottom">
+                    <div><span class="label">バラ詰</span></div>
+                    <div class="price">4,320<small>円（税込）</small></div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div><!-- /#tab03 -->
+
+        </div>
+      </div>
+    </section>
+    <!-- ================================================ -->
+    <!--<section id="block-first">
+      <div class="container">
+        <div class="box">
+          <h2 class="ttl"><img src="images/first_ttl.png" alt="長寿願う伝統、「初物」を贈る　初物さくらんぼ" width="353" height="87"></h2>
+          <p class="lead">昔から<span>“食べると七十五日寿命がのびる”</span>と言われ、<br>縁起が良いとされてきた「初物」。<br>大切な方のご長寿を願って、<br><span>今年一番のさくらんぼ</span>を贈ってみては。</p>
+
+          <ul class="list-first">
+            <li>
+              <div class="list-box big">
+                <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/150022/">
+                  <figure class="img"><img src="images/first_img01.jpg" alt="佐藤錦５００ｇ"></figure>
+                  <p class="name">佐藤錦５００ｇ</p>
+                  <div class="bottom">
+                    <div><span class="label">桐箱詰</span></div>
+                    <div class="price">16,200<small>円（税込）</small></div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="list-box-wrap">
+                <div class="list-box">
+                  <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/150014/">
+                    <figure class="img"><img src="images/first_img02.jpg" alt="紅秀峰２００ｇ（１００ｇ×２）"></figure>
+                    <p class="name">紅秀峰２００ｇ（１００ｇ×２）</p>
+                    <div class="bottom">
+                      <div><span class="label">ダイヤパック詰</span></div>
+                      <div class="price">3,240<small>円（税込）</small></div>
+                    </div>
+                  </a>
+                </div>
+                <div class="list-box">
+                  <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/150020/">
+                    <figure class="img"><img src="images/first_img03.jpg" alt="佐藤錦５００ｇ"></figure>
+                    <p class="name">佐藤錦５００ｇ</p>
+                    <div class="bottom">
+                      <div><span class="label">化粧詰</span></div>
+                      <div class="price">10,800<small>円（税込）</small></div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="btn"><a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/?search_cat%5B%5D=33646&search_keyword=%E3%81%8A%E5%B1%8A%E3%81%91%E3%81%AF%EF%BC%95%E6%9C%88">「初物」さくらんぼをもっと見る</a></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>-->
+    <!-- ================================================ -->
+    <section id="block-recommend">
+      <div class="container">
+        <h2 class="ttl serif">リンベルのおすすめ</h2>
+        <ul class="list-recommend">
+          <li>
+            <figure class="img"><img src="images/recommend_img01.jpg" alt="佐藤錦"></figure>
+            <div class="detail">
+              <p class="name">佐藤錦</p>
+              <p class="txt">さくらんぼの代名詞ともいえる人気の品種。果肉は乳白色で甘みと酸味のバランスが優れています。</p>
+              <div class="btn">
+                <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/c/33647/">商品を見る</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <figure class="img"><img src="images/recommend_img02.jpg" alt="紅秀峰"></figure>
+            <div class="detail">
+              <p class="name">紅秀峰</p>
+              <p class="txt">果肉はクリーム色で食べごたえのあるしっかりとした食感。酸味が少なく甘みが強い濃厚な味わいです。</p>
+              <div class="btn">
+                <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/c/33648/">商品を見る</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <figure class="img"><img src="images/recommend_img03.jpg" alt="詰合せ"></figure>
+            <div class="detail">
+              <p class="name">詰合せ</p>
+              <p class="txt">人気の複数の品種を詰め合わせたセット。<br>どのさくらんぼか迷ってしまう、という方におすすめ。</p>
+              <div class="btn">
+                <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/?&search_cat%5B%5D=33646&search_keyword=%E8%A9%B0%E5%90%88%E3%81%9B">商品を見る</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <figure class="img"><img src="images/recommend_img04.jpg" alt="バラ詰め"></figure>
+            <div class="detail">
+              <p class="name">バラ詰め</p>
+              <p class="txt">単純にバラバラ入れるのではなく、隙間をなるべく少なくし、配送中に傷がつかないように工夫した詰め方。</p>
+              <div class="btn">
+                <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/?&search_cat%5B%5D=33646&search_keyword=%E3%83%90%E3%83%A9%E8%A9%B0">商品を見る</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- ================================================ -->
+    <section id="block-package">
+      <div class="container">
+        <h2 class="ttl">パッケージ・詰め方で選ぶ</h2>
+        <p class="lead">パッケージのデザインを手がけたのは、<br class="v-sp">東北芸術工科大学学長でアートディレクターの中山ダイスケ氏。<br>手に取った瞬間に上質さが伝わる、<br class="v-sp">贈り物に最適なパッケージです。</p>
+
+        <ul class="list-package">
+          <li>
+            <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/?&search_cat%5B%5D=33646&search_keyword=%E6%A1%90%E7%AE%B1%E8%A9%B0">
+              <figure class="img"><img src="images/package_img01.jpg" alt="桐箱詰"></figure>
+              <p>桐箱詰</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/?&search_cat%5B%5D=33646&search_keyword=%E3%83%80%E3%82%A4%E3%83%A4%E3%83%91%E3%83%83%E3%82%AF">
+              <figure class="img"><img src="images/package_img02.jpg" alt="ダイヤパック"></figure>
+              <p>ダイヤパック</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/?&search_cat%5B%5D=33646&search_keyword=%E5%8C%96%E7%B2%A7%E8%A9%B0">
+              <figure class="img"><img src="images/package_img03.jpg" alt="化粧詰"></figure>
+              <p>化粧詰</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/?&search_cat%5B%5D=33646&search_keyword=%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%91%E3%83%83%E3%82%AF">
+              <figure class="img"><img src="images/package_img07.jpg" alt="スタンドパック"></figure>
+              <p>スタンドパック</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/?&search_cat%5B%5D=33646&search_keyword=%E7%BD%AE%E4%B8%A6%E3%81%B9">
+              <figure class="img"><img src="images/package_img08.jpg" alt="置並べ"></figure>
+              <p>置並べ</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/?&search_cat%5B%5D=33646&search_keyword=%E3%83%90%E3%83%A9%E8%A9%B0">
+              <figure class="img"><img src="images/package_img06.jpg" alt="バラ詰"></figure>
+              <p>バラ詰</p>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+    <!-- ================================================ -->
+    <section id="block-price">
+      <div class="container" id="select-variety">
+        <h2 class="ttl">品種・価格で選ぶ</h2>
+        <p class="lead">人気の定番はもちろん、一般では手に入りにくい希少な品種も。<br>ご予算に合わせて選べる自慢のラインナップです。</p>
+
+        <ul class="list-price02" id="select-price">
+          <li><a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/?&search_cat%5B%5D=33646&price_max=4000">～4,000円</a></li>
+          <li><a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/?&search_cat%5B%5D=33646&price_min=4000&price_max=6000">4,000円～6,000円</a></li>
+          <li><a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/?&search_cat%5B%5D=33646&price_min=6000&price_max=8000">6,000円～8,000円</a></li>
+          <li><a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/?&search_cat%5B%5D=33646&price_min=8000&price_max=12000">8,000円～12,000円</a></li>
+          <li><a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/?&search_cat%5B%5D=33646&price_min=12000">12,000円～</a></li>
+        </ul>
+
+        <ul class="list-price01">
+          <li>
+            <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/c/33647/">
+              <figure class="img"><img src="images/price_img01.jpg" alt="佐藤錦"></figure>
+              <p>佐藤錦</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/c/33648/">
+              <figure class="img"><img src="images/price_img02.jpg" alt="紅秀峰"></figure>
+              <p>紅秀峰</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/?&search_cat%5B%5D=33646&search_keyword=%E7%B4%85%E3%81%95%E3%82%84%E3%81%8B">
+              <figure class="img"><img src="images/price_img03.jpg" alt="紅さやか"></figure>
+              <p>紅さやか</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/?&search_cat%5B%5D=33646&search_keyword=%E3%83%80%E3%82%A4%E3%82%A2%E3%83%8A%E3%83%96%E3%83%A9%E3%82%A4%E3%83%88">
+              <figure class="img"><img src="images/price_img04.jpg" alt="ダイアナブライト"></figure>
+              <p>ダイアナブライト</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/?&search_cat%5B%5D=33646&search_keyword=%E7%B4%85%E5%A7%AB">
+              <figure class="img"><img src="images/price_img05.jpg" alt="紅姫"></figure>
+              <p>紅姫</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/?&search_cat%5B%5D=33646&search_keyword=%E6%9C%88%E5%B1%B1%E9%8C%A6">
+              <figure class="img"><img src="images/price_img06.jpg" alt="月山錦"></figure>
+              <p>月山錦</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/?&search_cat%5B%5D=33646&search_keyword=%E5%A4%A7%E5%B0%86%E9%8C%A6">
+              <figure class="img"><img src="images/price_img07.jpg" alt="大将錦"></figure>
+              <p>大将錦</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/?&search_cat%5B%5D=33646&search_keyword=%E7%B4%85%E3%81%A6%E3%81%BE%E3%82%8A">
+              <figure class="img"><img src="images/price_img08.jpg" alt="紅てまり"></figure>
+              <p>紅てまり</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/?&search_cat%5B%5D=33646&search_keyword=%E5%B1%B1%E5%BD%A2%E7%BE%8E%E4%BA%BA">
+              <figure class="img"><img src="images/price_img09.jpg" alt="山形美人"></figure>
+              <p>山形美人</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/?&search_cat%5B%5D=33646&search_keyword=%E3%82%84%E3%81%BE%E3%81%8C%E3%81%9F%E7%B4%85%E7%8E%8B">
+              <figure class="img"><img src="images/price_img10.jpg" alt="やまがた紅王"></figure>
+              <p>やまがた紅王</p>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+    <!-- ================================================ -->
+    <section id="block-review">
+      <div class="container">
+        <h2 class="ttl"><img src="images/review_ttl.png" alt="美食のスペシャリストが絶賛！" width="532" height="38"></h2>
+
+        <ul class="list-review">
+          <li>
+            <a href="https://blog.ringbell.co.jp/entry/2021/07/09/000000" target="_blank">
+              <div class="img">
+                <img src="images/review_img01.jpg" alt="佐藤錦のコンポート">
+                <p class="person"><img src="images/review_person01.png" alt="料理家・大西綾美"></p>
+              </div>
+              <div class="info">
+                <p>ひとくち口に入れるとジューシーな甘みが口いっぱいに広がり、口の中ではじける食感はたまらない美味しさです。</p>
+                <div class="name">料理家・大西綾美</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="https://blog.ringbell.co.jp/entry/2021/06/03/000000" target="_blank">
+              <div class="img">
+                <img src="images/review_img02.jpg" alt="さくらんぼのフレンチトースト">
+                <p class="person"><img src="images/review_person02.png" alt="料理家・岡嶋美香"></p>
+              </div>
+              <div class="info">
+                <p>ぱりっとした皮から優しい甘みと酸味が広がって、あぁこれぞ日本のさくらんぼの味！甘すぎず、いくらでも食べられそうです。</p>
+                <div class="name">料理家・岡嶋 美香</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="https://blog.ringbell.co.jp/entry/2020/07/08/000000" target="_blank">
+              <div class="img">
+                <img src="images/review_img03.jpg" alt="さくらんぼ[佐藤錦]のヨーグルトムースタルト">
+                <p class="person"><img src="images/review_person03.png" alt="料理研究家・坂東万有子さん"></p>
+              </div>
+              <div class="info">
+                <p>皮をかむとぷちっとはじけ、甘酸っぱい香りと果汁が口に広がります！！<br>果実が肉厚で満足感！</p>
+                <div class="name">料理研究家・坂東万有子</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="https://blog.ringbell.co.jp/entry/2020/09/03/122457" target="_blank">
+              <div class="img">
+                <img src="images/review_img04.jpg" alt="さくらんぼのピクルス">
+                <p class="person"><img src="images/review_person04.png" alt="料理家・若井めぐみさん"></p>
+              </div>
+              <div class="info">
+                <p>これこれ、このみずみずしさが日本のさくらんぼ！そして強い甘味と香りの余韻。<br>たくさん食べて幸せな気分に。</p>
+                <div class="name">料理家・若井めぐみ</div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- ================================================ -->
+    <section id="block-pickup">
+      <div class="container">
+        <h2 class="ttl"><img src="images/pickup_ttl.png" alt="こちらもおすすめ　リンベル厳選 春のイチオシ" width="550" height="104"></h2>
+        <ul class="list-pickup">
+          <li>
+            <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/55081/">
+              <figure class="img"><img src="images/pickup_img01.jpg" alt="ＥＳＣＡＲＧＯＴ チェリーバターサンド　１０個入"></figure>
+              <div class="name">ＥＳＣＡＲＧＯＴ<br>チェリーバターサンド　１０個入</div>
+              <div class="price">3,240<small>円（税込）</small></div>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/56614/">
+              <figure class="img"><img src="images/pickup_img02.jpg" alt="林檎農家の手作りアップルパイ"></figure>
+              <div class="name">林檎農家の手作りアップルパイ</div>
+              <div class="price">2,700<small>円（税込）</small></div>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/57020/">
+              <figure class="img"><img src="images/pickup_img03.jpg" alt="バスク風チーズケーキ"></figure>
+              <div class="name">バスク風チーズケーキ</div>
+              <div class="price">5,400<small>円（税込）</small></div>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/58171/">
+              <figure class="img"><img src="images/pickup_img04.jpg" alt="さがえ屋 味しみ煎餅詰合せ"></figure>
+              <div class="name">さがえ屋<br>味しみ煎餅詰合せ</div>
+              <div class="price">3,240<small>円（税込）</small></div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- ================================================ -->
+    <section id="block-kodawari">
+      <div class="container">
+
+        <h3 class="ttl serif"><span>リンベルのこだわり</span></h3>
+        <div class="producer">
+          <h4 class="sub-ttl">生産者の「顔が見える」こと</h4>
+          <p class="lead">さくらんぼの栽培は、驚くほどの手間がかかるもの。だからこそ、そこには生産者たちの熱い思いが込められています。その想いを伝えることこそが、年間900万件のギフトを承る私たちリンベルが、一番こだわったことでした。</p>
+          <ul class="modal_trigger">
+            <li class="modal_btn"><a href="#" class="noscroll" data-target="modal_anthree"><img src="images/owner/s_01.jpg" alt="アンスリーファーム"></a></li>
+            <li class="modal_btn"><a href="#" class="noscroll" data-target="modal_ooba"><img src="images/owner/s_02.jpg" alt="大場農園"></a></li>
+            <li class="modal_btn"><a href="#" class="noscroll" data-target="modal_tada"><img src="images/owner/s_03.jpg" alt="多田農園"></a></li>
+            <li class="modal_btn"><a href="#" class="noscroll" data-target="modal_akiba"><img src="images/owner/s_04.jpg" alt="秋葉光弘さん"></a></li>
+            <li class="modal_btn"><a href="#" class="noscroll" data-target="modal_seki"><img src="images/owner/s_05.jpg" alt="関農園"></a></li>
+            <li class="modal_btn"><a href="#" class="noscroll" data-target="modal_kiyono"><img src="images/owner/s_06.jpg" alt="清野親太郎さん"></a></li>
+            <li class="modal_btn"><a href="#" class="noscroll" data-target="modal_takahashi1"><img src="images/owner/s_07.jpg" alt="高橋一樹果樹園"></a></li>
+            <li class="modal_btn"><a href="#" class="noscroll" data-target="modal_takahashi2"><img src="images/owner/s_08.jpg" alt="高橋フルーツランド"></a></li>
+            <li class="modal_btn"><a href="#" class="noscroll" data-target="modal_tendoh"><img src="images/owner/s_09.jpg" alt="天童みのりの会"></a></li>
+            <li class="modal_btn"><a href="#" class="noscroll" data-target="modal_suzunuma"><img src="images/owner/s_10.jpg" alt="桜桃 鈴沼会"></a></li>
+            <li class="modal_btn"><a href="#" class="noscroll" data-target="modal_ubafu"><img src="images/owner/s_11.jpg" alt="うばふところ"></a></li>
+            <li class="modal_btn"><a href="#" class="noscroll" data-target="modal_sato"><img src="images/owner/s_12.jpg" alt="佐藤源悦農園"></a></li>
+          </ul>
+          <div class="modal_area">
+            <div class="modal_box" id="modal_anthree">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <p class="modal_ttl">生産者の「顔」</p>
+                  <div class="modal_contents">
+                    <img src="images/owner/owner_01.jpg" alt="アンスリーファーム">
+                    <dl>
+                      <dt>アンスリーファーム</dt>
+                      <dd>山形県寒河江市は寒暖差が大きく、また水質も良いため、質の高いさくらんぼが生産されています。アンスリーファームはその土地柄を十分に活かし、実が最高の状態になるまで木に実らせておき、限界ぎりぎりまで養分を吸わせてから収穫することを徹底しています。平成29年度の佐藤錦品評会において最高賞である農林水産大臣賞を受賞した生産者が育てたさくらんぼをお届けします。
+                      </dd>
+                      <dd class="badge">品評会受賞農園</dd>
+                    </dl>
+                  </div>
+                </div>
+                <div class="modal_close">×</div>
+              </div>
+            </div>
+            <div class="modal_box" id="modal_ooba">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <p class="modal_ttl">生産者の「顔」</p>
+                  <div class="modal_contents">
+                    <img src="images/owner/owner_02.jpg" alt="大場農園">
+                    <dl>
+                      <dt>大場農園</dt>
+                      <dd>東根市神町地区にて先祖代々の土地を大事に扱いさくらんぼを育てる大場さん。さくらんぼ発祥と言われる土地だけに、生産に適した土壌で育った味には定評があります。果樹１本ずつの特徴に合わせた管理栽培を心がけ、地域のグループの方々と共によりおいしいものを提供できるよう研究を重ねています。
+                      </dd>
+                    </dl>
+                  </div>
+                </div>
+                <div class="modal_close">×</div>
+              </div>
+            </div>
+            <div class="modal_box" id="modal_tada">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <p class="modal_ttl">生産者の「顔」</p>
+                  <div class="modal_contents">
+                    <img src="images/owner/owner_03.jpg" alt="多田農園">
+                    <dl>
+                      <dt>多田農園</dt>
+                      <dd>〈多田農園〉のある山辺地区一帯は、丘陵の斜面を活かしたさくらんぼ栽培が盛ん。日当りの良さが、色づきを良くし、また、栽培に適した土壌が大粒の実を育てます。より美しく甘くおいしい味を求め、絶えず努力を続けています。
+                      </dd>
+                    </dl>
+                  </div>
+                </div>
+                <div class="modal_close">×</div>
+              </div>
+            </div>
+            <div class="modal_box" id="modal_akiba">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <p class="modal_ttl">生産者の「顔」</p>
+                  <div class="modal_contents">
+                    <img src="images/owner/owner_04.jpg" alt="秋葉光弘さん">
+                    <dl>
+                      <dt>秋葉光弘さん</dt>
+                      <dd>山形県中山町にて農場を営む秋葉さんは、稲作や様々なフルーツの栽培を手掛けています。 そのノウハウから生まれた粒選りの佐藤錦をお届けします。
+                      </dd>
+                    </dl>
+                  </div>
+                </div>
+                <div class="modal_close">×</div>
+              </div>
+            </div>
+            <div class="modal_box" id="modal_seki">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <p class="modal_ttl">生産者の「顔」</p>
+                  <div class="modal_contents">
+                    <img src="images/owner/owner_05.jpg" alt="関農園">
+                    <dl>
+                      <dt>関農園</dt>
+                      <dd>先代から受け継いだ剪定技術を継承しつつ、受賞歴のある数々のさくらんぼ農家の技術を取り入れ、唯一無二の剪定技術を開発しました。あえて高さの低い樹形に整えることで、収穫量は減りますが、果実一つ一つに日が当たるようになり、高糖度で味の濃いさくらんぼを生み出しています。品評会で多数の受賞歴を誇る関農園のプレミアムなさくらんぼをお楽しみください。
+                      </dd>
+                      <dd class="badge">品評会受賞農園</dd>
+                    </dl>
+                  </div>
+                </div>
+                <div class="modal_close">×</div>
+              </div>
+            </div>
+            <div class="modal_box" id="modal_kiyono">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <p class="modal_ttl">生産者の「顔」</p>
+                  <div class="modal_contents">
+                    <img src="images/owner/owner_06.jpg" alt="清野親太郎さん">
+                    <dl>
+                      <dt>清野親太郎さん</dt>
+                      <dd>山形県大江町は周りを山々に囲まれた盆地で、昼夜の寒暖の差が大きいことから、良質なさくらんぼ作りに適した土地といわれています。清野さんが毎日手をかけ丹精込めて作ったさくらんぼです。
+                      </dd>
+                    </dl>
+                  </div>
+                </div>
+                <div class="modal_close">×</div>
+              </div>
+            </div>
+            <div class="modal_box" id="modal_takahashi1">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <p class="modal_ttl">生産者の「顔」</p>
+                  <div class="modal_contents">
+                    <img src="images/owner/owner_07.jpg" alt="高橋一樹果樹園">
+                    <dl>
+                      <dt>高橋一樹果樹園</dt>
+                      <dd>天童市の〈高橋一樹果樹園〉は奥羽山脈からのミネラル豊富な雪解け水をはじめとする豊かな自然、試行錯誤してたどり着いたオーガニック肥料を与える独自の栽培方法や剪定技術にて品質の高い果樹を生産しています。ていねいに育てたさくらんぼをお届けします。
+                      </dd>
+                    </dl>
+                  </div>
+                </div>
+                <div class="modal_close">×</div>
+              </div>
+            </div>
+            <div class="modal_box" id="modal_takahashi2">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <p class="modal_ttl">生産者の「顔」</p>
+                  <div class="modal_contents">
+                    <img src="images/owner/owner_08.jpg" alt="高橋フルーツランド">
+                    <dl>
+                      <dt>高橋フルーツランド</dt>
+                      <dd>代表生産者の高橋真也さんは、独特の土づくりで、土壌の微生物を活性化して増加させ、果物の質を高める生産者。品種の特徴を最大限に表現した、香り・光沢・甘み・酸味があり、食感のいい果物をお届けします。
+                      </dd>
+                    </dl>
+                  </div>
+                </div>
+                <div class="modal_close">×</div>
+              </div>
+            </div>
+            <div class="modal_box" id="modal_tendoh">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <p class="modal_ttl">生産者の「顔」</p>
+                  <div class="modal_contents">
+                    <img src="images/owner/owner_09.jpg" alt="天童みのりの会">
+                    <dl>
+                      <dt>天童みのりの会</dt>
+                      <dd>山形県天童市の〈天童みのりの会〉の皆さんのさくらんぼ。温度管理や虫や鳥の害、天候に気を遣い、大切に育てました。果汁が多く、上品な甘みとさわやかな酸味のバランスの良い佐藤錦と、果肉が黄色く、甘みの強い大粒の月山錦をぜひご賞味ください。</dd>
+                    </dl>
+                  </div>
+                </div>
+                <div class="modal_close">×</div>
+              </div>
+            </div>
+            <div class="modal_box" id="modal_suzunuma">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <p class="modal_ttl">生産者の「顔」</p>
+                  <div class="modal_contents">
+                    <img src="images/owner/owner_10.jpg" alt="桜桃 鈴沼会">
+                    <dl>
+                      <dt>桜桃 鈴沼会</dt>
+                      <dd>山形の置賜地区で、さくらんぼを育てる〈鈴沼会〉の皆さん。
+                        質の良さを競う『山形県さくらんぼ「佐藤錦」品評会』にて受賞歴のある生産者たちが愛情込めて育てました。自慢の味わいをぜひお楽しみください。
+                      </dd>
+                    </dl>
+                  </div>
+                </div>
+                <div class="modal_close">×</div>
+              </div>
+            </div>
+            <div class="modal_box" id="modal_ubafu">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <p class="modal_ttl">生産者の「顔」</p>
+                  <div class="modal_contents">
+                    <img src="images/owner/owner_11.jpg" alt="うばふところ">
+                    <dl>
+                      <dt>うばふところ</dt>
+                      <dd>蔵王の麓、山形県上山市で「自然に逆らわず自分の土地に合った栽培をする」ことを心がけ、人工的な手をかけすぎず、作物自らの力を伸ばし良質のさくらんぼを作り出しています。平成30年度の佐藤錦品評会において優秀賞を受賞したこだわりのさくらんぼです。
+                      </dd>
+                      <dd class="badge">品評会受賞農園</dd>
+                    </dl>
+                  </div>
+                </div>
+                <div class="modal_close">×</div>
+              </div>
+            </div>
+            <div class="modal_box" id="modal_sato">
+              <div class="modal_bg"></div>
+              <div class="modal_inner">
+                <div class="modal_block">
+                  <p class="modal_ttl">生産者の「顔」</p>
+                  <div class="modal_contents">
+                    <img src="images/owner/owner_12.jpg" alt="佐藤源悦農園">
+                    <dl>
+                      <dt>佐藤源悦農園</dt>
+                      <dd>山形県天童市でさくらんぼ栽培を行う佐藤源悦さん。有機肥料を使用して土づくりからこだわって育て、粒が大きくて食感の良い、甘みのあるさくらんぼ作りを目指し手間と愛情をかけて育てています。
+                      </dd>
+                    </dl>
+                  </div>
+                </div>
+                <div class="modal_close">×</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pride">
+          <h4 class="sub-ttl">「さくらんぼ王国」山形の誇り</h4>
+          <div class="pride-wrap">
+            <div class="txt">
+              <p>さくらんぼは、明治初期に欧米から導入され、風土に適合した山形県だけが実績をあげました。しかし、その頃の品種は実割れや実腐れが起こり、長期輸送も困難なもの。そこで、山形県東根市の佐藤栄助さんが、品種改良に挑み、16年もの苦労の末、日本を代表する人気品種「佐藤錦」が誕生します。</p>
+              <p class="v-pc">内陸部が盆地で、冬と夏、そして昼夜の寒暖差が大きく、さくらんぼ栽培の好適地だったこと。明治期から官民一体となって努力を重ねたこと。それらのことから、山形県は、現在では国内のさくらんぼ収穫量の7割を占める「さくらんぼ王国」となりました。</p>
+            </div>
+            <div class="map"> <img src="images/kodawari_img.png" alt="主な生産地"> </div>
+            <p class="v-sp">内陸部が盆地で、冬と夏、そして昼夜の寒暖差が大きく、さくらんぼ栽培の好適地だったこと。明治期から官民一体となって努力を重ねたこと。それらのことから、山形県は、現在では国内のさくらんぼ収穫量の7割を占める「さくらんぼ王国」となりました。</p>
+            <p class="clear">さくらんぼの栽培は、とても繊細で、手間がかかるものです。余分な芽を摘む、受粉を助ける、果実を間引きする、などは人の手が欠かせません。もちろん、収穫も手づみで行われます。3月から4月にかけては霜害を防ぐ温度管理、収穫時期が近づいてからは雨を防ぎ、日光が十分に行き渡るよう様々な手立てをほどこします。 </p>
+            <p>「さくらんぼ王国」山形が、誇りを持って送り出すさくらんぼ、この機会にぜひご賞味ください。 </p>
+          </div>
+        </div><!-- /.pride -->
+
+      </div>
+    </section>
+    <!-- ================================================ -->
+    <section id="block-gift">
+      <div class="container">
+        <h2 class="ttl"><img src="images/gift_ttl.png" alt="ギフトコンシェルジュ" width="470" height="44"></h2>
+        <p class="lead">さくらんぼを贈るなら<br>押さえておきたいギフトのマナーをご紹介</p>
+
+        <h3 class="sub-ttl"><span>母の日に感謝を込めて</span></h3>
+        <ul class="list-gift">
+          <li>
+            <a href="https://www.ringbell.co.jp/giftconcierge/5959">
+              <div class="img"><img src="images/gift_img01.jpg" alt="どうしてカーネーションを贈るの？"></div>
+              <h4 class="list-ttl">どうしてカーネーションを贈るの？</h4>
+              <p>毎年5月の第2日曜日は母の日です。母の日に贈る定番のギフトといえば、カーネーションですね。とあるドラマでは、母として強く生きる主人公の女性が、カーネーションを「日持ちしてたくましいから」好きだと言うシーンもありました。確かに、長い間美しく咲いて皆を癒してくれるカーネーションは、母の象徴のようでもありますが、母の日の贈り物となったのにはどのようなきっかけがあるのでしょうか。</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.ringbell.co.jp/giftconcierge/3009">
+              <div class="img"><img src="images/gift_img02.jpg" alt="のしやメッセージカードは必要？"></div>
+              <h4 class="list-ttl">のしやメッセージカードは必要？</h4>
+              <p>実の母にはカジュアルでも、義理のお母さんにはちゃんとしないと…とあれこれ考えることが多い母の日のギフト。しかし、メッセージカードは定番でも、お中元やお歳暮のように筆文字のちゃんとしたのしがかかっている贈り物は、あまり見かけない気がします。ではどうすればいいのか、まずは母の日の由来から見ていきましょう。</p>
+            </a>
+          </li>
+        </ul>
+
+        <h3 class="sub-ttl"><span>長寿の願いを込めて</span></h3>
+        <ul class="list-gift">
+          <li>
+            <a href="https://www.ringbell.co.jp/giftconcierge/2201">
+              <div class="img"><img src="images/gift_img03.jpg" alt="長寿祝いのおすすめギフトと基礎知識（古希/喜寿/傘寿/米寿/卒寿/白寿）"></div>
+              <h4 class="list-ttl">長寿祝いのおすすめギフトと基礎知識（古希/喜寿/傘寿/米寿/卒寿/白寿）</h4>
+              <p>60歳の還暦や70歳の古希、77歳の喜寿など、節目でお祝いをする長寿祝い。それぞれお祝いをするのには意味があり、一例を挙げると60歳の還暦は、十二支が一巡してもとの干支に戻ることを祝うものです。<br>お祝いにはテーマカラーもあり、たとえば古希や喜寿は紫、傘寿や米寿は金茶色のものが向いています。</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.ringbell.co.jp/giftconcierge/4912">
+              <div class="img"><img src="images/gift_img04.jpg" alt="赤いアイテムはもらってうれしい？ もらってうれしい還暦祝いランキング"></div>
+              <h4 class="list-ttl">赤いアイテムはもらってうれしい？ もらってうれしい還暦祝いランキング</h4>
+              <p>生まれた年から60年を過ぎることで十干十二支）が一巡して、もとの暦に還（かえ）ることを還暦と呼び、その長寿を祝うのが還暦祝いです。年齢に関するお祝いなので、昨今では誕生日を中心にお祝いをする傾向が多いようです。<br>もらってうれしい還暦祝いランキングや還暦祝いにもらったものランキングなどをご紹介します。</p>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+    <!-- ================================================ -->
+  </div><!-- /#wrapper -->
+</main>
+
+<!-- footer -->
+<?php include('../include/footer.php'); ?>
+<!-- /footer -->
+
+<script type="text/javascript" src="../js/lib.js"></script>
+<script type="text/javascript" src="../js/nav.js"></script>
+<script type="text/javascript" src="../js/script.js"></script>
+<script>
+  $(function(){
+    $("#block-ranking .tab-ranking > li").on("click",function(){
+      var tab = $(this).data("tab");
+      $("#block-ranking .tab-ranking > li").removeClass("active");
+      $(this).addClass("active");
+      $("#block-ranking .tab-contents").hide();
+      $("#block-ranking .tab-contents#" + tab).fadeIn(300);
+    });
+
+    $('.modal_trigger .modal_btn a').on('click', function() {
+      var target = $(this).data('target');
+      var modal = document.getElementById(target);
+			$(modal).fadeIn();
+      return false;
+    });
+
+    $('.modal_close, .modal_bg').click(function(){
+			$('.modal_box').fadeOut();
+    });
+	});
+</script>
+<?php include('../include/tag2.php'); ?>
+</body>
+</html>

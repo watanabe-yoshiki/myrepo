@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+    <lang>ja</lang>
+    <word lang="ja">
+        <text name="SystemError">エラーが発生しました。</text>
+        <text name="BrowserError">お使いのブラウザではご覧になれません</text>
+        <text name="TextindexTitle">テキスト目次</text>
+        <text name="SearchTitle">検索結果 %s 件</text>
+        <text name="SearchWord">検索キーワード : %s</text>
+        <text name="SearchText">%s 箇所一致</text>
+        <text name="SearchFormError">検索語が入力されていません</text>
+        <text name="ChoiceL">左</text>
+        <text name="ChoiceR">右</text>
+        <text name="ChoicePDF">どちらのPDFの&lt;br&gt;リンクを表示しますか？</text>
+        <text name="ChoicePageLinks">どちらのリンクを&lt;br&gt;表示しますか？</text>
+        <text name="ChoicePageLinksError">リンクはありません</text>
+        <text name="ConfirmLink">リンクを開きますか？</text>
+        <text name="SSConfirmStartPage">最後に表示したページから開きますか？</text>
+        <text name="SSCompleteContents">データ送信に成功しました。</text>
+        <text name="SSCompleteContentsFail">データ送信に失敗しました。再送しますか？</text>
+        <text name="SSCompleteNextTime">次回起動時に再送されます</text>
+        <text name="DoubletapInfoMessage">ダブルタップで拡大します</text>
+    </word>
+    <footer>
+        <button name="Link" visible="default" />
+    </footer>
+    <twoFace value="true" />
+    <home visible="false" url="" />
+</data>

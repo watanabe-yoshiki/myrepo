@@ -1,0 +1,35 @@
+<page>
+  <hitArea version="4.0.0">
+    <a>
+      <id>1</id>
+      <_name>link_1</_name>
+      <shape>box</shape>
+      <_x>486.96</_x>
+      <_y>355.8</_y>
+      <shapeWidth>182.61</shapeWidth>
+      <shapeHeight>121.67</shapeHeight>
+      <shapeRotation>0</shapeRotation>
+      <hitColor>0xffffff</hitColor>
+      <hitAlpha>0</hitAlpha>
+      <roColor>0xffffff</roColor>
+      <roAlpha>20</roAlpha>
+      <activeFill>true</activeFill>
+      <activeLine>false</activeLine>
+      <activeRoFill>true</activeRoFill>
+      <activeRoLine>false</activeRoLine>
+      <lineColor>0x00ffff</lineColor>
+      <lineAlpha>20</lineAlpha>
+      <lineThickness>1</lineThickness>
+      <roLineColor>0xff0000</roLineColor>
+      <roLineAlpha>20</roLineAlpha>
+      <roLineThickness>1</roLineThickness>
+      <useHandCursor>true</useHandCursor>
+      <linkTarget>_blank</linkTarget>
+      <linkUrl>https://www.ringbell.co.jp/kiwami/etc/roastbeef.html</linkUrl>
+      <linkUrlLabel>https://www.ringbell.co.jp/kiwami/etc/roastbeef.html</linkUrlLabel>
+      <linkTargetContentID/>
+      <body/>
+      <key/>
+    </a>
+  </hitArea>
+</page>

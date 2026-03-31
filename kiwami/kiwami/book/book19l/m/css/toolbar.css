@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+/*/////////////////////////////////////////////////////////////
+ Toolbar
+//////////////////////////////////////////////////////////////*/
+
+#toolbar {
+    display: table;
+    width: 100%;
+    height: 42px;
+    overflow: hidden;
+    position: relative;
+    background-image: url("../images/list-toolbar.png");
+    -webkit-background-size: 22px 42px;
+    background-repeat: repeat-x;
+    z-index: 3;
+}
+
+
+#pageTitle {
+    position: relative;
+    display: table-cell;
+    line-height: 42px;
+    font-size: 14px;
+    font-weight: bold;
+    text-shadow: rgba(0, 0, 0, 0.4) 0px -1px 0px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #FFFFFF;
+    max-width: 1px;
+}
+
+#searchWord {
+    position: absolute;
+    width: 100%;
+    top: 42px;
+    left: 0;
+    height: 20px;
+    color: #bbb;
+    background-color: #464646;
+    z-index: 3;
+    font-size: 11px;
+}
+
+
+#searchWord span {
+    display: block;
+    padding-left: 15px;
+}
+
+
+
+/*/////////////////////////////////////////////////////////////
+ Button
+//////////////////////////////////////////////////////////////*/
+
+
+
+#backButton {
+    position: relative;
+    display: none;
+    width: 47px;
+    padding: 0 15px;
+    vertical-align: middle;
+}
+
+#backButton img {
+    width: 47px;
+    height: 20px;
+}
+
+
+#cancelButton {
+    position: relative;
+    display: table-cell;
+    width: 19px;
+    padding: 0 15px;
+    vertical-align: middle;
+}
+
+#cancelButton img {
+    width: 19px;
+    height: 20px;
+}

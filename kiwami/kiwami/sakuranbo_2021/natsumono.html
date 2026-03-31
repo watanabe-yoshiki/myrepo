@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>2020さくらんぼ 夏もの特集 | リンベル　日本の極み</title>
+
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="keywords" content="さくらんぼ,サクランボ,こだわり,厳選,リンベル" />
+<meta name="description" content="今年、最初のひとつぶ。「夏もの」のさくらんぼを全て、産地山形から直送でお届けします。" />
+
+<link rel="canonical" href="https://www.ringbell.co.jp/kiwami/sakuranbo/natsumono.html">
+
+<link rel="stylesheet" type="text/css" href="assets-sel/css/common.css">
+<link rel="stylesheet" type="text/css" href="assets-sel-sp/css/common.css">
+<link rel="stylesheet" type="text/css" href="assets-sp/css/common.css">
+
+<link rel="stylesheet" type="text/css" href="../css/nav.css">
+
+<link rel="stylesheet" type="text/css" href="css/common_kiwami.css">
+<link rel="stylesheet" type="text/css" href="css/tokusyu.css">
+	
+<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+<?php include('../include/tag1.php'); ?>
+</head>
+
+<body>
+<?php include('../include/tag-gtm.php'); ?>
+
+<!-- header -->
+<?php include('include/header_sakuranbo.php'); ?>
+<!--/header --> 
+
+<main>
+<div id="sel-wrapper">
+<div id="sel-containerA" class="clearfix">
+<div id="sel-wrapMainR">
+
+<!---------------------------- 記事エリア ---------------------------->
+<div id="kiwami">
+
+<div class="wrapper bg_white cat_ttl mv">
+	<h2 id="main_tl">
+		<img class="img_pc" src="images/natsumono/mv.jpg" alt="夏もの" />
+		<img class="img_sp" src="images/natsumono/mv_sp.jpg" alt="夏もの" />
+	</h2>
+</div>
+
+<div class="wrapper bg_white">
+	<section>
+		<h3 class="hatsumono">夏もの</h3>
+		
+		<div class="cat_unit">
+			<input id="acd-check-benihime" class="acd-check" type="checkbox">
+			<label class="acd-label" for="acd-check-benihime">
+				<div>
+					<img src="images/cherry/benihime.png" alt="">
+					<dl>
+						<dt>紅姫</dt>
+						<dd>８月に入ってからでも食べられるように、<br>摘みたてをそのまま専用の施設にて低温貯蔵された、さくらんぼ。</dd>
+					</dl>
+				</div>
+			</label>
+			<div class="acd-content">
+				<h5 class="kiribako">桐箱詰め</h5>
+				<div class="item_wrap">
+					<div class="unit">
+						<a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/55956/">
+							<div class="unit_block_1">
+								<dl>
+									<dt><img src="images/natsumono/item_01.png" alt=""></dt>
+									<dd class="name">特秀2L・3Lサイズ400g</dd>
+								</dl>
+							</div>
+							<div class="unit_block_2">
+								<div>
+									<img src="images/size_3L_2_3.png" width="98" alt="">
+									<p class="price">10,000円（税別）</p>
+									<p><a href="#" class="owner noscroll" data-target="modal_tada">多田農園</a></p>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+						
+	</section>
+</div>
+
+<?php include('include/banner.php'); ?>
+
+<?php include('include/modal_owner.php'); ?>
+
+</div>
+<!---------------------------- /記事エリア ---------------------------->
+
+</div><!-- sel-wrapMainR/end -->
+</div><!-- sel-containerA/end -->
+</div><!-- sel-wrapper/end -->
+</main>
+
+<!-- footer --> 
+<?php include('../include/footer.php'); ?>
+<!-- /footer -->
+
+<script type="text/javascript" src="../js/lib.js"></script> 
+<script type="text/javascript" src="../js/nav.js"></script>
+<script type="text/javascript" src="../js/script.js"></script>
+
+<script>
+	$(function () {
+    $('.item_button').prevAll().hide();
+    $('.item_button').click(function (){
+      if ($(this).prevAll().is(':hidden')) {
+        $(this).prevAll().slideDown();
+        $(this).children('img').attr("src", $('.item_button img').attr("src").replace("-more", "-close"));
+      } else {
+        $(this).prevAll().slideUp();
+        $(this).children('img').attr("src", $('.item_button img').attr("src").replace("-close", "-more"));
+      }
+    });
+	});
+</script>
+<script>
+	$(function () {
+    $('.item_wrap a.owner').on('click', function() {
+      var target = $(this).data('target');
+      var modal = document.getElementById(target);
+			$(modal).fadeIn();
+      return false;
+    });
+
+    $('.modal_close, .modal_bg').click(function(){
+			$('.modal_box').fadeOut();
+    });
+	});
+</script>
+
+<?php include('../include/tag2.php'); ?>
+
+</body>
+</html>

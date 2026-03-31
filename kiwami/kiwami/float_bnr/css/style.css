@@ -1,0 +1,111 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500;700&display=swap');
+
+/* --------------------------------------------------------------- */
+/* floatBnr */
+/* --------------------------------------------------------------- */
+#floatBnr {
+	position: fixed;
+	top: 50%;
+	right: 90px;
+	width: 144px;
+    font-family: 'M PLUS 1p', sans-serif;
+    letter-spacing: 0.05em;
+	transform: translateY(-50%);
+	z-index: 99;
+}
+#floatBnr .close {
+	width: 17px;
+	height: 17px;
+	margin: 3px;
+}
+#floatBnr a {
+	display: block;
+	padding: 10px 7px 15px 7px;
+	box-shadow: 0px 3px 6px #00000029;
+	background-color: #fff;
+}
+#floatBnr .heading {
+	color: #BF9C46;
+	font-size: 14px;
+	font-weight: 500;
+	text-align: center;
+}
+#floatBnr .inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 10px;
+}
+#floatBnr .inner .img {
+	width: 42%;
+}
+#floatBnr .inner .img figure {
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-top: 81.48148148148148%;
+}
+#floatBnr .inner .img figure img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+#floatBnr .inner .name {
+	width: calc(58% - 6px);
+	color: #777;
+	font-size: 12px;
+	text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+	/* --------------------------------------------------------------- */
+	/* floatBnr */
+	/* --------------------------------------------------------------- */
+	#floatBnr {
+		right: 20px;
+	}
+}
+
+@media screen and (max-width: 767px){
+	/* --------------------------------------------------------------- */
+	/* floatBnr */
+	/* --------------------------------------------------------------- */
+	#floatBnr {
+		width: 88px;
+		top: auto;
+		right: 0;
+		bottom: 50px;
+        letter-spacing: 0;
+		transform: none;
+	}
+	#floatBnr .close {
+		width: 15px;
+		height: 15px;
+		margin: 0 0 4px 0;
+	}
+	#floatBnr a {
+		padding: 6px 9px;
+	}
+	#floatBnr .heading {
+		font-size: 11px;
+	}
+	#floatBnr .inner {
+		display: block;
+		margin-top: 5px;
+	}
+	#floatBnr .inner .img {
+		width: 100%;
+	}
+	#floatBnr .inner .img figure {
+		padding-top: 58.39416058394161%;
+	}
+	#floatBnr .inner .name {
+		width: 100%;
+		margin-top: 3px;
+		font-size: 11px;
+	}
+}

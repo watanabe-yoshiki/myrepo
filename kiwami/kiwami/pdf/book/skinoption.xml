@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skinOption xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="2.0" skinType="share_skin01" htmlSkinType="default">
+  <fpVersion />
+  <visualIndex label="none" visible="false" init="close" />
+  <textIndex label="label" treeOpen="false" visible="false" init="close" />
+  <fusenIndex label="none" visible="false" init="close" />
+  <textSearch label="label" visible="false" mode="glyph" />
+  <pdf visible="false" type="book" />
+  <url dispUrl="" visible="false" />
+  <embedHtml url="../index.html" visible="false" />
+  <fullScreen visible="false" />
+  <slideShow low="4" high="2" visible="false" />
+  <help visible="false" />
+  <hint visible="false" />
+  <pageIndicate total="-1" format="2" visible="true" />
+  <linkPopup time="0" visible="true" />
+  <textRectangularSelect visible="false" />
+  <operation type="flip" />
+  <key>RbGmRgbK3LpEJU5ZGaQMZfUmM2BuYB/3R0TSOtTaAkroa1EOWJcq1xmu9SJM/+nbiBvy5wXjfwXag3ADIPaVWkLcbxPKL0ltIAHvSVKVAzEPdun1MW611r6/wQMBH5MnHvwNLMJmwULxp1HUzLLG7g==</key>
+  <dynamicSizing visible="true" />
+  <trim visible="false" url="" />
+  <twitter tags="a9daa90b" timeline="false" />
+  <googleAnalytics visible="false" key="" type="" />
+  <defaultView type="book" />
+  <enableView type="book" />
+  <sns>
+    <facebook visible="false" />
+    <twitter visible="false" />
+    <mail visible="false" />
+    <hatena visible="false" />
+    <googleplus visible="false" />
+    <linkedin visible="false" />
+    <line visible="false" />
+  </sns>
+  <contentPasswordHash />
+  <printOption multiplePagesPrint="false" />
+  <changeMemoVisible visible="false" />
+  <weblio visible="false" />
+</skinOption>

@@ -1,0 +1,565 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>高級大粒ぶどう | リンベル　日本の極み</title>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content="リンベル,日本の極み,極み,お取り寄せ,ぶどう,高級ぶどう,シャインマスカット,ゴルビー" />
+    <meta name="description" content="リンベルが高級大粒ぶどうを厳選。シャインマスカットなど人気の品種から、希少な新種まで幅広く取りそろえました。全て、産地直送、オリジナルパッケージにてお届けします。" />
+
+    <link rel="canonical" href="https://www.ringbell.co.jp/kiwami/budou/">
+
+    <!-- <link rel="stylesheet" type="text/css" href="assets-sel/css/common.css">
+<link rel="stylesheet" type="text/css" href="assets-sel-sp/css/common.css">
+<link rel="stylesheet" type="text/css" href="assets-sp/css/common.css"> -->
+
+    <link rel="stylesheet" type="text/css" href="../css/nav.css">
+
+    <link rel="stylesheet" type="text/css" href="css/common_kiwami.css">
+    <link rel="stylesheet" type="text/css" href="css/top.css?210921">
+
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>-->
+
+
+    <?php include('../include/tag1.php'); ?>
+  </head>
+
+  <body>
+    <?php include('../include/tag-gtm.php'); ?>
+
+    <!-- header -->
+    <?php include('../include/header.php'); ?>
+    <!--/header --> 
+
+    <main>
+      <div id="sel-wrapper">
+        <div id="sel-containerA" class="clearfix">
+          <div id="sel-wrapMainR">
+
+            <div id="kiwami">
+
+              <div class="mv">
+                <div class="inner">
+                  <h2 class="main_ttl"><img src="images/top/main_ttl.png" alt="産地直送高級大粒ぶどう"></h2>
+                  <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/c/37005-33653/" class="item_all">すべての商品を⾒る</a>
+                  <!-- <div>
+<ul>
+<li><a href="javascript:void(0)" target="_blank"><span class="pickup"></span>シャインマスカット</a></li>
+<li><a href="javascript:void(0)" target="_blank">人気の大粒品種</a></li>
+<li><a href="javascript:void(0)" target="_blank">食べ比べセット</a></li>
+</ul>
+</div> -->
+                <!--<div class="main_btn"><a href="https://ac-form.ambassadors.jp/form/ringbell/ambassador/cp008" target="_blank"><img src="images/top/main_btn.png" alt="10名様にプレゼント！キャンペーン実施中"></a></div>-->
+                </div>
+              </div>
+
+              <div class="wrapper">
+
+                <section class="bnr_area">
+                  <div class="inner">
+                    <ul>
+                      <li><a href="https://www.ringbell.co.jp/ringbell/index.php/module/ShohinSagasu/action/ShohinList/?rb2019---list__total=105&search_cat%5B%5D=33654"><img src="images/top/shine_bnr.png" alt=""></a></li>
+                      <li><a href="https://www.ringbell.co.jp/ringbell/index.php/module/ShohinSagasu/action/ShohinList/c/33653/search_keyword/%E9%A3%9F%E3%81%B9%E6%AF%94%E3%81%B9%E3%82%BB%E3%83%83%E3%83%88/"><img src="images/top/tabekurabe_bnr.png" alt=""></a></li>
+                    </ul>
+                  </div>
+                </section>
+
+                <section class="rank">
+                <div class="inner">
+                <p><img src="images/top/ranking_icon.png" alt=""></p>
+                <h4>人気ランキング</h4>
+                <ul>
+                <li>
+                <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/59392/" target="_blank">
+                <dl>
+                <figure><img src="images/top/no1.png" alt="" class="rank12"></figure>
+                <dt><img src="images/top/item1.jpg" alt=""></dt>
+                <dd class="item_name">高畠町産<br>ぶどう詰合せカップ</dd>
+                <dd class="price">4,320円（税込）</dd>
+                </dl>
+                </a>
+                </li>
+                <li>
+                <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/59341/" target="_blank">
+                <dl>
+                <figure><img src="images/top/no2.png" alt="" class="rank12"></figure>
+                <dt><img src="images/top/item2.jpg" alt=""></dt>
+                <dd class="item_name">上山市産<br>シャインマスカット 木箱</dd>
+                <dd class="price">8,640円（税込）</dd>
+                </dl>
+                </a>
+                </li>
+                <li>
+                <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/59373/" target="_blank">
+                <dl>
+                <figure><img src="images/top/no3.png" alt=""></figure>
+                <dt><img src="images/top/item3.jpg" alt=""></dt>
+                <dd class="item_name">長野県産<br>ナガノパープルC</dd>
+                <dd class="price">4,320円（税込）</dd>
+                </dl>
+                </a>
+                </li>
+                <li>
+                <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/56936/" target="_blank">
+                <dl>
+                <figure><img src="images/top/no4.png" alt=""></figure>
+                <dt><img src="images/top/item4.jpg" alt=""></dt>
+                <dd class="item_name">上山市産<br>シャインマスカット 700g</dd>
+                <dd class="price">4,320円（税込）</dd>
+                </dl>
+                </a>
+                </li>
+                <li class="is-tab">
+                <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/59384/" target="_blank">
+                <dl>
+                <figure><img src="images/top/no5.png" alt=""></figure>
+                <dt><img src="images/top/item5.jpg" alt=""></dt>
+                <dd class="item_name">長野県産<br>2種詰合せ</dd>
+                <dd class="price">8,640円（税込）</dd>
+                </dl>
+                </a>
+                </li>
+                </ul>
+                </div>
+                </section>
+                
+                <section class="comments">
+                  <div class="inner">
+                    <h3>美食のスペシャリストが絶賛！</h3>
+                    <ul>
+                      <li>
+                        <img src="images/top/nagano_circle.png" alt="長野県産 ナガノパープル">
+                        <dl>
+                          <dt>長野県産 ナガノパープル</dt>
+                          <dd>
+                         皮と果肉が歯切れよく、全体にバランスの取れた美味しさ
+                            <span>料理家 有川奈名子</span>
+                          </dd>
+                          <a href="https://blog.ringbell.co.jp/entry/2020/11/27/191036" target="_blank">>> このブログを読む</a>
+                        </dl>
+                      </li>
+
+                      <li>
+                        <img src="images/top/shine_circle_2.png" alt="上山市産 シャインマスカット">
+                        <dl>
+                          <dt>上山市産 シャインマスカット</dt>
+                          <dd>
+                           マスカットのお菓子をいただく雰囲気。一粒がこんなに存在感！
+                            <span>料理家 益成あゆみ</span>
+                          </dd>
+                          <a href="https://blog.ringbell.co.jp/entry/2020/11/27/190359" target="_blank">>> このブログを読む</a>
+                        </dl>
+                      </li>
+                    </ul>
+                  </div>
+                </section> 
+                <section class="recommended">
+                  <div class="inner">
+                    <p class="sub_ttl">＼高級感あふれる木箱入り／</p>
+                    <h4>今年のおすすめ</h4>
+                    <div class="item1">
+                      <div class="desc">
+                        <dl>
+                          <img src="images/top/award.png" alt="">
+                          <dd>天皇陛下即位に伴う「大嘗祭」に供された逸品</dd>
+                          <dt>シャインマスカット</dt>
+                          <dd class="price">8,640円（税込）</dd>
+                        </dl>
+                        <figure class="item_img is-sp">
+                          <p class="quantity">数量限定品</p>
+                          <img src="images/top/shine_img.png" alt="">
+                        </figure>
+                        <p>山形県産シャインマスカットの品評会において、最優秀賞となる山形県知事賞に２年連続で輝いたシャインマスカット。2019年には、天皇陛下の即位に伴う皇室行事「大嘗祭」の供物に選ばれた逸品です。11月までおいしく味わっていただけます。<br>希少な品のため、数量限定でのご用意となります。</p>
+                        <div class="desc_img">
+                          <figure>
+                            <img src="images/top/shine_producer.jpg" alt="">
+                            <figcaption>代表生産者　村上 英之さん</figcaption>
+                          </figure>
+                          <figure>
+                            <img src="images/top/shine_desc.jpg" alt="">
+                          </figure>
+                        </div>
+                        <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/59341/" class="order_btn green">ご注⽂はこちら</a>
+                        <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/c/37005-33654/" class="order_other">その他のシャインマスカットはこちら</a>
+                      </div>
+                      <figure class="item_img is-pc">
+                        <p class="quantity">数量限定品</p>
+                        <img src="images/top/shine_img.png" alt="">
+                      </figure>
+                    </div>
+                    <div class="item2">
+                      <div class="desc">
+                        <dl>
+                          <img src="images/top/award.png" alt="">
+                          <dd>巨峰より大粒な高糖度の赤ぶどう</dd>
+                          <dt>ゴルビー</dt>
+                          <dd class="price">6,480円（税込）</dd>
+                        </dl>
+                        <figure class="item_img is-sp">
+                          <p class="quantity">数量限定品</p>
+                          <img src="images/top/golby_img.png" alt="">
+                        </figure>
+                        <p>どの品種よりも作るのが難しいといわれる赤ぶどうを30年以上作り続けているからこそ生み出せるゴルビーです。パンパンにつまった果肉に生産者の魂が感じられます。</p>
+                        <div class="desc_img">
+                          <figure>
+                            <img src="images/top/golby_producer.jpg" alt="">
+                            <figcaption>代表生産者　植木 哲夫さん</figcaption>
+                          </figure>
+                        </div>
+                        <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/59342/" class="order_btn purple">ご注⽂はこちら</a>
+                      </div>
+                      <figure class="item_img is-pc">
+                        <p class="quantity">数量限定品</p>
+                        <img src="images/top/golby_img.png" alt="">
+                      </figure>
+                    </div>
+                  </div>
+                </section>
+                <section class="kodawari">
+                  <div class="inner">
+                    <h3>リンベルのこだわり</h3>
+                    <div class="kodawari_block">
+                      <figure>
+                        <img src="images/top/kodawari1.png" alt="">
+                      </figure>
+                      <p class="is-sp">専用パッケージに<br class="is-sp">丁寧にお詰めします</p>
+                      <dl>
+                        <dt class="is-pc">専用パッケージに丁寧にお詰めします</dt>
+                        <dd>リンベルの「日本の極み」では、高級なぶどうにふさわしい質感で、オリジナルのパッケージをご準備しました。、柔らかな果実を傷つけないよう、熟練の技で丁寧にお詰めしてお届けします。</dd>
+                      </dl>
+                      <img src="images/top/kodawari_package.png" alt="">
+                    </div>
+                    <div class="kodawari_block">
+                      <figure>
+                        <img src="images/top/kodawari2.png" alt="">
+                      </figure>
+                      <p class="is-sp">「生産者の顔」が<br class="is-sp">見える安心</p>
+                      <dl>
+                        <dt class="is-pc">「生産者の顔」が見える安心</dt>
+                        <dd>生産者の皆様の情熱を伝えるために。作り手の顔が見える安心をお届けするために。リンベルのぶどうは生産者の顔が見えることにこだわっています。</dd>
+                      </dl>
+                    </div>
+                    <div class="kodawari_block">
+                      <figure>
+                        <img src="images/top/kodawari3.png" alt="">
+                      </figure>
+                      <p class="is-sp">品評会にて<br class="is-sp">選定を実施</p>
+                      <dl>
+                        <dt class="is-pc">品評会にて選定を実施</dt>
+                        <dd>リンベルでは毎年ぶどうのシーズンになると一同に揃えて品評会を開催しております。糖度だけではなく、粒の大きさ、見た目、食感、味、香りなどを総合評価し、品種別に部門賞を決定しております。</dd>
+                      </dl>
+                    </div>
+                  </div>
+                </section>
+                <section class="popular">
+                  <div class="inner">
+                    <p class="sub_ttl">＼定番から希少な新種まで／</p>
+                    <h4>人気の大粒品種</h4>
+                    <div>
+                      <div class="hinsyu">
+                        <div class="tbl green clearfix">
+                          <div class="tbl_box col_c">
+                            <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/c/37005-33654/">
+                              <p class="tane"><img src="images/top/tanenashi.png" alt="種なし"></p>
+                              <dl>
+                                <dt>シャインマスカット</dt>
+                                <dd>甘さ、香り、食べやすさがそろった人気の品種</dd>
+                              </dl>
+                              <img src="images/top/hinsyu_1.jpg" alt="">
+                            </a>
+                          </div>
+                          <div class="tbl_box col_l">
+                            <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/c/37005-33653/?search_keyword=ロザリオビアンコ">
+                              <p class="tane"><img src="images/top/taneari.png" alt="種あり"></p>
+                              <dl>
+                                <dt>ロザリオビアンコ</dt>
+                                <dd>さわやかな甘さが広がる<br>
+                                  「ぶどうの貴婦人」</dd>
+                              </dl>
+                              <img src="images/top/hinsyu_2.jpg" alt="">
+                            </a>
+                          </div>
+                          <div class="tbl_box col_r">
+                            <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/c/37005-33653/?search_keyword=マスカットオブアレキサンドリア">
+                              <p class="tane"><img src="images/top/taneari.png" alt="種あり"></p>
+                              <dl>
+                                <dt>マスカットオブ<br>
+                                  アレキサンドリア</dt>
+                                <dd>高貴な<br>
+                                  マスカット香が楽しめる</dd>
+                              </dl>
+                              <img src="images/top/hinsyu_15.jpg" alt="">
+                            </a>
+                          </div>
+<!--
+                          <div class="tbl_box col_l">
+                            <a href="https://www.ringbell.co.jp/ringbell/index.php/module/ShohinSagasu/action/ShohinList/c/33653/search_keyword/%E7%80%AC%E6%88%B8%E3%82%B8%E3%83%A3%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%84/">
+                              <p class="tane"><img src="images/top/tanenashi.png" alt="種なし"></p>
+                              <dl>
+                                <dt>瀬戸ジャイアンツ</dt>
+                                <dd>パリッとした<br>
+                                  皮の食感が楽しい</dd>
+                              </dl>
+                              <img src="images/top/hinsyu_4.jpg" alt="">
+                            </a>
+                          </div>
+-->
+                          <div class="tbl_box col_l">
+                            <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/c/37005-33653/?search_keyword=天⼭">
+                              <p class="tane"><img src="images/top/tanenashi.png" alt="種なし"></p>
+                              <dl>
+                                <dt>天山</dt>
+                                <dd>パリッとした歯触りと<br>
+                                  ジューシィな果肉が特徴</dd>
+                              </dl>
+                              <img src="images/top/hinsyu_12.jpg" alt="">
+                            </a>
+                          </div>
+                          <div class="tbl_box col_r">
+                            <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/c/37005-33653/?search_keyword=雄宝">
+                              <p class="tane"><img src="images/top/tanenashi.png" alt="種なし"></p>
+                              <dl>
+                                <dt>雄宝</dt>
+                                <dd>酸味が少なく<br>
+                                  甘さが際立つ</dd>
+                              </dl>
+                              <img src="images/top/hinsyu_11.jpg" alt="">
+                            </a>
+                          </div>
+                        </div>
+                        
+                        <div class="tbl purple clearfix">
+<!--
+                          <div class="tbl_box col_l">
+                            <a href="https://www.ringbell.co.jp/ringbell/index.php/module/ShohinSagasu/action/ShohinList/c/33653/search_keyword/%E3%83%AB%E3%83%93%E3%83%BC%E3%83%AD%E3%83%9E%E3%83%B3/">
+                              <p class="tane"><img src="images/top/tanenashi.png" alt="種なし"></p>
+                              <dl>
+                                <dt>ルビーロマン</dt>
+                                <dd>さわやかな甘みが<br>
+                                  広がる赤ぶどう</dd>
+                              </dl>
+                              <img src="images/top/hinsyu_5.jpg" alt="">
+                            </a>
+                          </div>
+-->
+                          <div class="tbl_box col_l">
+                            <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/c/37005-33653/?search_keyword=ルビーロマン">
+                              <p class="tane"><img src="images/top/tanenashi.png" alt="種なし"></p>
+                              <dl>
+                                <dt>ルビーロマン</dt>
+                                <dd>国内トップレベルの大粒<br>
+                                  糖度が高く後味あっさり</dd>
+                              </dl>
+                              <img src="images/top/hinsyu_5.jpg" alt="">
+                            </a>
+                          </div>
+                          <div class="tbl_box col_r">
+                            <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/c/37005-33653/?search_keyword=オリンピア">
+                              <p class="tane"><img src="images/top/taneari.png" alt="種あり"></p>
+                              <dl>
+                                <dt>オリンピア</dt>
+                                <dd>「幻のぶどう」<br>
+                                  蜂蜜のような濃厚な甘さ</dd>
+                              </dl>
+                              <img src="images/top/hinsyu_6.jpg" alt="">
+                            </a>
+                          </div>
+                          <div class="tbl_box col_l">
+                            <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/c/37005-33653/?search_keyword=バイオレットキング">
+                              <p class="tane"><img src="images/top/tanenashi.png" alt="種なし"></p>
+                              <dl>
+                                <dt>バイオレット<br>キング</dt>
+                                <dd>果肉がやわらかく<br>
+                                  ジューシィで糖度も高め</dd>
+                              </dl>
+                              <img src="images/top/hinsyu_13.jpg" alt="">
+                            </a>
+                          </div>
+                          <div class="tbl_box col_r">
+                            <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/c/37005-33653/?search_keyword=ピオーネ">
+                              <p class="tane"><img src="images/top/tanenashi.png" alt="種なし"></p>
+                              <dl>
+                                <dt>ピオーネ・<br>ニューピオーネ</dt>
+                                <dd>豊かな甘さと程よい<br>
+                                  酸味のバランスが絶妙</dd>
+                              </dl>
+                              <img src="images/top/hinsyu_14.png" alt="">
+                            </a>
+                          </div>
+                          <div class="tbl_box col_r">
+                            <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/c/37005-33653/?search_keyword=⾼尾">
+                              <p class="tane"><img src="images/top/tanenashi.png" alt="種なし"></p>
+                              <dl>
+                                <dt>高尾</dt>
+                                <dd>種無しで、巨峰に似た<br>
+                                  しっかりした甘味</dd>
+                              </dl>
+                              <img src="images/top/hinsyu_8.jpg" alt="">
+                            </a>
+                          </div>
+                          <div class="tbl_box col_l">
+                            <a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/c/37005-33653/?search_keyword=ナガノパープル">
+                              <p class="tane"><img src="images/top/tanenashi.png" alt="種なし"></p>
+                              <dl>
+                                <dt>ナガノパープル</dt>
+                                <dd>皮ごと食べられる<br>
+                                  黒ぶどう</dd>
+                              </dl>
+                              <img src="images/top/hinsyu_7.jpg" alt="">
+                            </a>
+                          </div>
+                          <!--
+<div class="tbl_box col_c">
+<a href="https://www.ringbell.co.jp/ringbell/index.php/module/ShohinSagasu/action/ShohinList/c/33653/search_keyword/%E3%83%94%E3%82%AA%E3%83%BC%E3%83%8D/">
+<p class="tane"><img src="images/top/tanenashi.png" alt="種なし"></p>
+<dl>
+<dt>ピオーネ</dt>
+<dd>粒が大きくて食べ応え十分</dd>
+</dl>
+<img src="images/top/hinsyu_9.jpg" alt="">
+</a>
+</div>
+-->
+                        </div>
+                      </div>
+                      <div class="tbl_b clearfix">
+                        <div class="tbl_box col_c">
+                          <a href="https://www.ringbell.co.jp/ringbell/index.php/module/ShohinSagasu/action/ShohinList/c/33653/search_keyword/%E9%A3%9F%E3%81%B9%E6%AF%94%E3%81%B9%E3%82%BB%E3%83%83%E3%83%88/">
+                            <dl>
+                              <dt>食べ比べセット</dt>
+                              <dd>生産者のこだわりのぶどうをセットで</dd>
+                            </dl>
+                            <img src="images/top/hinsyu_10.jpg" alt="" class="is-pc">
+                            <img src="images/top/hinsyu_10_s.jpg" alt="" class="is-sp">
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </section>
+
+                <!--<section class="all_items">
+                  <div class="inner">
+                    <p class="sub_ttl">＼まだまだ人気の大粒品種がずらり／</p>
+                    <a href="https://www.ringbell.co.jp/ringbell/index.php/module/ShohinSagasu/action/ShohinList/c/33653/" class="item_all">すべての商品を見る</a>
+                  </div>
+                </section>-->
+             
+                <section class="producer">
+                  <div class="inner">
+                    <h3>生産者の皆さま</h3>
+                    <ul>
+                      <li class="fair">
+                        <img src="images/top/producer_1.jpg" alt="">
+                        <p>村上英之さん</p>
+                      </li>
+                      <li>
+                        <img src="images/top/producer_2.jpg" alt="">
+                        <p>うえ木ぶどう園<br>植木 哲夫さん</p>
+                      </li>
+                      <li>
+                        <img src="images/top/producer_3.jpg" alt="">
+                        <p>高橋フルーツランド<br>高橋真也さん</p>
+                      </li>
+                      <li class="fair">
+                        <img src="images/top/producer_4.jpg" alt="">
+                        <p>高橋寿男果樹園<br>高橋 寿男さん</p>
+                      </li>
+                      <li class="fair">
+                        <img src="images/top/producer_5.jpg" alt="">
+                        <p>沼沢農園<br>沼沢 清司さん</p>
+                      </li>
+                      <li>
+                        <img src="images/top/producer_6.jpg" alt="">
+                        <p>山形県山形市本沢産<br>枝松 隆年さん</p>
+                      </li>
+                      <li>
+                        <img src="images/top/producer_7.jpg" alt="">
+                        <p>渡部農園<br>渡部 京平さん</p>
+                      </li>
+                      <li class="fair">
+                        <img src="images/top/producer_8.jpg" alt="">
+                        <p>紫玉園<br>齋藤 政考さん</p>
+                      </li>
+                      <li>
+                        <img src="images/top/producer_9.jpg" alt="">
+                        <p>佐藤農園<br>佐藤 大輔さん</p>
+                      </li>
+                      <li class="fair">
+                        <img src="images/top/producer_10.jpg" alt="">
+                        <p>高橋徹果樹園<br>高橋 徹さん</p>
+                      </li>
+                      <li class="fair">
+                        <img src="images/top/producer_11.jpg" alt="">
+                        <p>佐竹ぶどう園<br>佐竹 祐宏さん</p>
+                      </li>
+                      <li>
+                        <img src="images/top/producer_12.jpg" alt="">
+                        <p>東海林果樹園<br>東海林 和男さん</p>
+                      </li>
+                      <li>
+                        <img src="images/top/producer_13.jpg" alt="">
+                        <p>島軒果樹園<br>島軒 隆一さん</p>
+                      </li>
+                      <li>
+                        <img src="images/top/producer_14.jpg" alt="">
+                        <p>かんおぶどう農園<br>神尾 仁さん</p>
+                      </li>
+                    </ul>
+                  </div>
+                </section>
+             
+              </div>
+
+            </div>
+            <!---------------------------- /記事エリア ---------------------------->
+
+          </div><!-- sel-wrapMainR/end -->
+        </div><!-- sel-containerA/end -->
+      </div><!-- sel-wrapper/end -->
+    </main>
+
+    <!-- footer --> 
+    <?php include('../include/footer.php'); ?>
+    <!-- /footer -->
+
+    <script type="text/javascript" src="../js/lib.js"></script> 
+    <script type="text/javascript" src="../js/nav.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+
+    <script>
+      $(function () {
+        $('.item_button').prevAll().hide();
+        $('.item_button').click(function () {
+          if ($(this).prevAll().is(':hidden')) {
+            $(this).prevAll().slideDown();
+            $(this).children('img').attr("src", $('.item_button img').attr("src").replace("-more", "-close"));
+          } else {
+            $(this).prevAll().slideUp();
+            $(this).children('img').attr("src", $('.item_button img').attr("src").replace("-close", "-more"));
+          }
+        });
+      });
+    </script>
+
+    <script>
+      $(function () {
+        $('.modal_trigger .modal_btn a').on('click', function() {
+          var target = $(this).data('target');
+          var modal = document.getElementById(target);
+          $(modal).fadeIn();
+          return false;
+        });
+
+        $('.modal_close, .modal_bg').click(function(){
+          $('.modal_box').fadeOut();
+        });
+      });
+    </script>
+
+    <?php include('../include/tag2.php'); ?>
+
+  </body>
+</html>

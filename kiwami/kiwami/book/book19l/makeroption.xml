@@ -1,0 +1,7 @@
+<makeroption>
+  <scormScoreType>normal</scormScoreType>
+  <isOnlineStorage>false</isOnlineStorage>
+  <pcViewType>html5</pcViewType>
+  <mobileViewType>html5</mobileViewType>
+  <designSetting>preinstall</designSetting>
+</makeroption>

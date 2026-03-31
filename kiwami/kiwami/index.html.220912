@@ -1,0 +1,583 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>リンベル　日本の極み</title>
+
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="keywords" content="日本の極み,山形の極み,グルメ,こだわり,地域産品,旬のグルメ,リンベル" />
+<meta name="description" content="安心安全で高品質。日本全国から、知る人ぞ知る各地の「極み」の逸品を厳選。お取り寄せはもちろん、大切な方への贈り物にも好適です。" />
+
+<meta name="format-detection" content="telephone=no">
+
+<meta property="og:title" content="リンベル　日本の極み">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.ringbell.co.jp/kiwami/">
+<meta property="og:site_name" content="リンベル　日本の極み">
+<meta property="og:description" content="安心安全で高品質。日本全国から、知る人ぞ知る各地の「極み」の逸品を厳選。お取り寄せはもちろん、大切な方への贈り物にも好適です。">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="https://www.ringbell.co.jp/kiwami/img/ogp.png">
+
+<link rel="canonical" href="https://www.ringbell.co.jp/kiwami/">
+
+<link href="css/slick.css" rel="stylesheet" type="text/css">
+<link href="css/nav.css?20201117" rel="stylesheet" type="text/css">
+<link href="css/kiwami.css?20210608" rel="stylesheet" type="text/css">
+<!--<link href="css/home.css?20200416" rel="stylesheet" type="text/css">-->
+
+<?php include('include/tag1.php'); ?>
+</head>
+
+<body id="top">
+<?php include('include/tag-gtm.php'); ?>
+
+<div id="contents">
+
+<!-- header -->
+<?php include('include/header.php'); ?>
+<!--/header -->
+
+<main>
+
+	<div id="top-mv">
+		<div class="offset-l">
+			<div class="mv-bg">
+<!--
+				<ul class="slider">
+					<li>
+							<figure class="no-sp" style="background-image:url(img/top-mv/mv-kiwami.png);"></figure>
+							<figure class="no-pc" style="background-image:url(img/top-mv/mv-kiwami-sp.png);"></figure>
+					</li>
+				</ul>
+-->
+				<figure><img src="img/top-mv/mv.png" alt="日本の極み　あの方に真心　私にご褒美" width="502" height="303"></figure>
+				<div class="txt_c">
+					<a href="https://www.ringbell.co.jp/ringbell/index.php/module/ShohinSagasu/action/ShohinList/search_keyword/%E6%97%A5%E6%9C%AC%E3%81%AE%E6%A5%B5%E3%81%BF/result_count/100/" class="all gothic">すべての商品を見る<small>約1416点（2022年9月）</small></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- ======= pagelink ======= -->
+	<!--
+	<div class="pagelink">
+		<div class="offset-l">
+			<ul class="pagelink-list">
+				<li>
+					<a href="/kiwami/ouchi_wagyu/">
+						<img src="img/top/nav_ouchi_bnr.jpg" alt="リンベルのおうちごはん" class="no-sp"><img src="img/top/nav_ouchi_bnr_sp.jpg" alt="リンベルのおうちごはん" class="no-pc">
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	-->
+
+	<!-- ======= bnr ======= -->
+	<div class="bnr">
+		<div class="offset-l">
+			<ul class="bnr-list">
+				<li>
+					<p><img src="img/top/bnr_point.jpg" alt="ポイントを使ってお買い物"></p>
+					<p class="link gothic">
+						<a href="https://www.ringbell.co.jp/ringbell/contents/members/">リンベルポイントを使う</a>
+						<a href="https://www.ringbell.co.jp/ringbell/contents/ecard/"><img src="img/top/bnr_point-card.png" class="card" alt="">eカードを使う</a>
+					</p>
+				</li>
+				<li>
+					<a href="https://www.ringbell.co.jp/selectshop/contents/guide/etc/guide_index.html#payment03">
+						<img src="img/top/bnr_payment.jpg" alt="ポイント＆マイルがお得に貯まる">
+					</a>
+				</li>
+			</ul>
+			<div class="bnr_instagram">
+				<a href="https://www.instagram.com/kiwami_ringbell/" target="_blank">
+					<img src="img/top/bnr_instagram.png" alt="Instagram 「日本の極み」の最新情報や開発ストーリーを公開中" class="pc-img">
+					<img src="img/top/bnr_instagram_sp.png" alt="Instagram 「日本の極み」の最新情報や開発ストーリーを公開中" class="sp-img">
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- ======= feature ======= -->
+	<section id="feature" class="panel">
+		<div class="offset-l">
+			<ul class="panel-list">
+				<li class="big">
+					<a href="/kiwami/budou/">
+						<img src="img/top/feature-panel-b37.jpg" alt="高級　大粒ぶどう">
+						<div class="detail">
+							<p>高級　大粒ぶどう</p>
+							<p>2,700円（税込）〜</p>
+							<p class="detailBtn">くわしく見る</p>
+						</div>
+					</a>
+				</li>
+				<li class="clear-sp">
+					<a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinSagasu/action/ShohinList/c/33651/">
+						<img src="img/top/feature-panel176.jpg" alt="高級桃">
+						<div class="detail">
+							<p>高級桃</p>
+							<p>5,400円（税込）～</p>
+							<p class="detailBtn">くわしく見る</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.ringbell.co.jp/kiwami/suruganomegumi/">
+						<img src="img/top/feature-panel88.jpg" alt="エピガロカテキン 冷緑茶 駿河のめぐみ">
+						<div class="detail">
+							<p>エピガロカテキン<br>冷緑茶<br>駿河のめぐみ</p>
+							<p class="detailBtn">くわしく見る</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.ringbell.co.jp/ringbell/index.php/module/ShohinSagasu/action/ShohinList/c/33625/search_keyword/%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%83%87%E3%82%B6%E3%83%BC%E3%83%88%E3%82%B8%E3%83%A5%E3%83%BC%E3%82%B9/">
+						<img src="img/top/feature-panel155.jpg" alt="山形県　プレミアムデザートジュース">
+						<div class="detail">
+							<p>山形県<br>プレミアム<br>デザートジュース</p>
+							<p>1,620円（税込）〜</p>
+							<p class="detailBtn">くわしく見る</p>
+						</div>
+					</a>
+				</li>
+				<li>					
+					<a href="https://www.ringbell.co.jp/ringbell/index.php/module/ShohinSagasu/action/ShohinList/?search_keyword=プレミアムアイス">
+						<img src="img/top/feature-panel154.jpg" alt="山形県　プレミアムアイス">
+						<div class="detail">
+							<p>山形県　プレミアムアイス</p>
+							<p>3,240円(税込）〜</p>
+							<p class="detailBtn">くわしく見る</p>
+						</div>
+					</a>
+				</li>
+				<li class="clear-pc">
+					<a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/55123/">
+						<img src="img/top/feature-panel175.jpg" alt="長野県　南水梨">
+						<div class="detail">
+							<p>長野県　南水梨</p>
+							<p>4,320円（税込）～</p>
+							<p class="detailBtn">くわしく見る</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.ringbell.co.jp/ringbell/index.php/module/ShohinSagasu/action/ShohinList/c/37005/search_keyword/%E3%83%A1%E3%83%AD%E3%83%B3/">
+						<img src="img/top/feature-panel168.jpg" alt="高級メロン">
+						<div class="detail">
+							<p>高級メロン</p>
+							<p>5,400円（税込）～</p>
+							<p class="detailBtn">くわしく見る</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.ringbell.co.jp/ringbell/index.php/module/ShohinSagasu/action/ShohinList/?search_keyword=%E7%A7%8B%E6%98%A0">
+						<img src="img/top/feature-panel179.png" alt="秋映">
+						<div class="detail">
+							<p>秋映</p>
+							<p>4,320円（税込）～</p>
+							<p class="detailBtn">くわしく見る</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/57168/">
+						<img src="img/top/feature-panel180.png" alt="山形県産　マルゲリットマリーラ">
+						<div class="detail">
+							<p>山形県産<br>マルゲリットマリーラ</p>
+							<p>3,240円（税込）</p>
+							<p class="detailBtn">くわしく見る</p>
+						</div>
+					</a>
+				</li>
+				<li class="big right" id="wagyu">
+					<a href="https://www.ringbell.co.jp/ringbell/index.php/module/ShohinSagasu/action/ShohinList/c/37007/">
+						<img src="img/top/feature-panel-b05.jpg" alt="「A5ランク」「未経産の雌」限定 厳選　山形牛特集">
+						<div class="detail">
+							<p>「A5ランク」「未経産の雌」限定<br>厳選　山形牛特集</p>
+							<p>3,240円（税込）～</p>
+							<p class="detailBtn">くわしく見る</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.ringbell.co.jp/ringbell/index.php/module/ShohinSagasu/action/ShohinList/c/37005-33512/search_keyword/%E3%82%B9%E3%83%86%E3%83%BC%E3%82%AD/">
+						<img src="img/top/feature-panel57.jpg" alt="高級和牛　ステーキ用">
+						<div class="detail">
+							<p>高級和牛　ステーキ用</p>
+							<p>5,400円（税込）～</p>
+							<p class="detailBtn">くわしく見る</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.ringbell.co.jp/ringbell/index.php/module/ShohinSagasu/action/ShohinList/c/37005-33512/search_keyword/%E7%84%BC%E8%82%89/">
+						<img src="img/top/feature-panel46.jpg" alt="高級和牛　焼肉用">
+						<div class="detail">
+							<p>高級和牛　焼肉用</p>
+							<p>3,780円（税込）～</p>
+							<p class="detailBtn">くわしく見る</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.ringbell.co.jp/ringbell/index.php/module/ShohinSagasu/action/ShohinList/c/37005-33512/search_keyword/%E3%81%99%E3%81%8D%E7%84%BC/">
+						<img src="img/top/feature-panel35.jpg" alt="高級和牛　すき焼用">
+						<div class="detail">
+							<p>高級和牛　すき焼用</p>
+							<p>7,560円（税込）～</p>
+							<p class="detailBtn">くわしく見る</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.ringbell.co.jp/ringbell/index.php/module/ShohinSagasu/action/ShohinList/c/37005-33569/">
+						<img src="img/top/feature-panel178.jpg" alt="高級牛ハンバーグ">
+						<div class="detail">
+							<p>高級牛ハンバーグ</p>
+							<p>3,240円（税込）〜</p>
+							<p class="detailBtn">くわしく見る</p>
+						</div>
+					</a>
+				</li>
+				<li class="big">
+					<a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/55581/">
+						<img src="img/top/feature-panel-b38.png" alt="山形県　お米食べくらべセット">
+						<div class="detail">
+							<p>山形県　お米食べくらべセット</p>
+							<p>3,240円（税込）</p>
+							<p class="detailBtn">くわしく見る</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/55548/">
+						<img src="img/top/feature-panel170.jpg" alt="福井県　鯖缶セット">
+						<div class="detail">
+							<p>福井県　鯖缶セット</p>
+							<p>4,320円（税込）</p>
+							<p class="detailBtn">くわしく見る</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.ringbell.co.jp/ringbell/index.php/module/ShohinSagasu/action/ShohinList/c/37005/search_keyword/%E3%82%81%E3%82%93%E3%81%9F%E3%81%84%E3%81%93/">
+						<img src="img/top/feature-panel171.jpg" alt="福岡県　博多めんたいこ">
+						<div class="detail">
+							<p>福岡県　博多めんたいこ</p>
+							<p>3,240円（税込）～</p>
+							<p class="detailBtn">くわしく見る</p>
+						</div>
+					</a>
+				</li>
+				<li class="clear-sp">
+					<a href="https://www.ringbell.co.jp/ringbell/index.php/module/ShohinSagasu/action/ShohinList/?search_keyword=%E6%A5%B5%E3%81%BF%E3%80%80%E7%B4%80%E5%B7%9E%E5%8D%97%E9%AB%98%E6%A2%85">
+						<img src="img/top/feature-panel181.png" alt="紀州南高梅">
+						<div class="detail">
+							<p>紀州南高梅</p>
+							<p>2,700円（税込）～</p>
+							<p class="detailBtn">くわしく見る</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.ringbell.co.jp/ringbell/index.php/module/ShohinSagasu/action/ShohinList/?search_keyword=%E7%A5%9E%E6%88%B8%E7%89%9B%E3%81%A8%E3%82%8D%E3%81%A8%E3%82%8D%E3%80%80%E3%83%93%E3%83%BC%E3%83%95%E3%82%B7%E3%83%81%E3%83%A5%E3%83%BC%EF%BC%86%E3%82%B9%E3%83%91%E3%82%A4%E3%82%B7%E3%83%BC%E3%82%AB%E3%83%AC%E3%83%BC">
+						<img src="img/top/feature-panel182.jpg" alt="神戸牛とろとろ　ビーフシチュー＆スパイシーカレー">
+						<div class="detail">
+							<p>神戸牛とろとろ<br>ビーフシチュー＆スパイシーカレー</p>
+							<p>3,240円（税込）～</p>
+							<p class="detailBtn">くわしく見る</p>
+						</div>
+					</a>
+				</li>
+				<li class="big right">
+					<a href="https://www.ringbell.co.jp/ringbell/index.php/module/ShohinSagasu/action/ShohinList/?search_keyword=%E6%9C%88%E5%B1%B1%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88%E3%83%93%E3%83%BC%E3%83%AB">
+						<img src="img/top/feature-panel-b32.jpg" alt="山形県　月山クラフトビール　月山自然水仕込み">
+						<div class="detail">
+							<p>山形県　月山クラフトビール<br>月山自然水仕込み</p>
+							<p>3,300円（税込）〜</p>
+							<p class="detailBtn">くわしく見る</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.ringbell.co.jp/ringbell/index.php/module/ShohinSagasu/action/ShohinList/c/37005-33632/search_keyword/%E6%9D%B1%E3%81%AE%E9%BA%93/">
+						<img src="img/top/feature-panel143.jpg" alt="山形県　東の麓酒造">
+						<div class="detail">
+							<p>山形県　東の麓酒造</p>
+							<p>3,850円（税込）～</p>
+							<p class="detailBtn">くわしく見る</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.ringbell.co.jp/ringbell/index.php/module/ShohinSagasu/action/ShohinList/c/37005-33632/search_keyword/%E5%AF%BF%E8%99%8E%E5%B1%8B/">
+						<img src="img/top/feature-panel174.jpg" alt="山形県　寿虎屋酒造">
+						<div class="detail">
+							<p>山形県　寿虎屋酒造</p>
+							<p>1,650円（税込）～</p>
+							<p class="detailBtn">くわしく見る</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.ringbell.co.jp/ringbell/index.php/module/ShohinSagasu/action/ShohinList/c/37005-33632/search_keyword/%E6%9C%88%E3%81%AE%E4%BA%95/">
+						<img src="img/top/feature-panel145.jpg" alt="茨城県　月の井酒造店">
+						<div class="detail">
+							<p>茨城県　月の井酒造店</p>
+							<p>2,750円（税込）～</p>
+							<p class="detailBtn">くわしく見る</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.ringbell.co.jp/ringbell/index.php/module/ShohinSagasu/action/ShohinList/c/37005-33632/search_keyword/%E5%87%BA%E7%BE%BD%E6%A1%9C/">
+						<img src="img/top/feature-panel146.jpg" alt="山形県　出羽桜酒造">
+						<div class="detail">
+							<p>山形県　出羽桜酒造</p>
+							<p>2,750円（税込）～</p>
+							<p class="detailBtn">くわしく見る</p>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<!-- ======= ranking ======= -->
+	<section id="ranking" class="panel"><!-- id="fathersday" -->
+		<div class="offset-l">
+			<h2><img src="img/top/ranking-h2.svg" alt="おすすめランキング"></h2>
+			<!--<h2><img src="img/top/father-h2.svg" alt="今年は6月19日 「父の日」セレクション"></h2>-->
+			<ul class="panel-list">
+				<li class="big">
+					<a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/55835/">
+						<img src="img/top/ranking-panel-b42.png" alt="東京都　ラ・フランスのシブースト">
+						<div class="detail">
+							<p>東京都　ラ・フランスのシブースト</p>
+							<p>3,780円（税込）</p>
+							<p class="detailBtn">くわしく見る</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/57020/">
+						<img src="img/top/ranking-panel136.png" alt="バスク風チーズケーキ">
+						<div class="detail">
+							<p>バスク風チーズケーキ</p>
+							<p>5,400円（税込）</p>
+							<p class="detailBtn">くわしく見る</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.ringbell.co.jp/ringbell/index.php/module/ShohinSagasu/action/ShohinList/?search_keyword=%E5%91%B3%E3%81%97%E3%81%BF%E7%85%8E%E9%A4%85">
+						<img src="img/top/ranking-panel137.png" alt="味しみ煎餅詰合せ">
+						<div class="detail">
+							<p>味しみ煎餅詰合せ</p>
+							<p>3,240円（税込）〜</p>
+							<p class="detailBtn">くわしく見る</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.ringbell.co.jp/ringbell/index.php/module/ShohinSagasu/action/ShohinList/?search_keyword=%E5%B1%B1%E5%BD%A2%E7%9C%8C%E7%BD%AE%E8%B3%9C%E7%94%A3%E3%80%80%E3%83%8E%E3%83%B3%E3%82%A2%E3%83%AB%E3%82%B3%E3%83%BC%E3%83%AB%E8%B5%A4%E3%83%AF%E3%82%A4%E3%83%B3">
+						<img src="img/top/ranking-panel138.jpg" alt="山形県置賜産　ノンアルコール赤ワイン">
+						<div class="detail">
+							<p>山形県置賜産<br>ノンアルコール赤ワイン</p>
+							<p>2,700円（税込）～</p>
+							<p class="detailBtn">くわしく見る</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/58017/">
+						<img src="img/top/ranking-panel139.jpg" alt="鳴戸金時芋棒・ごまポテ">
+						<div class="detail">
+							<p>鳴戸金時芋棒・ごまポテ</p>
+							<p>3,240円（税込）</p>
+							<p class="detailBtn">くわしく見る</p>
+						</div>
+					</a>
+				</li>
+				<li class="big right">
+					<a href="https://www.ringbell.co.jp/ringbell/index.php/module/ShohinSagasu/action/ShohinList/?search_keyword=%E6%A5%B5%E3%81%BF%E3%80%80%E6%9D%BE%E8%8C%B8">
+						<img src="img/top/ranking-panel-b43.png" alt="高級　松茸">
+						<div class="detail">
+							<p>高級　松茸</p>
+							<p>32,400円（税込）〜</p>
+							<p class="detailBtn">くわしく見る</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.ringbell.co.jp/ringbell/index.php/module/ShohinSagasu/action/ShohinList/c/37005/search_keyword/%E3%81%BF%E3%82%84%E3%81%96%E3%81%8D%E5%9C%B0%E9%A0%AD%E9%B6%8F%E7%84%BC%E3%81%8D%E9%B3%A5/">
+						<img src="img/top/ranking-panel140.png" alt="みやざき地頭鶏焼き鳥">
+						<div class="detail">
+							<p>みやざき地頭鶏焼き鳥</p>
+							<p>2,160円（税込）〜</p>
+							<p class="detailBtn">くわしく見る</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/55138/">
+						<img src="img/top/ranking-panel141.png" alt="三重県伊勢湾産　海の幸セット">
+						<div class="detail">
+							<p>三重県伊勢湾産<br>海の幸セット</p>
+							<p>5,400円（税込）</p>
+							<p class="detailBtn">くわしく見る</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.ringbell.co.jp/ringbell/index.php/module/ShohinSagasu/action/ShohinList/?search_keyword=%E7%84%A1%E5%A1%A9%E3%81%9B%E3%81%8D%E3%83%8F%E3%83%A0%E3%83%BB%E3%82%BD%E3%83%BC%E3%82%BB%E3%83%BC%E3%82%B8%E3%82%BB%E3%83%83%E3%83%88">
+						<img src="img/top/ranking-panel142.png" alt="山形県　無塩せきハム・ソーセージセット">
+						<div class="detail">
+							<p>山形県<br>無塩せきハム・ソーセージセット</p>
+							<p>3,240円（税込）～</p>
+							<p class="detailBtn">くわしく見る</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.ringbell.co.jp/gourmet/index.php/module/ShohinShosai/action/ShohinShosai/shohin/55052/">
+						<img src="img/top/ranking-panel135.jpg" alt="山形県　梵天丸茄子浅漬">
+						<div class="detail">
+							<p>山形県　梵天丸茄子浅漬</p>
+							<p>3,780円（税込）</p>
+							<p class="detailBtn">くわしく見る</p>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<!-- ======= blog ======= -->
+	<section id="blog">
+		<div class="offset-l">
+			<h2>美食のスペシャリストがブログで絶賛！</h2>
+			<ul class="blog-list gothic">
+				<li>
+					<a href="https://blog.ringbell.co.jp/entry/2022/06/23/000000">
+						<figure class="img"><img src="img/top/blog-img12.jpg" alt="愛媛県産　媛小春"></figure>
+						<div class="txt">
+							<h3>愛媛県産　媛小春</h3>
+							<div class="txt-sub">
+								<p class="line">
+									ジューシーで甘酸っぱく濃厚、一度味わったら印象に残るフルーツ<br>
+									<span class="right">アメリカンベーキング教室 just baked!<br>主宰・中村紫乃さん</span>
+								</p>
+								<figure><img src="img/top/blog-img11-author.png" alt="アメリカンベーキング教室 just baked! 主宰・中村紫乃さん"></figure>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://blog.ringbell.co.jp/entry/2022/06/16/000000">
+						<figure class="img"><img src="img/top/blog-img09.jpg" alt="山形県高畠町三条目産のラ・フランス"></figure>
+						<div class="txt">
+							<h3>山形県高畠町三条目産のラ・フランス</h3>
+							<div class="txt-sub">
+								<p class="line">
+									ねっとりと緻密な果肉、したたる果汁、繊細でバランスの良い甘味。<br>
+									<span class="right">料理家　伊藤くみ</span>
+								</p>
+								<figure><img src="img/top/blog-img08-author.png" alt="料理家　伊藤くみ"></figure>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://blog.ringbell.co.jp/entry/2022/06/09/000000">
+						<figure class="img"><img src="img/top/blog-img10.jpg" alt="愛媛　紅花むすめ"></figure>
+						<div class="txt">
+							<h3>愛媛　紅花むすめ</h3>
+							<div class="txt-sub">
+								<p class="line">
+									プルプルとした果肉が口の中で溶けてゼリーのような心地よい食感がたまりません！<br>
+									<span class="right">料理研究家　尾田衣子</span>
+								</p>
+								<figure><img src="img/top/blog-img09-author.png" alt="料理研究家　尾田衣子"></figure>
+							</div>
+						</div>
+					</a>
+				</li>
+				<!--
+				<li>
+					<a href="https://blog.ringbell.co.jp/entry/2021/12/11/000000">
+						<figure class="img"><img src="img/top/blog-img02.jpg" alt="山形県南陽市産 ゴルビー"></figure>
+						<div class="txt">
+							<h3>山形県南陽市産 ゴルビー</h3>
+							<div class="txt-sub">
+								<p class="line">
+									実はしっかりして食べ応え抜群。香りも濃厚で鼻から香りが抜けていきます。<br>
+									<span class="right">料理家 石橋絵理さん</span>
+								</p>
+								<figure><img src="img/top/blog-img02-author.png" alt="料理家 石橋絵理さん"></figure>
+							</div>
+						</div>
+					</a>
+				</li>
+				-->
+			</ul>
+			<div class="btn-box gothic"><a href="http://blog.ringbell.co.jp/">すべての記事を見る</a></div>
+		</div>
+	</section>
+
+	<!-- ======= shop ======= -->
+	<section id="shop">
+		<div class="offset-l">
+			<div class="shop-inner">
+				<h2>日本の極み ご案内店舗 <small>※一部商品のみとなります</small></h2>
+				<div class="shop-box">
+					<dl class="name">
+						<dt><span>東京</span></dt>
+						<dd><h3>西武池袋本店 リンベル ギフトブティック</h3></dd>
+					</dl>
+					<div class="column view">
+						<img src="img/shop_ikebukuro.jpg" alt="">
+					</div>
+					<div class="column data">
+						<ul>
+							<li>〒171-8569　東京都豊島区南池袋1-28-1　7階</li>
+							<li>【TEL】03-3981-0111</li>
+							<li>【営業時間】月～土：10:00～21:00／日・祝休日：10:00～20:00</li>
+							<li>【アクセス】各線「池袋駅」直結<br>
+							</li>
+							<li class="link"><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.891552036619!2d139.70985153940669!3d35.72888556052753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d67fef93b19%3A0xcd9ac1373273ee1e!2z6KW_5q2m5rGg6KKL5pys5bqX!5e0!3m2!1sja!2sjp!4v1601257946944!5m2!1sja!2sjp" target="_blank">MAP</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ======= story ======= -->
+	<div class="story">
+		<div class="offset-l">
+			<p class="txt_c"><a href="/kiwami/story/"><span><img src="img/bnr_story.jpg" alt="リンベル「極み」シリーズ開発秘話・「極み」のこれまでとこれから"></span></a></p>
+		</div>
+	</div>
+</main>
+
+<!-- footer -->
+<?php include('include/footer.php'); ?>
+<!-- /footer -->
+
+</div>
+
+<script src="js/lib.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/nav.js"></script>
+<script src="js/script.js?20200131"></script>
+<script src="js/top.js?20201117"></script>
+
+<?php include('include/tag2.php'); ?>
+
+</body>
+</html>

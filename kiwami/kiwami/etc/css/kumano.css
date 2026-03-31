@@ -1,0 +1,301 @@
+@charset "utf-8";
+
+
+#sub_tl {
+	margin: 0;
+	padding: 20px 0px;
+	text-align:center;
+	border-top:none;
+}
+.shizuku #sub_tl {
+	background-color:#374c53;
+}
+.megumi #sub_tl {
+	background-color:#3e6a5c;
+}
+#sub_tl span {
+	color:#FFF;
+}
+
+.visual {
+	margin:0;
+	padding:0;
+}
+
+
+.iwc2018 {
+	margin:0;
+	padding:0;
+}
+.iwc2018 dl {
+	background:#fffdeb;
+	margin:0;
+	padding:60px;
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	font-weight:normal;
+	line-height:1.6;
+}
+.iwc2018 dt {
+	margin:0 0 20px;
+	padding:0;
+	font-size:1.8em;
+	font-weight:bold;
+	text-align:center;
+	color:#998e2e;
+}
+.iwc2018 dt span {
+	display:inline-block;
+	vertical-align:middle;
+	padding:0;
+}
+.iwc2018 dt span.gold {
+	margin-left:20px;
+}
+.iwc2018 dt span.trophy {
+	margin-left:5px;
+}
+.iwc2018 dt span img {
+	width:90px;
+	height:auto;
+}
+
+.iwc2018 dd {
+	margin:0;
+	padding:0;
+}
+.iwc2018 dd p {
+	margin:0 0 15px;
+	padding:0;
+}
+
+
+
+.intro dl {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #FFF), color-stop(0.00, #e0e9ec));
+	background: -webkit-linear-gradient(#e0e9ec, #FFF);
+	background: -moz-linear-gradient(#e0e9ec, #FFF);
+	background: -o-linear-gradient(#e0e9ec, #FFF);
+	background: -ms-linear-gradient(#e0e9ec, #FFF);
+	background: linear-gradient(#e0e9ec, #FFF);
+	margin:0;
+	padding:60px;
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	font-weight:normal;
+	line-height:1.8;
+}
+.intro dt {
+	margin:0 0 20px;
+	padding:0;
+	font-size:1.2em;
+	font-weight:bold;
+	text-align:center;
+}
+.intro dd {
+	margin:0;
+	padding:0;
+}
+.intro dd p {
+	margin:0 0 15px;
+	padding:0;
+}
+.intro dd p a {
+	color: #343434;
+}
+.intro div {
+	margin: 0px;
+	padding: 0px;
+	text-align:center;
+}
+
+.comment {
+}
+.comment dt {
+	margin:0 0 15px;
+	font-size:1.3em;
+	text-align:center;
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	font-weight:normal;
+}
+.shizuku .comment dt {
+	color:#2b525f;
+}
+.megumi .comment dt {
+	color:#3e6a5c;
+}
+.comment dd {
+	display: table;
+	margin:0;
+	padding:0;
+	border-collapse:separate;
+    border-spacing:20px 0;
+	width:100%;
+	box-sizing:border-box;
+}
+.comment dd div {
+	position: relative;
+	margin: 0px;
+	padding: 20px;
+	background-color:#FFF;
+	text-align:left;
+	display:table-cell;
+	width:50%;
+	box-sizing:border-box;
+}
+.comment dd div::before,
+.comment dd div::after {
+	position: absolute;
+	top: 0;
+	content: '';
+	width: 40px;
+	height: 100%;
+	border-top: 1px solid #2b525f;
+	border-bottom: 1px solid #2b525f;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.comment dd div::before {
+	left: 0;
+	border-left: 1px solid #2b525f;
+}
+.comment dd div::after {
+	right: 0;
+	border-right: 1px solid #2b525f;
+}
+.comment dd div p {
+	margin: 10px 0px 0px;
+	padding: 0px;
+	text-align:right;
+	font-weight:bold;
+}
+
+
+#order .order_tl span {
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	font-weight: normal;
+	position: static;
+	padding: 0;
+}
+#order .order_tl span::after {
+	display:none;
+}
+#order .order_list li {
+	border:none;
+	background-color:#f2f0e6
+}
+
+
+
+
+
+@media screen and (max-width: 599px) {
+
+
+#sub_tl {
+	padding: 10px 0px;
+}
+#sub_tl span {
+}
+
+.visual {
+}
+
+.iwc2018 {
+}
+.iwc2018 dl {
+	padding:20px 10px 10px;
+	line-height:1.6;
+}
+.iwc2018 dt {
+	margin:0 0 10px;
+	font-size:1.2em;
+}
+.iwc2018 dt span {
+}
+.iwc2018 dt span.ttl {
+	display:block;
+	margin-bottom:10px
+}
+.iwc2018 dt span.gold {
+	margin-left:0;
+}
+.iwc2018 dt span.trophy {
+}
+.iwc2018 dt span img {
+	width:90px;
+	height:auto;
+}
+
+.iwc2018 dd {
+	margin:0;
+	padding:0;
+}
+.iwc2018 dd p {
+	margin:0 0 15px;
+	padding:0;
+}
+
+
+
+.intro dl {
+	padding:20px 10px 10px;
+	line-height:1.6;
+}
+.intro dt {
+	margin:0 0 10px;
+	font-size:1em;
+}
+.intro dd {
+}
+.intro dd p {
+	margin:0 0 5px;
+}
+.intro dd p a {
+}
+.intro div {
+}
+
+.comment {
+}
+.comment dt {
+	margin:0;
+	font-size:1.1em;
+}
+.comment dd {
+	display: block;
+	padding:5px 5px 0;
+	box-sizing:border-box;
+}
+.comment dd div {
+	margin-top:10px;
+	padding: 10px;
+	display:block;
+	width:100%;
+	box-sizing:border-box;
+}
+.comment dd div::before,
+.comment dd div::after {
+	width: 20px;
+}
+.comment dd div::before {
+	left: 0;
+	border-left: 1px solid #2b525f;
+}
+.comment dd div::after {
+}
+.comment dd div p {
+	margin: 5px 0px 0px;
+}
+
+
+#order .order_tl span {
+	font-size:1.2em;
+}
+#order .order_tl span::after {
+}
+#order .order_list li {
+}
+#order .order_list li:first-child {
+	border-top:none;
+}
+
+}

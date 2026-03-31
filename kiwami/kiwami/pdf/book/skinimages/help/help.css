@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* RESET **************************/
+html{overflow-y: scroll;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin: 0;padding: 0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style: normal;}
+table{border-collapse: collapse;border-spacing: 0;}
+caption,th{text-align:left;}
+q:before,q:after{content:'';}
+object,embed{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+img,abbr,acronym,fieldset{border:0;}
+
+/* TAG **************************/
+body{
+	background-color:#fff;
+	color: #333;
+	font-size: medium;
+	font-family: "メイリオ","Meiryo",verdana,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+	line-height: 1.5;
+	}
+
+* html body {/* for IE6 */
+	font-family: "ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+	}
+
+h1{
+	font-size:0.9em;
+	padding:0.5em;
+	border-bottom:4px solid #E8E8E8;
+	}
+
+h3{
+	font-size:1.2em;
+	margin-bottom:0.3em;
+	}
+
+ol,ul{
+	margin:0.3em 1.3em;
+	padding:0;
+	}
+
+p,li{
+	font-size:0.8em;
+	line-height:1.7;
+	}
+
+li{margin-bottom:0.5em;}
+
+hr {
+	border-style: dotted none none none;
+	border-top-width: 1px;
+	border-top-color: #ccc;
+	height:1px;
+	margin: 0.75em 0;
+	}
+
+/* ID & CLASS **************************/
+#help{margin:15px;}
+
+/* スキンパーツ画像（差し替え可能な部分） */
+.image{
+	float:left;
+	margin-right:15px;
+	}
+
+/* 下部操作ボタン群 **********/
+.operationBar{
+	background:url('../operationBar.png') no-repeat center;
+	padding:10px;
+	}
+
+.operationBar td{
+	vertical-align:middle;
+	}
+
+/* ページ送りスライダー背景 */
+.sliderGroupBg{
+	background:url(../sliderGroupBg.png) no-repeat left center;
+	width:450px;
+	padding:10px 0;
+	}
+
+/* ページ送りスライダー */
+.sliderGroupBg .sliderBg{
+	background:url(../sliderGap.png) no-repeat left center;
+	padding-left:15px;
+	margin-left:100px;
+	width:300px;
+	}
+
+/* まわりこみ */
+.L{ float:left;}
+.R{ float:right;}
+/* まわりこみ解除 */
+.cl{ clear: both; }

@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+.home_img { text-align:center; padding:40px 5%; background: url(../img/home/home_bg.jpg) repeat center center; background-size:cover; }
+.home_img ul { display:inline-block; }
+.home_img ul li {
+  position: relative;
+  width: auto;
+  text-align: center;
+  background: #fff;
+  margin: 12px 0 0;
+  display: table;
+  vertical-align: middle;
+	border: 1px solid #000;
+}
+.home_img ul li a {
+	display: block;
+	color: #000;
+  font-size: 23px;
+	font-weight: bold;
+	padding: 4px 44px 4px 20px;
+}
+.home_img ul li a:hover {
+  background: #000;
+	color:#fff;
+}
+.home_img ul li a::after {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  top: 0;
+  right:0;
+  width: 24px;
+  height: 100%;
+  background: url(../img/home_arrow.png) center no-repeat #000;
+  background-size: 7px auto;
+}
+
+.home_wagyu { padding:40px 0; text-align:center; background: url(../img/home/wagyu_bg.jpg) right center no-repeat #15201e; background-size:cover; }
+.home_wagyu h2, .home_wagyu p { padding:0 8%; }
+.home_wagyu .lineup { margin:10px 0 20px; padding:20px 8%; background:rgba(0,0,0,0.75); }
+.home_wagyu a:hover { opacity:0.7; }
+
+/* TAB */
+@media screen and (min-width:768px) {
+	.sp-img { display: none; }
+
+}
+
+/* SP */
+@media screen and (max-width:767px) {
+	.pc-img { display: none; }
+
+	.home_img { background-size:auto 100%; background-position:left top; }
+	.home_img h2 img { width:500px; max-width:100%; }
+	.home_img ul li { margin:6px 0 0; }
+	.home_img ul li a { font-size:15px; padding:4px 36px 4px 12px; }
+	
+	.home_wagyu { background-image:url("../img/home/wagyu_bg_sp.jpg"); }
+
+}

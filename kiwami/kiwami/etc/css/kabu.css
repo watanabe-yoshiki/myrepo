@@ -1,0 +1,208 @@
+@charset "utf-8";
+
+
+/*-----------------------------------------------------------
+共通
+-----------------------------------------------------------*/
+
+#contents {
+	width: 750px;
+	height: auto;
+	margin: 0px 0px 0px 3px;
+	padding: 0px 0px 1px;
+	color: #343434;
+	font-size: 13px;
+	line-height: 1.6;
+	text-align: left;
+	font-family: "Hiragino Kaku Gothic Pro","メイリオ", Osaka, "ＭＳ Ｐゴシック", Helvetica, Arial, sans-serif;
+	font-weight:normal;
+}
+
+#contents li {
+	list-style:none;
+}
+#contents a:hover img {
+	opacity: 0.7;
+}
+#contents img {
+	border: none;
+	vertical-align: top;
+}
+
+.clearfix:after { content: "."; display: block; clear: both; height: 0; visibility: hidden; }
+* html .clearfix { display: inline-block; }
+*+html .clearfix { display: inline-block; }
+
+
+/*PCでは非表示*/
+#header_sp{ display: none; }
+#footer_sp{ display: none; }
+
+
+/* --------------------------------------------------- */
+
+
+#head-area {
+	margin: 0px 0px 40px;
+	padding: 0px;
+}
+#head-area h2 {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	font-family: "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝", serif;
+}
+
+#head-area p {
+	margin: 30px 20px 0px;
+	padding: 0px;
+}
+
+
+#main-area {
+	margin: 0px;
+	padding: 0px;
+}
+
+#main-area .contents {
+	margin: 30px 0px 60px;
+	padding: 0px;
+}
+#main-area .contents h3 {
+	margin: 0px 0px 40px;
+	padding: 0px 20px 5px;
+	font-size:2.4em;
+	font-weight:normal;
+	border-bottom:#000 1px solid;
+	line-height:1;
+	font-family: "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝", serif;
+}
+#main-area .contents dl {
+	margin: 0px 0px 40px;
+	padding: 0px 20px 0px;
+}
+#main-area .contents dt {
+	margin: 0px 0px 20px;
+	padding: 0px;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+#main-area .contents dt span {
+	font-size:1.4em;
+}
+#main-area .contents dd {
+	margin: 0px;
+	padding: 0px;
+}
+#main-area .contents dd span {
+	font-size:1.3em;
+	margin-bottom:5px;
+	display:inline-block;
+	color:#900;
+}
+#main-area .contents dd .left {
+	margin: 0px;
+	padding: 0px;
+	width:300px;
+	float:left;
+}
+#main-area .contents dd .right {
+	margin: 0px;
+	padding: 0px;
+	width:380px;
+	float:right;
+}
+#main-area .contents dd img {
+	margin: 0px 0px 10px;
+	padding: 0px;
+}
+#main-area .contents dd p {
+	margin: 0px;
+	padding: 0px;
+}
+
+#main-area .contents .comment {
+	margin: 0px 0px 40px;
+	padding: 0px;
+}
+#main-area .shohin {
+	margin: 0px 0px 40px;
+	padding: 20px;
+	border:#CCC solid 1px;
+}
+#main-area .shohin .left {
+	margin: 0px;
+	padding: 0px;
+	float:left;
+	width:350px;
+}
+#main-area .shohin .right {
+	margin: 0px;
+	padding: 0px;
+	float:right;
+	width:350px;
+}
+#main-area .shohin p {
+	margin: 0px 0px 10px;
+	padding: 0px;
+	line-height:1;
+}
+#main-area .shohin p.name {
+	font-size:1.6em
+}
+#main-area .shohin p.price {
+	font-size:1.4em;
+	text-align:right;
+}
+#main-area .shohin .btn {
+	margin: 20px 0px 0px;
+	padding: 0px;
+	position:relative;
+}
+#main-area .shohin a {
+	display:block;
+	margin: 0px;
+	padding: 10px;
+	text-align:center;
+	font-size:1.4em;
+	background:#000;
+	color:#FFF;
+	text-decoration: none;
+	line-height:1;
+}
+#main-area .shohin a:hover {
+	text-decoration: none;
+	background:#333;
+}
+a.IconList:before {
+	display: block;
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 2%;
+	width: 0;
+	height: 0;
+	margin-top: -5px;
+	border: 5px solid transparent;        /*top right bottom を透明化 */ 
+	border-left: 5px solid #FFF;
+}
+
+
+
+#main-area .totop {
+	margin:20px 0px 40px;
+	padding:0px;
+	text-align:right;
+}
+#main-area .totop a {
+	color: #039;
+	font-size: 1em;
+	text-decoration: none;
+	line-height: 1;
+}
+#main-area .totop a:hover {
+	color: #09C;
+}
+
+#main-area .shohin:last-child { margin-bottom:0; }
+.section_recommend { margin:-60px 0 40px; }
