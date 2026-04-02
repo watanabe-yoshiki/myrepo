@@ -1,0 +1,115 @@
+@charset "Shift_JIS";
+
+
+/* BODY
+---------------------------------------------------- */
+body {
+	margin: 0;
+	padding: 0;
+	color:#666;
+	background-color:#eee;
+}
+
+/* TAGS
+---------------------------------------------------- */
+h1,h2,h3,h4,h5,h6,p,ul,ol,dl {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+}
+a img {
+	border: 0;
+}
+hr {
+	display: none;
+}
+a {
+	color: #0000CC;
+}
+a:hover {
+	color: 000000;
+	text-decoration: underline;
+}
+h1 {
+	font-size: 32px;
+}
+h2 {
+	font-size: 24px;
+}
+h3 {
+	font-size: 18px;
+}
+h4 {
+	font-size: 16px;
+}
+h5 {
+	font-size: 13px;
+}
+h6 {
+	font-size: 10px;
+}
+
+/* CONTAINER
+---------------------------------------------------- */
+
+
+/* HEADER
+---------------------------------------------------- */
+
+
+/* WRAPPER
+---------------------------------------------------- */
+
+
+/* ColR
+---------------------------------------------------- */
+#colR h2 {
+    font-size:18px;
+    font-weight:bold;
+    font-family: "MS Pゴシック",Osaka,"Hiragino Kaku Gothic Pro",Verdana,Helvetica,Geneva,arial,sans-serif;
+    color:#0054E3;
+    line-height:2.3em;
+}
+
+#colR h3 {
+    font-size:16px;
+    font-weight:bold;
+    font-family: "MS Pゴシック",Osaka,"Hiragino Kaku Gothic Pro",Verdana,Helvetica,Geneva,arial,sans-serif;
+    color:#0054E3;
+    line-height:2.3em;
+}
+
+#colR p {
+	font-size:13px;
+	line-height:1.5em;
+}
+
+#colR img{
+	margin-top: 30px;
+	margin-bottom: 30px;	
+}
+
+#colR p img{
+	margin-top: 30px;
+	margin-left: 62px;
+}
+
+/* ColL
+---------------------------------------------------- */
+#colL h4 {
+    font-size:12px;
+    line-height:1em;
+}
+#colL h3 {
+    font-size:14px;
+    line-height:1.5em;
+}
+
+#colL p{
+    font-size:12px;
+    line-height:1.5em;
+}
+
+/* FOOTER
+---------------------------------------------------- */
+
