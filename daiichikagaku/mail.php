@@ -136,7 +136,7 @@ Tel:048-981-8086(代)
 Fax:048-981-8323
 IP:050-5527-6782
 E-mail:laminate@daiichikagaku.co.jp
-URL: https://daiichikagaku.co.jp/inquiry.html
+URL: https://daiichikagaku.co.jp/
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 
 FOOTER;
