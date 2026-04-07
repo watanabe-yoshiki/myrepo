@@ -283,29 +283,3 @@ main {background: #F4F4F4;}
 	#block-contents .orderItem .inner .price .num {font-size: 19px;}
 	#block-contents .orderItem .inner .btn {position: absolute; left: 50%; bottom: 20px; width: 205px; max-width: none; margin: 0; font-size: 15px; transform: translateX(-50%);}
 }
-
-
-/* 母の日バッジ設定 */
-#block-mv .inner .mother-badge {
-    position: absolute;
-    z-index: 10; 
-    pointer-events: none; 
-}
-
-/* PCサイズ：右上に配置 */
-@media screen and (min-width: 768px) {
-    #block-mv .inner .mother-badge {
-        top: 0;
-        right: 0;
-        width: 150px; 
-    }
-}
-
-
-@media screen and (max-width: 767px) {
-    #block-mv .inner .mother-badge {
-        top: 0;
-        right: 0;
-        width: 90px; 
-    }
-}

@@ -100,3 +100,29 @@
         max-width: 100%; /* スマホでは横幅いっぱいに */
     }
 }
+
+
+/* 母の日バッジ設定 */
+#block-mv .inner .mother-badge {
+    position: absolute;
+    z-index: 10; 
+    pointer-events: none; 
+}
+
+/* PCサイズ：右上に配置 */
+@media screen and (min-width: 768px) {
+    #block-mv .inner .mother-badge {
+        top: 0;
+        right: 0;
+        width: 150px; 
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    #block-mv .inner .mother-badge {
+        top: 0;
+        right: 0;
+        width: 90px; 
+    }
+}
