@@ -288,8 +288,8 @@ main {background: #F4F4F4;}
 /* 母の日バッジ設定 */
 #block-mv .inner .mother-badge {
     position: absolute;
-    z-index: 10; /* 最前面 */
-    pointer-events: none; /* 下の要素のクリックを邪魔しない場合 */
+    z-index: 10; 
+    pointer-events: none; 
 }
 
 /* PCサイズ：右上に配置 */
@@ -297,15 +297,15 @@ main {background: #F4F4F4;}
     #block-mv .inner .mother-badge {
         top: 0;
         right: 0;
-        width: 150px; /* デザインに合わせて調整 */
+        width: 150px; 
     }
 }
 
-/* SPサイズ：右側中央寄り、タイトルに少しかかる位置 */
+
 @media screen and (max-width: 767px) {
     #block-mv .inner .mother-badge {
         top: 0;
         right: 0;
-        width: 90px; /* デザインに合わせて調整 */
+        width: 90px; 
     }
 }
