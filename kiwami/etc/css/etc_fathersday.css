@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* 基本設定：縦積みレイアウト */
+#block-contents .fathersday {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin-top: 45px;
+    background-color: #F0FBFF; 
+    padding-top:40px;
+}
+
+
+
+/* タイトル (H3) */
+#block-contents .fathersday .ttl {
+    color: #3285B1;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight:bold;
+}
+
+/* 本文 (P) */
+#block-contents .fathersday .lead {
+    color: #333;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+/* 画像共通設定 (影 & 横幅) */
+#block-contents .fathersday .image-box {
+    width: 100%;
+    max-width: 470px; /* PC最大幅 */
+    margin-bottom: 60px;
+}
+
+#block-contents .fathersday .image-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15); /* 影の指定 */
+}
+
+/* ポイントセクション */
+#block-contents .fathersday .point-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#block-contents .fathersday .point-tag {
+    color: #fff;
+    background-color: #3285B1;
+    padding: 2px 20px;
+    border-radius: 100px; /* 角丸 */
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#block-contents .fathersday .point-ttl {
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.color-wine {
+    color: #3285B1 !important;
+}
+
+.orderItem.is-fathersday a {
+    background-color: #F0FBFF
+}
+
+/* --- レスポンシブ (768px以下) --- */
+@media screen and (max-width: 768px) {
+    #block-contents .fathersday {
+        padding: 40px 20px 0;
+    }
+
+    #block-contents .fathersday .ttl {
+        font-size: 26px; /* スマホ用に少し縮小 */
+    }
+
+    #block-contents .fathersday .lead {
+        font-size: 18px;
+        br { display: none; } /* スマホでは改行解除、または調整 */
+    }
+
+    #block-contents .fathersday .point-ttl {
+        font-size: 22px;
+    }
+
+    #block-contents .fathersday .image-box {
+        max-width: 100%; /* スマホでは横幅いっぱいに */
+    }
+}
+
+
+/* 母の日バッジ設定 */
+#block-mv .inner .father-badge {
+    position: absolute;
+    z-index: 10; 
+    pointer-events: none; 
+}
+
+/* PCサイズ：右上に配置 */
+@media screen and (min-width: 768px) {
+    #block-mv .inner .father-badge {
+        top: 0;
+        right: 0;
+        width: 160px; 
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    #block-mv .inner .father-badge {
+        top: 0;
+        right: 0;
+        width: 100px; 
+    }
+}
